@@ -10,15 +10,16 @@
 
 * [Court](products/court/README.md)
   * [Kleros Juror Tutorial](products/court/untitled.md)
-* [Escrow](products/escrow.md)
+* [Oracle](products/oracle.md)
+* [Proof of Humanity](products/proof-of-humanity.md)
 * [Curate](products/curate/README.md)
   * [Kleros Curate Tutorial](products/curate/untitled.md)
-* [Oracle](products/oracle.md)
-* [Linguo](products/linguo.md)
-* [Proof of Humanity](products/proof-of-humanity.md)
-* [Governor](products/governor.md)
 * [T2CR \(Token Registry\)](products/t2cr-token-registry/README.md)
   * [Kleros T2CR Tutorial](products/t2cr-token-registry/kleros-t2cr-tutorial.md)
+* [Linguo](products/linguo/README.md)
+  * [Kleros Linguo Tutorial](products/linguo/kleros-linguo-tutorial.md)
+* [Escrow](products/escrow.md)
+* [Governor](products/governor.md)
 
 ## INTEGRATIONS
 
