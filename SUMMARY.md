@@ -9,9 +9,10 @@
 ## Products
 
 * [Court](products/court/README.md)
-  * [Kleros Juror Quick Start](products/court/untitled.md)
+  * [Kleros Juror Tutorial](products/court/untitled.md)
 * [Escrow](products/escrow.md)
-* [Curate](products/curate.md)
+* [Curate](products/curate/README.md)
+  * [Kleros Curate Tutorial](products/curate/untitled.md)
 * [Oracle](products/oracle.md)
 * [Linguo](products/linguo.md)
 * [Proof of Humanity](products/proof-of-humanity.md)

@@ -1,14 +1,14 @@
 ---
-description: Tutorial for new Kleros Court Jurors
+description: How to use Kleros Court as a Juror
 ---
 
-# Kleros Juror Quick Start
+# Kleros Juror Tutorial
 
 So, you'd like to become a Kleros juror!
 
 The process is quite simple. There is no personal information needed and there is no registration process - in short, all you have to do is get your PNK ready and stake in our courts!
 
-To help in the process of getting you up to speed, here is our full fledged Kleros Juror Starter Kit.
+To help in the process of getting you up to speed, here is our full-fledged Kleros Juror Starter Kit.
 
 ## Understanding How Kleros Works <a id="understanding-how-kleros-works"></a>
 
