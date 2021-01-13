@@ -8,7 +8,8 @@
 
 ## Products
 
-* [Court](products/court.md)
+* [Court](products/court/README.md)
+  * [Kleros Juror Quick Start](products/court/untitled.md)
 * [Escrow](products/escrow.md)
 * [Curate](products/curate.md)
 * [Oracle](products/oracle.md)
