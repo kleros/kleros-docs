@@ -17,7 +17,8 @@
 * [Linguo](products/linguo.md)
 * [Proof of Humanity](products/proof-of-humanity.md)
 * [Governor](products/governor.md)
-* [T2CR \(Token Registry\)](products/t2cr-token-registry.md)
+* [T2CR \(Token Registry\)](products/t2cr-token-registry/README.md)
+  * [Kleros T2CR Tutorial](products/t2cr-token-registry/kleros-t2cr-tutorial.md)
 
 ## INTEGRATIONS
 
