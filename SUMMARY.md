@@ -26,13 +26,15 @@
 * [Overview](integrations/overview.md)
 * [Use Cases](integrations/untitled.md)
 * [xDai](integrations/xdai.md)
+* [Integration Tools](integrations/integration-tools/README.md)
+  * [Archon: Ethereum Arbitration Standard API](integrations/integration-tools/archon-ethereum-arbitration-standard-api.md)
+  * [Escrow SDK](integrations/integration-tools/escrow-sdk.md)
 * [Current Integrations](integrations/current-integrations.md)
 
 ## Developer
 
 * [ERC-792: Arbitration Standard](developer/erc-792-arbitration-standard.md)
 * [ERC 1497: Evidence Standard](developer/erc-1497-evidence-standard.md)
-* [Archon: Ethereum Arbitration Standard API](developer/archon-ethereum-arbitration-standard-api.md)
 
 ## Contribution Guidelines
 

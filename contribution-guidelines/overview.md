@@ -6,7 +6,7 @@ description: Welcome to the contribution guide for all software pertaining to Kl
 
 ## How to contribute?
 
-The purpose of these guidelines are to serve as a living contribution and collaboration guide for all our projects.
+The purpose of these guidelines is to serve as a living contribution and collaboration guide for all our projects.
 
 Everyone, not just Kleros team members, is welcome to participate in its writing and editing. We are always looking to enhance and improve our processes so we can decentralize justice faster!
 
