@@ -29,6 +29,7 @@
 * [Integration Tools](integrations/integration-tools/README.md)
   * [Archon: Ethereum Arbitration Standard API](integrations/integration-tools/archon-ethereum-arbitration-standard-api.md)
   * [Escrow SDK](integrations/integration-tools/escrow-sdk.md)
+  * [Escrow React Widget](integrations/integration-tools/escrow-react-widget.md)
 * [Current Integrations](integrations/current-integrations.md)
 
 ## Developer

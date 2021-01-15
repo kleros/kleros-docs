@@ -4,7 +4,7 @@ description: A class that lets you create and manage Kleros Escrow transactions.
 
 # Escrow SDK
 
-Use this Kleros escrow SDK to easily integrate on-chain escrow features on your platform.
+Use this Kleros Escrow SDK to easily integrate on-chain escrow features on your platform.
 
 ```text
 import KlerosEscrow from "@kleros/components/kleros-escrow";
