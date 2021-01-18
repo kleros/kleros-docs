@@ -226,12 +226,6 @@ Select the listing you want to challenge and write a description of why you thin
 
 ![](https://blog.kleros.io/content/images/2020/06/Screenshot-2020-06-02-at-14.18.37.png)
 
-## Stake Your PNK for Juror Duty <a id="stake-your-pnk-for-juror-duty"></a>
-
-For a full look into becoming and acting as a juror, follow our guide below.
-
-{% page-ref page="../court/untitled.md" %}
-
 ## Congratulations!  <a id="congratulations-"></a>
 
 You have now learned how to take back control of your internet list creation.
