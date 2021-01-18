@@ -10,9 +10,9 @@ description: ❓ Frequently Asked Questions about Kleros
 
 Satoshi Nakamoto taught us that a number of anonymous computers who do not trust each can still reach consensus, provided incentives are correctly structured. Kleros extends this principle to human decision making. A number of anonymous jurors who do not trust each other can reach consensus on a right decision, provided incentives are correctly structured. To learn more about the incentive system, read our white paper.
 
-### How many pinakion will exist?
+### How many PNK will exist?
 
-The supply of pinakion is fixed at one billion units.
+The supply of PNK is fixed at one billion units.
 
 ### Does a party who wants to have a case adjudicated need to have pinakion?
 
