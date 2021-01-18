@@ -4,6 +4,8 @@
 
 ## What is Kleros?
 
+{% embed url="https://www.youtube.com/watch?v=wZZ2ipS-jZw" %}
+
 Kleros is a decentralized decision protocol for use on smart contract platforms, which has been implemented on Ethereum. 
 
 It acts as a decentralized third party capable of providing decisions on the correct result when applying a set of rules to questions ranging from simple to highly complex. 
