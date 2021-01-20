@@ -24,8 +24,10 @@
 ## INTEGRATIONS
 
 * [Overview](integrations/overview.md)
-* [Use Cases](integrations/untitled.md)
-* [xDai](integrations/xdai.md)
+* [Use Cases](integrations/untitled/README.md)
+  * [DeFi Insurance](integrations/untitled/defi-insurance.md)
+* [L2 & Crosschain Interoperability](integrations/l2-and-crosschain-interoperability/README.md)
+  * [xDai](integrations/l2-and-crosschain-interoperability/xdai.md)
 * [Integration Tools](integrations/integration-tools/README.md)
   * [Archon: Ethereum Arbitration Standard API](integrations/integration-tools/archon-ethereum-arbitration-standard-api.md)
   * [Escrow SDK](integrations/integration-tools/escrow-sdk.md)
