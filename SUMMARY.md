@@ -18,7 +18,8 @@
   * [Kleros T2CR Tutorial](products/t2cr-token-registry/kleros-t2cr-tutorial.md)
 * [Linguo](products/linguo/README.md)
   * [Kleros Linguo Tutorial](products/linguo/kleros-linguo-tutorial.md)
-* [Escrow](products/escrow.md)
+* [Escrow](products/escrow/README.md)
+  * [Kleros Escrow Tutorial](products/escrow/kleros-escrow-tutorial.md)
 * [Governor](products/governor.md)
 
 ## INTEGRATIONS
