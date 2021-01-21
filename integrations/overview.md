@@ -14,7 +14,7 @@ You create an arbitrable smart contract as per the [arbitration standard](https:
 
 You can create the Arbitrable smart contract:
 
-* From scratch by applying the [arbitration standard](https://kleros.gitbook.io/docs/developer/erc-792-arbitration-standard),
-* By customizing one of our examples,
+* From scratch by applying the [arbitration standard](https://kleros.gitbook.io/docs/developer/erc-792-arbitration-standard) \(and/or using our [Archon library](https://kleros.gitbook.io/docs/integrations/integration-tools/archon-ethereum-arbitration-standard-api)\),
+* By customizing one of our [examples](https://github.com/kleros/kleros-interaction),
 * By working with [Cooperative Kleros](mailto:contact@kleros.io) to adapt yours to the standard or creating a connector,
 
