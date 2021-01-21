@@ -1,6 +1,6 @@
 ---
 description: >-
-  Secure your on-chain transactions with an Escrow Sapp backed by Kleros dispute
+  Secure your on-chain transactions with an Escrow Dapp backed by Kleros dispute
   resolution
 ---
 
