@@ -18,6 +18,8 @@ Standardizing `MetaEvidence` and `Evidence` allows interoperability between `Arb
 
 The ERC792 standardizes the way the smart contracts interact with each other while this standard is made to standardize the way the interfaces interact in the context of disputes.
 
+![](../.gitbook/assets/image%20%287%29.png)
+
 ## Introduction to the Evidence Standard
 
 The purpose of this specification is to create a standard way for DApps that are part of the dispute resolution process to share context and information. This standard should allow DApps that have disputes they need arbitrated a way to provide the details of the dispute to the Arbitrator. Conversely, for an Arbitrator interface to be able to display a dispute to be ruled on, there needs to be a standard way for the interface to fetch evidence from the Arbitrable contracts.
