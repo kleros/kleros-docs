@@ -4,55 +4,7 @@ description: How to create Token Curated Lists using Kleros Curate
 
 # Kleros Curate Tutorial
 
-## Enter Kleros Curate - A.K.A  The TCR \(Token Curated Registry\) <a id="enter-kleros-curate-a-k-a-the-tcr-token-curated-registry-"></a>
-
-Kleros Curate uses financial incentives to keep a list on topic. Would you post a scammy item if it cost you money? Would you challenge a listing if you could win money?
-
-The answers to these questions from our data are, 'No, probably not' and 'Yes, sure!' respectively.
-
-![](https://blog.kleros.io/content/images/2020/06/Curate_Key-Use-Cases.jpg)
-
-These are the fundamentals of the curation system. On top lies a layer of ‘collective intelligence’ in the form of crowdsourced and incentivized jurors whose job it is to keep that list on point.
-
-When a user submits an item to Curate, it is first vetted by a challenge period which allows anyone else to challenge that submission. If the submission isn’t challenged, it’s deemed legitimate and on topic, if it is, the challenged submission is sent to Kleros jurors to decide whether it is, or isn’t valid for the list in question.
-
-When you submit something to eBay or make a post on Facebook, you don’t need a financial incentive, as those respective companies have plenty of their own to keep that list and its items on point. Facebook moderators are exposed to extreme content and are paid by Facebook to do so.
-
-You the user pay Facebook with your personal data which is then in turn used to keep extreme content out of your feed.
-
-When there is no centralized actor to do the dirty work, you need some incentivized actors to take over.
-
-## Cool. Does all this fancy stuff work? <a id="cool-does-all-this-fancy-stuff-work"></a>
-
-In short, yes.
-
-We’ve had one of [our lists](http://tokens.kleros.io/) running for some time which is a collection of Ethereum ERC20 tokens that meet a certain predefined criteria \(which we call “The Policy”\) as curated by the decentralized community.
-
-This particular list stipulates that each of the items \(in this case tokens\) conform to a predefined [criteria](https://ipfs.kleros.io/ipfs/QmbqgkZoGu7jJ8nTqee4NypEhK7YVBEJJmPJbJxz8Bx8nY/t2cr-primary-doc.pdf).
-
-You can see in the image below a clearly defined policy regarding item submissions to the list
-
-![](https://blog.kleros.io/content/images/2020/06/Screenshot-2020-05-29-at-16.28.05-1.png)
-
-The image below is the end result of the process. A curated registry of tokens that fit the above criteria as decided by a decentralized community.
-
-![](https://blog.kleros.io/content/images/2020/06/Screenshot-2020-05-29-at-16.44.43.png)
-
-**Key Points:**
-
-*  No centralized actors can delete or modify any of these items.
-* Without consensus via both a challenge and subsequent case, a listing can not be removed by any one person.  
-* Each submission ‘lives’ on-chain. Assuming Ethereum isn’t compromised, for better or worse the item is uncensorable.
-
-The image below shows those submissions that didn’t make it to the list. They were rejected for not conforming to the lists criteria.
-
-![](https://blog.kleros.io/content/images/2020/06/Screenshot-2020-05-29-at-16.46.12.png)
-
-To interact with this list you must make a deposit \(or stake\) which acts as your financial incentive not to submit tokens with characteristics that do not meet the criteria \(or policy\) of that list.
-
-**The Cryptoeconomics are in some respect** [**'Law'**](https://kleros.io/whitepaper_en.pdf) **here.**
-
-## Blurb Over - Let’s Create a List <a id="blurb-over-let-s-create-a-list"></a>
+## Let’s Create a List
 
 ![](https://blog.kleros.io/content/images/2020/06/Screenshot-2020-06-10-at-17.18.23.png)
 
@@ -84,12 +36,11 @@ For our example Hip Hop Legends list, the criteria document is as follows:
 * Accept if famous before 2016
 * Accept if &gt; 100k YouTube view on at least one song
 
-**Rejection:**
-
-* Reject if trap artist
-* Reject if grime artist
-* Reject if parody artist
-* Reject if PG friendly lyrics
+* **Rejection**
+  * Reject if trap artist
+  * Reject if grime artist
+  * Reject if parody artist
+  * Reject if PG friendly lyrics
 * **Item name**
 
 This is the field in which you would choose the overall name for the items submitted to your list. In our case, an item \(or submission\) is ‘Hip Hop Legend’ which will be listed in the ‘Hip Hop Legends’ list.
@@ -225,10 +176,4 @@ If it’s challenged, this deposit is used as part of the collateral used to pay
 Select the listing you want to challenge and write a description of why you think it doesn’t belong on the list. This information will be sent to Kleros jurors who will make a decision on whether it makes it onto the list or not.
 
 ![](https://blog.kleros.io/content/images/2020/06/Screenshot-2020-06-02-at-14.18.37.png)
-
-## Congratulations!  <a id="congratulations-"></a>
-
-You have now learned how to take back control of your internet list creation.
-
-Remember, what you create here can live forever on the Ethereum blockchain, use this power wisely to create uncensorable lists for the greater good of the community and the world as a whole.
 
