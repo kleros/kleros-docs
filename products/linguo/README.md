@@ -1,5 +1,5 @@
 ---
-description: Decentralized Translation Platform
+description: A Decentralized Translation Platform
 ---
 
 # Linguo

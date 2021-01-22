@@ -24,5 +24,5 @@ Using the List Browser option, you can also see lists created by other people an
 
 📝 [Direct access to Kleros Curate](https://curate.kleros.io/) 📝
 
-![](../../.gitbook/assets/image%20%2810%29.png)
+{% page-ref page="kleros-curate-tutorial.md" %}
 
