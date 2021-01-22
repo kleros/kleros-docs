@@ -13,7 +13,7 @@
 * [Oracle](products/oracle.md)
 * [Proof of Humanity](products/proof-of-humanity.md)
 * [Curate](products/curate/README.md)
-  * [Kleros Curate Tutorial](products/curate/untitled.md)
+  * [Kleros Curate Tutorial](products/curate/kleros-curate-tutorial.md)
 * [T2CR \(Token Registry\)](products/t2cr-token-registry/README.md)
   * [Kleros T2CR Tutorial](products/t2cr-token-registry/kleros-t2cr-tutorial.md)
 * [Linguo](products/linguo/README.md)
