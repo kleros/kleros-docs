@@ -26,8 +26,8 @@
 
 * [Overview](integrations/overview.md)
 * [Use Cases](integrations/untitled/README.md)
-  * [Gaming](integrations/untitled/gaming.md)
   * [DeFi Insurance](integrations/untitled/defi-insurance.md)
+  * [Gaming](integrations/untitled/gaming.md)
 * [L2 & Crosschain Interoperability](integrations/l2-and-crosschain-interoperability/README.md)
   * [xDai](integrations/l2-and-crosschain-interoperability/xdai.md)
 * [Integration Tools](integrations/integration-tools/README.md)
