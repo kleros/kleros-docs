@@ -10,7 +10,7 @@ This is a detailed guide into the Kleros token curated listing Dapp.
 
 ## TL;DR <a id="tl-dr"></a>
 
-For those of you who just want to get in and try here's a brief overview. To straight to the TCR Dapp open [https://tokens.kleros.io/tokens](https://tokens.kleros.io/tokens) in a new tab.
+For those of you who just want to get in and try here's a brief overview. To go straight to the TCR Dapp open [https://tokens.kleros.io/tokens](https://tokens.kleros.io/tokens) in a new tab.
 
 \(Disclaimer: We recommend reading the whole post but if you have any questions just join our [Telegram](https://t.me/kleros).\)
 
