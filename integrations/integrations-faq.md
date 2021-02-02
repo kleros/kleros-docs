@@ -22,7 +22,7 @@ If a Dapp recreates a system where a few randomly selected token holders vote, t
 
 If a project uses its native governance token to have every token holder vote on every dispute ever raised, it will require a massive duplication of effort and might be plagued by low response rates progressively creating security issues in the form of claim validation vote that could easily be swayed by a single whale.
 
-**Biased and fair Jury**
+**Biased Jury**
 
 If a governance token "whale" gets into a dispute on your product and that arbitration goes through a vote with the same governance token, then this whale will be incentivized to vote with no regard to the truth and to unfairly tip the scale in its favor._****_
 
