@@ -12,5 +12,5 @@ Your product users do not need to interact with PNK at all. Kleros token is comp
 
 ### We can't use anonymous jurors in my use case. Can we tweak Kleros in order to only select jurors from a pre-vetted pool?
 
-At this point, it is not possible to select jurors from a pre-defined pool. Anyone having tokens can self-select to be drawn randomly as a juror. However, we understand that selecting jurors from a pre-vetted pool is important in many use cases. If this is your situation, please contact us at [contact@kleros.io](mailto:contact@kleros.io) We would like to know more about your use case.
+At this point, it is not possible to select jurors from a pre-defined pool. Anyone having tokens can self-select to be drawn randomly as a juror. However, we understand that selecting jurors from a pre-vetted pool is important in many use cases. We are also exploring the use of our Proof of Humanity registry to ensure jurors are humans and linked to a single address but having publicly identifiable jurors could link to bribe attacks. If this is a requirement for you, please contact us at [contact@kleros.io](mailto:contact@kleros.io) We would like to know more about your use case.
 
