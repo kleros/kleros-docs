@@ -8,7 +8,7 @@ description: >-
 
 \*\*\*\*[**PNK Token Contract Address on Ethereum Mainnet** ](https://etherscan.io/token/0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d)  
   
-PNK is used both to stake \(for the possibility to become a juror and to protect gainst attacks\) and in the governance \(voting rights\) when new proposals, courts, or other parameters are suggested throughout our Dapps.
+PNK is used both to stake \(for the possibility to become a juror and to protect against attacks\) and in the governance \(voting rights\) when new proposals, courts, or other parameters are suggested throughout our Dapps.
 
 * **Voting Rights:** PNK is used for all governance decisions taken on the Kleros platform. Users can vote with their PNK in any related votes. We already use this mechanism in our token curated list and court governance decisions.  
 * **Staking Rewards:** Users must stake PNK in order to be able to become jurors in disputes. The more PNK a user stakes, the more chance he has of being chosen as a juror in the selected court.

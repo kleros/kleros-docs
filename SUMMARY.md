@@ -33,7 +33,7 @@
 * [Integration Tools](integrations/integration-tools/README.md)
   * [Escrow SDK](integrations/integration-tools/escrow-sdk.md)
   * [Escrow React Widget](integrations/integration-tools/escrow-react-widget.md)
-* [Current Integrations](integrations/current-integrations.md)
+* [Live Integrations](integrations/current-integrations.md)
 * [Integrations FAQ](integrations/integrations-faq.md)
 * [Analytics](integrations/analytics.md)
 
