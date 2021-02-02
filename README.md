@@ -12,5 +12,5 @@ This is achieved by using game-theoretic incentives to have crowdsourced jurors 
 
 ### Kleros Services
 
-![](.gitbook/assets/image%20%2813%29.png)
+![](.gitbook/assets/image%20%2814%29.png)
 

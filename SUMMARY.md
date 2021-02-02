@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Introduction to Kleros](README.md)
-* [FAQ](faq.md)
+* [Kleros FAQ](kleros-faq.md)
 * [Decentralized Justice Glossary](decentralized-justice-glossary.md)
 * [Governance](governance.md)
 * [PNK Token](pnk-token.md)
@@ -31,16 +31,17 @@
 * [L2 & Crosschain Interoperability](integrations/l2-and-crosschain-interoperability/README.md)
   * [xDai](integrations/l2-and-crosschain-interoperability/xdai.md)
 * [Integration Tools](integrations/integration-tools/README.md)
-  * [Archon: Ethereum Arbitration Standard API](integrations/integration-tools/archon-ethereum-arbitration-standard-api.md)
   * [Escrow SDK](integrations/integration-tools/escrow-sdk.md)
   * [Escrow React Widget](integrations/integration-tools/escrow-react-widget.md)
 * [Current Integrations](integrations/current-integrations.md)
+* [Integrations FAQ](integrations/integrations-faq.md)
 * [Analytics](integrations/analytics.md)
 
 ## Developer
 
 * [ERC-792: Arbitration Standard](developer/erc-792-arbitration-standard.md)
 * [ERC 1497: Evidence Standard](developer/erc-1497-evidence-standard.md)
+* [Archon: Ethereum Arbitration Standard API](developer/archon-ethereum-arbitration-standard-api.md)
 
 ## Contribution Guidelines
 

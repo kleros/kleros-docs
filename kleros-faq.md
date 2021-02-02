@@ -2,7 +2,7 @@
 description: ❓ Frequently Asked Questions about Kleros
 ---
 
-# FAQ
+# Kleros FAQ
 
 ## General
 
@@ -29,12 +29,6 @@ Team Members: 18% First Round of Token Sale: 16% Airdrop: 4% Subsequent Rounds a
 ### Could Kleros become a platform used by mainstream online retailers such as eBay or Amazon?
 
 Yes, by adopting Kleros, any mainstream e-commerce platform could enjoy a fast, affordable, and transparent dispute resolution method. If you want to learn more, contact us.
-
-## Integration & Partners
-
-### We are from organization X and would like to use Kleros. However, for XYZ reasons, we can't use anonymous jurors. Can we tweak Kleros in order to only select jurors from a pre-vetted pool?
-
-At this point, it is not possible to select jurors from a pre-defined pool. Anyone having tokens can self-select to be drawn randomly as a juror. However, we understand that selecting jurors from a pre-vetted pool is important in many use cases. If this is your situation, please contact us at [c](https://kleros.io/cdn-cgi/l/email-protection)ontact@kleros.io We would like to know more about your use case.
 
 ## Jurors
 
