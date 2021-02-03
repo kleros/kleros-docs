@@ -14,9 +14,9 @@ Satoshi Nakamoto taught us that a number of anonymous computers who do not trust
 
 The supply of PNK is fixed at one billion units.
 
-### Does a party who wants to have a case adjudicated need to have pinakion?
+### Does a party who wants to have a case adjudicated need to hold PNK?
 
-No, only jurors will need pinakion in order to be drawn. Parties don’t even need to know what a pinakion is.
+No, only jurors will need PNK in order to be drawn. Parties don’t even need to know what the Kleros token is.
 
 ### Is the identity of jurors revealed?
 
