@@ -25,6 +25,7 @@
 ## INTEGRATIONS
 
 * [Overview](integrations/overview.md)
+* [Integrations FAQ](integrations/integrations-faq.md)
 * [Use Cases](integrations/untitled/README.md)
   * [DeFi Insurance](integrations/untitled/defi-insurance.md)
   * [Gaming](integrations/untitled/gaming.md)
@@ -34,7 +35,6 @@
   * [Escrow SDK](integrations/integration-tools/escrow-sdk.md)
   * [Escrow React Widget](integrations/integration-tools/escrow-react-widget.md)
 * [Live Integrations](integrations/current-integrations.md)
-* [Integrations FAQ](integrations/integrations-faq.md)
 * [Analytics](integrations/analytics.md)
 
 ## Developer
