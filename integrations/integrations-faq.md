@@ -26,7 +26,7 @@ If a project uses its native governance token to have every token holder vote on
 
 If a governance token "whale" gets into a dispute on your product and that arbitration goes through a vote with the same governance token, then this whale will be incentivized to vote with no regard to the truth and to unfairly tip the scale in its favor._****_
 
-### We can't use anonymous jurors in my use case. Can we tweak Kleros in order to only select jurors from a pre-vetted pool?
+### We can't use anonymous jurors in my use case. Can we tweak Kleros to only select jurors from a pre-vetted pool?
 
 At this point, it is not possible to select jurors from a pre-defined pool. Anyone having tokens can self-select to be drawn randomly as a juror. However, we understand that selecting jurors from a pre-vetted pool is important in many use cases. We are also exploring the use of our Proof of Humanity registry to ensure jurors are humans and linked to a single address but having publicly identifiable jurors could link to bribe attacks. If this is a requirement for you, please contact us at [contact@kleros.io](mailto:contact@kleros.io) We would like to know more about your use case.
 
