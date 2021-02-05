@@ -12,7 +12,7 @@ To help in the process of getting you up to speed, here is our full-fledged Kler
 
 ## Becoming a Juror <a id="becoming-a-juror"></a>
 
-In order to become a juror, there is no sign up, no personal information needed. The only thing you need are the proper tools and your own skills.The basic outline of what needs doing to become a Kleros juror, in short.
+In order to become a juror, there is no sign up, no personal information needed. The only thing you need are the proper tools and your own skills. The basic outline of what needs doing to become a Kleros juror, in short.
 
 ![](https://blog.kleros.io/content/images/2020/09/Jurors-start.png)
 

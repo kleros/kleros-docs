@@ -4,7 +4,9 @@ description: Data Curation as a Service using TCRs (Token Curated Registries)
 
 # Curate
 
-[Kleros Curate](https://curate.kleros.io/) is a Dapp you can use to create a token registry of just about anything using Kleros curation technology. Kleros Curate uses financial incentives to keep a list on topic. 
+🗄️ [Kleros Curate app](https://curate.kleros.io/) 🗄️  
+  
+**Kleros Curate** is a Dapp you can use to create a token registry of just about anything using Kleros curation technology. Kleros Curate uses financial incentives to keep a list on topic. 
 
 ![](../../.gitbook/assets/image%20%288%29.png)
 

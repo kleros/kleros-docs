@@ -6,7 +6,9 @@ description: >-
 
 # Escrow
 
-Kleros Escrow is a secure and decentralized escrow Dapp that can be used for any exchange of goods, assets, or services involving an Ethereum-based asset.
+🤝🏼 [Kleros Escrow ****App](https://escrow.kleros.io/) 🤝🏼
+
+**Kleros Escrow** is a secure and decentralized escrow Dapp that can be used for any exchange of goods, assets, or services involving an Ethereum-based asset.
 
 Using Kleros Escrow, you can transact in the blockchain ecosystem for services, products, and assets using our simple solution with a level of trust not yet known outside the traditional commerce space. If a dispute happens, it will be adjudicated by crowdsourced jurors selected and incentivized by the Kleros protocol.
 

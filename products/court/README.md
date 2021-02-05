@@ -4,7 +4,9 @@ description: The heart of the Kleros Dispute Resolution Protocol
 
 # Court
 
-[Kleros Court](https://court.kleros.io/) is the core engine of the Kleros portfolio of services and products.   
+⚖️ [Kleros Court App](https://court.kleros.io/) ⚖️
+
+**Kleros Court** is the core engine of the Kleros portfolio of services and products.   
   
 It is a dispute resolution protocol that provides arbitration for the type of subjective conflicts that smart contracts do not address. This is done by having a set of jurors randomly drawn for each dispute and having them vote to ensure a given verdict.
 
@@ -33,10 +35,4 @@ The Kleros court process works in the following way:
 When creating an arbitrable contract, parties should choose a type of court specialized in the topic of the contract. A software development contract will choose a software development court, an insurance contract will select an insurance court, etc. The structure of the set of courts forms an arborescence with the General Court as the root.
 
 ![](../../.gitbook/assets/kleros-courts-tree.jpg)
-
-* Marketing Services: jurors in this court solve disputes regarding the quality of paid marketing services including but not exclusive to sponsored articles, social media promotion and PR writing.
-* English Language: jurors adjudicate disputes arising from translation tasks created via Linguo.
-* Video Production: as the name suggests, this court deals with disagreements that arise between parties regarding videos contracted through Kleros Escrow.
-* Onboarding: this court is essential for new jurors, as it's a quick court that deals with small disputes on varied topics, giving a new juror a chance to test their mettle.
-* Curation: jurors here have a chance to vet contents of lists and registries of all kinds, based on the lists' acceptance criteria.
 
