@@ -6,8 +6,17 @@ description: >-
 
 # PNK Token
 
-\*\*\*\*[**PNK Token Contract Address on Ethereum Mainnet** ](https://etherscan.io/token/0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d)  
-  
+⛓️ [**PNK Token Contract Address on Ethereum Mainnet** ](https://etherscan.io/token/0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d)
+
+### **Want to buy PNK?** 
+
+* DEX Aggregators \(Large Trade\): 🔼 [Paraswap ](https://paraswap.io/#/)/ 🦓 [1inch](https://1inch.exchange/#/)
+* DEX L1 \(Medium Trade\): 🦄 ****[Uniswap](https://info.uniswap.org/pair/0x343FD171caf4F0287aE6b87D75A8964Dc44516Ab) / 🍣 [Sushiswap](https://sushiswap.fi/pair/0xef4f1d5007b4ff88c1a56261fec00264af6001fb) / ⚖️ [Balancer](https://balancer.exchange/#/swap)
+* DEX L2 \(Small Trade\): 🔷 [Deversifi](https://app.deversifi.com/)
+* CEX \(Fiat Trade\): 🍃 [Bitfinex](https://www.bitfinex.com/t/PNKETH)
+
+## What is PNK?
+
 PNK is used both to stake \(for the possibility to become a juror and to protect against attacks\) and in the governance \(voting rights\) when new proposals, courts, or other parameters are suggested throughout our Dapps.
 
 * **Voting Rights:** PNK is used for all governance decisions taken on the Kleros platform. Users can vote with their PNK in any related votes. We already use this mechanism in our token curated list and court governance decisions.  
@@ -17,7 +26,7 @@ PNK is used both to stake \(for the possibility to become a juror and to protect
 
 ## Why Kleros Needs a Native Token? <a id="e301"></a>
 
-At Kleros we are building a blockchain-based, crowdsourced dispute resolution platform. An essential part of the mechanism design is the native _Kleros_ token \(PNK\).
+At Kleros we are building a blockchain-based, crowdsourced dispute resolution platform. An essential part of the mechanism-design is the native _Kleros_ token \(PNK\).
 
 ![A Pinakion](.gitbook/assets/1_ecud_ah2egiomrvl8l8o0a.jpeg)
 

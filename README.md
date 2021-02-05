@@ -1,3 +1,7 @@
+---
+description: Overview of our Decentralized Dispute Resolution Protocol
+---
+
 # Introduction to Kleros
 
 ## What is Kleros?
@@ -12,5 +16,5 @@ This is achieved by using game-theoretic incentives to have crowdsourced jurors 
 
 ### Kleros Services
 
-![](.gitbook/assets/image%20%2814%29.png)
+![](.gitbook/assets/kleros-products.png)
 

@@ -10,25 +10,6 @@ The process is quite simple. There is no personal information needed and there i
 
 To help in the process of getting you up to speed, here is our full-fledged Kleros Juror Starter Kit.
 
-## Understanding How Kleros Works <a id="understanding-how-kleros-works"></a>
-
-Kleros works in a simple way. The disputes created on our dApps - Dispute Resolver, T2CR, Escrow, Curate and the integrated Realitio platform are immediately sent to the [Kleros Court](http://court.kleros.io/), which is our juror interface. All dApps send their disputes to the 'arbitrator side' \(meaning the court\), thus their side is called the 'arbitrable side'. As a juror - you want to look at what comes through on the arbitrator side.
-
-![](https://blog.kleros.io/content/images/2019/05/aa1.jpg)
-
-You can follow all ongoing disputes through the [Dispute Resolver](https://resolve.kleros.io/) and the relevant court statistics through the [community run dashboard](https://kokialgo.pythonanywhere.com/).Current structure of the Kleros subcourts where all cases are adjudicated. Note that the structure resembles a tree, so if you're staked in one of the branches of the court, you are immediately staked up the tree to the General Court.
-
-![](https://blog.kleros.io/content/images/2020/07/image-12.png)
-
-As seen above, Kleros operates six sub courts at this moment:
-
-* Blockchain: this courts requires jurors to have an understanding of the broad blockchain ecosystem. It is subdivided to ‘Technical’ and ‘Non-Technical’ subcourts.
-* Marketing Services: jurors in this court solve disputes regarding the quality of paid marketing services including but not exclusive to sponsored articles, social media promotion and PR writing.
-* English Language: jurors adjudicate disputes arising from translation tasks created via Linguo.
-* Video Production: as the name suggests, this court deals with disagreements that arise between parties regarding videos contracted through Kleros Escrow.
-* Onboarding: this court is essential for new jurors, as it's a quick court that deals with small disputes on varied topics, giving a new juror a chance to test their mettle.
-* Curation: jurors here have a chance to vet contents of lists and registries of all kinds, based on the lists' acceptance criteria.
-
 ## Becoming a Juror <a id="becoming-a-juror"></a>
 
 In order to become a juror, there is no sign up, no personal information needed. The only thing you need are the proper tools and your own skills.The basic outline of what needs doing to become a Kleros juror, in short.
@@ -75,11 +56,7 @@ Staking pop up screen.
 
 ![The Kleros Court process](https://blog.kleros.io/content/images/2019/03/Arbitration.png)
 
-The Kleros court process works in the following way:
-
-* Once a contract, submission in a curated list or a market has been challenged, the system randomly picks jurors in a court specified for the case in question.
-* The case enters the evidence submission period where all interested parties \(disputing parties, jurors, challengers and any external agent\) are able to submit their evidence.
-* After the evidence period is finished, jurors are able to vote on the case. For now, Kleros jurors can vote 'Yes', 'No' and 'Refuse to Arbitrate'. The third option is available in cases of an invalid submissions, illegal or morally unacceptable content or evidence. In all options, majority wins. **Important note: before you vote, review the policies carefully.**
+**Important note: before you vote, review the policies carefully.**
 
 ![Until the evidence period is passed the buttons will be greyed out as shown above](https://blog.kleros.io/content/images/2019/03/Screen-Shot-2019-03-07-at-1.20.09-PM-1.png)
 

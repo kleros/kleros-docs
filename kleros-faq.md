@@ -34,7 +34,7 @@ Yes, by adopting Kleros, any mainstream e-commerce platform could enjoy a fast, 
 
 ### Can appeals be managed outside of Kleros?
 
-Yes, it’s possible to create an arbitrable smart contract thatuses Kleros for solving first instance disputes and allows appeals to be handled outside of Kleros.
+Yes, it’s possible to create an arbitrable smart contract that uses Kleros for solving first instance disputes and allows appeals to be handled outside of Kleros.
 
 ### Do you have sample contracts that show what type of disputes could be adjudicated by Kleros?
 
