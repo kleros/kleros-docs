@@ -1,10 +1,19 @@
 ---
-description: "\U0001F6A7\U0001F477 IN PROGRESS \U0001F477\U0001F6A7"
+description: How to integrate with Kleros?
 ---
 
 # Overview
 
-Kleros is the implementation of an arbitrator as per the [arbitration standard we developed](https://kleros.gitbook.io/docs/developer/erc-792-arbitration-standard). Once you integrate with the arbitration standard, you \(or your users\) will be able to choose any arbitrator that follows the standard to solve disputes, including Kleros. 
+## Why do you want to integrate with Kleros?
+
+* If you are looking for pure **Arbitration-as-a-Service**, we can help you integrate with our core service [Kleros Court](https://kleros.gitbook.io/docs/products/court).
+* If you want an oracle that can provide rulings about events, connect to [Kleros Oracle](https://kleros.gitbook.io/docs/products/oracle) and get **Truth-as-a-Service** capabilities.
+* If you are searching for **Data-Curation-as-a-Service**, use our [Kleros Curate](https://kleros.gitbook.io/docs/products/curate) generalized TCR product to build open community-curated lists and read from them.
+* If you want to manage crypto-vs-crypto transactions or service-vs-crypto transactions in your app, have a look at [Kleros Escrow](https://kleros.gitbook.io/docs/products/escrow) contract \(+ Widget & SDK\)
+
+Have a look at the ❓ [Integrations FAQ](https://kleros.gitbook.io/docs/integrations/integrations-faq) ❓ for more answers to common questions.
+
+Kleros Court is the implementation of an arbitrator as per the [arbitration standard we developed](https://kleros.gitbook.io/docs/developer/erc-792-arbitration-standard). Once you integrate with the arbitration standard, you \(or your users\) will be able to choose any arbitrator that follows the standard to solve disputes, including Kleros. 
 
 ## Smart Contract Integration
 
