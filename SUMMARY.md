@@ -2,7 +2,6 @@
 
 * [Introduction to Kleros](README.md)
 * [Kleros FAQ](kleros-faq.md)
-* [Decentralized Justice Glossary](decentralized-justice-glossary.md)
 * [Governance](governance.md)
 * [PNK Token](pnk-token.md)
 

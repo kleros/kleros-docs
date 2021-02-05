@@ -8,7 +8,6 @@ description: Resources enabling the data analysis of Kleros smart contracts
 
 * [Kleros Board](http://klerosboard.com/): Exhaustive Kleros Court Explorer made by the community
 * [Kleros Explorer](https://klerosexplorer.com/): Intermediary Kleros Case Explorer made by the community
-* [Kleros Scan](http://kleroscan.com/): Simple Dispute Explorer made by the community
 
 ## Data
 
