@@ -66,11 +66,12 @@
 
 ---
 
+* [Discord](https://discord.gg/WkeCbwwS)
 * [Telegram](https://t.me/kleros)
+* [Governance Forum](https://forum.kleros.io/)
+* [Twitter](https://twitter.com/kleros_io)
+* [Blog](https://blog.kleros.io/)
 * [Reddit](https://reddit.com/r/Kleros/)
 * [Github](https://github.com/kleros)
 * [Slack](https://slack.kleros.io/)
-* [Twitter](https://twitter.com/kleros_io)
-* [Blog](https://blog.kleros.io/)
-* [Forum](https://forum.kleros.io/)
 
