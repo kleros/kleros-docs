@@ -32,6 +32,8 @@ The Kleros court process works in the following way:
 
 When creating an arbitrable contract, parties should choose a type of court specialized in the topic of the contract. A software development contract will choose a software development court, an insurance contract will select an insurance court, etc. The structure of the set of courts forms an arborescence with the General Court as the root.
 
+![](../../.gitbook/assets/kleros-courts-tree.jpg)
+
 * Marketing Services: jurors in this court solve disputes regarding the quality of paid marketing services including but not exclusive to sponsored articles, social media promotion and PR writing.
 * English Language: jurors adjudicate disputes arising from translation tasks created via Linguo.
 * Video Production: as the name suggests, this court deals with disagreements that arise between parties regarding videos contracted through Kleros Escrow.
