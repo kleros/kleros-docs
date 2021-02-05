@@ -1,5 +1,5 @@
 ---
-description: Overview of our Decentralized Dispute Resolution Protocol
+description: Overview of the Kleros Decentralized Dispute Resolution Protocol
 ---
 
 # Introduction to Kleros
