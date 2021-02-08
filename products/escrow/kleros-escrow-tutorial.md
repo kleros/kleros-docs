@@ -78,7 +78,7 @@ Release the funds by click ' Yes' and paying the gas fee. This will release the 
 
 In the final screen you'll see a confirmation that the payment was made successfully.
 
-![](https://blog.kleros.io/content/images/2019/04/Payment_completed.jpg)![](https://blog.kleros.io/content/images/2019/04/escrowmeme.jpg)
+![](https://blog.kleros.io/content/images/2019/04/Payment_completed.jpg)
 
 ## What Happens if There's a Dispute?
 
@@ -157,10 +157,6 @@ The case will be updated as shown below with the winning choice and the winning 
 The My Payments dashboard will be updated with all the status' of the escrows as shown below.
 
 ![](https://blog.kleros.io/content/images/2019/04/Screenshot-2019-04-29-at-12.40.24.png)
-
-### And That's It...
-
-We've gone through a working escrow and a disputed case. Try it out today and become a Kleros Juror using the link bel
 
 
 
