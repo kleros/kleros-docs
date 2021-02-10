@@ -14,6 +14,7 @@
   * [Kleros Curate Tutorial](products/curate/kleros-curate-tutorial.md)
 * [Escrow](products/escrow/README.md)
   * [Kleros Escrow Tutorial](products/escrow/kleros-escrow-tutorial.md)
+  * [Kleros Escrow Specifications](products/escrow/kleros-escrow-specifications.md)
 * [Tokens](products/tokens/README.md)
   * [Kleros T2CR Tutorial](products/tokens/kleros-t2cr-tutorial.md)
 * [Linguo](products/linguo/README.md)
