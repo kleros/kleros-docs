@@ -8,7 +8,7 @@
 ## Products
 
 * [Court](products/court/README.md)
-  * [Kleros Juror Tutorial](products/court/untitled.md)
+  * [Kleros Juror Tutorial](products/court/kleros-juror-tutorial.md)
 * [Oracle](products/oracle.md)
 * [Curate](products/curate/README.md)
   * [Kleros Curate Tutorial](products/curate/kleros-curate-tutorial.md)
