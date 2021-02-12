@@ -66,7 +66,7 @@
 
 ---
 
-* [Discord](https://discord.gg/WkeCbwwS)
+* [Discord](https://discord.gg/cAvWk8B23f)
 * [Telegram](https://t.me/kleros)
 * [Governance Forum](https://forum.kleros.io/)
 * [Twitter](https://twitter.com/kleros_io)
