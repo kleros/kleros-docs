@@ -21,5 +21,5 @@ In the `Arbitrable` contract, you will have to define at least:
 
 * \(If appeals are allowed\) Stake multipliers representing multipliers of the appeal cost that a party must pay for a new round \(in basis points\)
 
-For more details, please consult the [Arbitration Standard](https://kleros.gitbook.io/docs/developer/erc-792-arbitration-standard) documentation and have a look at the examples of implementations shared [here](https://github.com/kleros/kleros-interaction/tree/master/contracts/standard/arbitration).
+For more details, please consult the [Arbitration Standard](https://kleros.gitbook.io/docs/developer/erc-792-arbitration-standard) documentation, have a look at the examples of implementations shared [here](https://github.com/kleros/kleros-interaction/tree/master/contracts/standard/arbitration) or contact us on Discord, Telegram, Slack, contact@kleros.io \(links on the bottom left\).
 
