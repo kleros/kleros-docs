@@ -1,3 +1,9 @@
+---
+description: >-
+  When you want to integrate your smart contract with Kleros Court to get
+  dispute resolution services
+---
+
 # Integration with Arbitrator
 
 \*\*\*\*[**Kleros Court \(Arbitrator\) on Ethereum Mainnet**  
@@ -15,13 +21,42 @@ If you want to integrate with Kleros for dispute resolution, you will have to cr
 In the `Arbitrable` contract, you will have to define at least:
 
 * the address of the `Arbitrator` contract \(look at the top of this page for the addresses of Kleros Court Arbitrators.
-* Some extra data to set up the arbitration \(that will specify the sub-court to be used and the number of voters required\)
+* Some extra data to set up the arbitration \(that will specify the sub-court to be used and the number of vote required\)
 
+  * List of subcourt IDs below,
+  * We recommend starting with 3 votes.
   * Script to generate the arbitrator extra data
 
   `generateArbitratorExtraData = (subcourtID, noOfVotes) => 0x${parseInt(subcourtID, 10).toString(16).padStart(64, "0") + parseInt(noOfVotes, 10).toString(16).padStart(64, "0")};`
 
 * \(If appeals are allowed\) Stake multipliers representing multipliers of the appeal cost that a party must pay for a new round \(in basis points\)
+
+{% hint style="info" %}
+**List of Subcourt IDs**  
+  
+The General Court ID is 0.
+
+1. Blockchain
+2. Non-Technical
+3. Token Listing
+4. Marketing Services
+5. English Language
+6. Video Production
+7. Onboarding
+8. Curation
+9. Data Analysis
+10. Statistical Modeling
+11. Curation \(Medium\)
+12. Spanish-English Translation
+13. French-English Translation
+14. Portuguese-English Translation
+15. German-English Translation
+16. Korean-English Translation
+17. Japanese-English Translation
+18. Turkish-English Translation
+19. Chinese-English Translation
+20. Corte General en Espanol
+{% endhint %}
 
 For more details, please consult the [Arbitration Standard](https://kleros.gitbook.io/docs/developer/erc-792-arbitration-standard) documentation, have a look at the examples of implementations shared [here](https://github.com/kleros/kleros-interaction/tree/master/contracts/standard/arbitration), or contact us on Discord, Telegram, Slack, or send a mail to contact@kleros.io \(links on the bottom left\).
 

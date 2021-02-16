@@ -1,3 +1,7 @@
+---
+description: Have a look at the paths to integration
+---
+
 # Types of Integrations
 
 Kleros Court is the implementation of an arbitrator as per the [Arbitration standard](https://kleros.gitbook.io/docs/developer/erc-792-arbitration-standard) we developed. Most integrations consist in building or customizing an Arbitrable app so it can request arbitration to Kleros Court. Once you integrate with the Arbitration standard, you \(or your users\) will be able to choose any arbitrator that follows the standard to solve disputes, including Kleros.  
