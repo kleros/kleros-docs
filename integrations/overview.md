@@ -26,7 +26,7 @@ Kleros Court is the implementation of an arbitrator as per the [arbitration stan
   
 The integration can be done today by:
 
-* **Building an Arbitrable contract**: At [smart-contract-level](https://kleros.gitbook.io/docs/integrations/overview#smart-contract-integration), you will need to create an arbitrable smart contract or ensure your existing smart contracts are compliant to the Arbitrable Interface:
+* **Building an Arbitrable contract**: At [smart-contract-level](https://kleros.gitbook.io/docs/integrations/smart-contract-integration), you will need to create an arbitrable smart contract or ensure your existing smart contracts are compliant to the Arbitrable Interface:
 
   * From scratch by applying the [arbitration standard](https://kleros.gitbook.io/docs/developer/erc-792-arbitration-standard) \(and/or using the [Archon library](https://kleros.gitbook.io/docs/developer/archon-ethereum-arbitration-standard-api)\),
   * By customizing one of our [examples](https://github.com/kleros/kleros-interaction) or looking at[ live integrations](https://kleros.gitbook.io/docs/integrations/current-integrations),
@@ -37,6 +37,4 @@ The integration can be done today by:
 Or in the future by:
 
 * **Interacting with a 3rd party intermediary entity:** that will format and forward the dispute to Kleros for you.
-
-
 
