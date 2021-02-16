@@ -1,8 +1,10 @@
-# Smart Contract Integration
+# Integration with Arbitrator
 
-**Kleros Court \(Arbitrator\) on Ethereum mainnet:** [https://etherscan.io/address/0x988b3a538b618c7a603e1c11ab82cd16dbe28069](https://etherscan.io/address/0x988b3a538b618c7a603e1c11ab82cd16dbe28069)  
+\*\*\*\*[**Kleros Court \(Arbitrator\) on Ethereum Mainnet**  
+](https://etherscan.io/address/0x988b3a538b618c7a603e1c11ab82cd16dbe28069)  
+[**Kleros Court \(Arbitrator\) on Ethereum Ropsten**](https://ropsten.etherscan.io/address/0x9643e91d3734b795e914a64169147b70876272ba)  
   
-**Kleros Court \(Arbitrator\) on Ethereum Ropsten:** [https://etherscan.io/address/0x988b3a538b618c7a603e1c11ab82cd16dbe28069](https://etherscan.io/address/0x988b3a538b618c7a603e1c11ab82cd16dbe28069)
+****[**Kleros Court \(Arbitrator\) on Ethereum Kovan**](https://kovan.etherscan.io/address/0x60b2abfdfad9c0873242f59f2a8c32a3cc682f80)\*\*\*\*
 
 ![Your app will be on the Arbitrable Side and send disputes to Kleros Court, the Arbitrator.](../../.gitbook/assets/image%20%281%29.png)
 
@@ -21,5 +23,5 @@ In the `Arbitrable` contract, you will have to define at least:
 
 * \(If appeals are allowed\) Stake multipliers representing multipliers of the appeal cost that a party must pay for a new round \(in basis points\)
 
-For more details, please consult the [Arbitration Standard](https://kleros.gitbook.io/docs/developer/erc-792-arbitration-standard) documentation, have a look at the examples of implementations shared [here](https://github.com/kleros/kleros-interaction/tree/master/contracts/standard/arbitration), or contact us on Discord, Telegram, Slack, contact@kleros.io \(links on the bottom left\).
+For more details, please consult the [Arbitration Standard](https://kleros.gitbook.io/docs/developer/erc-792-arbitration-standard) documentation, have a look at the examples of implementations shared [here](https://github.com/kleros/kleros-interaction/tree/master/contracts/standard/arbitration), or contact us on Discord, Telegram, Slack, or send a mail to contact@kleros.io \(links on the bottom left\).
 

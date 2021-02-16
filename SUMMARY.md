@@ -26,7 +26,7 @@
 
 * [Overview](integrations/overview.md)
 * [Types of Integrations](integrations/types-of-integrations/README.md)
-  * [Smart Contract Integration](integrations/types-of-integrations/smart-contract-integration.md)
+  * [Integration with Arbitrator](integrations/types-of-integrations/smart-contract-integration.md)
 * [Integrations FAQ](integrations/integrations-faq.md)
 * [Use Cases](integrations/untitled/README.md)
   * [DeFi Insurance](integrations/untitled/defi-insurance.md)
@@ -39,7 +39,7 @@
 * [Live Integrations](integrations/current-integrations.md)
 * [Analytics](integrations/analytics.md)
 
-## Developer
+## Developers <a id="developer"></a>
 
 * [ERC-792: Arbitration Standard](developer/erc-792-arbitration-standard.md)
 * [ERC 1497: Evidence Standard](developer/erc-1497-evidence-standard.md)
