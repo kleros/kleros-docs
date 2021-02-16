@@ -25,7 +25,8 @@
 ## INTEGRATIONS
 
 * [Overview](integrations/overview.md)
-* [Smart Contract Integration](integrations/smart-contract-integration.md)
+* [Types of Integrations](integrations/types-of-integrations/README.md)
+  * [Smart Contract Integration](integrations/types-of-integrations/smart-contract-integration.md)
 * [Integrations FAQ](integrations/integrations-faq.md)
 * [Use Cases](integrations/untitled/README.md)
   * [DeFi Insurance](integrations/untitled/defi-insurance.md)
