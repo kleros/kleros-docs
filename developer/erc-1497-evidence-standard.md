@@ -18,7 +18,7 @@ Standardizing `MetaEvidence` and `Evidence` allows interoperability between `Arb
 
 The ERC792 standardizes the way the smart contracts interact with each other while this standard is made to standardize the way the interfaces interact in the context of disputes.
 
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%287%29%20%281%29.png)
 
 ## Introduction to the Evidence Standard
 

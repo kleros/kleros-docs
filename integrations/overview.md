@@ -38,11 +38,5 @@ Or in the future by:
 
 * **Interacting with a 3rd party intermediary entity:** that will format and forward the dispute to Kleros for you.
 
-## Smart Contract Integration
-
-You create an arbitrable smart contract as per the [arbitration standard](https://kleros.gitbook.io/docs/developer/erc-792-arbitration-standard) that allows parties to execute the following flow:
-
-![](../.gitbook/assets/image%20%286%29.png)
-
 
 

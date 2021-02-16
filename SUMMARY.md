@@ -25,6 +25,7 @@
 ## INTEGRATIONS
 
 * [Overview](integrations/overview.md)
+* [Smart Contract Integration](integrations/smart-contract-integration.md)
 * [Integrations FAQ](integrations/integrations-faq.md)
 * [Use Cases](integrations/untitled/README.md)
   * [DeFi Insurance](integrations/untitled/defi-insurance.md)
@@ -63,8 +64,6 @@
   * [Code of Conduct](contribution-guidelines/license-and-code-of-conduct/code-of-conduct.md)
 
 ## Additional Resources
-
----
 
 * [Discord](https://discord.gg/cAvWk8B23f)
 * [Telegram](https://t.me/kleros)
