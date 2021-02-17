@@ -12,7 +12,7 @@ Satoshi Nakamoto taught us that a number of anonymous computers who do not trust
 
 ### How many PNK will exist?
 
-The supply of PNK is fixed at one billion units.
+The initial max supply of PNK has been fixed at one billion units. Any further minting can only be decided by the Kleros governance through a PNK holder proposal and vote.
 
 ### Does a party who wants to have a case adjudicated need to hold PNK?
 
