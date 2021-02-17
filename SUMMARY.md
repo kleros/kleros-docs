@@ -27,6 +27,7 @@
 * [Overview](integrations/overview.md)
 * [Types of Integrations](integrations/types-of-integrations/README.md)
   * [Integration with Arbitrator](integrations/types-of-integrations/smart-contract-integration.md)
+  * [Interacting with Arbitrable app](integrations/types-of-integrations/interacting-with-arbitrable-app.md)
 * [Integrations FAQ](integrations/integrations-faq.md)
 * [Use Cases](integrations/untitled/README.md)
   * [DeFi Insurance](integrations/untitled/defi-insurance.md)
