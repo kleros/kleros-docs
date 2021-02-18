@@ -20,3 +20,5 @@ description: How to integrate with Kleros?
 
 Have a look at the ❓ [Integrations FAQ](https://kleros.gitbook.io/docs/integrations/integrations-faq) ❓ for more answers to common questions.
 
+{% page-ref page="types-of-integrations/" %}
+
