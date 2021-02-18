@@ -1,5 +1,5 @@
 ---
-description: What do people have to say about Kleros decentralized courts
+description: What people have to say about Kleros decentralized courts
 ---
 
 # They talk about Kleros
