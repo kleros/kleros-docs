@@ -1,7 +1,7 @@
 ---
 description: >-
   The Kleros Protocol is fully decentralized and autonomous. Here is how to
-  participate.
+  participate in its governance.
 ---
 
 # Governance
