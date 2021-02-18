@@ -4,6 +4,7 @@
 * [Kleros FAQ](kleros-faq.md)
 * [Governance](governance.md)
 * [PNK Token](pnk-token.md)
+* [They talk about Kleros](they-talk-about-kleros.md)
 
 ## Products
 
