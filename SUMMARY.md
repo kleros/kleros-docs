@@ -38,7 +38,7 @@
 * [Integration Tools](integrations/integration-tools/README.md)
   * [Escrow SDK](integrations/integration-tools/escrow-sdk.md)
   * [Escrow React Widget](integrations/integration-tools/escrow-react-widget.md)
-* [Live Integrations](integrations/current-integrations.md)
+* [Live & Upcoming Integrations](integrations/current-integrations.md)
 * [Analytics](integrations/analytics.md)
 
 ## Developers <a id="developer"></a>

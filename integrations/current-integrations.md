@@ -2,25 +2,51 @@
 description: "\U0001F6A7\U0001F477 IN PROGRESS \U0001F477\U0001F6A7"
 ---
 
-# Live Integrations
+# Live & Upcoming Integrations
 
 ### Omen
 
-### Deversifi
+Oracle / Curate
 
-### Uniswap
+### Uniswap / Sushiswap / Zerion
 
-### Zerion
+Token registry
 
 ### CLR.fund
 
-### Winding Tree
-
-### Union Protocol
+Curate
 
 ### Revoke.cash
 
+Token registry
+
+## Coming soon
+
+### API3
+
+Dispute resolution for data feed insurance
+
+### Union Protocol
+
+Dispute resolution for claims
+
+### Unannounced Project A
+
+Dispute resolution for claims
+
+### Unannounced Project B
+
+Curate
+
+### Winding Tree
+
+Dispute resolution
+
 ### Reality Cards
+
+Oracle
+
+
 
 
 
