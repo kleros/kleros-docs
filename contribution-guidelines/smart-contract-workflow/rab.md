@@ -7,19 +7,20 @@ description: >-
 
 # RAB - Review, Audit, Bounty
 
-## Review Classifiers
+## Classifiers
 
 {% hint style="info" %}
 This is not meant to be a guide on what are vulnerabilities or how to find them, but instead is a standard for tracking work and managing resources along the process of securing a contract. If you'd like to learn more about vulnerabilities, the [Solidity Docs](https://solidity.readthedocs.io) and [this article](https://blog.sigmaprime.io/solidity-security.html) are a good place to start.
 {% endhint %}
 
-In the context of reviews, we use the following terminology, drawing inspiration from [semver](https://semver.org), to classify different things you can point out in a review.
+In the context of reviews, audits and bounties, findings have to be pointed out and will be evaluated following the [OWASP](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology) risk rating model, illustrated by the Impact-Likelihood table:
 
-| Patch | Minor | Major |
-| :--- | :--- | :--- |
-| Stylistic and comment/documentation issues. | Bad practices and unnecessary complexity. | Undesired functionality and open attack vectors. |
+![Impact and Likelihood table](../../.gitbook/assets/review_severity_table.png)
 
-Reviewers should decide how to best present their review given these guidelines.
+Note that this is the same risk rating model used by the [Ethereum Bounty Program](https://bounty.ethereum.org/). 
+
+In addition to the severity classification, emphasis should be put in writing clear descriptions, adding tests and instructions for facilitating reproduceability and including potential fixes if known.
+
 
 ## RAB Pragmas
 
