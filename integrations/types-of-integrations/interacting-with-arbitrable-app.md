@@ -15,6 +15,7 @@ If a [Graph Protocol](https://thegraph.com/) subgraph already exists for the app
 * [Kleros Tokens \(Mainnet\) subgraph](https://thegraph.com/explorer/subgraph/kleros/t2cr)
 * [Kleros Curate \(Mainnet\) subgraph](https://thegraph.com/explorer/subgraph/kleros/curate)
 * [Kleros Curate \(Rinkeby\) subgraph](https://thegraph.com/explorer/subgraph/kleros/curate-rinkeby)
+* [Proof of Humanity \(Mainnet\) subgraph](https://thegraph.com/explorer/subgraph/kleros/proof-of-humanity-mainnet)
 * [Proof of Humanity \(Kovan\) subgraph](https://thegraph.com/explorer/subgraph/epiqueras/proof-of-humanity-kovan)
 
 If no subgraph exists for the application you want to read from, you can request one to the Kleros team, or [define ](https://thegraph.com/docs/define-a-subgraph)and [deploy](https://thegraph.com/docs/deploy-a-subgraph) one.
