@@ -6,11 +6,13 @@ description: Data Curation as a Service using TCRs (Token Curated Registries)
 
 🗄️ [Kleros Curate app](https://curate.kleros.io/) \(mainnet\) 🗄️  
   
-**Kleros Curate** is a Dapp you can use to create a token registry of just about anything using Kleros curation technology. Kleros Curate uses financial incentives to keep a list on topic. 
+**Kleros Curate** is a ****dapp that can be used to create open curated registries of just about anything using financial incentives and Kleros dispute resolution technology to ensure a list stays on topic and that each entry is compliant to the predefined acceptance criteria.
 
 ![](../../.gitbook/assets/image%20%288%29.png)
 
 When a user submits an item to Curate, it is first vetted by a challenge period which allows anyone else to challenge that submission. If the submission isn’t challenged, it’s deemed legitimate and on topic, if it is, the challenged submission is sent to Kleros jurors to decide whether it is, or isn’t valid for the list in question.
+
+![](../../.gitbook/assets/image%20%287%29.png)
 
 When you submit something to eBay or make a post on Facebook, you don’t need a financial incentive, as those respective companies have plenty of their own to keep that list and its items on point. Facebook moderators are exposed to extreme content and are paid by Facebook to do so. You the user pay Facebook with your personal data which is then in turn used to keep extreme content out of your feed.
 
