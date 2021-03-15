@@ -162,9 +162,5 @@ You can only vouch for another profile if you are connected to the app and your 
 {% endtab %}
 {% endtabs %}
 
-## 
-
-##  
-
 
 
