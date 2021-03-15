@@ -32,7 +32,7 @@
 
 **1.c/ Click on "Submit profile" in the top banner**
 
-* If you don't see the "Submit profile" link in the top menu bar, it means you are either not connected \(check section 1.b again\) or that you have already created a profile \(you should see "My profile" instead\).
+* If you don't see the "Submit Profile" link in the top menu bar, it means you are either not connected \(check section 1.b again\) or that you have already created a profile \(you should see "My profile" instead\).
 
 ![](../../.gitbook/assets/image%20%2830%29.png)
 
