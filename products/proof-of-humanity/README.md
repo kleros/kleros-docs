@@ -6,7 +6,7 @@ description: A Sybil-resistant (=duplicate and bot-proof) registry of humans
 
 👤 [Proof of Humanity App](https://proofofhumanity.id/)👤
 
-![](../../.gitbook/assets/image%20%2819%29.png)
+![](../../.gitbook/assets/image%20%2820%29.png)
 
 **Proof of Humanity** is a system combining social verification with video submission in order to create a Sybil-proof list of humans. It is meant to be used by individuals as a point-of-entry to a myriad of new use cases that require Sybil-resistance to be able to be deployed at scale and also to be plugged into a variety of existing and new applications in need for such identity systems.
 
