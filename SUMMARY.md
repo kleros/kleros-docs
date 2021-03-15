@@ -21,7 +21,8 @@
 * [Linguo](products/linguo/README.md)
   * [Kleros Linguo Tutorial](products/linguo/kleros-linguo-tutorial.md)
 * [Proof of Humanity](products/proof-of-humanity/README.md)
-  * [Proof of Humanity Tutorial](products/proof-of-humanity/proof-of-humanity-tutorial.md)
+  * [Proof of Humanity Tutorial \(Register & Vouch\)](products/proof-of-humanity/proof-of-humanity-tutorial.md)
+  * [Proof Humanity Tutorial \(Remove & Challenge\)](products/proof-of-humanity/proof-humanity-tutorial-remove-and-challenge.md)
   * [Proof of Humanity FAQ](products/proof-of-humanity/poh-faq.md)
 * [Governor](products/governor.md)
 
