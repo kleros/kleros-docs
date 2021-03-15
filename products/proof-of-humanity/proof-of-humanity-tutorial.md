@@ -1,6 +1,6 @@
 # Proof of Humanity Tutorial \(Register & Vouch\)
 
-❓ Check out the [FAQ ](https://kleros.gitbook.io/docs/products/proof-of-humanity/poh-faq)if you don't find your answer in this tutorial.
+❓ Check out the [FAQ ](https://kleros.gitbook.io/docs/products/proof-of-humanity/poh-faq)or âif you don't find your answer in this tutorial.
 
 {% tabs %}
 {% tab title="1/ Register your profile" %}
