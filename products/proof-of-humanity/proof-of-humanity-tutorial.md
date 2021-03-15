@@ -1,5 +1,7 @@
 # Proof of Humanity Tutorial
 
+{% tabs %}
+{% tab title="1/ Register your profile" %}
 ## 1/ Register your profile \(5-10mn\)
 
 #### 1.a/ Go to the [Proof of Humanity](https://app.proofofhumanity.id/) app
@@ -68,6 +70,11 @@ If you make a mistake in your submission \(ex: Displaying a wrong address in the
 
 ![](../../.gitbook/assets/image%20%2819%29.png)
 
+  
+Don't forget to subscribe to Profile Update Notifications \(2nd tab at the top of this page\)
+{% endtab %}
+
+{% tab title="2/ Subscribe to Notif." %}
 ## 2/ Subscribe to Profile Update Notifications \(1mn\)
 
 In order to be notified of your profile progress in the validation process, you might want to subscribe to email notifications.
@@ -79,8 +86,10 @@ In order to be notified of your profile progress in the validation process, you 
 
 * Once you click on "Save", your wallet will ask you to sign a message to confirm \(no fee\).
 * Once you have confirmed, it is done: you will now receive email updates when your profile changes status or gets challenged.
+{% endtab %}
 
-##  3/ Watch your profile go through the validation process \(**≈** 3-5 days\)
+{% tab title="3/ Profile Validation Process" %}
+## 3/ Watch your profile go through the validation process \(**≈** 3-5 days\)
 
 Your submitted profile will start in "**Vouching Phase**" status and will go through a "**Pending registration**" phase before reaching the "**Registered**" status which means you are a verified human. 
 
@@ -117,8 +126,12 @@ You can check the current status of your profile by clicking on "My profile" in 
 {% hint style="info" %}
 **Why is my profile staying in "Vouching Phase"?** If you wonder why you still are not in "Pending Registration" status even though you have your deposit and vouches, it probably means the person that vouched for you has vouched for several persons at the same time. His vouches are processed sequentially and you will need to wait for the persons he vouched for before you to be validated before it is your turn for his vouch to be processed.
 {% endhint %}
+{% endtab %}
+{% endtabs %}
 
+## 
 
+##  
 
 
 
