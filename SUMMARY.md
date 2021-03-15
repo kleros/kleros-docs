@@ -23,7 +23,6 @@
 * [Proof of Humanity](products/proof-of-humanity/README.md)
   * [Proof of Humanity Tutorial](products/proof-of-humanity/proof-of-humanity-tutorial.md)
   * [Proof of Humanity FAQ](products/proof-of-humanity/poh-faq.md)
-* [Untitled](products/untitled.md)
 * [Governor](products/governor.md)
 
 ## INTEGRATIONS
