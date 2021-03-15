@@ -20,7 +20,8 @@
   * [Kleros T2CR Tutorial](products/tokens/kleros-t2cr-tutorial.md)
 * [Linguo](products/linguo/README.md)
   * [Kleros Linguo Tutorial](products/linguo/kleros-linguo-tutorial.md)
-* [Proof of Humanity](products/proof-of-humanity.md)
+* [Proof of Humanity](products/proof-of-humanity/README.md)
+  * [Proof of Humanity FAQ](products/proof-of-humanity/proof-of-humanity-faq.md)
 * [Governor](products/governor.md)
 
 ## INTEGRATIONS
