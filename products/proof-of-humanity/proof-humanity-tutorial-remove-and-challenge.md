@@ -1,3 +1,9 @@
+---
+description: >-
+  How to challenge a profile, remove your own or someone else's profile and
+  resubmit.
+---
+
 # Proof Humanity Tutorial \(Remove & Challenge\)
 
 ❓ Check out the [FAQ ](https://kleros.gitbook.io/docs/products/proof-of-humanity/poh-faq)or [Part 1 of the PoH Tutorial](https://kleros.gitbook.io/docs/products/proof-of-humanity/proof-of-humanity-tutorial) if you don't find your answer here.

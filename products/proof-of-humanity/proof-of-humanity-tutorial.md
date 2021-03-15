@@ -1,3 +1,9 @@
+---
+description: >-
+  How to register your profile, vouch for others and monitor your profile
+  validation progress.
+---
+
 # Proof of Humanity Tutorial \(Register & Vouch\)
 
 ❓ Check out the [FAQ ](https://kleros.gitbook.io/docs/products/proof-of-humanity/poh-faq)or [Part 2 of the PoH Tutorial](https://kleros.gitbook.io/docs/products/proof-of-humanity/proof-humanity-tutorial-remove-and-challenge) if you don't find your answer here.
