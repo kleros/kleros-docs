@@ -12,15 +12,15 @@
 
 * Click on the "Account" button on the top right
 
-![](../../.gitbook/assets/image%20%2821%29.png)
+![](../../.gitbook/assets/image%20%2822%29.png)
 
 * In the modal that just opened, click on "Connect Account"
 
-![](../../.gitbook/assets/image%20%2827%29.png)
+![](../../.gitbook/assets/image%20%2830%29.png)
 
 * Select the wallet you want to use \(We recommend [Metamask](https://metamask.io/faqs.html), [WalletConnect](https://walletconnect.org/) or [Authereum](https://authereum.com/welcome/)\)
 
-![](../../.gitbook/assets/image%20%2812%29.png)
+![](../../.gitbook/assets/image%20%2818%29.png)
 
 * Once you have connected the wallet to the app \(the wallet will ask you to confirm the connection\), you will need to ensure you have some Ether \(ETH\) loaded in the wallet to interact with the Ethereum blockchain \(pays transaction fees\) and to be able to lock the ETH deposit needed to enter the registry \(it will be reimbursed to you\).
 
@@ -30,7 +30,7 @@
 
 **1.c/ Click on "Submit profile" in the top banner**
 
-![](../../.gitbook/assets/image%20%2826%29.png)
+![](../../.gitbook/assets/image%20%2829%29.png)
 
 * You will be asked to fill out the information required to submit a profile
 
@@ -46,9 +46,9 @@ If you make a mistake in your submission \(ex: Displaying a wrong address in the
 
 
 
-![](../../.gitbook/assets/image%20%2825%29.png)
+![](../../.gitbook/assets/image%20%2828%29.png)
 
-![](../../.gitbook/assets/image%20%2824%29.png)
+![](../../.gitbook/assets/image%20%2827%29.png)
 
 {% hint style="info" %}
 **TIP:** Browse through "Registered" profiles \(that means they have been accepted into the registry\) to have examples of what correct profiles look like.
@@ -64,11 +64,11 @@ If you make a mistake in your submission \(ex: Displaying a wrong address in the
 
 * Once you are sure all of your submission information is good \(check the [guidelines](https://ipfs.kleros.io/ipfs/Qmc7ag5XohnSAozvsKsLCUbvaFyasyLtyi3H7g3mmxznPU/proof-of-humanity-registry-policy.pdf)\), you can click on the "Submit" button. This should trigger a transaction confirmation popup in your wallet after a few seconds. Send that transaction \(ETH Deposit + blockchain fees\) and wait for it to be validated.
 
-![](../../.gitbook/assets/image%20%2832%29.png)
+![](../../.gitbook/assets/image%20%2835%29.png)
 
 * Once the transaction has been mined \(it can take a long time depending on the gas price you selected\), you should be redirected to your profile page. If you are not redirected, pelase heck that your transaction has really gone through, and if yes, check that your profile is not already submitted by clicking on "Profiles" in the top banner. You don't want to submit your profile 2 times by mistake.
 
-![](../../.gitbook/assets/image%20%2819%29.png)
+![](../../.gitbook/assets/image%20%2820%29.png)
 
   
 Don't forget to subscribe to Profile Update Notifications \(2nd tab at the top of this page\)
@@ -82,7 +82,7 @@ In order to be notified of your profile progress in the validation process, you 
 * For this, click on the "Account" button on the top right and then on the "Notifications" tab.
 * There, you can check the subscription option and fill out your email address.
 
-![](../../.gitbook/assets/image%20%2822%29.png)
+![](../../.gitbook/assets/image%20%2823%29.png)
 
 * Once you click on "Save", your wallet will ask you to sign a message to confirm \(no fee\).
 * Once you have confirmed, it is done: you will now receive email updates when your profile changes status or gets challenged.
@@ -93,21 +93,21 @@ In order to be notified of your profile progress in the validation process, you 
 
 Your submitted profile will start in "**Vouching Phase**" status and will go through a "**Pending registration**" phase before reaching the "**Registered**" status which means you are a verified human. 
 
-![](../../.gitbook/assets/image%20%2829%29.png)
+![](../../.gitbook/assets/image%20%2832%29.png)
 
 You can check the current status of your profile by clicking on "My profile" in the top banner \(if you're connected\) or by searching for your name in the search bar and accessing your profile.
 
-![](../../.gitbook/assets/image%20%2830%29.png)
+![](../../.gitbook/assets/image%20%2833%29.png)
 
 #### 3.a/ How to go from "Vouching Phase" to "Pending registration" status?
 
 * You need to find one person who is in "Registered" status and that knows you in real-life \(or that can prove that you really are the person your profile describes\) and ask that person to vouch for you.
 
-![](../../.gitbook/assets/image%20%2831%29.png)
+![](../../.gitbook/assets/image%20%2834%29.png)
 
 * This person will need to go to your profile page and click on the "Vouch" button and send a transaction.
 
-![](../../.gitbook/assets/image%20%2833%29.png)
+![](../../.gitbook/assets/image%20%2836%29.png)
 
 {% hint style="info" %}
 **WARNING**: Vouching for someone means you know the person and are sure that they are not fake or impersonators. You could get removed from the registry if you vouched for a bot or fake.
@@ -115,7 +115,7 @@ You can check the current status of your profile by clicking on "My profile" in 
 
 * Once a person has vouched for you, you will see it on your profile by checking the number of vouchers and the "Vouched by" list.
 
-![](../../.gitbook/assets/image%20%2823%29.png)
+![](../../.gitbook/assets/image%20%2824%29.png)
 
 {% hint style="info" %}
 **INFO:** Vouching for someone is a benevolent act to help them get into the registry. Currently, it requires the voucher to pay for gas fees for the transaction but, soon, the vouching could be made through a simple gasless signature.
@@ -125,6 +125,26 @@ You can check the current status of your profile by clicking on "My profile" in 
 
 {% hint style="info" %}
 **Why is my profile staying in "Vouching Phase"?** If you wonder why you still are not in "Pending Registration" status even though you have your deposit and vouches, it probably means the person that vouched for you has vouched for several persons at the same time. His vouches are processed sequentially and you will need to wait for the persons he vouched for before you to be validated before it is your turn for his vouch to be processed.
+{% endhint %}
+
+#### 3.b/ How to go from "Pending Registration" to "Registered" status?
+
+* Once your Profile is in "Pending Registration" status, it will go through a challenge period of 3.5 days. That means than during 3.5 days people will check your profile to verify if you are a fake or if you provided incorrect information and, if yes, will try to challenge your registration to win part of your deposit.
+* You can check how long you have left in this period in the bottom left of your profile.
+
+![](../../.gitbook/assets/image%20%2826%29.png)
+
+* If you are not challenged, you will be passed to "Registered" status shortly after this 3.5 days period ends and you will be in capacity to vouch for other people and to accrue UBI.
+
+![](../../.gitbook/assets/image%20%2812%29.png)
+
+{% hint style="info" %}
+**What if I am challenged?** 
+
+Then, a dispute will be created in [Kleros Court](https://kleros.gitbook.io/docs/products/court). You can provide evidence on your profile page to defend your case and monitor the progress of the dispute. You can also appeal when a ruling is given by jurors if you don't agree with it.  
+  
+If the jury rules in your favor, your profile goes back to "Pending Registration" phase for 3.5 days.  
+If the jury rules in favor of the challenger, your profile goes to "Removed" status.
 {% endhint %}
 {% endtab %}
 {% endtabs %}
