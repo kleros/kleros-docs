@@ -50,11 +50,58 @@ You can use deepfake detection tools such as [https://deepware.ai/](https://deep
 {% endtab %}
 
 {% tab title="6/ Remove a profile" %}
+## 5/ Remove a profile from the registry
 
+#### 5.a/ Remove a profile still in "Vouching Phase"
 
+* There is not yet an option on the app to remove a profile in "Vouching Phase" \(It will be added soon\).  For now, you will need to interact directly with the smart contract:
 
+![](https://blog.kleros.io/content/images/2021/03/image-6.png)
 
-🚧👷 IN PROGRESS 👷🚧
+* Go to the Etherscan page of the [PoH contract](https://etherscan.io/address/0xC5E9dDebb09Cd64DfaCab4011A0D5cEDaf7c9BDb#writeContract)
+* Connect your wallet \(look for the "Connect to Web3" button\). IMPORTANT: It has to be the same wallet you use to register.
+* Look for the withdrawSubmission function \(it's the last one\). Click to expand.
+* Click "Write". Metamask might suggest a crazy gas limit, but the function should cost only around 50k gas.
+* Confirm the Tx and you will get back your deposit and your profile will be transitioned to "Removed".
+
+![](https://blog.kleros.io/content/images/2021/03/image-5.png)
+
+#### 5.b/ Remove a profile in "Registered" status
+
+* In order to remove a registered profile, you need to go to the registered profile page and click on the "Request Removal" button.
+
+![](https://blog.kleros.io/content/images/2021/03/image-7.png)
+
+* You will then be asked to select a reason for removal.
+* In your removal request or after you sent it, you can submit evidence to back up your request
+
+{% hint style="success" %}
+_**Example 1. Send a removal request from the same address as the submitter.**_
+
+**Evidence Name**: Self-removal of submission.
+
+**Evidence Description**: I am the submitter as proven by my address and I want to remove this submission_**.**_
+{% endhint %}
+
+{% hint style="success" %}
+_**Example 2: Send a removal request to remove a malicious deepfake submission**_
+
+**Evidence Name**: Removal of deepfake submission.
+
+**Evidence Description**: I have analyzed the video of the submitter and the reproducible report attached in this evidence proves that it is a deepfake.
+{% endhint %}
+
+{% hint style="success" %}
+_**Example 3: Send a removal request from a different address than the submitter.**_
+
+**Evidence Name**: Self-removal of submission.
+
+**Evidence Description**: I am the submitter and I want to remove this submission. The video attached is a recording of myself saying the sentence “I want to remove my own submission from the Proof of Humanity registry.”
+{% endhint %}
+
+#### 5.b/ Remove a profile in "Pending Registration" status
+
+* You will need to challenge the profile as explained in the [previous tab](https://kleros.gitbook.io/docs/products/proof-of-humanity/proof-humanity-tutorial-remove-and-challenge#5-challenge-a-profile-in-pending-registration-status).
 {% endtab %}
 
 {% tab title="7/ Resubmit a profile" %}

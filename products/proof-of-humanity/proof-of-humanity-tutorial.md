@@ -76,7 +76,7 @@ If you make a mistake in your submission \(ex: Displaying a wrong address in the
 
 ![](../../.gitbook/assets/image%20%2845%29.png)
 
-* Once the transaction has been mined \(it can take a long time depending on the gas price you selected\), you should be redirected to your profile page. If you are not redirected, pelase heck that your transaction has really gone through, and if yes, check that your profile is not already submitted by clicking on "Profiles" in the top banner. You don't want to submit your profile 2 times by mistake.
+* Once the transaction has been mined \(it can take a long time depending on the gas price you selected\), you should be redirected to your profile page. If you are not redirected, please check that your transaction has really gone through, and if yes, check that your profile is not already submitted by clicking on "Profiles" in the top banner. You don't want to submit your profile 2 times by mistake.
 
 ![](../../.gitbook/assets/image%20%2824%29.png)
 

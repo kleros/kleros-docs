@@ -82,7 +82,11 @@ A request to remove a registered submission from the list can be made at any tim
 
 #### **IF YOUR PROFILE IS STILL IN "VOUCHING PHASE"**
 
-There is not yet an option on the app to remove a profile in "Vouching Phase". For this, you will need to interact directly with the smart contract:![](https://blog.kleros.io/content/images/2021/03/image-6.png)
+There is not yet an option on the app to remove a profile in "Vouching Phase" \(It will be added soon\).  
+  
+For now, you will need to interact directly with the smart contract:
+
+![](https://blog.kleros.io/content/images/2021/03/image-6.png)
 
 1. Go to the Etherscan page of the [PoH contract](https://etherscan.io/address/0xC5E9dDebb09Cd64DfaCab4011A0D5cEDaf7c9BDb#writeContract)
 2. Connect your wallet \(look for the "Connect to Web3" button\). IMPORTANT: It has to be the same wallet you use to register.
