@@ -99,13 +99,26 @@ _**Example 3: Send a removal request from a different address than the submitter
 **Evidence Description**: I am the submitter and I want to remove this submission. The video attached is a recording of myself saying the sentence “I want to remove my own submission from the Proof of Humanity registry.”
 {% endhint %}
 
-#### 5.b/ Remove a profile in "Pending Registration" status
+#### 5.c/ Remove a profile in "Pending Registration" status
 
 * You will need to challenge the profile as explained in the [previous tab](https://kleros.gitbook.io/docs/products/proof-of-humanity/proof-humanity-tutorial-remove-and-challenge#5-challenge-a-profile-in-pending-registration-status).
 {% endtab %}
 
-{% tab title="7/ Resubmit a profile" %}
+{% tab title="7/ Resubmit/Reapply a profile" %}
 ## 7/ Resubmit a profile
+
+#### 7.a/ Resubmit a profile from a new address
+
+* The first step is to ensure that your profile linked to your old address is in "Removed" status \(because we want to avoid submitting duplicates of the same person in the registry which could be challenged\).
+* For this go directly to your profile page using _`https://app.proofofhumanity.id/profile/youraddress?network=mainnet` ****_ or click on "My Profile", and check that it is in "Removed" status. If it's not, remove it using these instructions in the previous tab.
+
+ 
+
+#### 7.b/ Resubmit a profile from the same address
+
+* The first step is to ensure that your profile linked to your address is in in "Removed" status \(because we want to avoid submittin
+
+#### 7.c/ Reapply a profile expired or soon-to-be expired
 
 🚧👷 IN PROGRESS 👷🚧
 {% endtab %}
