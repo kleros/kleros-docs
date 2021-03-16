@@ -50,9 +50,9 @@ You can use deepfake detection tools such as [https://deepware.ai/](https://deep
 {% endtab %}
 
 {% tab title="6/ Remove a profile" %}
-## 5/ Remove a profile from the registry
+## 6/ Remove a profile from the registry
 
-#### 5.a/ Remove a profile still in "Vouching Phase"
+#### 6.a/ Remove a profile still in "Vouching Phase"
 
 * There is not yet an option on the app to remove a profile in "Vouching Phase" \(It will be added soon\).  For now, you will need to interact directly with the smart contract:
 
@@ -66,7 +66,7 @@ You can use deepfake detection tools such as [https://deepware.ai/](https://deep
 
 ![](https://blog.kleros.io/content/images/2021/03/image-5.png)
 
-#### 5.b/ Remove a profile in "Registered" status
+#### 6.b/ Remove a profile in "Registered" status
 
 * In order to remove a registered profile, you need to go to the registered profile page and click on the "Request Removal" button.
 
@@ -99,7 +99,7 @@ _**Example 3: Send a removal request from a different address than the submitter
 **Evidence Description**: I am the submitter and I want to remove this submission. The video attached is a recording of myself saying the sentence “I want to remove my own submission from the Proof of Humanity registry.”
 {% endhint %}
 
-#### 5.c/ Remove a profile in "Pending Registration" status
+#### 6.c/ Remove a profile in "Pending Registration" status
 
 * You will need to challenge the profile as explained in the [previous tab](https://kleros.gitbook.io/docs/products/proof-of-humanity/proof-humanity-tutorial-remove-and-challenge#5-challenge-a-profile-in-pending-registration-status).
 {% endtab %}
