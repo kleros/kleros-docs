@@ -44,7 +44,7 @@ You can use deepfake detection tools such as [https://deepware.ai/](https://deep
 
 ![](../../.gitbook/assets/image%20%2818%29.png)
 
-![](../../.gitbook/assets/image%20%2838%29.png)
+![](../../.gitbook/assets/image%20%2838%29%20%281%29.png)
 
 * Now, you just have to monitor the progress of the dispute through the profile interface over the following 5 to 7 days. If you don't agree with the final ruling, you will have the possibility to appeal.
 {% endtab %}
@@ -113,7 +113,7 @@ _**Example 3: Send a removal request from a different address than the submitter
 
 * The first step is to ensure that your profile linked to your old address is in "Removed" status \(because we want to avoid submitting duplicates of the same person in the registry which could be challenged\).
 
-![](../../.gitbook/assets/image%20%2849%29.png)
+![](../../.gitbook/assets/image%20%2849%29%20%281%29.png)
 
 * For this, go directly to your profile page using _`https://app.proofofhumanity.id/profile/youraddress?network=mainnet` ****_ or click on "My Profile", and check that it is in "Removed" status. If it's not, remove it using these instructions in the [previous tab](https://kleros.gitbook.io/docs/products/proof-of-humanity/proof-humanity-tutorial-remove-and-challenge#6-remove-a-profile-from-the-registry).
 * Then, connect your new Ethereum address to the app, and [submit your new profile](https://kleros.gitbook.io/docs/products/proof-of-humanity/proof-of-humanity-tutorial#1-register-your-profile-5-10mn) like you did the first time.
@@ -124,7 +124,7 @@ _**Example 3: Send a removal request from a different address than the submitter
 
 * The first step is to ensure that your profile linked to your old address is in "Removed" status \(because we want to avoid submitting duplicates of the same person in the registry which could be challenged\).
 
-![](../../.gitbook/assets/image%20%2848%29.png)
+![](../../.gitbook/assets/image%20%2849%29.png)
 
 * For this, go directly to your profile page using `https://app.proofofhumanity.id/profile/youraddress?network=mainnet` **** or click on "My Profile", and check that it is in "Removed" status. If it's not, remove it using these instructions in the [previous tab](https://kleros.gitbook.io/docs/products/proof-of-humanity/proof-humanity-tutorial-remove-and-challenge#6-remove-a-profile-from-the-registry).
 * Then, locate the "Resubmit Profile" button at the bottom left of your profile and click it.

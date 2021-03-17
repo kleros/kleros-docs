@@ -20,7 +20,7 @@ description: >-
 
 * Click on the "Account" button on the top right
 
-![](../../.gitbook/assets/image%20%2827%29.png)
+![](../../.gitbook/assets/image%20%2827%29%20%281%29.png)
 
 * In the modal that just opened, click on "Connect Account"
 
@@ -91,7 +91,7 @@ In order to be notified of your profile progress in the validation process, you 
 
 * For this, click on the "Account" button on the top right and then on the "Notifications" tab.
 
-![](../../.gitbook/assets/image%20%2810%29.png)
+![](../../.gitbook/assets/image%20%2827%29.png)
 
 * There, you can check the subscription option and fill out your email address.
 
@@ -106,7 +106,7 @@ In order to be notified of your profile progress in the validation process, you 
 
 Your submitted profile will start in "**Vouching Phase**" status and will go through a "**Pending registration**" phase before reaching the "**Registered**" status which means you are a verified human. 
 
-![](../../.gitbook/assets/image%20%2841%29.png)
+![](../../.gitbook/assets/image%20%2810%29.png)
 
 You can check the current status of your profile by clicking on "My profile" in the top banner \(if you're connected\) or by searching for your name in the search bar and accessing your profile.
 
@@ -116,7 +116,7 @@ You can check the current status of your profile by clicking on "My profile" in 
 
 * You need to find one person who is in "Registered" status and that knows you in real-life \(or that can prove that you really are the person your profile describes\) and ask that person to vouch for you.
 
-![](../../.gitbook/assets/image%20%2843%29.png)
+![](../../.gitbook/assets/image%20%2825%29%20%281%29.png)
 
 * This person will need to go to your profile page and click on the "Vouch" button and send a transaction.
 

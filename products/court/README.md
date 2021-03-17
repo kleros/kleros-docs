@@ -32,11 +32,13 @@ The Kleros court process works in the following way:
 
 ![](../../.gitbook/assets/image%20%2815%29.png)
 
+{% page-ref page="kleros-juror-tutorial.md" %}
+
 ### Courts and sub-courts
 
 When creating an arbitrable contract, parties should choose a type of court specialized in the topic of the contract. A software development contract will choose a software development court, an insurance contract will select an insurance court, etc. The structure of the set of courts forms an arborescence with the General Court as the root.
 
-![Tree of current Kleros courts and subcourts](../../.gitbook/assets/kleros-courts-tree.jpg)
+![Tree of Kleros Courts](../../.gitbook/assets/kleros-courts-tree-1-.jpg)
 
 The description of the courts can be found on the [Kleros Court App](https://court.kleros.io/) by clicking on "Join a court" button.
 
