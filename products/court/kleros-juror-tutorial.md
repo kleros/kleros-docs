@@ -36,7 +36,7 @@ Once you’ve taken a look at the courts, what remains is to stake your PNK and 
 * When the ‘Stake’ button is clicked, you can set the amount of PNK you would like to put into the system. The chances to be drawn as a juror depend on the amount of PNK you stake. The minimum stake in the Onboarding Court is at this moment 1000 PNK, while the higher stake Curation Court has a minimum stake of 1600 PNK.
 * Pay the gas fee in Metamask to confirm the staking transaction.
 * Once the fee is paid and the transaction confirmed you can return to the 'Courts' page and see your staked PNK in the court you have chosen. Below, we can see a user has staked a 3000 PNK. As a reminder - the higher the stake, the higher the chance of being drawn for cases on any court.
-* In the above image, you can immediately get an overview of the reward each juror will receive by voting coherently. Additionally, **each court has an amount of PNK that will be locked into the case once you've been picked as a juror, which is a portion of your total staked PNK and varies from court to court.**
+* In the above image, you can immediately get an overview of the reward each juror will receive by voting coherently. Additionally, **each court has an amount of PNK that will be locked into the case once you've been drawn as a juror, which is a constant PNK amount per vote you have and varies from court to court.**
 * If you are successfully drawn as a juror you will see something similar to the below in the 'My Cases' page. By clicking 'See Details' you can then review the case, evidence and make your vote.
 * Users can be notified to any cases, challenges or changes in state of a dispute by signing up using the email icon in the menu header.
 
