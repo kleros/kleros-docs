@@ -14,6 +14,12 @@ description: A Sybil-resistant (=duplicate and bot-proof) registry of humans
 
 Building this type of advanced identity registry is not an end in itself. It is a point-of-entry to a myriad of new use cases that require Sybil-resistance \(duplicate resistance\) and also to be plugged into a variety of existing and new applications in need for such identity systems. Let's browse through a non-exhaustive list of use cases that benefit from PoH.
 
+{% page-ref page="proof-of-humanity-tutorial.md" %}
+
+{% page-ref page="proof-humanity-tutorial-remove-and-challenge.md" %}
+
+{% page-ref page="poh-faq.md" %}
+
 ## Proof of Humanity Use Cases <a id="proof-of-humanity-use-cases"></a>
 
 #### Universal Basic Income <a id="universal-basic-income"></a>
