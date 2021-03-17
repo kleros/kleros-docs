@@ -2,7 +2,7 @@
 description: Resources enabling the data analysis of Kleros smart contracts
 ---
 
-# Analytics
+# Kleros Analytics
 
 ## Explorers
 

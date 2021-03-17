@@ -12,6 +12,8 @@ It is a dispute resolution protocol that provides arbitration for the type of su
 
 ![](../../.gitbook/assets/image%20%2817%29.png)
 
+{% page-ref page="../../integrations/analytics.md" %}
+
 ### Understanding How Kleros Works
 
 Kleros works in a simple way. Disputes are created by dApps and sent to the [Kleros Court](http://court.kleros.io/). All dApps send their disputes to the 'arbitrator side' \(meaning the court\), thus their side is called the 'arbitrable side'. 

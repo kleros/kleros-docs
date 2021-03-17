@@ -42,7 +42,7 @@
   * [Escrow SDK](integrations/integration-tools/escrow-sdk.md)
   * [Escrow React Widget](integrations/integration-tools/escrow-react-widget.md)
 * [Live & Upcoming Integrations](integrations/current-integrations.md)
-* [Analytics](integrations/analytics.md)
+* [Kleros Analytics](integrations/analytics.md)
 
 ## Developers <a id="developer"></a>
 
