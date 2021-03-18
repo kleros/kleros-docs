@@ -52,19 +52,13 @@ You can use deepfake detection tools such as [https://deepware.ai/](https://deep
 {% tab title="6/ Remove a profile" %}
 ## 6/ Remove a profile from the registry
 
-#### 6.a/ Remove a profile still in "Vouching Phase"
+#### 6.a/ Remove your own profile still in "Vouching Phase"
 
-* There is not yet an option on the app to remove a profile in "Vouching Phase" \(It will be added soon\).  For now, you will need to interact directly with the smart contract:
+* In order to remove your own "Vouching Phase" profile, you need to go to your profile page and click on the "Withdraw Submission" button.
 
-![](https://blog.kleros.io/content/images/2021/03/image-6.png)
+![](../../.gitbook/assets/image%20%2812%29.png)
 
-* Go to the Etherscan page of the [PoH contract](https://etherscan.io/address/0xC5E9dDebb09Cd64DfaCab4011A0D5cEDaf7c9BDb#writeContract)
-* Connect your wallet \(look for the "Connect to Web3" button\). IMPORTANT: It has to be the same wallet you use to register.
-* Look for the withdrawSubmission function \(it's the last one\). Click to expand.
-* Click "Write". Metamask might suggest a crazy gas limit, but the function should cost only around 50k gas.
-* Confirm the Tx and you will get back your deposit and your profile will be transitioned to "Removed".
-
-![](https://blog.kleros.io/content/images/2021/03/image-5.png)
+* You will get your deposit back once the transaction is validated.
 
 #### 6.b/ Remove a profile in "Registered" status
 
