@@ -2,7 +2,7 @@
 description: JS Library to easily interact with Arbitrable and Arbitration contracts
 ---
 
-# Archon: Ethereum Arbitration Standard API
+# Archon: Ethereum Arbitration Standard Interaction Library
 
 Archon is a javascript library written to make it easy to interact with `Arbitrable` and `Arbitrator` contracts. In particular, Archon can be used to take care of a lot of the hash validation work that is part of the Evidence Standard \(ERC 1497\).
 

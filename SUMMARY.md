@@ -48,7 +48,7 @@
 
 * [ERC-792: Arbitration Standard](developer/erc-792-arbitration-standard.md)
 * [ERC 1497: Evidence Standard](developer/erc-1497-evidence-standard.md)
-* [Archon: Ethereum Arbitration Standard API](developer/archon-ethereum-arbitration-standard-api.md)
+* [Archon: Ethereum Arbitration Standard Interaction Library](developer/archon-ethereum-arbitration-standard-api.md)
 
 ## Contribution Guidelines
 
