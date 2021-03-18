@@ -138,7 +138,7 @@ Vouching for someone is a benevolent act to help them get into the registry. Cur
 * If you have the required number of vouchers, your deposit is at 100% and you are the only current vouched profile by your voucher, then your profile will be moved to "Pending Registration" status quite soon. 
 
 {% hint style="info" %}
-**Why is my profile staying in "Vouching Phase"?** If you wonder why you still are not in "Pending Registration" status even though you have your deposit and vouches, it probably means the person that vouched for you has vouched for several persons at the same time. His vouches are processed sequentially and you will need to wait for the persons he vouched for before you to be validated before it is your turn for his vouch to be processed.
+**Why is my profile staying in "Vouching Phase"?** If you wonder why you still are not in "Pending Registration" status even though you have your deposit and vouches, it probably means the person that vouched for you has vouched for several persons at the same time. His vouches are processed sequentially and you will need to wait for the persons he vouched for before you to be validated \(3.5 days for each\) before it is your turn for his vouch to be processed.
 {% endhint %}
 
 #### 3.b/ How to go from "Pending Registration" to "Registered" status?
