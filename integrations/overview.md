@@ -4,6 +4,8 @@ description: How to integrate with Kleros?
 
 # Overview
 
+## 
+
 ## Why do you want to integrate with Kleros services?
 
 * If you are looking for pure **Arbitration-as-a-Service**, we can help you integrate with our core service [Kleros Court](https://kleros.gitbook.io/docs/products/court).
@@ -18,7 +20,19 @@ description: How to integrate with Kleros?
 * Your product can use Sybil-resistance properties of [Proof of Humanity](https://kleros.gitbook.io/docs/products/proof-of-humanity) to protect against Sybil attacks or identify your users.
 * You can apply to or benefit from decentralized translation jobs in [Linguo](https://kleros.gitbook.io/docs/products/linguo) to handle the internationalization of your products.
 
-Have a look at the ❓ [Integrations FAQ](https://kleros.gitbook.io/docs/integrations/integrations-faq) ❓ for more answers to common questions.
-
 {% page-ref page="types-of-integrations/" %}
+
+{% page-ref page="integrations-faq.md" %}
+
+{% page-ref page="untitled/" %}
+
+{% page-ref page="integration-tools/" %}
+
+{% page-ref page="current-integrations.md" %}
+
+{% page-ref page="l2-and-crosschain-interoperability/" %}
+
+{% page-ref page="analytics.md" %}
+
+
 
