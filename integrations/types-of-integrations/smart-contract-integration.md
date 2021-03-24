@@ -14,6 +14,8 @@ description: >-
 
 ![Your app will be on the Arbitrable Side and send disputes to Kleros Court, the Arbitrator.](../../.gitbook/assets/image%20%281%29.png)
 
+## Create/Modidy the Arbitrable app to be integrated with Kleros Court
+
 If you want to integrate with Kleros for dispute resolution, you will have to create an `Arbitrable` smart contract as per the[ Arbitration Standard](https://kleros.gitbook.io/docs/developer/erc-792-arbitration-standard) that will allow executing the following flow:
 
 ![Standard simplified flow between an Arbitrable and Arbitrator smart contract](../../.gitbook/assets/image%20%286%29.png)
@@ -57,6 +59,12 @@ The General Court ID is 0.
 19. Chinese-English Translation
 20. Corte General en Espanol
 {% endhint %}
+
+## Test it with the Centralized Arbitrator
+
+You can test your arbitrable app on mainnet and most testnets by deploying a centralized arbitrator that you control \(= you can easily give rulings/decisions and set the arbitration fee\) and testing the integration this way. More details about the arbitrator on the page linked below.
+
+{% page-ref page="../integration-tools/centralized-arbitrator.md" %}
 
 For more details, please consult the [Arbitration Standard](https://kleros.gitbook.io/docs/developer/erc-792-arbitration-standard) documentation, have a look at the examples of implementations shared [here](https://github.com/kleros/kleros-interaction/tree/master/contracts/standard/arbitration), or contact us on Discord, Telegram, Slack, or send a mail to contact@kleros.io \(links on the bottom left\).
 

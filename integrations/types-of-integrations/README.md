@@ -15,7 +15,7 @@ Integrating with Kleros Court can be done today by:
      * By customizing one of our [examples](https://github.com/kleros/kleros-interaction) or looking at[ live integrations](https://kleros.gitbook.io/docs/integrations/current-integrations),
      * By working with [Cooperative Kleros](mailto:contact@kleros.io) to adapt yours to the standard or creating a connector,
 
-2. **Interacting with an existing Arbitrable application**
+2. \*\*\*\*[**Interacting with an existing Arbitrable application**](https://kleros.gitbook.io/docs/integrations/types-of-integrations/interacting-with-arbitrable-app)\*\*\*\*
    * It can be a Kleros Arbitrable product \(Escrow, Curate, Tokens, Linguo, PoH, Governor, Dispute Resolver\) or an external one \(Reality.eth\).
 
 {% hint style="info" %}
