@@ -32,5 +32,8 @@ The Centralized Arbitrator can be used on:
   * Selecting an already deployed centralized arbitrator
     * by inputting its address in the relevant field
     * or selecting it in the dropdown list if you already used it locally.
-* In the below, you will be able to track incoming disputes from arbitrable apps and will be able to give rulings directly from the interface. 
+
+![](../../.gitbook/assets/image%20%2851%29.png)
+
+* On the list below, you will be able to track incoming disputes from arbitrable apps and will be able to give rulings directly from the interface. 
 
