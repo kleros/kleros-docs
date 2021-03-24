@@ -19,14 +19,12 @@ The **Centralized Arbitrator** dashboard allows anyone to quickly deploy and ope
 The Centralized Arbitrator can be used on:
 
 * Ethereum Mainnet
-* Ethereum Rinkeby
 * Ethereum Kovan
 * Ethereum Ropsten
-* Ethereum Goerli
 {% endhint %}
 
 * Then, you choose between:
-  * Deploying a new contralized arbitrator
+  * Deploying a new centralized arbitrator
     * Your current Ethereum address will be the owner and will be able to set rulings.
     * You have to set an arbitration fee amount that can be modified later on.
   * Selecting an already deployed centralized arbitrator
