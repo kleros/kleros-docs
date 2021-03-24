@@ -58,7 +58,10 @@ The General Court ID is 0.
 18. Turkish-English Translation
 19. Chinese-English Translation
 20. Corte General en Espanol
+21. Humanity Court
 {% endhint %}
+
+{% page-ref page="../../developer/erc-792-arbitration-standard.md" %}
 
 ## Test it with the Centralized Arbitrator
 
