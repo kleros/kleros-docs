@@ -6,15 +6,15 @@ description: >-
 
 # Integration with Arbitrator
 
-\*\*\*\*[**Kleros Court \(Arbitrator\) on Ethereum Mainnet**  
-](https://etherscan.io/address/0x988b3a538b618c7a603e1c11ab82cd16dbe28069)  
-[**Kleros Court \(Arbitrator\) on Ethereum Ropsten**](https://ropsten.etherscan.io/address/0x9643e91d3734b795e914a64169147b70876272ba)  
-  
-****[**Kleros Court \(Arbitrator\) on Ethereum Kovan**](https://kovan.etherscan.io/address/0x60b2abfdfad9c0873242f59f2a8c32a3cc682f80)\*\*\*\*
+{% hint style="info" %}
+**Kleros Court Deployments \(Arbitrator\)**
 
-![Your app will be on the Arbitrable Side and send disputes to Kleros Court, the Arbitrator.](../../.gitbook/assets/image%20%281%29.png)
+* [Kleros Court \(Arbitrator\) on Ethereum Mainnet](https://etherscan.io/address/0x988b3a538b618c7a603e1c11ab82cd16dbe28069)
+* [Kleros Court \(Arbitrator\) on Ethereum Ropsten](https://ropsten.etherscan.io/address/0x9643e91d3734b795e914a64169147b70876272ba)
+* [Kleros Court \(Arbitrator\) on Ethereum Kovan](https://kovan.etherscan.io/address/0x60b2abfdfad9c0873242f59f2a8c32a3cc682f80)
+{% endhint %}
 
-## Create/Modidy the Arbitrable app to be integrated with Kleros Court
+## Create/Modify the Arbitrable app to be integrated with Kleros Court
 
 If you want to integrate with Kleros for dispute resolution, you will have to create an `Arbitrable` smart contract as per the[ Arbitration Standard](https://kleros.gitbook.io/docs/developer/erc-792-arbitration-standard) that will allow executing the following flow:
 
