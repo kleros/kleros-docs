@@ -21,6 +21,7 @@ The Centralized Arbitrator can be used on:
 * Ethereum Mainnet
 * Ethereum Kovan
 * Ethereum Ropsten
+* _\(You can request new testnet support to Kleros team\)_
 {% endhint %}
 
 * Then, you choose between:
