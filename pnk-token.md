@@ -8,12 +8,14 @@ description: >-
 
 ⛓️ [**PNK Token Contract Address on Ethereum Mainnet** ](https://etherscan.io/token/0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d)
 
+{% hint style="info" %}
 ### **Where to buy PNK?** 
 
 * DEX Aggregators \(Large Trade\): 🔼 [Paraswap ](https://paraswap.io/#/)/ 🦓 [1inch](https://1inch.exchange/#/)
 * DEX L1 \(Medium Trade\): 🦄 ****[Uniswap](https://info.uniswap.org/pair/0x343FD171caf4F0287aE6b87D75A8964Dc44516Ab) / 🍣 [Sushiswap](https://sushiswap.fi/pair/0xef4f1d5007b4ff88c1a56261fec00264af6001fb) / ⚖️ [Balancer](https://balancer.exchange/#/swap)
 * DEX L2 \(Small Trade\): 🔷 [Deversifi](https://app.deversifi.com/)
 * CEX \(Fiat Trade\): 🍃 [Bitfinex](https://www.bitfinex.com/t/PNKETH)
+{% endhint %}
 
 ## What is PNK?
 
@@ -23,6 +25,16 @@ PNK is used both to stake \(for the possibility to become a juror and to protect
 * **Staking Rewards:** Users must stake PNK in order to be able to become jurors in disputes. The more PNK a user stakes, the more chance he has of being chosen as a juror in the selected court.
 
 ![](.gitbook/assets/image%20%285%29.png)
+
+{% hint style="info" %}
+**FAUCETS FOR TESTNET PNK**
+
+Call `request` function to receive 10,000 PNK. It only gives once for each address.
+
+* [Ropsten PNK Faucet](https://ropsten.etherscan.io/address/0x9AdCEAa6CFd7182b838Beb085e97729EB1Da681E#writeContract)
+* [Kovan PNK Faucet](https://kovan.etherscan.io/address/0x4e95b2e0ecb3bd394e1dddd775504820a746d3bd#writeContract)
+* _Contact the Kleros team if you need a PNK faucet on other testnets_
+{% endhint %}
 
 ## Why Kleros Needs a Native Token? <a id="e301"></a>
 
