@@ -4,7 +4,7 @@ description: >-
   Ethereum
 ---
 
-# L2 & Crosschain Interoperability
+# Scalability & Cross-chain
 
 🔎 [Our latest thoughts and investigations about Kleros Scalability](%20https://blog.kleros.io/ethereum-scalability-and-kleros/) 🔎
 

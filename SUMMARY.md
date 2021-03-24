@@ -36,13 +36,13 @@
 * [Use Cases](integrations/untitled/README.md)
   * [DeFi Insurance](integrations/untitled/defi-insurance.md)
   * [Gaming](integrations/untitled/gaming.md)
-* [L2 & Crosschain Interoperability](integrations/l2-and-crosschain-interoperability/README.md)
-  * [Using Kleros arbitration for Dapps on xDai](integrations/l2-and-crosschain-interoperability/xdai.md)
 * [Integration Tools](integrations/integration-tools/README.md)
   * [Centralized Arbitrator](integrations/integration-tools/centralized-arbitrator.md)
   * [Escrow SDK](integrations/integration-tools/escrow-sdk.md)
   * [Escrow React Widget](integrations/integration-tools/escrow-react-widget.md)
 * [Live & Upcoming Integrations](integrations/current-integrations.md)
+* [Scalability & Cross-chain](integrations/scalability-and-crosschain/README.md)
+  * [Using Kleros arbitration for Dapps on xDai](integrations/scalability-and-crosschain/xdai.md)
 * [Kleros Analytics](integrations/analytics.md)
 
 ## Developers <a id="developer"></a>

@@ -30,7 +30,7 @@ description: How to integrate with Kleros?
 
 {% page-ref page="current-integrations.md" %}
 
-{% page-ref page="l2-and-crosschain-interoperability/" %}
+{% page-ref page="scalability-and-crosschain/" %}
 
 {% page-ref page="analytics.md" %}
 
