@@ -169,7 +169,7 @@ You can only vouch for another profile if you are connected to the app and your 
 
 {% hint style="danger" %}
 **WARNING**: Vouching for someone means you know the person, that you are sure that they are not fake or impersonators and that you checked that their submitted information was correct \(ex: the address in the video is correct and readable\).  
-You could get removed from the registry if you vouched for a bot, fake or incorrect submission.
+You could get removed from the registry if you vouched for a bot, fake or duplicate submission.
 {% endhint %}
 
 * If you meet these conditions, go to the profile page of the person you want to vouch for \(they can share the link or you can search for their exact name in the search bar\) and click on the button "Vouch" below their picture.
