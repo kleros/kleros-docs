@@ -18,17 +18,13 @@ description: >-
 
 #### 1.b/ Connect your Ethereum / Web3 wallet
 
-* Click on the "Account" button on the top right
+* Click on the "Connect" button on the top right
 
-![](../../.gitbook/assets/image%20%2827%29%20%281%29.png)
-
-* In the modal that just opened, click on "Connect Account"
-
-![](../../.gitbook/assets/image%20%2839%29.png)
+![](../../.gitbook/assets/image%20%2858%29.png)
 
 * Select the wallet you want to use \(We recommend [Metamask](https://metamask.io/faqs.html), [WalletConnect](https://walletconnect.org/) or [Authereum](https://authereum.com/welcome/)\)
 
-![](../../.gitbook/assets/image%20%2822%29.png)
+![](../../.gitbook/assets/image%20%2859%29.png)
 
 * Once you have connected the wallet to the app \(the wallet will ask you to confirm the connection\), you will need to ensure you have some Ether \(ETH\) loaded in the wallet to interact with the Ethereum blockchain \(pays transaction fees\) and to be able to lock the ETH deposit needed to enter the registry \(it will be reimbursed to you\).
 
@@ -47,7 +43,7 @@ description: >-
 ![](../../.gitbook/assets/image%20%2820%29.png)
 
 {% hint style="warning" %}
-**COMPLIANCE WARNING:** The information you submit about your profile will be checked and verified by the community to ensure you are not a not/fake and that you complied to all the guidelines. Please read thorougly the instructions given on the submit page and check out the full [Proof of Humanity Guidelines](https://ipfs.kleros.io/ipfs/Qmc7ag5XohnSAozvsKsLCUbvaFyasyLtyi3H7g3mmxznPU/proof-of-humanity-registry-policy.pdf) to ensure the info you provide is correct.  
+**COMPLIANCE WARNING:** The information you submit about your profile will be checked and verified by the community to ensure you are not a not/fake and that you complied with all the guidelines. Please read thoroughly the instructions given on the submit page and check out the full [Proof of Humanity Guidelines](https://ipfs.kleros.io/ipfs/Qmc7ag5XohnSAozvsKsLCUbvaFyasyLtyi3H7g3mmxznPU/proof-of-humanity-registry-policy.pdf) to ensure the info you provide is correct.  
   
 If you make a mistake in your submission \(ex: Displaying a wrong address in the video\), it could be interpreted as a malicious attack by the challengers verifying the entry into the registry and you could lose your deposit.
 {% endhint %}
