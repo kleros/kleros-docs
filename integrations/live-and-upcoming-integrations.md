@@ -29,7 +29,7 @@ The [clr.fund](https://clr.fund/) public goods funding protocol uses a [Kleros C
 
 ### Uniswap / Sushiswap
 
-Both Uniswap and Sushiswap decentralized exchanges use [Kleros Tokens](https://tokens.kleros.io/tokens) as one of their token lists to be selected to trade on their UIs. This [token list](https://tokenlists.org/token-list?url=t2crtokens.eth) is the only one to be completely open, decentralized, and managed by the community.
+Both [Uniswap](https://uniswap.org/) and [Sushiswap](https://sushi.com/) decentralized exchanges use [Kleros Tokens](https://tokens.kleros.io/tokens) as one of their token lists to be selected to trade on their UIs. This [token list](https://tokenlists.org/token-list?url=t2crtokens.eth) is the only one to be completely open, decentralized, and managed by the community.
 
 ![](../.gitbook/assets/image%20%2861%29.png)
 
