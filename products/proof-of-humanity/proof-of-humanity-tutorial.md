@@ -24,7 +24,7 @@ description: >-
 
 * Select the wallet you want to use \(We recommend [Metamask](https://metamask.io/faqs.html), [WalletConnect](https://walletconnect.org/) or [Authereum](https://authereum.com/welcome/)\)
 
-![](../../.gitbook/assets/image%20%2860%29.png)
+![](../../.gitbook/assets/image%20%2861%29.png)
 
 * Once you have connected the wallet to the app \(the wallet will ask you to confirm the connection\), you will need to ensure you have some Ether \(ETH\) loaded in the wallet to interact with the Ethereum blockchain \(pays transaction fees\) and to be able to lock the ETH deposit needed to enter the registry \(it will be reimbursed to you\).
 

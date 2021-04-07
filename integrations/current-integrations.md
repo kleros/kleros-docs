@@ -19,15 +19,19 @@ The [Omen](https://omen.eth.link/) prediction market \(on Ethereum mainnet and x
 
 ### Gnosis Safe SafeSnap
 
+The [Gnosis Safe](https://gnosis-safe.io/) multi-sig wallet can be used for DAO governance purposes thanks to the [SafeSnap](https://blog.gnosis.pm/introducing-safesnap-the-first-in-a-decentralized-governance-tool-suite-for-the-gnosis-safe-ea67eb95c34f) module. This module is using the [Kleros Oracle](https://kleros.gitbook.io/docs/products/oracle) solution \(Reality.eth \(bond escalation\) + Kleros Court \(Arbitration\)\) to effectively enforce on-chain the implementation and triggering of the proposals voted on by the DAO on Snapshot.
+
 ### CLR.fund
 
 The [clr.fund](https://clr.fund/) public goods funding protocol uses a [Kleros Curate](https://curate.kleros.io/tcr/0x2E3B10aBf091cdc53cC892A50daBDb432e220398) list to curate public goods projects that are eligible to receive donation through quadratic funding. It enables the open and fair filtering of non-public goods project that would diminish the matching of donations for compliant projects.
 
-### Uniswap / Sushiswap / Zerion
+### Uniswap / Sushiswap
 
-Token registry
+Both Uniswap and Sushiswap decentralized exchanges use [Kleros Tokens](https://tokens.kleros.io/tokens) as one of their token lists to be selected to trade on their UIs. This [token list](https://tokenlists.org/token-list?url=t2crtokens.eth) is the only one to be completely open, decentralized, and managed by the community.
 
-### 
+![](../.gitbook/assets/image%20%2860%29.png)
+
+### Octo.fi
 
 ### Revoke.cash
 
@@ -57,5 +61,7 @@ Dispute resolution
 
 ### Reality Cards
 
-Oracle
+Oracle  
+  
+Zerion
 
