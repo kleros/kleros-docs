@@ -14,7 +14,7 @@ Integrating with Kleros Court can be done today by:
 
    * You will need to create an arbitrable smart contract or ensure your existing smart contracts are compliant with the Arbitrable interface:
      * From scratch by applying the [Arbitration standard](https://kleros.gitbook.io/docs/developer/erc-792-arbitration-standard) \(and/or using the [Archon library](https://kleros.gitbook.io/docs/developer/archon-ethereum-arbitration-standard-api)\),
-     * By customizing one of our [examples](https://github.com/kleros/kleros-interaction) or looking at[ live integrations](https://kleros.gitbook.io/docs/integrations/current-integrations),
+     * By customizing one of our [examples](https://github.com/kleros/kleros-interaction) or looking at[ live integrations](https://kleros.gitbook.io/docs/integrations/live-and-upcoming-integrations),
      * By working with [Cooperative Kleros](mailto:contact@kleros.io) to adapt yours to the standard or creating a connector,
 
 2. \*\*\*\*[**Interacting with an existing Arbitrable application**](https://kleros.gitbook.io/docs/integrations/types-of-integrations/interacting-with-arbitrable-app)\*\*\*\*
