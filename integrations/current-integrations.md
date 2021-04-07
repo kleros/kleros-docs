@@ -23,7 +23,7 @@ The [Gnosis Safe](https://gnosis-safe.io/) multi-sig wallet can be used for DAO 
 
 ### CLR.fund
 
-The [clr.fund](https://clr.fund/) public goods funding protocol uses a [Kleros Curate](https://curate.kleros.io/tcr/0x2E3B10aBf091cdc53cC892A50daBDb432e220398) list to curate public goods projects that are eligible to receive donation through quadratic funding. It enables the open and fair filtering of non-public goods project that would diminish the matching of donations for compliant projects.
+The [clr.fund](https://clr.fund/) public goods funding protocol uses a [Kleros Curate](https://curate.kleros.io/tcr/0x2E3B10aBf091cdc53cC892A50daBDb432e220398) list to curate public goods projects that are eligible to receive donations through quadratic funding. It enables the open and fair filtering of non-public goods projects that would diminish the matching of donations for compliant projects.
 
 ### Uniswap / Sushiswap
 
@@ -35,33 +35,17 @@ Both Uniswap and Sushiswap decentralized exchanges use [Kleros Tokens](https://t
 
 ### Revoke.cash
 
-Token registry
+###  Reality Cards
 
-## Coming soon
+### UBI
 
-### API3
+## Integrations \#ComingSoon
 
-Dispute resolution for data feed insurance
-
-### Union Protocol
-
-Dispute resolution for claims
-
-### Unannounced Project A
-
-Dispute resolution for claims
-
-### Unannounced Project B
-
-Curate
-
-### Winding Tree
-
-Dispute resolution
-
-### Reality Cards
-
-Oracle  
-  
-Zerion
+* **API3:** Dispute resolution for data feed insurance
+* **Union Protocol:** Dispute resolution for claims
+* **Gnosis Auctions:** Curation of IDOs
+* **Winding Tree:** Dispute resolution for marketplace
+* **Zerion**: Token List integration
+* **Gitcoin Grants:** Proof of Humanity for Sybil resistance \(+ ???\)
+* 2 soon-to-be-announced DeFi Insurance projects for Claims arbitration projects.
 
