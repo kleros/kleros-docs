@@ -60,6 +60,6 @@ Both Uniswap and Sushiswap decentralized exchanges use [Kleros Tokens](https://t
 * **Zerion**: Token List integration
 * **Gitcoin Grants:** Proof of Humanity for Sybil resistance \(+ ???\)
 * **Octo.fi:** Decentralized Listing process
-* **MakerDAO:** First Prototupe of curated registries for token onboarding legal models and real-world asset listing on MakerDAO in the scope of Maker&lt;&gt;Kleros fellowship
+* **MakerDAO:** First prototype of curated registries for token onboarding legal models and real-world asset listing on MakerDAO in the scope of Maker&lt;&gt;Kleros fellowship
 * 2 soon-to-be-announced DeFi Insurance projects for Claims arbitration projects.
 
