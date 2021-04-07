@@ -26,7 +26,7 @@ description: How to integrate with Kleros?
 
 {% page-ref page="integration-tools/" %}
 
-{% page-ref page="current-integrations.md" %}
+{% page-ref page="live-and-upcoming-integrations.md" %}
 
 {% page-ref page="scalability-and-crosschain/" %}
 

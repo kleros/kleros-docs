@@ -40,7 +40,7 @@
   * [Centralized Arbitrator](integrations/integration-tools/centralized-arbitrator.md)
   * [Escrow SDK](integrations/integration-tools/escrow-sdk.md)
   * [Escrow React Widget](integrations/integration-tools/escrow-react-widget.md)
-* [Live & Upcoming Integrations](integrations/current-integrations.md)
+* [Live & Upcoming Integrations](integrations/live-and-upcoming-integrations.md)
 * [Scalability & Cross-chain](integrations/scalability-and-crosschain/README.md)
   * [Using Kleros arbitration for Dapps on xDai](integrations/scalability-and-crosschain/xdai.md)
 * [Kleros Analytics](integrations/analytics.md)
