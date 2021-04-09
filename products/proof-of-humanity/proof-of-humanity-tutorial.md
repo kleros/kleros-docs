@@ -98,11 +98,11 @@ In order to be notified of your profile progress in the validation process, you 
 {% endtab %}
 
 {% tab title="3/ Profile Validation Process" %}
-## 3/ Watch your profile go through the validation process \(**≈** 3-5 days\)
+## 3/ Watch your profile go through the validation process and finalize registration \(**≈** 3-5 days\)
 
 Your submitted profile will start in "**Vouching Phase**" status and will go through a "**Pending registration**" phase before reaching the "**Registered**" status which means you are a verified human. 
 
-![](../../.gitbook/assets/image%20%2831%29.png)
+![](../../.gitbook/assets/image%20%2865%29.png)
 
 You can check the current status of your profile by clicking on "My profile" in the top banner \(if you're connected\) or by searching for your name in the search bar and accessing your profile.
 
@@ -120,7 +120,8 @@ You can check the current status of your profile by clicking on "My profile" in 
 
 {% hint style="danger" %}
 **WARNING**: Vouching for someone means you know the person, that you are sure that they are not fake or impersonators and that you checked that their submitted information was correct \(ex: the address in the video is correct and readable\).  
-You could get removed from the registry if you vouched for a bot, fake or incorrect submission.
+You could get removed from the registry if you vouched for a bot or fake submission.  
+You will not get removed if you vouch for a profile with simply incorrect information.
 {% endhint %}
 
 * Once a person has vouched for you, you will see it on your profile by checking the number of vouchers and the "Vouched by" list.
@@ -139,12 +140,14 @@ Vouching for someone is a benevolent act to help them get into the registry. Cur
 
 #### 3.b/ How to go from "Pending Registration" to "Registered" status?
 
-* Once your Profile is in "Pending Registration" status, it will go through a challenge period of 3.5 days. That means than during 3.5 days people will check your profile to verify if you are a fake or if you provided incorrect information and, if yes, will try to challenge your registration to win part of your deposit.
+* Once your Profile is in "Pending Registration" status, it will go through a challenge period of 3.5 days. That means that during 3.5 days people will check your profile to verify if you are a fake or if you provided incorrect information and, if yes, will try to challenge your registration to win part of your deposit.
 * You can check how long you have left in this period in the bottom left of your profile.
 
 ![](../../.gitbook/assets/image%20%2832%29.png)
 
-* If you are not challenged, you will be passed to "Registered" status shortly after this 3.5 days period ends and you will be in capacity to vouch for other people and to accrue UBI.
+* If you are not challenged during this period, you will be given the opportunity to transition to "Registered" status right after this 3.5 days period ends.
+* In order to finalize your registration, you will need to click on the "Finalize registration and start accruing UBI" button and confirm the transaction with your wallet. _\(Note that any other address can also send this transaction for you\)_
+* Once the transaction is validated, you will be in "Registered" status, accruing UBI and you will have the capacity to vouch for other people.
 
 ![](../../.gitbook/assets/image%20%2821%29.png)
 
