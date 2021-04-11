@@ -14,7 +14,7 @@ description: >-
 * DEX Aggregators \(Large Trade\): 🔼 [Paraswap ](https://paraswap.io/#/)/ 🦓 [1inch](https://1inch.exchange/#/)
 * DEX L1 \(Medium Trade\): 🦄 ****[Uniswap](https://info.uniswap.org/pair/0x343FD171caf4F0287aE6b87D75A8964Dc44516Ab) / 🍣 [Sushiswap](https://sushiswap.fi/pair/0xef4f1d5007b4ff88c1a56261fec00264af6001fb) / ⚖️ [Balancer](https://balancer.exchange/#/swap)
 * DEX L2 \(Small Trade\): 🔷 [Deversifi](https://app.deversifi.com/)
-* CEX \(Fiat Trade\): 🍃 [Bitfinex](https://www.bitfinex.com/t/PNKETH) / 🚪 [Gate.io](https://www.gate.io/trade/PNK_USDT/?ch=en_sm_0421)
+* Centralized Exchanges \(Fiat Trade\): 🍃 [Bitfinex](https://www.bitfinex.com/t/PNKETH) / 🚪 [Gate.io](https://www.gate.io/trade/PNK_USDT/?ch=en_sm_0421) / 🆗 [OKEX](https://www.okex.com/markets/spot-info/pnk-usdt)
 {% endhint %}
 
 ## What is PNK?
