@@ -45,6 +45,8 @@ description: >-
 {% hint style="warning" %}
 **COMPLIANCE WARNING:** The information you submit about your profile will be checked and verified by the community to ensure you are not a not/fake and that you complied with all the guidelines. Please read thoroughly the instructions given on the submit page and check out the full [Proof of Humanity Guidelines](https://ipfs.kleros.io/ipfs/Qmc7ag5XohnSAozvsKsLCUbvaFyasyLtyi3H7g3mmxznPU/proof-of-humanity-registry-policy.pdf) to ensure the info you provide is correct.  
   
+You can only update information by withdrawing your profile and resubmitting it. There is no way to edit your profile \(Evidences are there to argument that the case made against your profile is wrong, not to update your profile with a new video for example\).  
+  
 If you make a mistake in your submission \(ex: Displaying a wrong address in the video\), it could be interpreted as a malicious attack by the challengers verifying the entry into the registry and you could lose your deposit.
 {% endhint %}
 
