@@ -33,6 +33,12 @@ Both [Uniswap](https://uniswap.org/) and [Sushiswap](https://sushi.com/) decentr
 
 ![](../.gitbook/assets/image%20%2861%29.png)
 
+### Zerion
+
+Zerion DeFi portfolio management tool pulls data from Kleros Tokens to read the tokens held in your wallet and also uses it as a way to verify the correctness information about tokens displayed in its interface \(if a token is in at least 2 lists _\[ex: Kleros + Coingecko\]_, it earns a "Verified" badge.\)
+
+![](../.gitbook/assets/image%20%2866%29.png)
+
 ### Ripio Credit Network
 
 [RCN](https://ripiocredit.network/) is an open-source global credit network that connects lenders, borrowers, and loan originators on the blockchain to create frictionless, transparent, and borderless debt markets. It uses the Proof of Humanity registry to certify that borrowers/lenders are humans and improve trust.
@@ -57,9 +63,9 @@ Both [Uniswap](https://uniswap.org/) and [Sushiswap](https://sushi.com/) decentr
 * **Union Protocol:** Dispute resolution for claims
 * **Gnosis Auctions:** Curation of IDOs
 * **Winding Tree:** Dispute resolution for marketplace
-* **Zerion**: Token List integration
 * **Gitcoin Grants:** Proof of Humanity for Sybil resistance \(+ ???\)
 * **Octo.fi:** Decentralized Listing process
 * **MakerDAO:** First prototype of curated registries for token onboarding legal models and real-world asset listing on MakerDAO in the scope of Maker&lt;&gt;Kleros fellowship
 * 2 soon-to-be-announced DeFi Insurance projects for Claims arbitration projects.
+* Unannounced marketplace platform/
 
