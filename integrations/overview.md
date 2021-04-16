@@ -6,7 +6,9 @@ description: How to integrate with Kleros?
 
 ![](../.gitbook/assets/secured_by_kleros_grey.svg)
 
-## Why do you want to integrate with Kleros services?
+### 
+
+### Why do you want to integrate with Kleros services?
 
 * If you are looking for pure **Arbitration-as-a-Service**, we can help you integrate with our core service [Kleros Court](https://kleros.gitbook.io/docs/products/court).
 * If you want an oracle that can provide rulings about events, connect to [Kleros Oracle](https://kleros.gitbook.io/docs/products/oracle) and get **Truth-as-a-Service** capabilities.
