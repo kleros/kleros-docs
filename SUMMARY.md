@@ -10,6 +10,7 @@
 
 * [Court](products/court/README.md)
   * [Kleros Juror Tutorial](products/court/kleros-juror-tutorial.md)
+  * [Famous Kleros Cases](products/court/famous-kleros-cases.md)
 * [Oracle](products/oracle.md)
 * [Proof of Humanity](products/proof-of-humanity/README.md)
   * [Proof of Humanity Tutorial \(Register & Vouch\)](products/proof-of-humanity/proof-of-humanity-tutorial.md)

@@ -116,9 +116,17 @@ You can check the current status of your profile by clicking on "My profile" in 
 
 ![](../../.gitbook/assets/image%20%2825%29%20%281%29.png)
 
-* This person will need to go to your profile page and click on the "Vouch" button and send a transaction.
+* This person will need to go to your profile page and click on the "Gasless Vouch" button and sign a message from his wallet.
 
-![](../../.gitbook/assets/image%20%2846%29.png)
+![](../../.gitbook/assets/image%20%2867%29.png)
+
+{% hint style="info" %}
+**What is the difference between "Gasless Vouch" and "Vouch"?**
+
+The "Gasless Vouch" is the new recommended way of vouching for people without having to pay transaction fees. The vouch will be recorded and the vouched profile will be moved to the next phase when other profiles finalize their registration \(and it' is the vouched profile turn among all profiles vouched by his voucher\).
+
+The "Vouch" button is the old legacy way of vouching for someone with a transaction and its associated fee. We don't recommend using it except if you are the only vouched profile by your voucher and want to speed up the registration process.
+{% endhint %}
 
 {% hint style="danger" %}
 **WARNING**: Vouching for someone means you know the person, that you are sure that they are not fake or impersonators and that you checked that their submitted information was correct \(ex: the address in the video is correct and readable\).  
@@ -148,7 +156,13 @@ Vouching for someone is a benevolent act to help them get into the registry. Cur
 ![](../../.gitbook/assets/image%20%2832%29.png)
 
 * If you are not challenged during this period, you will be given the opportunity to transition to "Registered" status right after this 3.5 days period ends.
-* In order to finalize your registration, you will need to click on the "Finalize registration and start accruing UBI" button and confirm the transaction with your wallet. _\(Note that any other address can also send this transaction for you\)_
+
+
+
+* In order to finalize your registration, you will need to click on the **"Finalize registration and start accruing UBI"** button and confirm the transaction with your wallet. _\(Note that any other address can also send this transaction for you\)_
+
+![](../../.gitbook/assets/image%20%2868%29.png)
+
 * Once the transaction is validated, you will be in "Registered" status, accruing UBI and you will have the capacity to vouch for other people.
 
 ![](../../.gitbook/assets/image%20%2821%29.png)
@@ -156,7 +170,10 @@ Vouching for someone is a benevolent act to help them get into the registry. Cur
 {% hint style="info" %}
 **What if I am challenged?** 
 
-Then, a dispute will be created in [Kleros Court](https://kleros.gitbook.io/docs/products/court). You can provide evidence on your profile page to defend your case and monitor the progress of the dispute. You can also appeal when a ruling is given by jurors if you don't agree with it.  
+Then, a dispute will be created in [Kleros Court](https://kleros.gitbook.io/docs/products/court).   
+You can provide evidence on your profile page to defend your case and monitor the progress of the dispute. Note that evidence is used to demonstrate that the reason for challenging the profile is or is not valid, it is not a tool to fix your submission mistakes.   
+  
+You can also appeal when a ruling is given by jurors if you don't agree with it.  
   
 If the jury rules in your favor, your profile goes back to "Pending Registration" phase for 3.5 days.  
 If the jury rules in favor of the challenger, your profile goes to "Removed" status.
