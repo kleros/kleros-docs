@@ -69,5 +69,5 @@ You can test your arbitrable app on mainnet and most testnets by deploying a cen
 
 {% page-ref page="../integration-tools/centralized-arbitrator.md" %}
 
-For more details, please consult the [Arbitration Standard](https://kleros.gitbook.io/docs/developer/erc-792-arbitration-standard) documentation, have a look at the examples of implementations shared [here](https://github.com/kleros/kleros-interaction/tree/master/contracts/standard/arbitration), or contact us on Discord, Telegram, Slack, or send a mail to contact@kleros.io \(links on the bottom left\).
+For more details, please consult the [Arbitration Standard](https://kleros.gitbook.io/docs/developer/erc-792-arbitration-standard) documentation, have a look at the examples of implementations shared [here](https://github.com/kleros/erc-792/tree/master/contracts/examples), or contact us on Discord, Telegram, Slack, or send a mail to contact@kleros.io \(links on the bottom left\).
 
