@@ -26,7 +26,7 @@ description: How to integrate with Kleros?
 
 {% page-ref page="integrations-faq.md" %}
 
-{% page-ref page="untitled/" %}
+{% page-ref page="use-cases/" %}
 
 {% page-ref page="integration-tools/" %}
 
