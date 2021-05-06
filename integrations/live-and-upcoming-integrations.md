@@ -39,6 +39,12 @@ Zerion DeFi portfolio management tool pulls data from Kleros Tokens to read the 
 
 ![](../.gitbook/assets/image%20%2866%29.png)
 
+### Gitcoin Grants
+
+Gitcoin Grants is a product enabling the funding of public goods using quadratic funding. It uses the Proof of Humanity registry as a Sybil Resistance tool. It gives a "Trust Bonus" to its users registered as humans which will increase the amount matched for their donations.
+
+![](../.gitbook/assets/poh-gitcoin.gif)
+
 ### Ripio Credit Network
 
 [RCN](https://ripiocredit.network/) is an open-source global credit network that connects lenders, borrowers, and loan originators on the blockchain to create frictionless, transparent, and borderless debt markets. It uses the Proof of Humanity registry to certify that borrowers/lenders are humans and improve trust.
@@ -51,7 +57,7 @@ Zerion DeFi portfolio management tool pulls data from Kleros Tokens to read the 
 
 ### Universal Basic Income token \(UBI\)
 
-[UBI](https://blog.kleros.io/introducing-ubi-universal-basic-income-for-humans/) is a token built on top of the Proof of Humanity registry and that is streamed directly to an Ethereum address as long as it gets verified as a human in the Proof of Humanity registry and starts the accrual process, establishing a fair and ongoing distribution model. It provides universal access to liquidity that serves to inhibit financial coercion of public decisions and is tradeable in all open markets
+[UBI](https://blog.kleros.io/introducing-ubi-universal-basic-income-for-humans/) is a token built on top of the Proof of Humanity registry that is streamed directly to an Ethereum address as long as it gets verified as a human in the Proof of Humanity registry and starts the accrual process, establishing a fair and ongoing distribution model. It provides universal access to liquidity that serves to inhibit financial coercion of public decisions and is tradeable in all open markets
 
 ### Revoke.cash
 

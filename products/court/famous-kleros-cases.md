@@ -8,7 +8,11 @@ description: Kleros Court cases that made history
 
 ## 2/ Case \#302 - Number of US COVID Deaths Omen Market
 
-## 3/ Case \#XXX - Listing of Baer token on Ethfinex
+## 3/ Case \#16/62/89 - Listing of Baer token on Ethfinex
+
+
+
+Learn more about it: [https://youtu.be/qEMhjgo9kcQ?t=707](https://youtu.be/qEMhjgo9kcQ?t=707)
 
 ## 4/ Case \#82 - Listing of Grid+ token on Ethfinex
 

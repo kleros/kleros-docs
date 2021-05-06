@@ -35,6 +35,7 @@
   * [Interacting with Arbitrable app](integrations/types-of-integrations/interacting-with-arbitrable-app.md)
 * [Integrations FAQ](integrations/integrations-faq.md)
 * [Use Cases](integrations/use-cases/README.md)
+  * [DAO Governance](integrations/use-cases/dao-governance.md)
   * [DeFi Insurance](integrations/use-cases/defi-insurance.md)
   * [Gaming](integrations/use-cases/gaming.md)
 * [Integration Tools](integrations/integration-tools/README.md)
