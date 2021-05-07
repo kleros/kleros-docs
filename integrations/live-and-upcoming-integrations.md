@@ -69,9 +69,8 @@ Gitcoin Grants is a product enabling the funding of public goods using quadratic
 * **Union Protocol:** Dispute resolution for claims
 * **Gnosis Auctions:** Curation of IDOs
 * **Winding Tree:** Dispute resolution for marketplace
-* **Gitcoin Grants:** Proof of Humanity for Sybil resistance \(+ ???\)
 * **Octo.fi:** Decentralized Listing process
 * **MakerDAO:** First prototype of curated registries for token onboarding legal models and real-world asset listing on MakerDAO in the scope of Maker&lt;&gt;Kleros fellowship
 * 2 soon-to-be-announced DeFi Insurance projects for Claims arbitration projects.
-* Unannounced marketplace platform/
+* Unannounced job marketplace platform
 
