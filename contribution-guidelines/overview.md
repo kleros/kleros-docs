@@ -18,19 +18,17 @@ This guide is a compilation of years of experience in the fields of traditional 
 | :--- | :--- | :--- | :--- |
 | General process and standards for writing and pushing software. | Smart contract specific security protocols. | Stylistic guidelines for our main languages and tools. | Our standard license and conduct guidelines. |
 
-## Kathari CLI
+## Kathari CLI \[Deprecated\]
 
-### Making Everyone's Life Easier
-
-To make following our standards easier, we made [Kathari](https://github.com/kleros/kathari), a linting and formatting scripts for multiple types of projects.
+~~To make following our standards easier, we made~~ [~~Kathari~~](https://github.com/kleros/kathari)~~, a linting and formatting scripts for multiple types of projects.~~
 
 {% hint style="info" %}
-It means "Clean" in Greek.
+~~Kathari means "Clean" in Greek.~~
 {% endhint %}
 
-It's a CLI that can easily be integrated into new projects to provide automatic linting and formatting that adheres to our standards on everything from code to git commit messages.
+~~It's a CLI that can easily be integrated into new projects to provide automatic linting and formatting that adheres to our standards on everything from code to git commit messages.~~
 
-It's based on very popular open source technologies so there are integrations for all of the most popular text editors and IDEs.
+~~It's based on very popular open source technologies so there are integrations for all of the most popular text editors and IDEs.~~
 
 ## Main Repos
 
