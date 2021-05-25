@@ -41,24 +41,28 @@ The General Court ID is 0.
 1. Blockchain
 2. Non-Technical
 3. Token Listing
-4. Marketing Services
-5. English Language
-6. Video Production
-7. Onboarding
-8. Curation
-9. Data Analysis
-10. Statistical Modeling
-11. Curation \(Medium\)
-12. Spanish-English Translation
-13. French-English Translation
-14. Portuguese-English Translation
-15. German-English Translation
-16. Korean-English Translation
-17. Japanese-English Translation
-18. Turkish-English Translation
-19. Chinese-English Translation
-20. Corte General en Espanol
-21. Humanity Court
+4. Technical
+5. Marketing Services
+6. English Language
+7. Video Production
+8. Onboarding
+9. Curation
+10. Data Analysis
+11. Statistical Modeling
+12. Curation \(Medium\)
+13. Spanish-English Translation
+14. French-English Translation
+15. Portuguese-English Translation
+16. German-English Translation
+17. Russian-English Translation
+18. Korean-English Translation
+19. Japanese-English Translation
+20. Turkish-English Translation
+21. Chinese-English Translation
+22. Corte General en Espanol
+23. Humanity Court
+
+You can also check the subcourt IDs on community-owned [http://klerosboard.com/](http://klerosboard.com/).
 {% endhint %}
 
 {% page-ref page="../../developer/erc-792-arbitration-standard.md" %}
