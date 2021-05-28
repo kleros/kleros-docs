@@ -142,7 +142,7 @@ Should you rule 'incoherently' \(not with the majority\) you lose a percentage o
 
 ![](https://blog.kleros.io/content/images/2019/03/Screen-Shot-2019-03-07-at-9.56.38-PM.png)
 
-5.  Simply pay the gas fee to confirm your stake in the court and confirm in Metamask.Simply pay the fee and your stake will be set. 
+5.  Simply pay the gas fee to confirm your stake in the court and confirm in Metamask. Simply pay the fee and your stake will be set. 
 
 ![](https://blog.kleros.io/content/images/2019/03/Screen-Shot-2019-03-07-at-12.35.09-PM.png)
 
