@@ -49,6 +49,20 @@ Learn all about it by opening the Twitter thread below:
 
 ## 3/ Case \#16/62/89 - Listing of Baer token on Ethfinex
 
+Kleros Tokens registry was used at the time to select tokens to be listed on the Ethfinex exchange in a decentralized manner. One of the famous examples of cases originating from this decentralized listing process is the listing of Baer token. This token was rejected because the community of challenger and jurors were able to prove that the project was a scam:
+
+* Their CTO was fake \(member of a non-existent group at Oxford University - checked with a phone call\),
+* Suspicious changes to the whitepaper,
+* Fake social media profiles,
+
+Baer Chain was then classified as a Ponzi scheme by the Chinese government a few months later.
+
+**Examples of evidence material:**‌
+
+* ​[https://ipfs.kleros.io/ipfs/QmV7cM4hYrx2sdbH4mMUspBz5ACRJZ4wzU8Hrys7jZ7H1r/claim-against-brc-token-elligibility-2.pdf](https://ipfs.kleros.io/ipfs/QmV7cM4hYrx2sdbH4mMUspBz5ACRJZ4wzU8Hrys7jZ7H1r/claim-against-brc-token-elligibility-2.pdf)​
+* ​[https://ipfs.kleros.io/ipfs/QmckzrdTb2yb7o5iEJXQxnTjde2a1LAZMBZgUss9GUWeAa/claim-against-brc-token-elligibility.pdf](https://ipfs.kleros.io/ipfs/QmckzrdTb2yb7o5iEJXQxnTjde2a1LAZMBZgUss9GUWeAa/claim-against-brc-token-elligibility.pdf)
+* [https://forum.kleros.io/t/kleros-t2cr-weekly-rundown-the-case-of-the-baer-chain-ethfinex-badge-submission/212](https://forum.kleros.io/t/kleros-t2cr-weekly-rundown-the-case-of-the-baer-chain-ethfinex-badge-submission/212)
+
 {% embed url="https://youtu.be/qEMhjgo9kcQ?t=707" %}
 
 ## 4/ Case \#82 - Listing of Grid+ token on Ethfinex
