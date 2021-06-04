@@ -63,11 +63,13 @@ Kleros Tokens registry was used at the time to curate tokens to be listed on the
 
 Baer Chain was then classified as a Ponzi scheme by the Chinese government a few months later.
 
+{% hint style="info" %}
 **Examples of evidence material:**‌
 
 * ​[https://ipfs.kleros.io/ipfs/QmV7cM4hYrx2sdbH4mMUspBz5ACRJZ4wzU8Hrys7jZ7H1r/claim-against-brc-token-elligibility-2.pdf](https://ipfs.kleros.io/ipfs/QmV7cM4hYrx2sdbH4mMUspBz5ACRJZ4wzU8Hrys7jZ7H1r/claim-against-brc-token-elligibility-2.pdf)​
 * ​[https://ipfs.kleros.io/ipfs/QmckzrdTb2yb7o5iEJXQxnTjde2a1LAZMBZgUss9GUWeAa/claim-against-brc-token-elligibility.pdf](https://ipfs.kleros.io/ipfs/QmckzrdTb2yb7o5iEJXQxnTjde2a1LAZMBZgUss9GUWeAa/claim-against-brc-token-elligibility.pdf)
 * [https://forum.kleros.io/t/kleros-t2cr-weekly-rundown-the-case-of-the-baer-chain-ethfinex-badge-submission/212](https://forum.kleros.io/t/kleros-t2cr-weekly-rundown-the-case-of-the-baer-chain-ethfinex-badge-submission/212)
+{% endhint %}
 
 {% embed url="https://youtu.be/qEMhjgo9kcQ?t=707" %}
 
@@ -77,11 +79,13 @@ Baer Chain was then classified as a Ponzi scheme by the Chinese government a few
 
 Kleros Tokens registry was used at the time to curate tokens to be listed on the Ethfinex exchange in a decentralized manner. One of the famous examples of cases originating from this decentralized listing process is the listing of the Grid+ token. This token was rejected because the community estimated that, even if the project was legitimate, the rules required that the contracts should have been audited by a third party \(and Conensys Diligence was not considered a 3rd party as Grid+ was a Consensys-incubated startup\).
 
+{% hint style="info" %}
 **Examples of evidence material:**‌
 
 * ​[https://ipfs.kleros.io/ipfs/QmbvuyXczHVsQxAkEbx3Ec84uTF3ooHQixMAXAScLw3iWj/heliast-gridplus-challenge.pdf](https://ipfs.kleros.io/ipfs/QmbvuyXczHVsQxAkEbx3Ec84uTF3ooHQixMAXAScLw3iWj/heliast-gridplus-challenge.pdf)
 * [https://ipfs.kleros.io/ipfs/QmUke7s1V7pkgSCUV2nBcuwxW2jwt4LHroD2yRcNvxwyn3/gridplus-violating-4.1.pdf](https://ipfs.kleros.io/ipfs/QmUke7s1V7pkgSCUV2nBcuwxW2jwt4LHroD2yRcNvxwyn3/gridplus-violating-4.1.pdf)
 * [https://ipfs.kleros.io/ipfs/Qmb8g71Guw7Dj5kwRDKd6cXLaSVdFRWgg42mCagMmYHjGX/kleros-tcr-gridplus-ethfinex-compliance-badge-challenge-response.pdf](https://ipfs.kleros.io/ipfs/Qmb8g71Guw7Dj5kwRDKd6cXLaSVdFRWgg42mCagMmYHjGX/kleros-tcr-gridplus-ethfinex-compliance-badge-challenge-response.pdf)
+{% endhint %}
 
 {% embed url="https://youtu.be/qEMhjgo9kcQ?t=855" %}
 
@@ -95,7 +99,7 @@ Towards the end of the experiment, the following image was submitted into the Do
 
 ![](../../.gitbook/assets/image%20%2821%29.png)
 
-The submitter claimed that this was the image of a cat and requested the 50 ETH reward. It wasthe opinion of Coopérative Kleros that the submitted image did not comply with the payout policy in the sense that it did not “clearly display” a cat as stated in the rules. Coopérative Kleros and the submitter have agreed to settle the dispute using the recently launched Kleros Escrow Dapp. 
+The submitter claimed that this was the image of a cat and requested the 50 ETH reward. It was ****the opinion of Coopérative Kleros that the submitted image did not comply with the payout policy in the sense that it did not “clearly display” a cat as stated in the rules. Coopérative Kleros and the submitter agreed to settle the dispute using the recently launched Kleros Escrow Dapp and the payment was rejected in the end.
 
 Learn more about this case: [https://blog.kleros.io/kleros-vs-cat-in-the-snow-the-escrow-leading-case/](https://blog.kleros.io/kleros-vs-cat-in-the-snow-the-escrow-leading-case/)
 
