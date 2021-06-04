@@ -14,11 +14,13 @@ Learn all about it by opening the Twitter thread below:
 
 {% embed url="https://twitter.com/JimmyRagosa/status/1341293611682553856" %}
 
+{% hint style="info" %}
 **Examples of evidence material:**
 
 * [https://ipfs.kleros.io/ipfs/QmPxshJDife5p9m9upLJER5VumMDqfTqQneSWXXrNCSmYh](https://ipfs.kleros.io/ipfs/QmPxshJDife5p9m9upLJER5VumMDqfTqQneSWXXrNCSmYh)
 * [https://docs.google.com/document/d/1XTwh9iPKkAl5Sf2TcYLm1xvxAHX7yVnMgzvFpYgfSgI](https://docs.google.com/document/d/1XTwh9iPKkAl5Sf2TcYLm1xvxAHX7yVnMgzvFpYgfSgI/edit)
-* [https://docs.google.com/document/d/1mFnPwHt76cFDr9kGYKdVYkh1IQXZygWpw9HtNI4hPV4/edit](https://docs.google.com/document/d/1mFnPwHt76cFDr9kGYKdVYkh1IQXZygWpw9HtNI4hPV4/edit)
+* [https://docs.google.com/document/d/1mFnPwHt76cFDr9kGYKdVYkh1IQXZygWpw9HtNI4hPV4/](https://docs.google.com/document/d/1mFnPwHt76cFDr9kGYKdVYkh1IQXZygWpw9HtNI4hPV4/edit)
+{% endhint %}
 
 {% embed url="https://youtu.be/Cku7jRpCFyc" %}
 
@@ -38,18 +40,22 @@ Learn all about it by opening the Twitter thread below:
 
 {% embed url="https://twitter.com/koeppelmann/status/1285005425038032896" %}
 
+{% hint style="info" %}
 **Examples of evidence material:**
 
 * [http://case302.eth.link](http://case302.eth.link)
 * [https://ipfs.kleros.io/ipfs/QmUk45qhoxF1jPuoHsQDdMnQqk5S81JVFE4aEhm6PgpZGX](https://ipfs.kleros.io/ipfs/QmUk45qhoxF1jPuoHsQDdMnQqk5S81JVFE4aEhm6PgpZGX)
+{% endhint %}
 
 {% embed url="https://youtu.be/cPk6JHGzh6E" %}
 
 {% embed url="https://youtu.be/25hFyjQ0PJI" %}
 
-## 3/ Case \#16/62/89 - Listing of Baer token on Ethfinex
+## 3/ Case \#16/\#62/\#89 - Listing of Baer token on Ethfinex
 
-Kleros Tokens registry was used at the time to select tokens to be listed on the Ethfinex exchange in a decentralized manner. One of the famous examples of cases originating from this decentralized listing process is the listing of Baer token. This token was rejected because the community of challenger and jurors were able to prove that the project was a scam:
+[Case \#16](https://klerosexplorer.com/case/16)/[\#62](https://klerosexplorer.com/case/62)/[\#89 Results](https://klerosexplorer.com/case/89)
+
+Kleros Tokens registry was used at the time to curate tokens to be listed on the Ethfinex exchange in a decentralized manner. One of the famous examples of cases originating from this decentralized listing process is the listing of Baer token. This token was rejected because the community was able to prove that the project was a scam:
 
 * Their CTO was fake \(member of a non-existent group at Oxford University - checked with a phone call\),
 * Suspicious changes to the whitepaper,
@@ -67,9 +73,29 @@ Baer Chain was then classified as a Ponzi scheme by the Chinese government a few
 
 ## 4/ Case \#82 - Listing of Grid+ token on Ethfinex
 
-## 5/ Case \#92 - The snowy Doge/Cat picture
+[Case \#82 Results](https://klerosexplorer.com/case/82)
 
-## 6/ Case \#1 - Where it all started
+Kleros Tokens registry was used at the time to curate tokens to be listed on the Ethfinex exchange in a decentralized manner. One of the famous examples of cases originating from this decentralized listing process is the listing of the Grid+ token. This token was rejected because the community estimated that, even if the project was legitimate, the rules required that the contracts should have been audited by a third party \(and Conensys Diligence was not considered a 3rd party as Grid+ was a Consensys-incubated startup\).
 
-## 7/ Case \#YYY - Kleros token \(PNK\) gets challenged
+**Examples of evidence material:**‌
+
+* ​[https://ipfs.kleros.io/ipfs/QmbvuyXczHVsQxAkEbx3Ec84uTF3ooHQixMAXAScLw3iWj/heliast-gridplus-challenge.pdf](https://ipfs.kleros.io/ipfs/QmbvuyXczHVsQxAkEbx3Ec84uTF3ooHQixMAXAScLw3iWj/heliast-gridplus-challenge.pdf)
+* [https://ipfs.kleros.io/ipfs/QmUke7s1V7pkgSCUV2nBcuwxW2jwt4LHroD2yRcNvxwyn3/gridplus-violating-4.1.pdf](https://ipfs.kleros.io/ipfs/QmUke7s1V7pkgSCUV2nBcuwxW2jwt4LHroD2yRcNvxwyn3/gridplus-violating-4.1.pdf)
+* [https://ipfs.kleros.io/ipfs/Qmb8g71Guw7Dj5kwRDKd6cXLaSVdFRWgg42mCagMmYHjGX/kleros-tcr-gridplus-ethfinex-compliance-badge-challenge-response.pdf](https://ipfs.kleros.io/ipfs/Qmb8g71Guw7Dj5kwRDKd6cXLaSVdFRWgg42mCagMmYHjGX/kleros-tcr-gridplus-ethfinex-compliance-badge-challenge-response.pdf)
+
+{% embed url="https://youtu.be/qEMhjgo9kcQ?t=855" %}
+
+## 5/ Case \#92 - "Is this a Doge or a cat in the snow?"
+
+[Case \#92 results](https://klerosexplorer.com/case/92)
+
+On July 31st 2018, the Kleros protocol was launched on the Ethereum mainnet with a pilot called "Doges on Trial". It was a curated list application that relied on user submissions to create a list of Doge memes.This cryptoeconomic experiment offered a reward of 50 ETH to whoever was able to sneak a cat image into the list. 
+
+Towards the end of the experiment, the following image was submitted into the Doges on Trial website. As the image did not get challenged during the initial Challenge Period \(24 hours\), it was accepted into the list a day after.
+
+![](../../.gitbook/assets/image%20%2821%29.png)
+
+The submitter claimed that this was the image of a cat and requested the 50 ETH reward. It wasthe opinion of Coopérative Kleros that the submitted image did not comply with the payout policy in the sense that it did not “clearly display” a cat as stated in the rules. Coopérative Kleros and the submitter have agreed to settle the dispute using the recently launched Kleros Escrow Dapp. 
+
+Learn more about this case: [https://blog.kleros.io/kleros-vs-cat-in-the-snow-the-escrow-leading-case/](https://blog.kleros.io/kleros-vs-cat-in-the-snow-the-escrow-leading-case/)
 
