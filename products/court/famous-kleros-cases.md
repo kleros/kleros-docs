@@ -47,13 +47,9 @@ Learn all about it by opening the Twitter thread below:
 
 {% embed url="https://youtu.be/25hFyjQ0PJI" %}
 
-
-
 ## 3/ Case \#16/62/89 - Listing of Baer token on Ethfinex
 
-
-
-Learn more about it: [https://youtu.be/qEMhjgo9kcQ?t=707](https://youtu.be/qEMhjgo9kcQ?t=707)
+{% embed url="https://youtu.be/qEMhjgo9kcQ?t=707" %}
 
 ## 4/ Case \#82 - Listing of Grid+ token on Ethfinex
 
