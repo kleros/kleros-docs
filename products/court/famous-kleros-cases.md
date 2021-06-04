@@ -1,5 +1,5 @@
 ---
-description: "Kleros Court cases that made history (\U0001F6A7\U0001F477 IN PROGRESS \U0001F477\U0001F6A7)"
+description: Kleros Court cases that made history
 ---
 
 # Famous Kleros Cases
@@ -17,9 +17,9 @@ Learn all about it by opening the Twitter thread below:
 {% hint style="info" %}
 **Examples of evidence material:**
 
-* [https://ipfs.kleros.io/ipfs/QmPxshJDife5p9m9upLJER5VumMDqfTqQneSWXXrNCSmYh](https://ipfs.kleros.io/ipfs/QmPxshJDife5p9m9upLJER5VumMDqfTqQneSWXXrNCSmYh)
-* [https://docs.google.com/document/d/1XTwh9iPKkAl5Sf2TcYLm1xvxAHX7yVnMgzvFpYgfSgI](https://docs.google.com/document/d/1XTwh9iPKkAl5Sf2TcYLm1xvxAHX7yVnMgzvFpYgfSgI/edit)
-* [https://docs.google.com/document/d/1mFnPwHt76cFDr9kGYKdVYkh1IQXZygWpw9HtNI4hPV4/](https://docs.google.com/document/d/1mFnPwHt76cFDr9kGYKdVYkh1IQXZygWpw9HtNI4hPV4/edit)
+* [Evidence A](https://ipfs.kleros.io/ipfs/QmPxshJDife5p9m9upLJER5VumMDqfTqQneSWXXrNCSmYh)
+* [Evidence B](https://docs.google.com/document/d/1XTwh9iPKkAl5Sf2TcYLm1xvxAHX7yVnMgzvFpYgfSgI)
+* [Evidence C](https://docs.google.com/document/d/1mFnPwHt76cFDr9kGYKdVYkh1IQXZygWpw9HtNI4hPV4/)
 {% endhint %}
 
 {% embed url="https://youtu.be/Cku7jRpCFyc" %}
@@ -43,8 +43,8 @@ Learn all about it by opening the Twitter thread below:
 {% hint style="info" %}
 **Examples of evidence material:**
 
-* [http://case302.eth.link](http://case302.eth.link)
-* [https://ipfs.kleros.io/ipfs/QmUk45qhoxF1jPuoHsQDdMnQqk5S81JVFE4aEhm6PgpZGX](https://ipfs.kleros.io/ipfs/QmUk45qhoxF1jPuoHsQDdMnQqk5S81JVFE4aEhm6PgpZGX)
+* [Evidence D](http://case302.eth.link)
+* [Evidence E](https://ipfs.kleros.io/ipfs/QmUk45qhoxF1jPuoHsQDdMnQqk5S81JVFE4aEhm6PgpZGX)
 {% endhint %}
 
 {% embed url="https://youtu.be/cPk6JHGzh6E" %}
@@ -66,9 +66,9 @@ Baer Chain was then classified as a Ponzi scheme by the Chinese government a few
 {% hint style="info" %}
 **Examples of evidence material:**‌
 
-* ​[https://ipfs.kleros.io/ipfs/QmV7cM4hYrx2sdbH4mMUspBz5ACRJZ4wzU8Hrys7jZ7H1r/claim-against-brc-token-elligibility-2.pdf](https://ipfs.kleros.io/ipfs/QmV7cM4hYrx2sdbH4mMUspBz5ACRJZ4wzU8Hrys7jZ7H1r/claim-against-brc-token-elligibility-2.pdf)​
-* ​[https://ipfs.kleros.io/ipfs/QmckzrdTb2yb7o5iEJXQxnTjde2a1LAZMBZgUss9GUWeAa/claim-against-brc-token-elligibility.pdf](https://ipfs.kleros.io/ipfs/QmckzrdTb2yb7o5iEJXQxnTjde2a1LAZMBZgUss9GUWeAa/claim-against-brc-token-elligibility.pdf)
-* [https://forum.kleros.io/t/kleros-t2cr-weekly-rundown-the-case-of-the-baer-chain-ethfinex-badge-submission/212](https://forum.kleros.io/t/kleros-t2cr-weekly-rundown-the-case-of-the-baer-chain-ethfinex-badge-submission/212)
+* [​Evidence F​](https://ipfs.kleros.io/ipfs/QmV7cM4hYrx2sdbH4mMUspBz5ACRJZ4wzU8Hrys7jZ7H1r/claim-against-brc-token-elligibility-2.pdf)
+* [​Evidence G](https://ipfs.kleros.io/ipfs/QmckzrdTb2yb7o5iEJXQxnTjde2a1LAZMBZgUss9GUWeAa/claim-against-brc-token-elligibility.pdf)
+* [Evidence H](https://forum.kleros.io/t/kleros-t2cr-weekly-rundown-the-case-of-the-baer-chain-ethfinex-badge-submission/212)
 {% endhint %}
 
 {% embed url="https://youtu.be/qEMhjgo9kcQ?t=707" %}
@@ -82,9 +82,9 @@ Kleros Tokens registry was used at the time to curate tokens to be listed on the
 {% hint style="info" %}
 **Examples of evidence material:**‌
 
-* ​[https://ipfs.kleros.io/ipfs/QmbvuyXczHVsQxAkEbx3Ec84uTF3ooHQixMAXAScLw3iWj/heliast-gridplus-challenge.pdf](https://ipfs.kleros.io/ipfs/QmbvuyXczHVsQxAkEbx3Ec84uTF3ooHQixMAXAScLw3iWj/heliast-gridplus-challenge.pdf)
-* [https://ipfs.kleros.io/ipfs/QmUke7s1V7pkgSCUV2nBcuwxW2jwt4LHroD2yRcNvxwyn3/gridplus-violating-4.1.pdf](https://ipfs.kleros.io/ipfs/QmUke7s1V7pkgSCUV2nBcuwxW2jwt4LHroD2yRcNvxwyn3/gridplus-violating-4.1.pdf)
-* [https://ipfs.kleros.io/ipfs/Qmb8g71Guw7Dj5kwRDKd6cXLaSVdFRWgg42mCagMmYHjGX/kleros-tcr-gridplus-ethfinex-compliance-badge-challenge-response.pdf](https://ipfs.kleros.io/ipfs/Qmb8g71Guw7Dj5kwRDKd6cXLaSVdFRWgg42mCagMmYHjGX/kleros-tcr-gridplus-ethfinex-compliance-badge-challenge-response.pdf)
+* [​Evidence I](https://ipfs.kleros.io/ipfs/QmbvuyXczHVsQxAkEbx3Ec84uTF3ooHQixMAXAScLw3iWj/heliast-gridplus-challenge.pdf)
+* [Evidence J](https://ipfs.kleros.io/ipfs/QmUke7s1V7pkgSCUV2nBcuwxW2jwt4LHroD2yRcNvxwyn3/gridplus-violating-4.1.pdf)
+* [Evidence K](https://ipfs.kleros.io/ipfs/Qmb8g71Guw7Dj5kwRDKd6cXLaSVdFRWgg42mCagMmYHjGX/kleros-tcr-gridplus-ethfinex-compliance-badge-challenge-response.pdf)
 {% endhint %}
 
 {% embed url="https://youtu.be/qEMhjgo9kcQ?t=855" %}
