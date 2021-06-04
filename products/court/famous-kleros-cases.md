@@ -14,7 +14,7 @@ Learn all about it by opening the Twitter thread below:
 
 {% embed url="https://twitter.com/JimmyRagosa/status/1341293611682553856" %}
 
-**Examples of argumentation material:**
+**Examples of evidence material:**
 
 * [https://ipfs.kleros.io/ipfs/QmPxshJDife5p9m9upLJER5VumMDqfTqQneSWXXrNCSmYh](https://ipfs.kleros.io/ipfs/QmPxshJDife5p9m9upLJER5VumMDqfTqQneSWXXrNCSmYh)
 * [https://docs.google.com/document/d/1XTwh9iPKkAl5Sf2TcYLm1xvxAHX7yVnMgzvFpYgfSgI](https://docs.google.com/document/d/1XTwh9iPKkAl5Sf2TcYLm1xvxAHX7yVnMgzvFpYgfSgI/edit)
@@ -38,7 +38,7 @@ Learn all about it by opening the Twitter thread below:
 
 {% embed url="https://twitter.com/koeppelmann/status/1285005425038032896" %}
 
-**Examples of argumentation material:**
+**Examples of evidence material:**
 
 * [http://case302.eth.link](http://case302.eth.link)
 * [https://ipfs.kleros.io/ipfs/QmUk45qhoxF1jPuoHsQDdMnQqk5S81JVFE4aEhm6PgpZGX](https://ipfs.kleros.io/ipfs/QmUk45qhoxF1jPuoHsQDdMnQqk5S81JVFE4aEhm6PgpZGX)
