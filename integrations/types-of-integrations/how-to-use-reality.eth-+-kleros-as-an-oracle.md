@@ -1,3 +1,7 @@
+---
+description: When you want your app to get data from a subjective oracle
+---
+
 # How to use Reality.eth + Kleros as an oracle
 
 In use cases where a subjective oracle is required to give an answer on-chain about the occurrence of an event \(e.g.: Prediction Markets, DAO Governance, etc...\), your application might want to use the combination of [Reality.eth](https://reality.eth.link/) bond escalation mechanism with Kleros arbitration services to have a decentralized and fair source of truth.
