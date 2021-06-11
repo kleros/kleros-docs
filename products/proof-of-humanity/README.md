@@ -10,7 +10,7 @@ description: A Sybil-resistant (=duplicate and bot-proof) registry of humans
 
 **Proof of Humanity** is a system combining social verification with video submission in order to create a Sybil-proof list of humans. It is meant to be used by individuals as a point-of-entry to a myriad of new use cases that require users to prove they are real humans and not duplicate/fake/bot accounts. It will be plugged into a variety of existing and new applications in need for such identity systems.
 
-{% embed url="https://youtu.be/bVUGvCHd3w0" %}
+{% embed url="https://youtu.be/bVUGvCHd3w0" caption="" %}
 
 Building this type of advanced identity registry is not an end in itself. It is a point-of-entry to a myriad of new use cases that require Sybil-resistance \(duplicate resistance\) and also to be plugged into a variety of existing and new applications in need for such identity systems. Let's browse through a non-exhaustive list of use cases that benefit from PoH.
 
