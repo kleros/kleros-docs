@@ -8,7 +8,7 @@ description: Data Curation as a Service using TCRs (Token Curated Registries)
   
 **Kleros Curate** is a ****dapp that can be used to create open curated registries of just about anything using financial incentives and Kleros dispute resolution technology to ensure a list stays on topic and that each entry is compliant to the predefined acceptance criteria.
 
-![](../../.gitbook/assets/image%20%288%29.png)
+![](../../.gitbook/assets/curate.png)
 
 When a user submits an item to Curate, it is first vetted by a challenge period which allows anyone else to challenge that submission. If the submission isn’t challenged, it’s deemed legitimate and on topic, if it is, the challenged submission is sent to Kleros jurors to decide whether it is, or isn’t valid for the list in question.
 

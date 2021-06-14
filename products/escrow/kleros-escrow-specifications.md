@@ -2,7 +2,7 @@
 
 This page describes the flow of MultipleArbitrableTransactionWithAppeals, which is a version of Escrow contract with appeal support. For the sake of simplicity, this contract will be also referred to as Escrow.
 
-![Standard Escrow Flow](../../.gitbook/assets/escrow.png)
+![](../../.gitbook/assets/standard-escrow-flow.png)
 
 ### **Constructor \(deployed by the cooperative\)**
 

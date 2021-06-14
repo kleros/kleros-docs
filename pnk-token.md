@@ -24,7 +24,7 @@ PNK is used both to stake \(for the possibility to become a juror and to protect
 * **Voting Rights:** PNK is used for all governance decisions taken on the Kleros platform. Users can vote with their PNK in any related votes. We already use this mechanism in our token curated list and court governance decisions.  
 * **Staking Rewards:** Users must stake PNK in order to be able to become jurors in disputes. The more PNK a user stakes, the more chance he has of being chosen as a juror in the selected court.
 
-![](.gitbook/assets/image%20%285%29.png)
+![](.gitbook/assets/pnk-token.png)
 
 {% hint style="info" %}
 **FAUCETS FOR TESTNET PNK**
@@ -74,7 +74,7 @@ On the other hand, an attack on Kleros would presumably not have that large of a
 
 Finally, in the extreme case of a successful 51% attack, by having a native token, it is possible to perform a last-ditch defense of forking the system to remove the attackers’ holdings. Then the market would sort out which version of PNK should be used going forward. This would of course be highly disruptive as any pre-existing contracts designating Kleros as their arbitrator would continue to use the old version of PNK by default. Still, it would offer the community a path forward out of disaster that would not be available without a native token. This is similar to the [ultimate appeal mechanism of Augur](https://medium.com/kleros/kleros-and-augur-keeping-people-honest-on-ethereum-through-game-theory-56210457649c).
 
-![](.gitbook/assets/1_cf2c4tphtq1h0dek4aa3yg.png)
+![](.gitbook/assets/pnk.png)
 
 On the left, an attacker has managed a 51% attack and starts carrying out obvious miscarriages of justice. The community decides to fork the token removing the attackers’ holdings, and most of the users migrate to the new version of PNK.
 

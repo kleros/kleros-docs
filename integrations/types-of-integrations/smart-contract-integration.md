@@ -18,7 +18,7 @@ description: >-
 
 If you want to integrate with Kleros for dispute resolution, you will have to create an `Arbitrable` smart contract as per the[ Arbitration Standard](https://kleros.gitbook.io/docs/developer/erc-792-arbitration-standard) that will allow executing the following flow:
 
-![Standard simplified flow between an Arbitrable and Arbitrator smart contract](../../.gitbook/assets/image%20%286%29.png)
+![](../../.gitbook/assets/flow_arbitrable-arbitrator-smart-contract.png)
 
 In the `Arbitrable` contract, you will have to define at least:
 
