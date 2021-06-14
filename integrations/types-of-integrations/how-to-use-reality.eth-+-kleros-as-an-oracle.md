@@ -41,7 +41,7 @@ To use this service, you just need to ensure that:
   * If your contract is in development, Cooperative Kleros team can support you in making it compatible.
   * If your contract is already live, Cooperative Kleros team can support you in building a connector for it.
 
-* you submit the address of the Reality.eth&lt;&gt;Kleros arbitrator proxy you want to use as `arbitrator`when you ask a question
+* you submit the address of the Reality.eth&lt;&gt;Kleros arbitrator proxy you want to use as `arbitrator`when you ask a question. The arbitrator proxy will be set up with an initaial number of votes to be requested and a specific subcourt in whichcases will be raised. The Cooperative Kleros team can help select the right arbitrator for your use case or deploy a new one for you.
 
 ```typescript
 function askQuestion ( uint256 template_id, string question, address arbitrator, uint32 timeout, uint32 opening_ts, uint256 nonce ) external payable returns ( bytes32 );
@@ -52,9 +52,9 @@ function askQuestion ( uint256 template_id, string question, address arbitrator,
 
 * \(Current version\) Mainnet - to be deployed soon
 * \(Current version\) [Kovan](https://kovan.etherscan.io/address/0xDEd12537dA82C1019b3CA1714A5d58B7c5c19A04)
-* ~~\(Old version without appeals\)~~ [~~Mainnet~~](https://etherscan.io/address/0xd47f72a2d1d0E91b0Ec5e5f5d02B2dc26d00A14D)~~~~
-  * ~~500 votes in general Court~~
-* ~~\(Old version without appeals\)~~  [~~Kovan~~](https://kovan.etherscan.io/address/0xa6ead513d05347138184324392d8ceb24c116118)~~~~
+* \(Old version without appeals\) [Mainnet](https://etherscan.io/address/0xd47f72a2d1d0E91b0Ec5e5f5d02B2dc26d00A14D)
+  * 500 votes in general Court
+* \(Old version without appeals\)  [Kovan](https://kovan.etherscan.io/address/0xa6ead513d05347138184324392d8ceb24c116118)
 {% endhint %}
 
 ### Sequence Diagram
