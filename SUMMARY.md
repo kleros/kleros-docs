@@ -16,7 +16,7 @@
   * [Proof Humanity Tutorial \(Remove & Challenge\)](products/proof-of-humanity/proof-humanity-tutorial-remove-and-challenge.md)
   * [Proof of Humanity FAQ](products/proof-of-humanity/poh-faq.md)
 * [Tokens](products/tokens/README.md)
-  * [Kleros TokensTutorial](products/tokens/kleros-t2cr-tutorial.md)
+  * [Kleros Tokens Tutorial](products/tokens/kleros-t2cr-tutorial.md)
 * [Curate](products/curate/README.md)
   * [Kleros Curate Tutorial](products/curate/kleros-curate-tutorial.md)
 * [Oracle](products/oracle.md)

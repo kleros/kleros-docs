@@ -2,7 +2,7 @@
 description: How to add Tokens and Badges to the Tokens Registry
 ---
 
-# Kleros TokensTutorial
+# Kleros Tokens Tutorial
 
 This is a detailed guide into the Kleros token curated listing Dapp. 
 
