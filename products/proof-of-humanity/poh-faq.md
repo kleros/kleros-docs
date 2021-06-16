@@ -135,7 +135,7 @@ Improvements in machine learning are likely to affect the effectiveness of both 
 
 ### What if my religion forbids me from showing my face? What if I am physically unable to speak?
 
-Internal features of the face are the most important for face recognition \(see [this article](https://twin.sci-hub.tw/6930/15eaafba29e330ca74f92b4ef05e57c9/toseeb2014.pdf)\) and removing the requirement to pronounce the sentence would decrease the security of the system \(speech analysis can be used to detect multiple registrations\). For the moment, these edge cases do not allow the person to be registered. If you have a proposal that would enable the secure registration of this edge case \(and others\), you can submit it through the Kleros governance process.
+Internal features of the face are the most important for face recognition \(see [this article](https://twin.sci-hub.tw/6930/15eaafba29e330ca74f92b4ef05e57c9/toseeb2014.pdf)\) and removing the requirement to pronounce the sentence would decrease the security of the system \(speech analysis can be used to detect multiple registrations\). For the moment, these edge cases do not allow the person to be registered. If you have a proposal that would enable the secure registration of this edge case \(and others\), you can submit it through the governance process.
 
 ### What if I have an identical twin that also wants to be registered?
 
