@@ -42,7 +42,7 @@ By doing this, an insurance project will simplify its development effort by focu
 
 This contract would follow the standard request-challenge protocol with a crowdfunded appeal system, where the claim submitter registers the claim and anyone can challenge said claim thus creating a dispute in Kleros Court. An insuree would then be able to submit a claim using that contract and to provide the information related to his claim. If their claim is challenged, a dispute will be opened in the relevant Kleros Court. If not challenged, the claim will be considered valid and a payout will be triggered.
 
-![](../../.gitbook/assets/defi-insurance-project.png)
+![](../../.gitbook/assets/defi-insurance-project_1.png)
 
 To sum up: In the case of claim systems using Kleros as Claims arbitrator, the final ruling will be made if no claim challenge has been raised, if no appeal has been made after a previous decision by jurors or if a decision has been made in the General Court with no more appeal possible.
 
