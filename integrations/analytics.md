@@ -1,5 +1,5 @@
 ---
-description: Resources enabling the data analysis of Kleros smart contracts
+description: Community-led resources enabling the data analysis of Kleros smart contracts
 ---
 
 # Kleros Analytics
@@ -13,4 +13,8 @@ description: Resources enabling the data analysis of Kleros smart contracts
 ## Data
 
 * Simple Kleros dashboard on [Dune Analytics](https://duneanalytics.com/tianqi/kleros-a-decentralized-disputes-resolution-protocal)
+
+### Case Search Engine
+
+* [Kleros case search engine](https://vagarish.forer.es/) parsing through evidence \(test and PDF\)
 
