@@ -11,6 +11,7 @@
 * [Court](products/court/README.md)
   * [Kleros Juror Tutorial](products/court/kleros-juror-tutorial.md)
   * [Famous Kleros Cases](products/court/famous-kleros-cases.md)
+  * [What happens during a dispute?](products/court/what-happens-during-a-dispute.md)
 * [Proof of Humanity](products/proof-of-humanity/README.md)
   * [Proof of Humanity Tutorial \(Register & Vouch\)](products/proof-of-humanity/proof-of-humanity-tutorial.md)
   * [Proof Humanity Tutorial \(Remove & Challenge\)](products/proof-of-humanity/proof-humanity-tutorial-remove-and-challenge.md)
