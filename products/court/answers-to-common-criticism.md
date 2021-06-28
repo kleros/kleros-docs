@@ -10,11 +10,33 @@ description: >-
 
 ### I only believe in systems that are in production and running, is Kleros even live?
 
-_\(As of June 2021\)_ Kleros Court has been live since 2018 on Ethereum mainnet without any bug or downtime. It has handled and ruled on more than 865 different cases and has a community of more than 760 active jurors staking in 23 different courts \(Source: [KlerosBoard](http://klerosboard.com/)\). Kleros Court has ruled fairly on several controversial cases where millions of dollars were at stake \(cf. [Famous Kleros Cases](https://kleros.gitbook.io/docs/products/court/famous-kleros-cases)\). It is trusted as an unbiased and transparent arbitration layer by multiple Dapps of the ecosystem in different fields \(Prediction Markets, Insurance, DEX, Sybil-Resistance, Marketplaces,... check all those integrations [here](https://kleros.gitbook.io/docs/integrations/live-and-upcoming-integrations)\).
+_\(As of June 2021\)_ Kleros Court has been live since 2018 on Ethereum mainnet without any bug or downtime. It has handled and ruled on more than 865 different cases and has a community of more than 760 active jurors staking in 23 different courts \(Source: [KlerosBoard](http://klerosboard.com/)\). Kleros Court has ruled fairly on several controversial cases where millions of dollars were at stake \(cf. [Famous Kleros Cases](https://kleros.gitbook.io/docs/products/court/famous-kleros-cases)\). It is trusted as an unbiased and transparent arbitration layer by multiple Dapps of the ecosystem in different fields \(Prediction Markets, Insurance, DEX, Sybil-Resistance, Marketplaces,... check all those integrations [here](https://kleros.gitbook.io/docs/integrations/live-and-upcoming-integrations)\). 
 
-## Pseudonimity of jurors
+## Kleros is a fair dispute resolution system
 
-### If parties can also be jurors, doesn't this pose a conflict of interest?
+### Why should I trust a court with pseudonymous jurors?
+
+Since decisions made in Kleros affect the allocation of resources, there is an incentive for parties to try to bribe or intimidate the tribunal. Pseudonymity is intended to protect jurors from bribing attempts, intimidation, and retaliation. It favors their functional independence \(ability to freely give their judgement\). It also simplifies the process of users becoming jurors and avoids the costs of identity verification. By providing a secure environment and simplifying the selection process, Kleros greatly enlarges the pool of potential jurors. This results in lower arbitration costs and the democratization of access to justice.
+
+### If parties can also be jurors, doesn't this pose a conflict of interest? / How can you ensure the jurors are perfectly impartial?
+
+The procedure for random selection of jurors among those who staked tokens in a subcourt makes it extremely hard to be selected on purpose as a juror for a case you are involved in.
+
+It is extremely hard for a juror to be able to be drawn into a court where he has a vested interest. In practice, it would be extremely unlikely for jurors having a vested interest in a case to compose a significant part of the drawn jurors and, even if that were to happen one, the appeal system would allow correcting the ruling;
+
+It is possible that internal biases still exist in jurors. There are some ways within Kleros to present information in such a way that it minimizes this bias. However, it could be also argued that no system can be completely free of biases. For an in depth discussion about this, read [this article](https://medium.com/kleros/kleros-and-mob-justice-can-the-wisdom-of-the-crowd-go-wrong-ef311209ea36).
+
+### How can Kleros know jurors have specific expertise if they are pseudonymous?
+
+Kleros jurors self-select into the subcourt where they wish to conduct arbitration. Kleros does not ask for the jurors' real identity or to prove they are qualified to arbitrate disputes in the subcourt where they want to work.
+
+The expertise requirement is conducted via economic incentives. Kleros generates for users the incentive to self-select for the subcourts where they have expertise. Users who self-select into the courts for which they have the right skills will, on average, make money over time. Users who self-select into courts where they don't have the right skills will lose money and tend to abandon the system.
+
+Even though, in theory, jurors may not have subject matter expertise \(anyone can participate in the subcourt\), in practice, users without adequate expertise would suffer an economic loss and exit the subcourt \(unless they wish to lose money while they work, in order to gain those skills\). This works similarly to Wikipedia in the sense that a user who does not have expertise in a field to which an article edited by him relates, may still edit the article but will likely be sanctioned by Wikipedia.
+
+### How can I follow the dispute resolution process and be sure it has not been tampered with?
+
+Kleros protocol is committed to full transparency. Its cases are completely open and can be monitored by any person with access to an internet connection. The entire history of cases is also available and published on-chain for reference. Kleros dispute resolution procedure is documented in many places. All cryptoeconomic research is public and the code is open source. A fully working version of Kleros could be replicated in a matter of minutes by anyone with technical skills in blockchain. 
 
 ## Kleros can not be gamed and controlled by whales
 
@@ -39,10 +61,6 @@ _**If a malicious attacker made a successful 51% attack:**_ The community would 
 On the left, an attacker has managed a 51% attack and starts carrying out obvious miscarriages of justice. The community decides to fork the token removing the attackers’ holdings, and most of the users migrate to the new version of PNK.  
   
 More details [here](https://kleros.gitbook.io/docs/pnk-token).
-
-### 
-
-### 
 
 🚧👷 IN PROGRESS 👷🚧
 
