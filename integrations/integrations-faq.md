@@ -14,7 +14,10 @@ _**A useful analogy**:_ If your DeFi project gets its price data from Chainlink 
 
 It may be tempting to give additional utility to your project's native governance token by having it also handle the dispute resolution through voting, but it presents several weaknesses and risks:
 
-_**Rebuilding a weaker single-use court system:**_ If a Dapp recreates a system where a few randomly selected token holders vote, then they will basically have to recreate a version of a dedicated arbitration system such as Kleros Courts - except that if it is the only utility of their token, then it won't benefit from network effects that Kleros has, where combining a lot of use cases together gives the token enough value to resist 51% attacks. Moreover, If they tack Kleros-like features onto a token that does something else/has value for some other reason, they will not have any guarantee that the culture around their token will develop appropriately so that people reliably stake so that their court can have good resistance to those same 51% attacks.
+
+
+_**Rebuilding a weaker single-use court system
+:**_ If a Dapp recreates a system where a few randomly selected token holders vote, then they will basically have to recreate a version of a dedicated arbitration system such as Kleros Courts - except that if it is the only utility of their token, then it won't benefit from network effects that Kleros has, where combining a lot of use cases together gives the token enough value to resist 51% attacks. Moreover, If they tack Kleros-like features onto a token that does something else/has value for some other reason, they will not have any guarantee that the culture around their token will develop appropriately so that people reliably stake so that their court can have good resistance to those same 51% attacks.
 
 _**Community-wide Vote Fatigue:**_ If a project uses its native governance token to have every token holder vote on every dispute ever raised, it will require a massive duplication of effort and might be plagued by low response rates progressively creating security issues in the form of claim validation vote that could easily be swayed by a single whale.
 
@@ -28,13 +31,15 @@ _**Gas fees:**_ As for any smart contract, interacting with Kleros means paying 
   
 _**Arbitration fees:**_ IN PROGRESS
 
-_****_
 
-### We can't use anonymous jurors in my use case. Can we tweak Kleros to only select jurors from a pre-vetted pool?
+_****_
+
+### 
+We can't use anonymous jurors in my use case. Can we tweak Kleros to only select jurors from a pre-vetted pool?
 
 At this point, it is not possible to select jurors from a pre-defined pool. Anyone having tokens can self-select to be drawn randomly as a juror.
 
 ### Which project is currently using Kleros and how has it worked for them?
 
-We invite you to take a look at our [Live Integrations](https://kleros.gitbook.io/docs/integrations/current-integrations) page for the answer.
+We invite you to take a look at our [Live Integrations](https://kleros.gitbook.io/docs/integrations/live-and-upcoming-integrations) page for the answer.
 
