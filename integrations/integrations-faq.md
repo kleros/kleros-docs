@@ -36,5 +36,5 @@ At this point, it is not possible to select jurors from a pre-defined pool. Anyo
 
 ### Which project is currently using Kleros and how has it worked for them?
 
-We invite you to take a look at our [Live Integrations](https://kleros.gitbook.io/docs/integrations/current-integrations) page for the answer.
+We invite you to take a look at our [Live Integrations](https://kleros.gitbook.io/docs/integrations/live-and-upcoming-integrations) page for the answer.
 
