@@ -40,7 +40,16 @@ Kleros protocol is committed to full transparency. Its cases are completely open
 
 ## Kleros can not be gamed and controlled by whales
 
-### Is Kleros a court where rich people have more rights than ordinary folks?
+### Is Kleros a court where rich people have more rights than ordinary folks? / Appeals are only affordable by the rich.
+
+Anyone can appeal a dispute ruling in Kleros. Most of the time both sides will be asked to contribute fees for the next round of voting to ensure jurors are rewarded and that that the losing side is reimbursed of its paid fees. This appeal system ensures that the final decision of jurors will always converge to the truth and that jurors in initial rounds of voting vote coherently from the start not to be penalized. 
+
+This usually leads to some critics saying that one of the parties with much greater resources than the other can always win a case. We have made a number of design choices regarding the structure of the appeal fee process in order for Kleros to provide just outcomes even in this situation:
+
+1. Appeal fees can be “crowdfunded.” Namely, anyone can contribute a portion of either sides' appeal fees, potentially with many small contributions adding up to cover the whole fee.
+2. Crowdfunders who pay part of the fees of the side that ultimately wins are financially rewarded.
+
+People are thus incentivized to look at current appealed cases to spot obvious incorrect rulings and help crowdfund the other side to earn all or part of the rewards. This has been proven effective to deter "rich" parties from trying to win just by appealing several times. Learn more about it [here](https://blog.kleros.io/kleros-decentralized-token-listing-appeal-fees/).
 
 ### How can you expect fairness from a court that is controlled by a bunch of rich whales?
 
@@ -61,6 +70,14 @@ _**If a malicious attacker made a successful 51% attack:**_ The community would 
 On the left, an attacker has managed a 51% attack and starts carrying out obvious miscarriages of justice. The community decides to fork the token removing the attackers’ holdings, and most of the users migrate to the new version of PNK.  
   
 More details [here](https://kleros.gitbook.io/docs/pnk-token).
+
+"Kleros is broken and unfair because jurors look at policies and do not empathize with people involved in disputes”
+
+"Jurors will give whatever ruling brings them more cases in the future"
+
+"Kleros courts logic/game theory relies on appeals, but appeals are only affordable by the rich”
+
+“Game theory is just a basic simplification of real life, therefore Kleros is broken"
 
 🚧👷 IN PROGRESS 👷🚧
 
