@@ -40,7 +40,7 @@ Kleros protocol is committed to full transparency. Its cases are completely open
 
 ## Kleros can not be gamed and controlled by whales
 
-### Is Kleros a court where rich people have more rights than ordinary folks? / Appeals are only affordable by the rich.
+### Is Kleros a court where rich people have more rights than ordinary folks \(because appeals are more affordable for the rich\)?
 
 Anyone can appeal a dispute ruling in Kleros. Most of the time both sides will be asked to contribute fees for the next round of voting to ensure jurors are rewarded and that that the losing side is reimbursed of its paid fees. This appeal system ensures that the final decision of jurors will always converge to the truth and that jurors in initial rounds of voting vote coherently from the start not to be penalized. 
 
