@@ -51,7 +51,7 @@ This usually leads to some critics saying that one of the parties with much grea
 
 People are thus incentivized to look at current appealed cases to spot obvious incorrect rulings and help crowdfund the other side to earn all or part of the rewards. This has been proven effective to deter "rich" parties from trying to win just by appealing several times. Learn more about it [here](https://blog.kleros.io/kleros-decentralized-token-listing-appeal-fees/).
 
-### FUD \#7 - How can you expect fairness from a court that is controlled by a bunch of rich whales?
+### FUD \#7 - How can I expect fairness from a court where whales have staked a lot of PNK?
 
 ### FUD \#8 - Can't someone just buy a lot of Kleros tokens and 51% attack the Kleros Court?
 
@@ -78,6 +78,8 @@ More details [here](https://kleros.gitbook.io/docs/pnk-token).
 "Jurors will give whatever ruling brings them more cases in the future"
 
 “Game theory is just a basic simplification of real life, therefore Kleros is broken"
+
+"Kleros only works for simple binary cases."
 
 🚧👷 IN PROGRESS 👷🚧
 
