@@ -40,7 +40,7 @@ Kleros protocol is committed to full transparency. Its cases are completely open
 
 ## Kleros can not be gamed and controlled by whales
 
-### FUD \#6 - Is Kleros a court where rich people have more rights than ordinary folks \(because appeals are more affordable for the rich\)?
+### FUD \#6 - Is Kleros a court where rich people have more rights than ordinary folks \(because appeals are more affordable for the rich\)? / How can I expect fairness from a court where whales have staked a lot of PNK?
 
 Anyone can appeal a dispute ruling in Kleros. Most of the time both sides will be asked to contribute fees for the next round of voting to ensure jurors are rewarded and that that the losing side is reimbursed of its paid fees. This appeal system ensures that the final decision of jurors will always converge to the truth and that jurors in initial rounds of voting vote coherently from the start not to be penalized. 
 
@@ -49,11 +49,9 @@ This usually leads to some critics saying that one of the parties with much grea
 1. Appeal fees can be “crowdfunded.” Namely, anyone can contribute a portion of either sides' appeal fees, potentially with many small contributions adding up to cover the whole fee.
 2. Crowdfunders who pay part of the fees of the side that ultimately wins are financially rewarded.
 
-People are thus incentivized to look at current appealed cases to spot obvious incorrect rulings and help crowdfund the other side to earn all or part of the rewards. This has been proven effective to deter "rich" parties from trying to win just by appealing several times. Learn more about it [here](https://blog.kleros.io/kleros-decentralized-token-listing-appeal-fees/).
+People are thus incentivized to look at current appealed cases to spot obvious incorrect rulings and help crowdfund the other side to earn all or part of the rewards. This has been proven effective to deter "rich" parties from trying to win just by appealing several times and it can make them lose a lot of money if they are malicious. Learn more about it [here](https://blog.kleros.io/kleros-decentralized-token-listing-appeal-fees/).
 
-### FUD \#7 - How can I expect fairness from a court where whales have staked a lot of PNK?
-
-### FUD \#8 - Can't someone just buy a lot of Kleros tokens and 51% attack the Kleros Court?
+### FUD \#7 - Can't someone just buy a lot of Kleros tokens and 51% attack the Kleros Court?
 
 In order for a "whale" attacker to flood the juror pool and try to "control the court", they would need to buy enough PNK so that they are selected enough times to be a juror for the same case in order to change the outcome. Generally, this means that the attacks need 51% of the total staked tokens.
 
