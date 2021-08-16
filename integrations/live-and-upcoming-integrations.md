@@ -10,22 +10,43 @@ The Kleros ecosystem lives and breathes through the disputes brought back to the
 
 ## Live Integrations
 
+### ⚖️ Projects using Kleros arbitration directly ⚖️
+
+### Unslashed Finance
+
+### Other Arbitrable apps
+
+* [Proof of Humanity](https://kleros.gitbook.io/docs/products/proof-of-humanity)
+* [Tokens](https://kleros.gitbook.io/docs/products/tokens)
+* [Curate](https://kleros.gitbook.io/docs/products/curate)
+* [Escrow](https://kleros.gitbook.io/docs/products/escrow)
+* [Linguo](https://kleros.gitbook.io/docs/products/linguo)
+* [Governor](https://kleros.gitbook.io/docs/products/governor)
+* [Reality.eth](https://kleros.gitbook.io/docs/products/oracle)
+
+### 🔮 Projects using Kleros arbitration through Reality.eth oracle 🔮
+
 ### Omen
 
-The [Omen](https://omen.eth.link/) prediction market \(on Ethereum mainnet and xDai\):
-
-* uses the [Kleros Oracle](https://kleros.gitbook.io/docs/products/oracle) solution \(Reality.eth \(bond escalation\) + Kleros Court \(Arbitration\)\) to rule on the outcome of events that are being predicted in their markets. For example, Kleros jurors rules on famous disputes about the number of Covid deaths in the US in July 2020 \([Case 302](https://thedailychain.com/an-important-case-for-the-decentralized-world-with-kleros/)\) and about the winner of 2020 US presidential election \([Case 532](https://twitter.com/jimmyragosa/status/1341293611682553856?lang=en)\)
-* uses a [Kleros Curate](https://curate.kleros.io/tcr/0xb72103eE8819F2480c25d306eEAb7c3382fBA612) list to curate "Verified Markets" that are well written according to acceptance criteria and to display a "Verified" badge next to them on their UI. It allows users to easily be reassured that they are not participating in a "tricky" market designed to fool the outcome shares buyers.
-
-![](../.gitbook/assets/image%20%2863%29.png)
+The [Omen](https://omen.eth.link/) prediction market \(on Ethereum mainnet and xDai\) uses the [Kleros Oracle](https://kleros.gitbook.io/docs/products/oracle) solution \(Reality.eth \(bond escalation\) + Kleros Court \(Arbitration\)\) to rule on the outcome of events that are being predicted in their markets. For example, Kleros jurors rules on famous disputes about the number of Covid deaths in the US in July 2020 \([Case 302](https://thedailychain.com/an-important-case-for-the-decentralized-world-with-kleros/)\) and about the winner of 2020 US presidential election \([Case 532](https://twitter.com/jimmyragosa/status/1341293611682553856?lang=en)\)
 
 ### Gnosis Safe SafeSnap
 
 The [Gnosis Safe](https://gnosis-safe.io/) multi-sig wallet can be used for DAO governance purposes thanks to the [SafeSnap](https://blog.gnosis.pm/introducing-safesnap-the-first-in-a-decentralized-governance-tool-suite-for-the-gnosis-safe-ea67eb95c34f) module. This module is using the [Kleros Oracle](https://kleros.gitbook.io/docs/products/oracle) solution \(Reality.eth \(bond escalation\) + Kleros Court \(Arbitration\)\) to effectively enforce on-chain the implementation and triggering of the proposals voted on by the DAO on Snapshot.
 
+### 📝 Projects using Kleros arbitration through Curate TCRs 📝
+
 ### CLR.fund
 
 The [clr.fund](https://clr.fund/) public goods funding protocol uses a [Kleros Curate](https://curate.kleros.io/tcr/0x2E3B10aBf091cdc53cC892A50daBDb432e220398) list to curate public goods projects that are eligible to receive donations through quadratic funding. It enables the open and fair filtering of non-public goods projects that would diminish the matching of donations for compliant projects.
+
+### Omen
+
+The [Omen](https://omen.eth.link/) prediction market \(on Ethereum mainnet and xDai\) uses a [Kleros Curate](https://curate.kleros.io/tcr/0xb72103eE8819F2480c25d306eEAb7c3382fBA612) list to curate "Verified Markets" that are well written according to acceptance criteria and to display a "Verified" badge next to them on their UI. It allows users to easily be reassured that they are not participating in a "tricky" market designed to fool the outcome shares buyers.
+
+![](../.gitbook/assets/image%20%2863%29.png)
+
+### 📝 Projects using Kleros arbitration through Tokens TCR 
 
 ### Uniswap / Sushiswap
 
