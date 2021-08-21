@@ -64,6 +64,12 @@ For example, assume user A is registered. A vouches for user B. User B uses the 
 
 Yes, you can remove a vouch at anytime by going to the vouched profile and clicking on "Remove Vouch"
 
+## When does my deposit get refunded?
+
+Your deposit will be refunded shortly after you move to "Registered" status. You can confirm the status of the refund transaction on [Etherscan](https://etherscan.io) by typing in your address and then clicking the "Internal Txns" tab.
+
+_Note: As this is an internal transaction, unlike the deposit transaction, you will not see the refund transaction in your Metamask "Activity" tab._
+
 ## How long does the registration last?
 
 Registrations have a duration of one year. This means that users need to periodically reapply to the registry. The purpose of the limited registration period is to remove people who die and malicious submissions which might have made it into the list. Conditions to reapply are similar to the original application.
