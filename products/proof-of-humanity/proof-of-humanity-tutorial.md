@@ -163,7 +163,7 @@ Vouching for someone is a benevolent act to help them get into the registry. Cur
 
 ![](../../.gitbook/assets/image%20%2868%29.png)
 
-* Once the transaction is validated, you will be in "Registered" status, accruing UBI and you will have the capacity to vouch for other people.
+* Once the transaction is validated, you will be in "Registered" status, accruing UBI and you will have the capacity to vouch for other people. Your deposit will also be refunded at this time.
 
 ![](../../.gitbook/assets/image%20%2821%29%20%281%29%20%281%29%20%281%29.png)
 
