@@ -95,7 +95,7 @@ Proof of Humanity is a Sybil-resistant list of humans using social vouching and 
 * [Evidence K](https://ipfs.kleros.io/ipfs/QmNjE2ZsL3NdbqyW6Cpgg9hvvhTNdfXeMadUgx1BQ3JvNE/EvidenceSubmissionAppeal2-Final.pdf)
 {% endhint %}
 
-![](../../.gitbook/assets/image%20%2856%29%20%282%29%20%282%29%20%282%29.png)
+![](../../.gitbook/assets/image%20%2856%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
 
 **1 hour-long street poll video asking about face angles**
 

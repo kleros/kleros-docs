@@ -12,11 +12,11 @@ description: >-
 {% tab title="1/ Register your profile" %}
 ## 1/ Register your profile \(5-10mn\)
 
-#### 1.a/ Go to the [Proof of Humanity](https://app.proofofhumanity.id/) app
+### 1.a/ Go to the [Proof of Humanity](https://app.proofofhumanity.id/) app
 
 * You will see the homepage of the app with the recent profiles registered in PoH.
 
-#### 1.b/ Connect your Ethereum / Web3 wallet
+### 1.b/ Connect your Ethereum / Web3 wallet
 
 * Click on the "Connect" button on the top right
 
@@ -29,7 +29,7 @@ description: >-
 * Once you have connected the wallet to the app \(the wallet will ask you to confirm the connection\), you will need to ensure you have some Ether \(ETH\) loaded in the wallet to interact with the Ethereum blockchain \(pays transaction fees\) and to be able to lock the ETH deposit needed to enter the registry \(it will be reimbursed to you\).
 
 {% hint style="danger" %}
-**PRIVACY WARNING:** The Ethereum address you are using to submit your profile will be publicly linked to your identity. If you don't want your wallet holdings and transaction history to be linked to your identity, we recommend using a new Ethereum address that you seeded with funds from an exchange or from [Tornado.cash](https://tornado.cash/) 
+**PRIVACY WARNING:** The Ethereum address you are using to submit your profile will be publicly linked to your identity. If you don't want your wallet holdings and transaction history to be linked to your identity, we recommend using a new Ethereum address that you seeded with funds from an exchange or from [Tornado.cash](https://tornado.cash/)
 {% endhint %}
 
 **1.c/ Click on "Submit profile" in the top banner**
@@ -43,16 +43,14 @@ description: >-
 ![](../../.gitbook/assets/image%20%2820%29.png)
 
 {% hint style="warning" %}
-**COMPLIANCE WARNING:** The information you submit about your profile will be checked and verified by the community to ensure you are not a not/fake and that you complied with all the guidelines. Please read thoroughly the instructions given on the submit page and check out the full [Proof of Humanity Guidelines](https://ipfs.kleros.io/ipfs/Qmc7ag5XohnSAozvsKsLCUbvaFyasyLtyi3H7g3mmxznPU/proof-of-humanity-registry-policy.pdf) to ensure the info you provide is correct.  
-  
-You can only update information by withdrawing your profile and resubmitting it. There is no way to edit your profile \(Evidences are there to argument that the case made against your profile is wrong, not to update your profile with a new video for example\).  
-  
+**COMPLIANCE WARNING:** The information you submit about your profile will be checked and verified by the community to ensure you are not a not/fake and that you complied with all the guidelines. Please read thoroughly the instructions given on the submit page and check out the full [Proof of Humanity Guidelines](https://ipfs.kleros.io/ipfs/Qmc7ag5XohnSAozvsKsLCUbvaFyasyLtyi3H7g3mmxznPU/proof-of-humanity-registry-policy.pdf) to ensure the info you provide is correct.
+
+You can only update information by withdrawing your profile and resubmitting it. There is no way to edit your profile \(Evidences are there to argument that the case made against your profile is wrong, not to update your profile with a new video for example\).
+
 If you make a mistake in your submission \(ex: Displaying a wrong address in the video\), it could be interpreted as a malicious attack by the challengers verifying the entry into the registry and you could lose your deposit.
 {% endhint %}
 
 * Once you have filled out your Name, First Name, Last Name & Short Bio, you will be asked to upload a front-facing profile picture and a video of yourself holding the Ethereum address you used for submission and saying "I certify that I am a real human and that I am not already registered in this registry" 
-
-
 
 ![](../../.gitbook/assets/image%20%2835%29.png)
 
@@ -78,7 +76,6 @@ If you make a mistake in your submission \(ex: Displaying a wrong address in the
 
 ![](../../.gitbook/assets/image%20%2824%29.png)
 
-  
 Don't forget to subscribe to Profile Update Notifications \(2nd tab at the top of this page\)
 {% endtab %}
 
@@ -102,7 +99,7 @@ In order to be notified of your profile progress in the validation process, you 
 {% tab title="3/ Profile Validation Process" %}
 ## 3/ Watch your profile go through the validation process and finalize registration \(**≈** 3-5 days\)
 
-Your submitted profile will start in "**Vouching Phase**" status and will go through a "**Pending registration**" phase before reaching the "**Registered**" status which means you are a verified human. 
+Your submitted profile will start in "**Vouching Phase**" status and will go through a "**Pending registration**" phase before reaching the "**Registered**" status which means you are a verified human.
 
 ![](../../.gitbook/assets/image%20%2865%29.png)
 
@@ -110,7 +107,7 @@ You can check the current status of your profile by clicking on "My profile" in 
 
 ![](../../.gitbook/assets/image%20%2842%29.png)
 
-#### 3.a/ How to go from "Vouching Phase" to "Pending registration" status?
+### 3.a/ How to go from "Vouching Phase" to "Pending registration" status?
 
 * You need to find one person who is in "Registered" status and that knows you in real-life \(or that can prove that you really are the person your profile describes\) and ask that person to vouch for you.
 
@@ -148,7 +145,7 @@ Vouching for someone is a benevolent act to help them get into the registry. Cur
 **Why is my profile staying in "Vouching Phase"?** If you wonder why you still are not in "Pending Registration" status even though you have your deposit and vouches, it probably means the person that vouched for you has vouched for several persons at the same time. His vouches are processed sequentially and you will need to wait for the persons he vouched for before you to be validated \(3.5 days for each\) before it is your turn for his vouch to be processed.
 {% endhint %}
 
-#### 3.b/ How to go from "Pending Registration" to "Registered" status?
+### 3.b/ How to go from "Pending Registration" to "Registered" status?
 
 * Once your Profile is in "Pending Registration" status, it will go through a challenge period of 3.5 days. That means that during 3.5 days people will check your profile to verify if you are a fake or if you provided incorrect information and, if yes, will try to challenge your registration to win part of your deposit.
 * You can check how long you have left in this period in the bottom left of your profile.
@@ -156,9 +153,6 @@ Vouching for someone is a benevolent act to help them get into the registry. Cur
 ![](../../.gitbook/assets/image%20%2832%29.png)
 
 * If you are not challenged during this period, you will be given the opportunity to transition to "Registered" status right after this 3.5 days period ends.
-
-
-
 * In order to finalize your registration, you will need to click on the **"Finalize registration and start accruing UBI"** button and confirm the transaction with your wallet. _\(Note that any other address can also send this transaction for you\)_
 
 ![](../../.gitbook/assets/image%20%2868%29.png)
@@ -168,13 +162,13 @@ Vouching for someone is a benevolent act to help them get into the registry. Cur
 ![](../../.gitbook/assets/image%20%2821%29%20%281%29%20%281%29%20%281%29.png)
 
 {% hint style="info" %}
-**What if I am challenged?** 
+**What if I am challenged?**
 
-Then, a dispute will be created in [Kleros Court](https://kleros.gitbook.io/docs/products/court).   
-You can provide evidence on your profile page to defend your case and monitor the progress of the dispute. Note that evidence is used to demonstrate that the reason for challenging the profile is or is not valid, it is not a tool to fix your submission mistakes.   
-  
-You can also appeal when a ruling is given by jurors if you don't agree with it.  
-  
+Then, a dispute will be created in [Kleros Court](https://kleros.gitbook.io/docs/products/court).  
+You can provide evidence on your profile page to defend your case and monitor the progress of the dispute. Note that evidence is used to demonstrate that the reason for challenging the profile is or is not valid, it is not a tool to fix your submission mistakes.
+
+You can also appeal when a ruling is given by jurors if you don't agree with it.
+
 If the jury rules in your favor, your profile goes back to "Pending Registration" phase for 3.5 days.  
 If the jury rules in favor of the challenger, your profile goes to "Removed" status.
 {% endhint %}
