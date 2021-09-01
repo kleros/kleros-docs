@@ -111,7 +111,7 @@ You can check the current status of your profile by clicking on "My profile" in 
 
 * You need to find one person who is in "Registered" status and that knows you in real-life \(or that can prove that you really are the person your profile describes\) and ask that person to vouch for you.
 
-![](../../.gitbook/assets/image%20%2825%29%20%281%29%20%281%29.png)
+![](../../.gitbook/assets/image%20%2825%29%20%281%29%20%282%29.png)
 
 * This person will need to go to your profile page and click on the "Gasless Vouch" button and sign a message from his wallet.
 
