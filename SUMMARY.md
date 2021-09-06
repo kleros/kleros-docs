@@ -57,6 +57,7 @@
 * [Archon: Ethereum Arbitration Standard Interaction Library](developer/archon-ethereum-arbitration-standard-api.md)
 * [Curate Classic: Integration for Devs](developer/curate/classic.md)
 * [Light Curate: Integration for Devs](developer/curate/light-curate.md)
+* [DAO Governance: Kleros + SafeSnap](developer/dao-governance/safesnap-kleros.md)
 
 ## Contribution Guidelines
 
