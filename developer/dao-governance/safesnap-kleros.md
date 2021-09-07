@@ -9,15 +9,20 @@ This is a tutorial following a previous governance [blogpost](https://blog.klero
 
 ![](../../.gitbook/assets/Separation-of-powers.png)
 
-We will dive into integrating the Gnosis SafeSnap module and Kleros with an existing DAO. For this, you will need a Gnosis Safe (learn more about it [here](https://gnosis-safe.io/#getting-started)). For testing purposes, we are going to use the [Safe App in rinkeby](https://rinkeby.gnosis-safe.io/). We are also going to be using the tools available in the Kleros' [dao-module repository](https://github.com/kleros/dao-module), so clone it and create an .env file with your parameters as shown in the [sample file](https://github.com/kleros/dao-module/blob/main/.env.sample).
-
-This guide will use the Rinkeby ETH Realitio v2.1 contract at [`0xa09ce5e7943f281a782a0dc021c4029f9088bec4`](https://rinkeby.etherscan.io/address/0xa09ce5e7943f281a782a0dc021c4029f9088bec4#code).
-
 ## Motivation
 
 You might be wondering why do we need so many blocks to achieve decentralized governance. Let's imagine that your project's treasury and smart contracts are managed by a multisig owned by team members. Furthermore, its token holders can use the project's Snapshot space to vote proposals, which should be carried out if successful, technically feasible and aligned with the project's mission. The big question is how do token holders make sure that the multisig owners will act accordingly.
 
 We can interpret this as a power play between an executive team performing actions and a legislative branch voting about what actions should be taken. The missing piece is a process secured by the equivalent to the judiciary power, which enforces the token holders decisions on-chain. Here is where SafeSnap and Kleros come in.
+
+## Let's the Puzzle Together
+
+We will dive into integrating the Gnosis SafeSnap module and Kleros with an existing DAO. For this, you will need a Gnosis Safe (learn more about it [here](https://gnosis-safe.io/#getting-started)). For testing purposes, we are going to use the [Safe App in rinkeby](https://rinkeby.gnosis-safe.io/). We are also going to be using the tools available in the Kleros' [dao-module repository](https://github.com/kleros/dao-module), so clone it and create an .env file with your parameters as shown in the [sample file](https://github.com/kleros/dao-module/blob/main/.env.sample).
+
+The first part of the guide will use the Rinkeby ETH Realitio v2.1 contract at [`0xa09ce5e7943f281a782a0dc021c4029f9088bec4`](https://rinkeby.etherscan.io/address/0xa09ce5e7943f281a782a0dc021c4029f9088bec4#code). 
+
+In order to setup your DAO on Mainnet, jump to the [Mainnet Setup](#mainnet) section.
+
 
 ## Adding the SafeSnap Module
 
@@ -32,7 +37,7 @@ Let's start by deploying the SafeSnap module.
 
 ## The Judiciary Branch
 
-If someone thinks that the current answer submitted to Realitio is incorrect, instead of submitting the correct answer with a higher bond, it's possible to relay the final resolution to an arbitrator. So, who is the arbitrator?
+When the proposal gets to the Realitio oracle, answers submitted to Realitio can be overwritten by other answers with a higher bond. Additionaly, it's possible to relay the final resolution to an arbitrator. So, who is the arbitrator?
 
 When the SafeSnap's DAO module is deployed, the Gnosis Safe multisig is set as the default arbitrator. This means that, ultimately, the signers of the Gnosis Safe have full control of what gets executed and what not, because they can approve or reject a list of transactions no matter what was voted on Snapshot. Eventually, the ruling power should be given to an impartial third party that safeguards the DAOs written guidelines.
 
@@ -40,13 +45,17 @@ When the SafeSnap's DAO module is deployed, the Gnosis Safe multisig is set as t
 ![](../../.gitbook/assets/Social-contract.png)
 
 
-
 ## Just use Kleros
 
-In order to set Kleros as the judiciary power, i.e. the arbitrator, first go to "New transaction" and select "<> Contract interaction".
+For testing purposes, we recommend to start using a centralized arbitrator, fully controled by the deployer address. To deploy a centralized abritrator together with a proxy contract that connects Realitio with the arbitrator, run:
+
+`yarn hardhat --network rinkeby deployArbitrator --oracle 0xa09ce5e7943f281a782a0dc021c4029f9088bec4`
+
+Now we can set Kleros as the judiciary power, i.e. the arbitrator. First go to "New transaction" and select "<> Contract interaction".
 
 
 ![](../../.gitbook/assets/Safe-new-tx.png)
+
 
 Complete with the address of the SafeSnap module you deployed earlier, select the setArbitrator function from the dropdown and, in the arbitrator field, paste the address of the Realitio Arbitration Proxy contract. This proxy supports the Realitio interface and adds some features to the arbitration process, for example, allowing appeals to be crowdfunded.
 
@@ -60,15 +69,15 @@ The Safe signers still have control over the multisig and some privileges over t
 
 ![](../../.gitbook/assets/Remove-safe-owners.png)
 
-Now we can say that the decentralization is completed. Your DAO has a trustless governance system. Let's go ahead and try create, dispute and execute a dummy proposal.
+Now we can say that the decentralization is complete. Your DAO has a trustless governance system. Let's go ahead and try to create, dispute, rule and execute a dummy proposal.
 
 ## Take'em to court!
 
 We can add a proposal to the module directly using hardhat tasks. If you want to set up a Snapshot space and integrate the SafeSnap plugin, check the [Snapshot integration](https://github.com/kleros/dao-module/blob/main/docs/setup_guide.md#snapshot-integration) section. 
 
 1. Add a dummy proposal with `yarn hardhat --network rinkeby addProposal --module <deployed_module_address>`. If you'd like to customize the proposal, modify the `sample_proposal.json` file as you wish. 
-1. Go to [reality.eth.link](https://reality.eth.link/app/) and look for the proposal. First, "Post" an answer and then "Apply for arbitration".
-1. Go to [the centralized arbitrator UI](https://centralizedarbitrator.netlify.app/), expand the "Select" dropdown and paste the arbitration proxy address in the "Enter Custom Address" field. You should see one pending dispute. 
+1. Go to [reality.eth.link](https://reality.eth.link/app/) and look for the proposal. First, "Post" an answer and then "Apply for arbitration". ![](../../.gitbook/assets/RealitioUI.png)
+1. Go to [the centralized arbitrator UI](https://centralizedarbitrator.netlify.app/), expand the "Select" dropdown and paste the arbitration proxy address in the "Enter Custom Address" field. You should see one pending dispute. ![](../../.gitbook/assets/Centralized-arbitrator-setup.png)
 1. Expand the dispute item, unselect "Give an appealable ruling" and choose the ruling to give (Yes, No or Refuse to Arbitrate).
 1. The arbitration doesn't automatically report the ruling to Realitio. To do so, run: `yarn hardhat --network rinkeby reportAnswer --module <deployed_module_address> --proxy <arbitration_proxy_address> --oracle 0xa09ce5e7943f281a782a0dc021c4029f9088bec4 --template 0x0000000000000000000000000000000000000000000000000000000000000dad`.
 1. If the Kleros resolution is "No" or "Refuse to arbitrate", the proposal won't be executed. Otherwise, anyone can execute the transactions. In this latter case, run `yarn hardhat --network rinkeby executeProposal --module <deployed_module_address>`.
@@ -85,4 +94,6 @@ A good arbitrator should also be consistent over time, building jurisprudence as
 
 The Kleros Court is currently used as the Judiciary branch of [the Kleros DAO, the Proof of Humanity DAO and the UBI DAO](https://governor.kleros.io/). Even though these DAO's use a different infrastructure that depends on the Kleros Governor, this is a good precedent of a well functioning decentralized governance system.
 
+## <a id="mainnet"></a>Mainnet Setup
 
+For 
