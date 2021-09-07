@@ -15,7 +15,7 @@ You might be wondering why do we need so many blocks to achieve decentralized go
 
 We can interpret this as a power play between an executive team performing actions and a legislative branch voting about what actions should be taken. The missing piece is a process secured by the equivalent to the judiciary power, which enforces the token holders decisions on-chain. Here is where SafeSnap and Kleros come in.
 
-## Let's the Puzzle Together
+## Let's Put the Puzzle Together
 
 We will dive into integrating the Gnosis SafeSnap module and Kleros with an existing DAO. For this, you will need a Gnosis Safe (learn more about it [here](https://gnosis-safe.io/#getting-started)). For testing purposes, we are going to use the [Safe App in rinkeby](https://rinkeby.gnosis-safe.io/). We are also going to be using the tools available in the Kleros' [dao-module repository](https://github.com/kleros/dao-module), so clone it and create an .env file with your parameters as shown in the [sample file](https://github.com/kleros/dao-module/blob/main/.env.sample).
 
@@ -44,12 +44,11 @@ When the SafeSnap's DAO module is deployed, the Gnosis Safe multisig is set as t
 
 ![](../../.gitbook/assets/Social-contract.png)
 
-
-## Just use Kleros
-
 For testing purposes, we recommend to start using a centralized arbitrator, fully controled by the deployer address. To deploy a centralized abritrator together with a proxy contract that connects Realitio with the arbitrator, run:
 
 `yarn hardhat --network rinkeby deployArbitrator --oracle 0xa09ce5e7943f281a782a0dc021c4029f9088bec4`
+
+## <a id="just-use-kleros"></a>Just use Kleros
 
 Now we can set Kleros as the judiciary power, i.e. the arbitrator. First go to "New transaction" and select "<> Contract interaction".
 
@@ -63,7 +62,7 @@ Complete with the address of the SafeSnap module you deployed earlier, select th
 
 Review the transaction, submit it and voila! Now, Kleros is integrated into your DAO governance. However, there is a final thing we need to do to make the DAO truly decentralized.
 
-## Removing Gnosis Safe signers
+## <a id="remove-signers"></a>Removing Gnosis Safe Signers
 
 The Safe signers still have control over the multisig and some privileges over the SafeSnap module (like changing the arbitrator, question timeout, etc.). Let's remove those. Go to "Settings" --> "Owners" and remove all signers of the multisig except for yourself. It's not possible to have an ownerless Safe. For this reason, the remaining owner (you) has to be replaced by the SafeSnap module address.
 
@@ -96,4 +95,19 @@ The Kleros Court is currently used as the Judiciary branch of [the Kleros DAO, t
 
 ## <a id="mainnet"></a>Mainnet Setup
 
-For 
+The setup for production starts in similar way to what we did on Rinkeby, but first take a quick look at the Realitio's question template. Beware that, should a proposal reach arbitration, Kleros jurors will have to interpret the question. We recommend to use a template similar to the [default template](https://github.com/kleros/dao-module/blob/main/src/tasks/defaultTemplate.json) used in the Kleros dao-module repository. Make sure to replace `<snapshot-space>` with the Snapshot's space name of your DAO. Be mindful if you apply any additional modification and contact the Kleros team if in doubt.
+
+The Realitio address on Mainnet is `0x325a2e0f3cca2ddbaebb4dfc38df8d19ca165b47`.
+
+1. Create a sample question template running `yarn hardhat --network mainnet createDaoTemplate --oracle 0x325a2e0f3cca2ddbaebb4dfc38df8d19ca165b47`. This will provide you with a template id.
+1. Deploy the module: `yarn hardhat --network mainnet setup --dao <safe_address> --oracle 0x325a2e0f3cca2ddbaebb4dfc38df8d19ca165b47 --template <template_id>`. We use a low cooldown value for testing purposes.
+1. Verify the contract: `yarn hardhat --network mainnet verifyEtherscan --module <deployed_module_address> --dao <safe_address> --oracle 0x325a2e0f3cca2ddbaebb4dfc38df8d19ca165b47 --template <template_id>`
+1. [Add the module to your Safe](https://help.gnosis-safe.io/en/articles/4934427-add-a-module).
+
+Next, we have to set the arbitrator. Repeat the steps detailed in the [Just Use Kleros](#just-use-kleros) section using the Mainnet addresses. The Kleros arbitration proxy is deployed at [0xd47f72a2d1d0e91b0ec5e5f5d02b2dc26d00a14d](https://etherscan.io/address/0xd47f72a2d1d0e91b0ec5e5f5d02b2dc26d00a14d). This arbitration proxy works without appeals. Soon a new version of the proxy will be deployed with improved features. Even if you set a DAO with the current version, remember that the arbitrator in the DAO module can be updated through a governance proposal. Stay tuned!
+
+Finish the setup by [Removing Gnosis Safe Signers](#remove-signers).
+
+## DAO's Constitution
+
+TODO
