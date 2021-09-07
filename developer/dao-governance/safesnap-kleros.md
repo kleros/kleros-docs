@@ -106,7 +106,7 @@ The Realitio address on Mainnet is `0x325a2e0f3cca2ddbaebb4dfc38df8d19ca165b47`.
 
 Next, we have to set the arbitrator. Repeat the steps detailed in the [Just Use Kleros](#just-use-kleros) section using the Mainnet addresses. The Kleros arbitration proxy is deployed at [0xd47f72a2d1d0e91b0ec5e5f5d02b2dc26d00a14d](https://etherscan.io/address/0xd47f72a2d1d0e91b0ec5e5f5d02b2dc26d00a14d). This arbitration proxy works without appeals. Soon a new version of the proxy will be deployed with improved features. Even if you set a DAO with the current version, remember that the arbitrator in the DAO module can be updated through a governance proposal. Stay tuned!
 
-Finish the setup by [Removing Gnosis Safe Signers](#remove-signers).
+Finish the setup by [Removing Gnosis Safe Signers](#remove-signers) and by adding the SafeSnap plugin to snapshot (See [Snapshot integration](https://github.com/kleros/dao-module/blob/main/docs/setup_guide.md#snapshot-integration)).
 
 ## DAO's Constitution
 
