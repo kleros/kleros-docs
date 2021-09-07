@@ -67,6 +67,8 @@ The General Court ID is 0.
 You can also check the subcourt IDs on community-owned [http://klerosboard.com/](http://klerosboard.com/).
 {% endhint %}
 
+Learn more about how to build an Arbitrable app integrated with the Kleros Court arbitrator by reading the ERC-792 Arbitration Standard linked below.
+
 {% page-ref page="../../developer/erc-792-arbitration-standard.md" %}
 
 ## Test it with the Centralized Arbitrator
