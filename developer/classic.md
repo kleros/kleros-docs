@@ -1,38 +1,38 @@
-# Curate (a.k.a. Generalized TCR)
+# Curate Classic: Integration for Devs
 
 The Kleros-powered [TCR factory and browser](https://curate.kleros.io).
 
 ## Introduction
 
-Curate is a web app built to ease interaction with Generalized TCR contracts. With it, users can create new TCRs (a.k.a. lists), browse deployed lists and interact with them (submit, remove or challenge items).
+Curate is a web app built to ease interaction with Generalized TCR contracts. With it, users can create new TCRs \(a.k.a. lists\), browse deployed lists and interact with them \(submit, remove or challenge items\).
 
-Decentralized curated lists are most useful as a replacement for apps that do curation without tripartition of powers. Some examples of apps that do this (and often generate frustation for users) are:
+Decentralized curated lists are most useful as a replacement for apps that do curation without tripartition of powers. Some examples of apps that do this \(and often generate frustation for users\) are:
 
-- Social Media;
-- App Stores;
-- News Platforms;
-- Video Platforms;
-- Content Storage;
+* Social Media;
+* App Stores;
+* News Platforms;
+* Video Platforms;
+* Content Storage;
 
-The status quo is that central parties get to write the law (listing criteria), be the judge and enforce rulings on videos, posts etc. Using a Generalized TCR instead, allows these powers to be moved to the edges, such that the users of the app get to write the listing criteria and pick an arbitrator they consider to be neutral. Enforcing is done by the blockchain.
+The status quo is that central parties get to write the law \(listing criteria\), be the judge and enforce rulings on videos, posts etc. Using a Generalized TCR instead, allows these powers to be moved to the edges, such that the users of the app get to write the listing criteria and pick an arbitrator they consider to be neutral. Enforcing is done by the blockchain.
 
 ## Quick Start
 
 Kleros provides an SDK to ease integration:
 
-```
+```text
 npm add @kleros/gtcr-sdk
 ```
 
 > Note: The terms TCR, GTCR and list are used interchangeably here and refer to the same thing: a Generalized TCR contract.
 
-Example: https://codesandbox.io/s/elastic-frog-d5w32
+Example: [https://codesandbox.io/s/elastic-frog-d5w32](https://codesandbox.io/s/elastic-frog-d5w32)
 
 ### Fetching deployed lists.
 
 Curate uses a factory contract to deploy and keep track of TCRs. To fetch a list of addresses of GTCRs you just have to provide the factory address:
 
-```
+```text
 // The GTCR factory contract on mainnet is located at: 0xe9dd523600b74b8ef0af164687079a6c437f9cd5
 import { GTCRFactory } from "@kleros/gtcr-sdk";
 
@@ -43,10 +43,9 @@ import { GTCRFactory } from "@kleros/gtcr-sdk";
   );
   await gtcrFactory.getTCRAddresses();
 })();
-
 ```
 
-You can find a react example at https://codesandbox.io/s/inspiring-jackson-0nx0q
+You can find a react example at [https://codesandbox.io/s/inspiring-jackson-0nx0q](https://codesandbox.io/s/inspiring-jackson-0nx0q)
 
 > Note: Curate factory deploys 2 contracts per list created: One is the list itself and another is the badges TCR. This second list is a list of lists used to connect TCRs together.
 
@@ -54,7 +53,7 @@ You can find a react example at https://codesandbox.io/s/inspiring-jackson-0nx0q
 
 To get information on a single item, use the `getItem` function of the `GeneralizedTCR` class:
 
-```
+```text
 import { GTCRFactory } from "@kleros/gtcr-sdk";
 
 // This example assumes you have an injected provider
@@ -80,16 +79,15 @@ const ITEM_ID =
   const item = await gtcr.getItem(ITEM_ID)
   console.info(item.decodedData) // Outputs the item column values.
 })();
-
 ```
 
-You can find a react example at https://codesandbox.io/s/great-frog-rti1f
+You can find a react example at [https://codesandbox.io/s/great-frog-rti1f](https://codesandbox.io/s/great-frog-rti1f)
 
 ### Fetching Items
 
 You can fetch items from a list using the `getItems` method of the `GeneralizedTCR` class. This will return an array of items with the latest request information:
 
-```
+```text
 import { GTCRFactory } from "@kleros/gtcr-sdk";
 
 // This example assumes you have an injected provider
@@ -112,16 +110,15 @@ const DEPLOYMENT_BLOCK = 10247266; // Optional, but recommended. Setting the dep
   const items = (await gtcr.getItems())
   console.info(items.map(item => item.decodedData)) // Outputs the item column values.
 })();
-
 ```
 
-You can find a React example at: https://codesandbox.io/s/elastic-frog-d5w32
+You can find a React example at: [https://codesandbox.io/s/elastic-frog-d5w32](https://codesandbox.io/s/elastic-frog-d5w32)
 
 ### Fetching Meta Evidence and Metadata
 
 The address of a GTCR by itself is not very useful for building, UIs. Usually we need other information such as the list name, description, logo etc. This data is stored inside the `metadata` field inside the meta evidence file. You can use the `getLatestMetaEvidence` to get the file like so:
 
-```
+```text
 const gtcr = new GeneralizedTCR(
     window.ethereum,
     LIST_ADDRESS,
@@ -149,10 +146,9 @@ const gtcr = new GeneralizedTCR(
     isTCRofTCRs: boolean      // Whether this is a list of GTCR addresses.
     relTcrDisabled: boolean    // Whether the badges TCR is enabled.
   }
-
-
 ```
 
-Example https://codesandbox.io/s/kind-banach-4fxnj
+Example [https://codesandbox.io/s/kind-banach-4fxnj](https://codesandbox.io/s/kind-banach-4fxnj)
 
 > For more information on meta evidence files, see [EIP-792](https://github.com/ethereum/EIPs/issues/792) and [erc-792 docs](https://developer.kleros.io/en/latest/)introduction.html.
+

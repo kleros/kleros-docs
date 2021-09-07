@@ -55,8 +55,8 @@
 * [ERC-792: Arbitration Standard](developer/erc-792-arbitration-standard.md)
 * [ERC 1497: Evidence Standard](developer/erc-1497-evidence-standard.md)
 * [Archon: Ethereum Arbitration Standard Interaction Library](developer/archon-ethereum-arbitration-standard-api.md)
-* [Curate Classic: Integration for Devs](developer/curate/classic.md)
-* [Light Curate: Integration for Devs](developer/curate/light-curate.md)
+* [Curate Classic: Integration for Devs](developer/classic.md)
+* [Light Curate: Integration for Devs](developer/light-curate.md)
 
 ## Contribution Guidelines
 

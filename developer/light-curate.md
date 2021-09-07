@@ -1,28 +1,22 @@
-# Light Curate
+# Light Curate: Integration for Devs
 
 Since Curate was first conceptualized, demand for ethereum block space has skyrocketed. This put a high price floor on the usecases that Curate can be with. Furthermore, we learned that there are is a lot more demand for user facing data than for contract to contract queries.
 
 Light Curate is a new version of the contract that significantly decreases costs of deployment and operation of Curate lists by leveraging new technologies and changing the strategy for data storage.
 
-1- Light Curate does not use contract storage to store item data. Instead, we only store the item's IPFS multihash in the contract. This means other contracts can't query the TCR with field values, but storage costs are roughly O(1) vs Classic Curate's O(n).
-2- The Graph `ipfs` api means we can also store the item fields in the subgraph. This comes with several benefits, among them: - No need to use `@kleros/gtcr-encoder` to encode and decode items. Just query the subgraph and you have the item. - Faster, scalable search: Classic Curate needs to sync with the client by downloading every single item and decoding it. With subgraphs we do not need to do this and can query the fields directly. - New need for complex solidity code searching fields on-chain.
-3- EIP-1167: Light Curate uses the minimal proxy for new deployments. This means the cost of deploying a new TCR dropped from roughly 7 million gas to 700k. Ten times cheaper!
+1- Light Curate does not use contract storage to store item data. Instead, we only store the item's IPFS multihash in the contract. This means other contracts can't query the TCR with field values, but storage costs are roughly O\(1\) vs Classic Curate's O\(n\). 2- The Graph `ipfs` api means we can also store the item fields in the subgraph. This comes with several benefits, among them: - No need to use `@kleros/gtcr-encoder` to encode and decode items. Just query the subgraph and you have the item. - Faster, scalable search: Classic Curate needs to sync with the client by downloading every single item and decoding it. With subgraphs we do not need to do this and can query the fields directly. - New need for complex solidity code searching fields on-chain. 3- EIP-1167: Light Curate uses the minimal proxy for new deployments. This means the cost of deploying a new TCR dropped from roughly 7 million gas to 700k. Ten times cheaper!
 
 ## Development
 
 This section will be devided into 3 sections:
 
-1- Fetching Parameters: Your UI needs to display some important information to the users such as, what is the bounty for successfuly challenges and how long do items stay in the challenge period.
-1- Item Submission: Here you will learn how to build a button to submit an item to the UI.
-2- Fetching Items: How to view items and item details.
-3- Item Interaction: This includes challenging, submitting evidence and crowdfunding appeals.
+1- Fetching Parameters: Your UI needs to display some important information to the users such as, what is the bounty for successfuly challenges and how long do items stay in the challenge period. 1- Item Submission: Here you will learn how to build a button to submit an item to the UI. 2- Fetching Items: How to view items and item details. 3- Item Interaction: This includes challenging, submitting evidence and crowdfunding appeals.
 
 ### Fetching Parameters
 
-We use a view contract to fetch all the relevant information at once.
-Deployments:
+We use a view contract to fetch all the relevant information at once. Deployments:
 
-- Kovan: `0x2dba4b729cb5f73bf85e7012ea99aa477a210dd6`
+* Kovan: `0x2dba4b729cb5f73bf85e7012ea99aa477a210dd6`
 
 > Note: If you are using react, you can take the hook we built [here](https://github.com/kleros/gtcr/blob/5e313ced24f5e3fc3a54f812e07fb1f86a6b2621/src/hooks/tcr-view.js) or use it as an example.
 
@@ -36,14 +30,14 @@ Since we use `@graphprotocol/graph-ts` we must submit items to its ipfs endpoint
 
 Full example [here](https://github.com/kleros/gtcr/blob/5e313ced24f5e3fc3a54f812e07fb1f86a6b2621/src/utils/ipfs-publish.js)
 
-```
+```text
 REACT_APP_IPFS_GATEWAY=https://ipfs.kleros.io
 REACT_APP_HOSTED_GRAPH_IPFS_ENDPOINT=https://api.thegraph.com/ipfs
 ```
 
 #### Upload and Transaction
 
-```
+```text
 // ipfs-publish.js
 
 import deepEqual from 'fast-deep-equal/es6'
@@ -170,20 +164,18 @@ async function jsonStreamToPromise(stream) {
 
   return result
 }
-
 ```
 
 The JSON file for the object is composed of the its metadata and fields.
 
-- Metadata (columns): An array describing each of the items columns (what's its type, name, description, etc.)
-- Values (values): An object mapping the column name to the value.
+* Metadata \(columns\): An array describing each of the items columns \(what's its type, name, description, etc.\)
+* Values \(values\): An object mapping the column name to the value.
 
-The metadata is available inside the meta evidence file, which is returned by the useTCRView hook.
-The Values are input by the user.
+The metadata is available inside the meta evidence file, which is returned by the useTCRView hook. The Values are input by the user.
 
 Example of columns used by the TCR at
 
-```
+```text
 [
   {
     "label": "Logo",
@@ -224,7 +216,7 @@ Example of columns used by the TCR at
 
 And an example of values. Note that it is required for the keys to match the column names in the columns object.
 
-```
+```text
 {
   "Logo": "/ipfs/QmT4vij3PrGZEQ1zarTrPmkqQWggRQN6VEpewSHJXbkeXh/pnk-logo.png",
   "Name": "Pinakion",
@@ -237,7 +229,7 @@ And an example of values. Note that it is required for the keys to match the col
 
 With this in hand we can submit the item.
 
-```
+```text
 const gtcr = new ethers.Contract(tcrAddress, _gtcr, signer)
 const enc = new TextEncoder()
 const fileData = enc.encode(JSON.stringify({ columns, values }))
@@ -255,17 +247,17 @@ const tx = await gtcr.addItem(ipfsEvidencePath, {
 
 > We break down this section into two as list views and details view have different requirements.
 
-Fetchin items is best done via the subgraph we provide. If you deployed an list using the factory, it already has a subgraph deployed and available (here)[https://thegraph.com/explorer/subgraph/kleros/light-curate-kovan].
+Fetchin items is best done via the subgraph we provide. If you deployed an list using the factory, it already has a subgraph deployed and available \(here\)\[[https://thegraph.com/explorer/subgraph/kleros/light-curate-kovan](https://thegraph.com/explorer/subgraph/kleros/light-curate-kovan)\].
 
 #### List
 
 Whenever we want to fetch items, or a specific item, we must pass the TCR address to the subgraph.
 
-See (this react example)[https://github.com/kleros/gtcr/blob/5e313ced24f5e3fc3a54f812e07fb1f86a6b2621/src/pages/items/index.js] for more details.
+See \(this react example\)\[[https://github.com/kleros/gtcr/blob/5e313ced24f5e3fc3a54f812e07fb1f86a6b2621/src/pages/items/index.js](https://github.com/kleros/gtcr/blob/5e313ced24f5e3fc3a54f812e07fb1f86a6b2621/src/pages/items/index.js)\] for more details.
 
 A standard query for the first page of a given list, ordered by the most recent requests, looks like this.
 
-```
+```text
 const ITEMS_PER_PAGE = 40
 const orderDirection = 'asc'
 const page = 1
@@ -321,7 +313,7 @@ const query = {
 
 If you want, you can also use apollo to cache queries and make the app load faster.
 
-```
+```text
 const ITEM_DETAILS_QUERY = gql`
   query itemDetailsQuery($id: String!) {
     item(id: $id) {
@@ -365,7 +357,8 @@ This is the easiest part of the application. All items are referenced by their I
 
 With it you can:
 
-- Execute requests: This is for when a request passed the challenge period without any challenges.
-- Challenge requests (registration or removal) via the contract's `challengeRequest` function
-- Submit evidence: `submitEvidence` by passing the evidence json file following (ERC-1497)[https://kleros.gitbook.io/docs/developer/erc-1497-evidence-standard] standard.
-- Fund appeals: `fundAppeal`
+* Execute requests: This is for when a request passed the challenge period without any challenges.
+* Challenge requests \(registration or removal\) via the contract's `challengeRequest` function
+* Submit evidence: `submitEvidence` by passing the evidence json file following \(ERC-1497\)\[[https://kleros.gitbook.io/docs/developer/erc-1497-evidence-standard](https://kleros.gitbook.io/docs/developer/erc-1497-evidence-standard)\] standard.
+* Fund appeals: `fundAppeal`
+

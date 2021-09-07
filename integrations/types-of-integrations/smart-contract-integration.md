@@ -10,6 +10,8 @@ description: >-
 **Kleros Court Deployments \(Arbitrator\)**
 
 * [Kleros Court \(Arbitrator\) on Ethereum Mainnet](https://etherscan.io/address/0x988b3a538b618c7a603e1c11ab82cd16dbe28069)
+* [Kleros Court \(Arbitrator\) on xDai](https://blockscout.com/xdai/mainnet/address/0x9C1dA9A04925bDfDedf0f6421bC7EEa8305F9002)
+* [Kleros Court \(Arbitrator\) on Sokol](https://blockscout.com/poa/sokol/address/0xb701ff19fBD9702DD7Ca099Ee7D0D42a2612baB5/)
 * [Kleros Court \(Arbitrator\) on Ethereum Ropsten](https://ropsten.etherscan.io/address/0x9643e91d3734b795e914a64169147b70876272ba)
 * [Kleros Court \(Arbitrator\) on Ethereum Kovan](https://kovan.etherscan.io/address/0x60b2abfdfad9c0873242f59f2a8c32a3cc682f80)
 {% endhint %}
@@ -34,7 +36,7 @@ In the `Arbitrable` contract, you will have to define at least:
 * \(If appeals are allowed\) Stake multipliers representing multipliers of the appeal cost that a party must pay for a new round \(in basis points\)
 
 {% hint style="info" %}
-**List of Subcourt IDs**  
+**List of Subcourt IDs \(Ethereum Mainnet\)**  
   
 The General Court ID is 0.
 
