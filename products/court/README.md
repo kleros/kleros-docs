@@ -40,3 +40,5 @@ When creating an arbitrable contract, parties should choose a type of court spec
 
 The description of the courts can be found on the [Kleros Court App](https://court.kleros.io/) by clicking on "Join a court" button.
 
+{% page-ref page="../../integrations/types-of-integrations/smart-contract-integration.md" %}
+

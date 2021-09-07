@@ -33,8 +33,8 @@
 
 * [Overview](integrations/overview.md)
 * [Types of Integrations](integrations/types-of-integrations/README.md)
-  * [Integration with Arbitrator](integrations/types-of-integrations/smart-contract-integration.md)
-  * [Interacting with Arbitrable app](integrations/types-of-integrations/interacting-with-arbitrable-app.md)
+  * [Integrate your app with Kleros Court \(Arbitrator\)](integrations/types-of-integrations/smart-contract-integration.md)
+  * [Interact with Arbitrable apps built on top of Kleros Court](integrations/types-of-integrations/interacting-with-arbitrable-app.md)
   * [How to use Reality.eth + Kleros as an oracle](integrations/types-of-integrations/how-to-use-reality.eth-+-kleros-as-an-oracle.md)
 * [Integrations FAQ](integrations/integrations-faq.md)
 * [Use Cases](integrations/use-cases/README.md)

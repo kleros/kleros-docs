@@ -4,7 +4,7 @@ description: >-
   dispute resolution services
 ---
 
-# Integration with Arbitrator
+# Integrate your app with Kleros Court \(Arbitrator\)
 
 {% hint style="info" %}
 **Kleros Court Deployments \(Arbitrator\)**
