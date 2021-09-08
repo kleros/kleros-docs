@@ -95,11 +95,11 @@ The Kleros Court is currently used as the Judiciary branch of [the Kleros DAO, t
 
 ## <a id="mainnet"></a>Mainnet Setup
 
-The setup for production starts in similar way to what we did on Rinkeby, but first take a quick look at the Realitio's question template. Beware that, should a proposal reach arbitration, Kleros jurors will have to interpret the question. We recommend to use a template similar to the [default template](https://github.com/kleros/dao-module/blob/main/src/tasks/defaultTemplate.json) used in the Kleros dao-module repository. Make sure to replace `<snapshot-space>` with the Snapshot's space name of your DAO. Be mindful if you apply any additional modification and contact the Kleros team if in doubt.
+The setup for production starts in a similar way to what we did on Rinkeby, but first take a quick look at the Realitio's question template. Beware that, should a proposal reach arbitration, Kleros jurors will have to interpret the question. We recommend to use a template similar to the [default template](https://github.com/kleros/dao-module/blob/main/src/tasks/defaultTemplate.json) used in the Kleros dao-module repository. Make sure to replace `<snapshot-space>` with the Snapshot's space name of your DAO. Be mindful if you apply any additional modification and contact the Kleros team if in doubt.
 
 The Realitio address on Mainnet is `0x325a2e0f3cca2ddbaebb4dfc38df8d19ca165b47`.
 
-1. Create a sample question template running `yarn hardhat --network mainnet createDaoTemplate --oracle 0x325a2e0f3cca2ddbaebb4dfc38df8d19ca165b47`. This will provide you with a template id.
+1. Create the question template running `yarn hardhat --network mainnet createDaoTemplate --oracle 0x325a2e0f3cca2ddbaebb4dfc38df8d19ca165b47`. This will provide you with a template id.
 1. Deploy the module: `yarn hardhat --network mainnet setup --dao <safe_address> --oracle 0x325a2e0f3cca2ddbaebb4dfc38df8d19ca165b47 --template <template_id>`. We use a low cooldown value for testing purposes.
 1. Verify the contract: `yarn hardhat --network mainnet verifyEtherscan --module <deployed_module_address> --dao <safe_address> --oracle 0x325a2e0f3cca2ddbaebb4dfc38df8d19ca165b47 --template <template_id>`
 1. [Add the module to your Safe](https://help.gnosis-safe.io/en/articles/4934427-add-a-module).
