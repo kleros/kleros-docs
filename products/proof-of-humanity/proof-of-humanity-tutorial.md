@@ -8,6 +8,8 @@ description: >-
 
 ❓ Check out the [FAQ ](https://kleros.gitbook.io/docs/products/proof-of-humanity/poh-faq)or [Part 2 of the PoH Tutorial](https://kleros.gitbook.io/docs/products/proof-of-humanity/proof-humanity-tutorial-remove-and-challenge) if you don't find your answer here.
 
+![](../../.gitbook/assets/poh-updated-flow-chart_.png)
+
 {% tabs %}
 {% tab title="1/ Register your profile" %}
 ## 1/ Register your profile \(5-10mn\)
@@ -100,8 +102,6 @@ In order to be notified of your profile progress in the validation process, you 
 ## 3/ Watch your profile go through the validation process and finalize registration \(**≈** 3-5 days\)
 
 Your submitted profile will start in "**Vouching Phase**" status and will go through a "**Pending registration**" phase before reaching the "**Registered**" status which means you are a verified human.
-
-![](../../.gitbook/assets/image%20%2865%29.png)
 
 You can check the current status of your profile by clicking on "My profile" in the top banner \(if you're connected\) or by searching for your name in the search bar and accessing your profile.
 
