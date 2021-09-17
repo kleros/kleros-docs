@@ -17,7 +17,7 @@ We can interpret this as a power play between an executive team performing actio
 
 ## Let's Put the Puzzle Together
 
-We will dive into integrating the Gnosis SafeSnap module and Kleros with an existing DAO. For this, you will need a Gnosis Safe (learn more about it [here](https://gnosis-safe.io/#getting-started)). For testing purposes, we are going to use the [Safe App in rinkeby](https://rinkeby.gnosis-safe.io/). We are also going to be using the tools available in the Kleros' [dao-module repository](https://github.com/kleros/dao-module), so clone it and create an .env file with your parameters as shown in the [sample file](https://github.com/kleros/dao-module/blob/main/.env.sample).
+We will dive into integrating the Gnosis SafeSnap module and Kleros with an existing DAO. For this, you will need a Gnosis Safe (learn more about it [here](https://gnosis-safe.io/#getting-started)). For testing purposes, we are going to use the [Safe App in rinkeby](https://rinkeby.gnosis-safe.io/). We are also going to be using the tools available in the Kleros' [dao-module repository](https://github.com/kleros/dao-module), so clone it and create an .env file with your parameters as shown in the [sample file](https://github.com/kleros/dao-module/blob/main/.env.sample). Before start using it, make sure to install the dependencies with `yarn` and compile the contracts with `yarn build`.
 
 The first part of the guide will use the Rinkeby ETH Realitio v2.1 contract at [`0xa09ce5e7943f281a782a0dc021c4029f9088bec4`](https://rinkeby.etherscan.io/address/0xa09ce5e7943f281a782a0dc021c4029f9088bec4#code). 
 
