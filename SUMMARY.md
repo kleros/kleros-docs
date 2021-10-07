@@ -25,6 +25,7 @@
 * [Governor](products/governor.md)
 * [Escrow](products/escrow/README.md)
   * [Kleros Escrow Tutorial](products/escrow/kleros-escrow-tutorial.md)
+  * [\(New - In progress\) Kleros Escrow Tutorial](products/escrow/new-in-progress-kleros-escrow-tutorial.md)
   * [Kleros Escrow Specifications](products/escrow/kleros-escrow-specifications.md)
 * [Linguo](products/linguo/README.md)
   * [Kleros Linguo Tutorial](products/linguo/kleros-linguo-tutorial.md)
