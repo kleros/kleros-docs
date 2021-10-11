@@ -12,13 +12,13 @@ See [Git Code Style & Guidelines](../code-style-and-guidelines/git.md) for our m
 
 We try to keep the number of tools we use to a minimum for simplicity and ease of on-boarding. The new features of Github make it possible to keep most of the project management next to the code, and this is our approach:
 
-| Issues | Projects | Milestones |
-| :--- | :--- | :--- |
+| Issues                                                  | Projects                               | Milestones                                             |
+| ------------------------------------------------------- | -------------------------------------- | ------------------------------------------------------ |
 | Reference a specific task and keep track of its status. | Reference a long term project or goal. | Are used to group issues into time-controlled sprints. |
 
 ## Labels for Days
 
-We also have a very comprehensive set of labels that can be automatically added to a repo using [Kathari](). It's important that all issues and pull requests have a priority, status, and type, and that they keep track of who is working and who is reviewing, if anyone.
+We also have a very comprehensive set of labels that can be automatically added to a repo using [Kathari](broken-reference). It's important that all issues and pull requests have a priority, status, and type, and that they keep track of who is working and who is reviewing, if anyone.
 
 ### **Optional**
 
@@ -48,7 +48,7 @@ We also have a very comprehensive set of labels that can be automatically added 
 * **Documentation 📚** - Documentation work.
 * **Enhancement ✨** - Enhancements.
 * **Maintenance 🚧** - Chores.
-* **Question ❔ -** Queries about the project.
+* **Question ❔ - **Queries about the project.
 
 ## Lifecycle
 
@@ -64,6 +64,4 @@ We don't have a complicated issue or pull request template, we just ask for comm
 4. The assignee branches off `develop` to work and submits a pull request when ready.
 5. Our CI/CD process lints, formats, and tests the code.
 6. The pull request is merged after all the changes are reviewed and accepted, and any requested changes are made.
-
-
 

@@ -14,13 +14,13 @@ Everyone, not just Kleros team members, is welcome to participate in its writing
 
 This guide is a compilation of years of experience in the fields of traditional software engineering, and smart contract and financial software auditing. We've broken it down into three parts:
 
-| General Workflow | Smart Contract Workflow | Code Style & Guidelines | License & Code of Conduct |
-| :--- | :--- | :--- | :--- |
+| General Workflow                                                | Smart Contract Workflow                     | Code Style & Guidelines                                | License & Code of Conduct                    |
+| --------------------------------------------------------------- | ------------------------------------------- | ------------------------------------------------------ | -------------------------------------------- |
 | General process and standards for writing and pushing software. | Smart contract specific security protocols. | Stylistic guidelines for our main languages and tools. | Our standard license and conduct guidelines. |
 
-## Kathari CLI \[Deprecated\]
+## Kathari CLI \[Deprecated]
 
-~~To make following our standards easier, we made~~ [~~Kathari~~](https://github.com/kleros/kathari)~~, a linting and formatting scripts for multiple types of projects.~~
+~~To make following our standards easier, we made ~~[~~Kathari~~](https://github.com/kleros/kathari)~~, a linting and formatting scripts for multiple types of projects.~~
 
 {% hint style="info" %}
 ~~Kathari means "Clean" in Greek.~~
@@ -34,7 +34,7 @@ This guide is a compilation of years of experience in the fields of traditional 
 
 * [kleros](https://github.com/kleros) - [Kleros whitepaper](https://kleros.io/assets/whitepaper.pdf) arbitrator implementation smart contracts.
 * [kleros-interaction](https://github.com/kleros-interaction) - Arbitrable smart contracts and other contracts that can interact with Kleros.
-* [archon](https://github.com/kleros/archon) - Wrapper that simplifies interfacing with smart contracts that adhere to the [arbitration \(ERC792\)](https://github.com/ethereum/EIPs/issues/792) and [evidence \(ERC1497\)](https://github.com/ethereum/EIPs/issues/1497) standards.
+* [archon](https://github.com/kleros/archon) - Wrapper that simplifies interfacing with smart contracts that adhere to the [arbitration (ERC792)](https://github.com/ethereum/EIPs/issues/792) and [evidence (ERC1497)](https://github.com/ethereum/EIPs/issues/1497) standards.
 
 ## Referencing This Guide
 
@@ -48,5 +48,4 @@ The rules in this guide are meant to be followed as much as possible, but should
 
 > The golden rules is that there are no golden rules.
 >
-> -George Bernard Shaw-
-
+> \-George Bernard Shaw-

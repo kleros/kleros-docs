@@ -4,11 +4,11 @@ description: A community-curated list of Tokens
 
 # Tokens
 
-🟣 [Kleros Tokens App](https://tokens.kleros.io/) 🟣
+🟣 [Kleros Tokens App](https://tokens.kleros.io) 🟣
 
-**Kleros Tokens** is an open and decentralized curated registry of tokens. In other words, it is a community-managed list of ERC-20 tokens \(including their name, ticker,  logo and address\) open to any project and curated by the power of Kleros arbitration and economic incentives.
+**Kleros Tokens **is an open and decentralized curated registry of tokens. In other words, it is a community-managed list of ERC-20 tokens (including their name, ticker,  logo and address) open to any project and curated by the power of Kleros arbitration and economic incentives.
 
-![](../../.gitbook/assets/image%20%2851%29.png)
+![](<../../.gitbook/assets/image (51).png>)
 
 ## Why does the ecosystem need a decentralized and open list of tokens?
 
@@ -24,7 +24,7 @@ In the legacy financial system, the concept of “listing” is incredibly meani
 
 In the Ethereum-based decentralized financial system, the concept of “listing” loses its meaning. Anyone can create a new ERC20 token and transfer it to anyone else, and it will be publicly recorded on the Ethereum blockchain.
 
-Since all tokens use a standard interface, infrastructure-layer applications, such as wallets, analytics sites, and DeFi protocols \(like Uniswap\) can immediately recognize and interact with new ERC20 tokens from the moment they are deployed.
+Since all tokens use a standard interface, infrastructure-layer applications, such as wallets, analytics sites, and DeFi protocols (like Uniswap) can immediately recognize and interact with new ERC20 tokens from the moment they are deployed.
 
 As we move towards mass tokenization, this process of filtering and curation becomes more important than ever before for Ethereum-based projects. The alternative is a UX nightmare, with users having to verify the legitimacy of assets on an ad hoc basis.
 
@@ -43,9 +43,9 @@ It is also possible to make a removal request for an entry already accepted into
 
 ## What about Badges?
 
-Badges are a way to add additional information on top of token entries. For example, an "ERC-20 badge" was created with its policy specifying what is expected from an ERC-20 token and anyone can request for this badge to added to a token. Badges can be used for a variety of use cases such as decentralized listing process \(ex: badge "Compliant collateral for lending protocol"\), security rating or scam warnings.
+Badges are a way to add additional information on top of token entries. For example, an "ERC-20 badge" was created with its policy specifying what is expected from an ERC-20 token and anyone can request for this badge to added to a token. Badges can be used for a variety of use cases such as decentralized listing process (ex: badge "Compliant collateral for lending protocol"), security rating or scam warnings.
 
-![](../../.gitbook/assets/image%20%2848%29.png)
+![](<../../.gitbook/assets/image (48).png>)
 
 ## What type of information is stored in the Tokens registry
 
@@ -53,8 +53,8 @@ Badges are a way to add additional information on top of token entries. For exam
 
 The Tokens registry contract contains all token submissions. A token submission contains the token's data its current status and request history.
 
-* Name - The token's name \(e.g. Gnosis\).
-* Ticker - The token's ticker \(e.g. GNO\).
+* Name - The token's name (e.g. Gnosis).
+* Ticker - The token's ticker (e.g. GNO).
 * Address - The token's address.
 * Symbol Multihash - The multihash of the image with the token symbol, using the keccak-256 hash function.
 
@@ -64,7 +64,6 @@ You are free to define the information required for a badge
 
 ## Use cases
 
-Kleros Tokens is already one of the most popular [Token Lists](https://tokenlists.org/) \(and the only decentralized one\) and is thus used by the likes of Uniswap, Sushiswap, Zerion, etc... as a way to list tokens in their application.
+Kleros Tokens is already one of the most popular [Token Lists](https://tokenlists.org) (and the only decentralized one) and is thus used by the likes of Uniswap, Sushiswap, Zerion, etc... as a way to list tokens in their application.
 
 👨‍💻 [Kleros Tokens Technical Documentation](https://t2cr-docs.readthedocs.io/en/latest/deep-dive/#introduction) 👨‍💻
-

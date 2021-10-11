@@ -38,7 +38,7 @@ When working locally, it's OK if your branch history is not perfect, but that sh
 
 ### Messages
 
-Follow [Conventional Commits](https://www.conventionalcommits.org). If the repo uses [Kathari](), you can just run `yarn run cz` and follow the prompts to craft a valid message.
+Follow [Conventional Commits](https://www.conventionalcommits.org). If the repo uses [Kathari](broken-reference), you can just run `yarn run cz` and follow the prompts to craft a valid message.
 
 {% hint style="info" %}
 Note that all the words in a commit message are in **present tense** except for the first word in the footer, e.g. Closes, Fixes, etc.
@@ -77,6 +77,4 @@ Keep repos in good shape by performing maintenance tasks from time to time:
 * `git-prune`
 * `git-fsck`
 {% endhint %}
-
-
 
