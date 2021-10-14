@@ -262,6 +262,10 @@ You can monitor the progress of the dispute on the escrow payment page or on [ht
 Once a first ruling has been made by the Kleros court, anyone who is not satisfied by the ruling can choose to appeal the court ruling asking for another round of ruling with more jurors drawn than before as well as providing additional evidence for the jurors to judge.
 
 When the final ruling is made, the winning party can withdraw its funds from the escrow.
+
+
+
+[Learn more about the dispute process.](https://kleros.gitbook.io/docs/products/court)
 {% endtab %}
 {% endtabs %}
 
