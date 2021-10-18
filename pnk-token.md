@@ -50,6 +50,12 @@ For each dispute that is arbitrated by Kleros, some number of jurors are require
 
 PNK holders can stake their tokens in a Kleros court to indicate their availability to serve as jurors. However, eventually, we will implement specialized subcourts and PNK holders will be able to choose which subcourts to stake their token in). In order to select the jurors for a case, random PNK are drawn from among those who have been staked, and the people who hold these PNK are the jurors.
 
+{% hint style="info" %}
+**TOTAL SUPPLY**
+
+PNK current total supply is 764,626,704 PNK. The supply can only be modified by the Kleros community through a DAO governance vote.
+{% endhint %}
+
 ## Why Does Kleros Need its Own Token? <a href="cadc" id="cadc"></a>
 
 First and foremost, PNK is a protection against [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack). In order for an attacker to flood the juror pool, they need to buy enough PNK so that they are selected enough times to be a juror for the same case in order to change the outcome. Generally, this means that the attacks need 51% of the total (staked) tokens.

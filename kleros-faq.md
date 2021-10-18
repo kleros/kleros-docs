@@ -10,9 +10,9 @@ description: ❓ Frequently Asked Questions about Kleros
 
 Satoshi Nakamoto taught us that a number of anonymous computers who do not trust each can still reach consensus, provided incentives are correctly structured. Kleros extends this principle to human decision-making. A number of anonymous jurors who do not trust each other can reach consensus on a right decision, provided incentives are correctly structured. To learn more about the incentive system, read our white paper.
 
-### How many PNK will exist?
+### What is the PNK token supply?
 
-The initial max supply of PNK has been fixed at one billion units. Any further minting can only be decided by the Kleros governance through a PNK holder proposal and vote.
+The current total supply is 764,626,704 PNK. The supply can only be modified by the Kleros community through a DAO governance vote.
 
 ### Does a party who wants to have a case adjudicated need to hold PNK?
 
@@ -76,5 +76,4 @@ A moderator in an online forum follows some predefined rules to decide whether a
 
 ### Which are the main legal and regulatory hurdles in setting up Kleros?
 
-Because of its innovative practice based on cryptoeconomics, Kleros is not recognized as arbitration according to international agreements. This could be an obstacle for adoption in “mainstream” use cases \(e.g., a government regulator could not use Kleros for settling disputes between, say, a credit card company and its users\). However, this should not be an obstacle to adoption in other use cases \(especially those within the crypto industry\). As Kleros is able to prove that it can solve disputes in non-mainstream use cases, we expect interest to arise in mainstream use cases. Eventually, arbitration associations will accept the Kleros approach to dispute resolution. The Kleros platform is an 'opt-in' system meaning the enforcement is automatic and pre-accepted by contracting parties agreeing on using Kleros as an arbitrator.
-
+Because of its innovative practice based on cryptoeconomics, Kleros is not recognized as arbitration according to international agreements. This could be an obstacle for adoption in “mainstream” use cases (e.g., a government regulator could not use Kleros for settling disputes between, say, a credit card company and its users). However, this should not be an obstacle to adoption in other use cases (especially those within the crypto industry). As Kleros is able to prove that it can solve disputes in non-mainstream use cases, we expect interest to arise in mainstream use cases. Eventually, arbitration associations will accept the Kleros approach to dispute resolution. The Kleros platform is an 'opt-in' system meaning the enforcement is automatic and pre-accepted by contracting parties agreeing on using Kleros as an arbitrator.
