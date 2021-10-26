@@ -43,7 +43,7 @@ To start an Escrow transaction, you will need to connect your wallet and initiat
 
 * Before we get started, remember to sign up for email notifications to not miss any important deadlines. It is important as if one of the parties raise a dispute about the payment and you do not answer, they could win the case automatically.
 
-![](<../../.gitbook/assets/image (95).png>)
+![](<../../.gitbook/assets/image (95) (1).png>)
 
 
 
@@ -103,9 +103,9 @@ Here you can also select to:
 {% hint style="info" %}
 **INFO**
 
-Upon clicking the "Automatic Payments section", a calendar will appear allowing you to select the deadline for the escrow contract. 
+Upon clicking the "Automatic Payments section", a calendar will appear allowing you to select the deadline for the escrow contract.&#x20;
 
-This is an important setting in which the contract execution date will be determined. If no disputes are raised before this deadline, the transaction will be automatically processed. 
+This is an important setting in which the contract execution date will be determined. If no disputes are raised before this deadline, the transaction will be automatically processed.&#x20;
 
 Before this timeout has passed, the receiver should have sent the product or service to the sender or the contract should be in dispute status.
 
@@ -129,9 +129,9 @@ Once the contract timeout has passed, the receiver can manually call the contrac
 
 ![](<../../.gitbook/assets/image (76).png>)
 
-* Once you have entered these details the contract Information for the cryptocurrency transaction should be automatically filled in. 
+* Once you have entered these details the contract Information for the cryptocurrency transaction should be automatically filled in.&#x20;
 
- 
+&#x20;
 
 ![](<../../.gitbook/assets/image (77).png>)
 
@@ -176,7 +176,7 @@ If you are the sender of the payment you'll see the following options for an exi
 
 In the final screen, you'll see a confirmation that the payment was made successfully.
 
-![](https://blog.kleros.io/content/images/2019/04/Payment_completed.jpg)
+![](https://blog.kleros.io/content/images/2019/04/Payment\_completed.jpg)
 
 * **No**: Select this if you're not satisfied with the outcome/action by the other party. You'll then have an option to either settle with a partial amount or raise a dispute to the Kleros court for arbitration
 
