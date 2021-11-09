@@ -4,7 +4,7 @@ description: How to integrate with Kleros?
 
 # Overview
 
-![](../.gitbook/assets/secured\_by\_kleros\_grey.svg)
+![](<../.gitbook/assets/SECURED\_BY\_KLEROS\_GREY (2).png>)
 
 ### Why do you want to integrate with Kleros services?
 

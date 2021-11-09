@@ -6,7 +6,7 @@ description: Overview of the Kleros ecosystem
 
 The Kleros ecosystem lives and breathes through the disputes brought back to the Court by all arbitrable apps integrated with it. Some are developed by the Cooperative Kleros team (cf. Products sections) but most are external projects plugging into the Kleros products to get arbitration/curation/oracle/escrow services.
 
-![](../.gitbook/assets/ecosystem-chart-4-.png)
+![](<../.gitbook/assets/ecosystem-chart (5).png>)
 
 ## Live Integrations
 
