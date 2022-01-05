@@ -45,7 +45,7 @@ description: >-
 ![](../../.gitbook/assets/image%20%2820%29.png)
 
 {% hint style="warning" %}
-**COMPLIANCE WARNING:** The information you submit about your profile will be checked and verified by the community to ensure you are not a not/fake and that you complied with all the guidelines. Please read thoroughly the instructions given on the submit page and check out the full [Proof of Humanity Guidelines](https://ipfs.kleros.io/ipfs/Qmc7ag5XohnSAozvsKsLCUbvaFyasyLtyi3H7g3mmxznPU/proof-of-humanity-registry-policy.pdf) to ensure the info you provide is correct.
+**COMPLIANCE WARNING:** The information you submit about your profile will be checked and verified by the community to ensure you are not a not/fake and that you complied with all the guidelines. Please read thoroughly the instructions given on the submit page and check out the full [Proof of Humanity Guidelines](https://ipfs.kleros.io/ipfs/QmZD8RWxgW1nrMxVgMwPKAEzziDmzXVgtw9YWGDJ9pTmPv/proof-of-humanity-registry-policy-v1.1.pdf) to ensure the info you provide is correct.
 
 You can only update information by withdrawing your profile and resubmitting it. There is no way to edit your profile \(Evidences are there to argument that the case made against your profile is wrong, not to update your profile with a new video for example\).
 
