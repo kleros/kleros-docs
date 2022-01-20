@@ -35,6 +35,7 @@ Call `request` function to receive 10,000 PNK. It only gives once for each addre
 
 * [Ropsten PNK Faucet](https://ropsten.etherscan.io/address/0x9AdCEAa6CFd7182b838Beb085e97729EB1Da681E#writeContract)
 * [Kovan PNK Faucet](https://kovan.etherscan.io/address/0x4e95b2e0ecb3bd394e1dddd775504820a746d3bd#writeContract)
+* [Rinkeby PNK Faucet](https://rinkeby.etherscan.io/address/0xb01c9de0e9de0a6cab6df586484707b7078de684#writeContract)
 * _Contact the Kleros team if you need a PNK faucet on other testnets_
 {% endhint %}
 
