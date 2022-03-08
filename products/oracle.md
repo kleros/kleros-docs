@@ -8,7 +8,7 @@ description: >-
 
 Kleros Oracle is a product combining Kleros dispute resolution with Reality.eth cryptoeconomic mechanism for verifying real world events on-chain, to deliver a subjective oracle solution able to answer absolutely any question with a publicly verifiable answer.
 
-### How does it work?
+## How does it work?
 
 Anyone \(individual or dapp\) can submit a question to the Reality.eth platform while specifying Kleros as the final arbitrator. For example:
 
