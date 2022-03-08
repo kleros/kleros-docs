@@ -16,7 +16,7 @@ Building this type of advanced identity registry is not an end in itself. It is 
 
 ## Proof of Humanity Use Cases <a id="proof-of-humanity-use-cases"></a>
 
-#### Universal Basic Income <a id="universal-basic-income"></a>
+### Universal Basic Income <a id="universal-basic-income"></a>
 
 Universal basic income \(UBI\) is a program for a periodic payment delivered to all individuals of a given population with no strings attached.
 
@@ -26,13 +26,13 @@ A UBI project based on Proof of Humanity is already underway as a collaboration 
 
 Check out the [_announcement of the UBI token launch_](https://blog.kleros.io/proof-of-humanity-building-the-internet-of-humans/) to learn more about this.
 
-#### Innovative DAO frameworks <a id="innovative-dao-frameworks"></a>
+### Innovative DAO frameworks <a id="innovative-dao-frameworks"></a>
 
 DAO frameworks and apps using the PoH registry to check the “humanity” of voters can experiment with truly democratic systems \(1 person = 1 vote\) and innovative preferential or quadratic voting features for which Sybil-resistance is required.
 
 For example, the UBI DAO will be based on a governance system such as this one in order to better account for the voices of every community member. A similar system could be added as a plugin to common DAO tools such as Colony, Aragon, or DAOstack.
 
-#### Better Funding Mechanisms <a id="better-funding-mechanisms"></a>
+### Better Funding Mechanisms <a id="better-funding-mechanisms"></a>
 
 By extending the concept of Quadratic Voting to a funding mechanism, one can create new mechanisms for endogenous community formation. [Quadratic funding](https://wtfisqf.com/) is a design for philanthropic or publicly-funded seeding to allow \(near\) optimal provision of a decentralized, self-organizing ecosystem of public goods.
 
@@ -40,13 +40,13 @@ Citizens make public goods contributions to projects of value to them. The amoun
 
 This mechanism requires accounts to be Sybil-resistant as splitting one’s funding across multiple accounts increases the amount given to the target project. And Proof of Humanity allows for this Sybil-resistance. Proof of Humanity can be an important piece of infrastructure to bring into reality some of the innovative governance ideas explained in the book "Radical Markets". For example, quadratic voting.
 
-#### Universal Identifiers and Self-Sovereign Identities <a id="universal-identifiers-and-self-sovereign-identities"></a>
+### Universal Identifiers and Self-Sovereign Identities <a id="universal-identifiers-and-self-sovereign-identities"></a>
 
 Accounts created on PoH can directly be used as a universal login method: imagine dapps recognizing users automatically without the need for registration.
 
 They can also be associated with other existing identity-adjacent systems such as 3box, ENS, or Serto.id to add Sybil-resistance to a user's profile.
 
-#### Certification and Reputation Systems <a id="certification-and-reputation-systems"></a>
+### Certification and Reputation Systems <a id="certification-and-reputation-systems"></a>
 
 Various certifications or reputation points \(such as credit scoring\) could be added to PoH profiles.
 
@@ -58,7 +58,7 @@ Certifications can include:
 * Degrees and professional certifications
 * Skills \(for example an “experienced Solidity developer” badge which could be assessed by looking at open source code published by the individual\)
 
-#### Sybil-Resistant Airdrops, Yield Farming, and NFT Distribution <a id="sybil-resistant-airdrops-yield-farming-and-nft-distribution"></a>
+### Sybil-Resistant Airdrops, Yield Farming, and NFT Distribution <a id="sybil-resistant-airdrops-yield-farming-and-nft-distribution"></a>
 
 Airdrops are a popular way to distribute tokens. However, even when requiring different forms of identification \(telegram accounts, passports\), those airdrops were typically Sybil-attacked.
 
@@ -66,7 +66,7 @@ This led to a switch toward airdrops proportional to the user balance of a speci
 
 Proof Of Humanity will allow Sybil-resistant airdrops where participants will each be given the same amount of coins. The same method can be applied to Sybil-resistant yield-farming \(UBI token accrual, for example\); to ensure gift NFTs are not hoarded by a small minority, or to ensure free subscription schemes are not abused.
 
-#### Anti-Spam Tools <a id="anti-spam-tools"></a>
+### Anti-Spam Tools <a id="anti-spam-tools"></a>
 
 Systems often use captchas \(small exercises testing user capacity to analyze an image or a sound which are hard to complete for AIs\) before allowing a user action in order to prevent spam.
 
@@ -74,7 +74,7 @@ These are wasting user time and do not prevent spam from a determined user who w
 
 Users spamming the system could get temporarily or permanently banned. And they would not be able to just create a new account in order to evade the ban.
 
-#### Sidechains Secured by Proof-of-Humanity Consensus <a id="sidechains-secured-by-proof-of-humanity-consensus"></a>
+### Sidechains Secured by Proof-of-Humanity Consensus <a id="sidechains-secured-by-proof-of-humanity-consensus"></a>
 
 The PoH registry could also be used to create a novel type of sidechain secured by Proof Of Identity with a “1 person = 1 vote” principle. This would assume an honest majority of humans in the registry and would work in a way similar to Proof Of Authority sidechains.
 
