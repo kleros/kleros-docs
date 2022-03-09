@@ -4,14 +4,16 @@ description: >-
   dispute resolution services
 ---
 
-# Integration with Arbitrator
+# Integrate your app with Kleros Court (Arbitrator)
 
 {% hint style="info" %}
-**Kleros Court Deployments \(Arbitrator\)**
+**Kleros Court Deployments (Arbitrator)**
 
-* [Kleros Court \(Arbitrator\) on Ethereum Mainnet](https://etherscan.io/address/0x988b3a538b618c7a603e1c11ab82cd16dbe28069)
-* [Kleros Court \(Arbitrator\) on Ethereum Ropsten](https://ropsten.etherscan.io/address/0x9643e91d3734b795e914a64169147b70876272ba)
-* [Kleros Court \(Arbitrator\) on Ethereum Kovan](https://kovan.etherscan.io/address/0x60b2abfdfad9c0873242f59f2a8c32a3cc682f80)
+* [Kleros Court (Arbitrator) on Ethereum Mainnet](https://etherscan.io/address/0x988b3a538b618c7a603e1c11ab82cd16dbe28069)
+* [Kleros Court (Arbitrator) on xDai](https://blockscout.com/xdai/mainnet/address/0x9C1dA9A04925bDfDedf0f6421bC7EEa8305F9002)
+* [Kleros Court (Arbitrator) on Sokol](https://blockscout.com/poa/sokol/address/0xb701ff19fBD9702DD7Ca099Ee7D0D42a2612baB5/)
+* [Kleros Court (Arbitrator) on Ethereum Ropsten](https://ropsten.etherscan.io/address/0x9643e91d3734b795e914a64169147b70876272ba)
+* [Kleros Court (Arbitrator) on Ethereum Kovan](https://kovan.etherscan.io/address/0x60b2abfdfad9c0873242f59f2a8c32a3cc682f80)
 {% endhint %}
 
 ## Create/Modify the Arbitrable app to be integrated with Kleros Court
@@ -22,21 +24,20 @@ If you want to integrate with Kleros for dispute resolution, you will have to cr
 
 In the `Arbitrable` contract, you will have to define at least:
 
-* the address of the `Arbitrator` contract \(look at the top of this page for the addresses of Kleros Court Arbitrators.
-* Some extra data to set up the arbitration \(that will specify the sub-court to be used and the number of vote required\)
+* the address of the `Arbitrator` contract (look at the top of this page for the addresses of Kleros Court Arbitrators.
+*   Some extra data to set up the arbitration (that will specify the sub-court to be used and the number of vote required)
 
-  * List of subcourt IDs below,
-  * We recommend starting with 3 votes.
-  * Script to generate the arbitrator extra data
+    * List of subcourt IDs below,
+    * We recommend starting with 3 votes.
+    * Script to generate the arbitrator extra data
 
-  `generateArbitratorExtraData = (subcourtID, noOfVotes) => 0x${parseInt(subcourtID, 10).toString(16).padStart(64, "0") + parseInt(noOfVotes, 10).toString(16).padStart(64, "0")};`
-
-* \(If appeals are allowed\) Stake multipliers representing multipliers of the appeal cost that a party must pay for a new round \(in basis points\)
+    `generateArbitratorExtraData = (subcourtID, noOfVotes) => 0x${parseInt(subcourtID, 10).toString(16).padStart(64, "0") + parseInt(noOfVotes, 10).toString(16).padStart(64, "0")};`
+* (If appeals are allowed) Stake multipliers representing multipliers of the appeal cost that a party must pay for a new round (in basis points)
 
 {% hint style="info" %}
-**List of Subcourt IDs**  
-  
-The General Court ID is 0.
+**List of Subcourt IDs (Ethereum Mainnet)**\
+****\
+****The General Court ID is 0.
 
 1. Blockchain
 2. Non-Technical
@@ -49,7 +50,7 @@ The General Court ID is 0.
 9. Curation
 10. Data Analysis
 11. Statistical Modeling
-12. Curation \(Medium\)
+12. Curation (Medium)
 13. Spanish-English Translation
 14. French-English Translation
 15. Portuguese-English Translation
@@ -62,16 +63,21 @@ The General Court ID is 0.
 22. Corte General en Espanol
 23. Humanity Court
 
-You can also check the subcourt IDs on community-owned [http://klerosboard.com/](http://klerosboard.com/).
+You can also check the subcourt IDs on community-owned [http://klerosboard.com/](http://klerosboard.com).
 {% endhint %}
 
-{% page-ref page="../../developer/erc-792-arbitration-standard.md" %}
+Learn more about how to build an Arbitrable app integrated with the Kleros Court arbitrator by reading the ERC-792 Arbitration Standard linked below.
+
+{% content-ref url="../../developer/erc-792-arbitration-standard.md" %}
+[erc-792-arbitration-standard.md](../../developer/erc-792-arbitration-standard.md)
+{% endcontent-ref %}
 
 ## Test it with the Centralized Arbitrator
 
-You can test your arbitrable app on mainnet and most testnets by deploying a centralized arbitrator that you control \(= you can easily give rulings/decisions and set the arbitration fee\) and testing the integration this way. More details about the arbitrator on the page linked below.
+You can test your arbitrable app on mainnet and most testnets by deploying a centralized arbitrator that you control (= you can easily give rulings/decisions and set the arbitration fee) and testing the integration this way. More details about the arbitrator on the page linked below.
 
-{% page-ref page="../integration-tools/centralized-arbitrator.md" %}
+{% content-ref url="../integration-tools/centralized-arbitrator.md" %}
+[centralized-arbitrator.md](../integration-tools/centralized-arbitrator.md)
+{% endcontent-ref %}
 
-For more details, please consult the [Arbitration Standard](https://kleros.gitbook.io/docs/developer/erc-792-arbitration-standard) documentation, have a look at the examples of implementations shared [here](https://github.com/kleros/erc-792/tree/master/contracts/examples), or contact us on Discord, Telegram, Slack, or send a mail to contact@kleros.io \(links on the bottom left\).
-
+For more details, please consult the [Arbitration Standard](https://kleros.gitbook.io/docs/developer/erc-792-arbitration-standard) documentation, have a look at the examples of implementations shared [here](https://github.com/kleros/erc-792/tree/master/contracts/examples), or contact us on Discord, Telegram, Slack, or send a mail to contact@kleros.io (links on the bottom left).

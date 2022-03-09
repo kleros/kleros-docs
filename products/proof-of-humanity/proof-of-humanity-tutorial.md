@@ -8,6 +8,8 @@ description: >-
 
 ❓ Check out the [FAQ ](https://kleros.gitbook.io/docs/products/proof-of-humanity/poh-faq)or [Part 2 of the PoH Tutorial](https://kleros.gitbook.io/docs/products/proof-of-humanity/proof-humanity-tutorial-remove-and-challenge) if you don't find your answer here.
 
+![](../../.gitbook/assets/poh-updated-flow-chart_.png)
+
 {% tabs %}
 {% tab title="1/ Register your profile" %}
 ## 1/ Register your profile \(5-10mn\)
@@ -43,7 +45,7 @@ description: >-
 ![](../../.gitbook/assets/image%20%2820%29.png)
 
 {% hint style="warning" %}
-**COMPLIANCE WARNING:** The information you submit about your profile will be checked and verified by the community to ensure you are not a not/fake and that you complied with all the guidelines. Please read thoroughly the instructions given on the submit page and check out the full [Proof of Humanity Guidelines](https://ipfs.kleros.io/ipfs/Qmc7ag5XohnSAozvsKsLCUbvaFyasyLtyi3H7g3mmxznPU/proof-of-humanity-registry-policy.pdf) to ensure the info you provide is correct.
+**COMPLIANCE WARNING:** The information you submit about your profile will be checked and verified by the community to ensure you are not a not/fake and that you complied with all the guidelines. Please read thoroughly the instructions given on the submit page and check out the full [Proof of Humanity Guidelines](https://ipfs.kleros.io/ipfs/QmZD8RWxgW1nrMxVgMwPKAEzziDmzXVgtw9YWGDJ9pTmPv/proof-of-humanity-registry-policy-v1.1.pdf) to ensure the info you provide is correct.
 
 You can only update information by withdrawing your profile and resubmitting it. There is no way to edit your profile \(Evidences are there to argument that the case made against your profile is wrong, not to update your profile with a new video for example\).
 
@@ -101,8 +103,6 @@ In order to be notified of your profile progress in the validation process, you 
 
 Your submitted profile will start in "**Vouching Phase**" status and will go through a "**Pending registration**" phase before reaching the "**Registered**" status which means you are a verified human.
 
-![](../../.gitbook/assets/image%20%2865%29.png)
-
 You can check the current status of your profile by clicking on "My profile" in the top banner \(if you're connected\) or by searching for your name in the search bar and accessing your profile.
 
 ![](../../.gitbook/assets/image%20%2842%29.png)
@@ -111,7 +111,7 @@ You can check the current status of your profile by clicking on "My profile" in 
 
 * You need to find one person who is in "Registered" status and that knows you in real-life \(or that can prove that you really are the person your profile describes\) and ask that person to vouch for you.
 
-![](../../.gitbook/assets/image%20%2825%29%20%281%29%20%282%29.png)
+![](../../.gitbook/assets/image%20%2825%29%20%281%29%20%282%29%20%282%29.png)
 
 * This person will need to go to your profile page and click on the "Gasless Vouch" button and sign a message from his wallet.
 

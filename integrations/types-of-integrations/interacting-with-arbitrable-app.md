@@ -4,7 +4,7 @@ description: >-
   an Arbitrator
 ---
 
-# Interacting with Arbitrable app
+# Interact with Arbitrable apps built on top of Kleros Court
 
 There are as many ways to interact with an `Arbitrable` app as there are Arbitrable apps. We will not be able to list them all exhaustively here but we will try to give you some pointers.
 

@@ -6,8 +6,8 @@ description: >-
 
 # Escrow
 
-🤝🏼 [Kleros Escrow ****App](https://escrow.kleros.io/) 🤝🏼  
-⚙️ [Kleros Escrow Contracts ](https://github.com/kleros/kleros-interaction/tree/master/contracts/standard/arbitration)⚙️ \(contracts starting with "MultipleArbitrableTransaction"\)
+🤝🏼 [Kleros Escrow** **App](https://escrow.kleros.io) 🤝🏼\
+⚙️ [Kleros Escrow Contracts ](https://github.com/kleros/kleros-interaction/tree/master/contracts/standard/arbitration)⚙️ (contracts starting with "MultipleArbitrableTransaction")
 
 **Kleros Escrow** is a secure and decentralized escrow Dapp that can be used for any exchange of goods, assets, or services involving an Ethereum-based asset.
 
@@ -35,9 +35,14 @@ Kleros is looking to change that by using crowdsourced jurors to adjudicate a nu
 
 > Employing a trust backed escrow platform is a win-win. Create higher sales conversions for companies whilst offering higher quality services to consumers.
 
-{% page-ref page="kleros-escrow-tutorial.md" %}
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
 
-{% page-ref page="../../integrations/integration-tools/escrow-sdk.md" %}
+{% content-ref url="../../integrations/integration-tools/escrow-sdk.md" %}
+[escrow-sdk.md](../../integrations/integration-tools/escrow-sdk.md)
+{% endcontent-ref %}
 
-{% page-ref page="../../integrations/integration-tools/escrow-react-widget.md" %}
-
+{% content-ref url="../../integrations/integration-tools/escrow-react-widget.md" %}
+[escrow-react-widget.md](../../integrations/integration-tools/escrow-react-widget.md)
+{% endcontent-ref %}

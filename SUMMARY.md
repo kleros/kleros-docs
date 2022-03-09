@@ -14,8 +14,8 @@
   * [What happens during a dispute?](products/court/what-happens-during-a-dispute.md)
   * [Answers to common Kleros criticism](products/court/answers-to-common-criticism.md)
 * [Proof of Humanity](products/proof-of-humanity/README.md)
-  * [Proof of Humanity Tutorial \(Register & Vouch\)](products/proof-of-humanity/proof-of-humanity-tutorial.md)
-  * [Proof Humanity Tutorial \(Remove & Challenge\)](products/proof-of-humanity/proof-humanity-tutorial-remove-and-challenge.md)
+  * [Proof of Humanity Tutorial (Register & Vouch)](products/proof-of-humanity/proof-of-humanity-tutorial.md)
+  * [Proof Humanity Tutorial (Remove & Challenge)](products/proof-of-humanity/proof-humanity-tutorial-remove-and-challenge.md)
   * [Proof of Humanity FAQ](products/proof-of-humanity/poh-faq.md)
 * [Tokens](products/tokens/README.md)
   * [Kleros Tokens Tutorial](products/tokens/kleros-t2cr-tutorial.md)
@@ -24,7 +24,7 @@
 * [Oracle](products/oracle.md)
 * [Governor](products/governor.md)
 * [Escrow](products/escrow/README.md)
-  * [Kleros Escrow Tutorial](products/escrow/kleros-escrow-tutorial.md)
+  * [Kleros Escrow Tutorial](products/escrow/new-in-progress-kleros-escrow-tutorial.md)
   * [Kleros Escrow Specifications](products/escrow/kleros-escrow-specifications.md)
 * [Linguo](products/linguo/README.md)
   * [Kleros Linguo Tutorial](products/linguo/kleros-linguo-tutorial.md)
@@ -33,8 +33,8 @@
 
 * [Overview](integrations/overview.md)
 * [Types of Integrations](integrations/types-of-integrations/README.md)
-  * [Integration with Arbitrator](integrations/types-of-integrations/smart-contract-integration.md)
-  * [Interacting with Arbitrable app](integrations/types-of-integrations/interacting-with-arbitrable-app.md)
+  * [Integrate your app with Kleros Court (Arbitrator)](integrations/types-of-integrations/smart-contract-integration.md)
+  * [Interact with Arbitrable apps built on top of Kleros Court](integrations/types-of-integrations/interacting-with-arbitrable-app.md)
   * [How to use Reality.eth + Kleros as an oracle](integrations/types-of-integrations/how-to-use-reality.eth-+-kleros-as-an-oracle.md)
 * [Integrations FAQ](integrations/integrations-faq.md)
 * [Use Cases](integrations/use-cases/README.md)
@@ -50,7 +50,7 @@
   * [Using Kleros arbitration for Dapps on xDai](integrations/scalability-and-crosschain/xdai.md)
 * [Kleros Analytics](integrations/analytics.md)
 
-## Developers <a id="developer"></a>
+## Developers <a href="developer" id="developer"></a>
 
 * [ERC-792: Arbitration Standard](developer/erc-792-arbitration-standard.md)
 * [ERC 1497: Evidence Standard](developer/erc-1497-evidence-standard.md)
@@ -68,7 +68,7 @@
 * [Smart Contract Workflow](contribution-guidelines/smart-contract-workflow/README.md)
   * [Task Tracking & Lifecycle](contribution-guidelines/smart-contract-workflow/task-tracking-and-lifecycle.md)
   * [RAB - Review, Audit, Bounty](contribution-guidelines/smart-contract-workflow/rab.md)
-  * [RABd \(+ Deploy\)](contribution-guidelines/smart-contract-workflow/rabd.md)
+  * [RABd (+ Deploy)](contribution-guidelines/smart-contract-workflow/rabd.md)
   * [Reporting Vulnerabilities](contribution-guidelines/smart-contract-workflow/reporting-vulnerabilities.md)
 * [Code Style and Guidelines](contribution-guidelines/code-style-and-guidelines/README.md)
   * [Git](contribution-guidelines/code-style-and-guidelines/git.md)
@@ -82,10 +82,9 @@
 
 * [Discord](https://discord.gg/cAvWk8B23f)
 * [Telegram](https://t.me/kleros)
-* [Governance Forum](https://forum.kleros.io/)
+* [Governance Forum](https://forum.kleros.io)
 * [Twitter](https://twitter.com/kleros_io)
-* [Blog](https://blog.kleros.io/)
+* [Blog](https://blog.kleros.io)
 * [Reddit](https://reddit.com/r/Kleros/)
 * [Github](https://github.com/kleros)
-* [Slack](https://slack.kleros.io/)
-
+* [Slack](https://slack.kleros.io)
