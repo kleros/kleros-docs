@@ -14,17 +14,17 @@ Using Kleros Escrow, you can transact in the blockchain ecosystem for services, 
 {% tab title="1/ Initiating a Payment/Invoice" %}
 To start an Escrow transaction, you will need to connect your wallet and initiate a new payment or invoice.
 
-## 1/ Initiating a Payment
+### 1/ Initiating a Payment
 
-### 1.a/ Go to the [Kleros Escrow](https://escrow.kleros.io) website
+#### 1.a/ Go to the [Kleros Escrow](https://escrow.kleros.io) website
 
 * If you don't have a web3-enabled browser, you will need to connect your **Metamask** wallet or **WalletConnect** to use the Escrow service.
 
-![](<../../.gitbook/assets/image (88).png>)
+![](<../../.gitbook/assets/image (87).png>)
 
 * Once you have connected the wallet to the app (the wallet will ask you to confirm the connection), you will need to ensure you have some Ether (ETH) loaded in the wallet to interact with the Ethereum blockchain (pays transaction fees) and to be able to pay for the Escrow transaction you'll be setting up later.
 
-![](<../../.gitbook/assets/image (92).png>)
+![](<../../.gitbook/assets/image (91).png>)
 
 * You should now be able to see the homepage shown below
 
@@ -34,31 +34,29 @@ To start an Escrow transaction, you will need to connect your wallet and initiat
 
 {% hint style="info" %}
 **INFO**\
-****If you already had some escrowed transactions in progress, they will be displayed on the homepage as shown in the screenshot below**.**
+**If you already had some escrowed transactions in progress, they will be displayed on the homepage as shown in the screenshot below.**
 {% endhint %}
 
 ![](<../../.gitbook/assets/image (89).png>)
 
-### 1.b/ Subsribe to notifications
+#### 1.b/ Subsribe to notifications
 
 * Before we get started, remember to sign up for email notifications to not miss any important deadlines. It is important as if one of the parties raise a dispute about the payment and you do not answer, they could win the case automatically.
 
 ![](<../../.gitbook/assets/image (95) (1).png>)
 
-
-
-### 1.c/ Create a new Payment
+#### 1.c/ Create a new Payment
 
 {% hint style="info" %}
 **WHAT DOES "PAYMENT" MEAN?**\
-****Creating a payment means that you will be the person in the transaction that will pay for the service or good and lock the amount of the payment in the Escrow smart contract. If you are the person receiving the Ethereum-based funds, select "New Invoice" instead and then share the link to the invoice details with the person who will lock the funds in the escrow.
+\*\*\*\*Creating a payment means that you will be the person in the transaction that will pay for the service or good and lock the amount of the payment in the Escrow smart contract. If you are the person receiving the Ethereum-based funds, select "New Invoice" instead and then share the link to the invoice details with the person who will lock the funds in the escrow.
 {% endhint %}
 
 * To start configuring an escrowed payment, click on the blue "New Payment" button on the top right (or the "Create New Payment" card).
 
 ![](<../../.gitbook/assets/image (90).png>)
 
-### 1.d/ Select an Escrow Type
+#### 1.d/ Select an Escrow Type
 
 * On creating a new payment you'll get an option to select the type of Escrow transaction you want to create. Select one and click on "Next".
 
@@ -71,7 +69,7 @@ To start an Escrow transaction, you will need to connect your wallet and initiat
 
 Select this option if you want to trade or exchange a crypto asset for another crypto asset. It is especially useful where one of the assets is on a specific blockchain other than Ethereum. For example trading ETH on Ethereum for SOL tokens on Solana.
 
-#### General Service Transaction <a href="general-service-transaction" id="general-service-transaction"></a>
+**General Service Transaction**
 
 Select this when paying for any other type of general service provided. This allows you to specify your own terms for the agreement and upload a document when creating the payment.
 {% endhint %}
@@ -80,9 +78,9 @@ Select this when paying for any other type of general service provided. This all
 {% tab title="2/ Submitting Payment" %}
 In this step, you will specify the details of the Escrow transaction to be made between parties and lock the funds in the Escrow.
 
-## 2/ Submitting a Payment
+### 2/ Submitting a Payment
 
-### 2.a/ **Submitting a General Service Payment**
+#### 2.a/ **Submitting a General Service Payment**
 
 * When selecting a General Service payment you'll be asked to fill out a form providing basic information about the payment like the Ethereum address that'll receive the funds, the amount and the type of asset for the payment.
   * A title for the transaction
@@ -103,16 +101,14 @@ Here you can also select to:
 {% hint style="info" %}
 **INFO**
 
-Upon clicking the "Automatic Payments section", a calendar will appear allowing you to select the deadline for the escrow contract.&#x20;
+Upon clicking the "Automatic Payments section", a calendar will appear allowing you to select the deadline for the escrow contract.
 
-This is an important setting in which the contract execution date will be determined. If no disputes are raised before this deadline, the transaction will be automatically processed.&#x20;
+This is an important setting in which the contract execution date will be determined. If no disputes are raised before this deadline, the transaction will be automatically processed.
 
 Before this timeout has passed, the receiver should have sent the product or service to the sender or the contract should be in dispute status.
 
 Once the contract timeout has passed, the receiver can manually call the contract which will, in turn, release the funds.
 {% endhint %}
-
-
 
 * Upload an **Agreement Document** detailing the specifics of the agreement between the parties or manually type in the terms in the Contract Information section
 
@@ -120,22 +116,20 @@ Once the contract timeout has passed, the receiver can manually call the contrac
 
 {% hint style="warning" %}
 **IMPORTANT**\
-****The Agreement Document or Contract Information text are an important parameter that'll be relied upon by the jurors in the event of a dispute raised. Try to clearly specify the terms of the contract between parties. It should describe the parties, the nature of the service/good expected and the conditions of the enaggement to be complied with.
+\*\*\*\*The Agreement Document or Contract Information text are an important parameter that'll be relied upon by the jurors in the event of a dispute raised. Try to clearly specify the terms of the contract between parties. It should describe the parties, the nature of the service/good expected and the conditions of the enaggement to be complied with.
 {% endhint %}
 
-### **2.b/ **Submitting a Cryptocurrency Transaction Payment
+#### \*\*2.b/ \*\*Submitting a Cryptocurrency Transaction Payment
 
 * When creating a Cryptocurrency Transaction, in addition to the above details same as for a General Service Payment, this requires additional details such as the Name of the non-Ethereum Blockchain, the address on that chain where funds should be transferred to, the crypto asset name and amount, as well as the due date for the transfer to be completed.
 
 ![](<../../.gitbook/assets/image (76).png>)
 
-* Once you have entered these details the contract Information for the cryptocurrency transaction should be automatically filled in.&#x20;
-
-&#x20;
+* Once you have entered these details the contract Information for the cryptocurrency transaction should be automatically filled in.
 
 ![](<../../.gitbook/assets/image (77).png>)
 
-### 3.c/ Submit Transaction
+#### 3.c/ Submit Transaction
 
 * Once all the details are filled in; you should now be able to click on the "Next" button allowing you to review the complete details of the Payment and finally click on the 'Submit' button to submit the transaction by paying the payment amount that will be escrowed (+ gas fees).
 
@@ -150,23 +144,21 @@ The payment will remain in the escrow contract until the service described is co
 
 Once the payment is submitted and the transaction is mined, you will be redirected to the payment page.
 
-
-
 The My Payments dashboard will be updated with all the status of the escrow payments as shown below.
 
 ![](<../../.gitbook/assets/image (94).png>)
 {% endtab %}
 
 {% tab title="3/ Executing Payment" %}
-After the service has been provided or trade has been made successfully,  this is how you can finalize the transaction. Whilst you wait, all your escrow contracts are held in the My Payments dashboard showing their current status.
+After the service has been provided or trade has been made successfully, this is how you can finalize the transaction. Whilst you wait, all your escrow contracts are held in the My Payments dashboard showing their current status.
 
 ![](https://blog.kleros.io/content/images/2019/04/MyPayments.png)
 
-Now, if you click on the escrow contract you just created, you will see a** **summary of the payment details, a yes/no option, and, if applicable, a timeout date and time at the bottom of the page.
+Now, if you click on the escrow contract you just created, you will see a\*\* \*\*summary of the payment details, a yes/no option, and, if applicable, a timeout date and time at the bottom of the page.
 
-## 3/ Executing Payment
+### 3/ Executing Payment
 
-### 3.a/ Payment Sender
+#### 3.a/ Payment Sender
 
 If you are the sender of the payment you'll see the following options for an existing payment
 
@@ -180,14 +172,14 @@ In the final screen, you'll see a confirmation that the payment was made success
 
 * **No**: Select this if you're not satisfied with the outcome/action by the other party. You'll then have an option to either settle with a partial amount or raise a dispute to the Kleros court for arbitration
 
-### 3.b/ Payment Receiver
+#### 3.b/ Payment Receiver
 
 If you are the receiver of the payment you'll also have two options for an existing payment transaction
 
 ![](<../../.gitbook/assets/image (82).png>)
 
 * **Yes**: Select this option in case you are unable/unwilling to perform the required action for any reason and refund the sender the fund amount.
-* ** No**: Select this if you reach a midpoint with the sender and propose a settlement or the sender has refused to make the payment even after the agreed terms are fulfilled and raise a dispute.
+* \*\* No\*\*: Select this if you reach a midpoint with the sender and propose a settlement or the sender has refused to make the payment even after the agreed terms are fulfilled and raise a dispute.
 {% endtab %}
 
 {% tab title="4/ Agree on settlement" %}
@@ -195,7 +187,7 @@ If the Payment Sender did not agree on releasing the full payment and the servic
 
 Maybe you contracted for some freelancing work that was _sort_ of completed correctly with the contractor deserving of some recompense.
 
-If the other party agrees, the payment is made and the escrow contract is closed. If not, the case can still go to a** **dispute should either party not agree to the partial payment.
+If the other party agrees, the payment is made and the escrow contract is closed. If not, the case can still go to a\*\* \*\*dispute should either party not agree to the partial payment.
 
 **Note:** If you get the other party to digitally sign saying they agree to a settlement, and then they raise a dispute on the remaining amount after a waive, you can use your communications as evidence to win that dispute.
 
@@ -205,7 +197,7 @@ If the other party agrees, the payment is made and the escrow contract is closed
 If you get the other party to digitally sign saying they agree to a settlement, and then they raise a dispute on the remaining amount after a waive, you can use your communications as evidence to win that dispute.
 {% endhint %}
 
-## 4/ Agree on a settlement
+### 4/ Agree on a settlement
 
 If there is a disagreement on the payment by either party then either party can waive a part of the payment before raising a dispute.
 
@@ -223,9 +215,9 @@ In the current version of Kleros Escrow, waiving a part of the payment immediate
 {% tab title="5/ Raise a dispute" %}
 Whether a partial settlement has been made or not, any of the 2 parties can raise a dispute for the full or remaining payment amount by paying the arbitration fee (that is reimbursed if you win the case). Both parties must pay the arbitration fee. This fee is used to pay coherent jurors in any dispute.
 
-## 5/ Raise a dispute
+### 5/ Raise a dispute
 
-### 5.a/ Raise the Dispute
+#### 5.a/ Raise the Dispute
 
 To raise a dispute either party can select No while a transaction is pending and then click on the Raise Dispute button to pay for the arbitration fees and start the process for arbitration by the Kleros court.
 
@@ -245,17 +237,13 @@ Below we can see the counter party's notification of payment.
 If the other party fails to pay for their side of the fees then the first paying party automatically wins the dispute and can withdraw their funds.
 {% endhint %}
 
-
-
-### 5.b/ Share Evidence
+#### 5.b/ Share Evidence
 
 By opening the disputed escrow payment, you are now able to add evidence to the case. The original agreement document details the initial contract and you can add your own evidence as shown below. Best practice would be a PDF file with [EXIF data](https://www.pdfyeah.com/remove-pdf-metadata/) stripped to preserve anonymity.
 
 ![](https://blog.kleros.io/content/images/2019/04/EvidenceProof.jpg)
 
-
-
-### 5.c/ Monitor the dispute
+#### 5.c/ Monitor the dispute
 
 You can monitor the progress of the dispute on the escrow payment page or on [https://resolve.kleros.io/ongoing/](https://resolve.kleros.io/ongoing/)
 
@@ -263,11 +251,6 @@ Once a first ruling has been made by the Kleros court, anyone who is not satisfi
 
 When the final ruling is made, the winning party can withdraw its funds from the escrow.
 
-
-
 [Learn more about the dispute process.](https://kleros.gitbook.io/docs/products/court)
 {% endtab %}
 {% endtabs %}
-
-
-

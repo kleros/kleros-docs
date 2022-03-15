@@ -1,12 +1,15 @@
 ---
-description: "\U0001F6A7\U0001F477 IN PROGRESS \U0001F477\U0001F6A7"
+description: Industry specific use cases of Kleros
 ---
 
 # Use Cases
 
-{% page-ref page="defi-insurance.md" %}
+Kleros can be tailored to solve very industry and use case specific problems, which are explained in each of the pages below:
 
-{% page-ref page="gaming.md" %}
+{% content-ref url="defi-insurance.md" %}
+[defi-insurance.md](defi-insurance.md)
+{% endcontent-ref %}
 
-
-
+{% content-ref url="gaming.md" %}
+[gaming.md](gaming.md)
+{% endcontent-ref %}
