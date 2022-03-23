@@ -6,7 +6,7 @@ description: Frequently Asked Questions about Proof of Humanity
 
 ## What is the purpose of Proof of Humanity?
 
-[Proof of Humanity](https://www.proofofhumanity.id/) is a system combining social verification with video submission in order to create a Sybil-proof list of humans. It is meant to be used by individuals as a point-of-entry to a myriad of new use cases that require Sybil-resistance to be able to be deployed at scale and also to be plugged into a variety of existing and new applications in need for such identity systems.
+[Proof of Humanity](https://www.proofofhumanity.id) is a system combining social verification with video submission in order to create a Sybil-proof list of humans. It is meant to be used by individuals as a point-of-entry to a myriad of new use cases that require Sybil-resistance to be able to be deployed at scale and also to be plugged into a variety of existing and new applications in need for such identity systems.
 
 ## Why should I register to PoH? What are its use cases?
 
@@ -30,25 +30,25 @@ The Ethereum address you are using to submit your profile will be publicly linke
 
 ## Which phases will my profile go through before being registered?
 
-Once you have submitted your profile, it will be in the “Vouching Phase” until you get vouched for and your deposit gets fully funded. Initially, you will only need 1 person to vouch for you \(it enables faster onboarding in the registry at launch\) but the number of vouches needed can be increased later on.
+Once you have submitted your profile, it will be in the “Vouching Phase” until you get vouched for and your deposit gets fully funded. Initially, you will only need 1 person to vouch for you (it enables faster onboarding in the registry at launch) but the number of vouches needed can be increased later on.
 
-Then, your profile will move to the “Pending Registration” phase, during which anyone can challenge it for a period of 3.5 days if they think you are not human or if it violates the [submission guidelines](https://ipfs.kleros.io/ipfs/Qmc7ag5XohnSAozvsKsLCUbvaFyasyLtyi3H7g3mmxznPU/proof-of-humanity-registry-policy.pdf).
+Then, your profile will move to the “Pending Registration” phase, during which anyone can challenge it for a period of 3.5 days if they think you are not human or if it violates the [submission guidelines](https://ipfs.kleros.io/ipfs/QmcT8TUxLEHistCnkmGERcEuVtMfMPhXcMDTxfBTYahqEh/proof-of-humanity-registry-policy-v1.2.pdf).
 
 If your profile isn’t challenged during this period or the challenges are not successful, you are “Registered”.
 
 If you are challenged, you will either go back to “Pending Registration” phase or be “Removed” depending on the ruling of Kleros Court.
 
-Once you are “Registered”, your profile can either expire after a year \(if you don’t reapply\) or someone can make a request for removal which will move it to the “Pending removal” phase during when anyone can challenge the removal.
+Once you are “Registered”, your profile can either expire after a year (if you don’t reapply) or someone can make a request for removal which will move it to the “Pending removal” phase during when anyone can challenge the removal.
 
 If your profile is “Expired”, “Removed” or about to expire soon, you can reapply for submission which will bring you back to the “Vouching Phase”
 
-![Simplified phase transitions of a profile in PoH \(without appeals\).](https://lh6.googleusercontent.com/b_2pVuJKBR1w-SxU95uvjJ27NVynA3jWtO4lF2DGYlLYNT39-xez_YNySzUMTYkzgvHke4S6M-1IJbWXWNuGm1WAIxlNOuqudpzrBsOngx59AfSot93wAAvddJ8CQtPC0ViSycpg)
+![Simplified phase transitions of a profile in PoH (without appeals).](https://lh6.googleusercontent.com/b\_2pVuJKBR1w-SxU95uvjJ27NVynA3jWtO4lF2DGYlLYNT39-xez\_YNySzUMTYkzgvHke4S6M-1IJbWXWNuGm1WAIxlNOuqudpzrBsOngx59AfSot93wAAvddJ8CQtPC0ViSycpg)
 
 You can learn more about how the challenge and the dispute resolution system works in Kleros Court [documentation](https://kleros.gitbook.io/docs/products/court).
 
 ## Why should I vouch for someone? What's in it for me?
 
-Vouching for someone is a benevolent act in order to help people you know be accepted into the registry. Be careful with whom you vouch for. If by mistake \(or excess of trust\) you vouch for a malicious user, you will be penalized.
+Vouching for someone is a benevolent act in order to help people you know be accepted into the registry. Be careful with whom you vouch for. If by mistake (or excess of trust) you vouch for a malicious user, you will be penalized.
 
 ## What happens if I vouch for a malicious user?
 
@@ -74,11 +74,11 @@ _Note: As this is an internal transaction, unlike the deposit transaction, you w
 
 Registrations have a duration of one year. This means that users need to periodically reapply to the registry. The purpose of the limited registration period is to remove people who die and malicious submissions which might have made it into the list. Conditions to reapply are similar to the original application.
 
-You can reapply before the current registration period ends in order to avoid spending some time unregistered. Users reapplying \(such that they have the required vouching and deposit\) before their registration ends are considered registered for the entire period of their new application.
+You can reapply before the current registration period ends in order to avoid spending some time unregistered. Users reapplying (such that they have the required vouching and deposit) before their registration ends are considered registered for the entire period of their new application.
 
 ## What rules should I follow to submit a proper profile or to remove an incorrect one?
 
-Check the [Proof of Humanity policy](https://ipfs.kleros.io/ipfs/Qmc7ag5XohnSAozvsKsLCUbvaFyasyLtyi3H7g3mmxznPU/proof-of-humanity-registry-policy.pdf) to obtain all the detailed conditions for a profile to be accepted or rejected from the registry.
+Check the [Proof of Humanity policy](https://ipfs.kleros.io/ipfs/QmcT8TUxLEHistCnkmGERcEuVtMfMPhXcMDTxfBTYahqEh/proof-of-humanity-registry-policy-v1.2.pdf) to obtain all the detailed conditions for a profile to be accepted or rejected from the registry.
 
 ## Can I request to remove someone else profile from the registry?
 
@@ -88,21 +88,21 @@ A request to remove a registered submission from the list can be made at any tim
 
 ### **IF YOUR PROFILE IS STILL IN "VOUCHING PHASE"**
 
-There is not yet an option on the app to remove a profile in "Vouching Phase" \(It will be added soon\).
+There is not yet an option on the app to remove a profile in "Vouching Phase" (It will be added soon).
 
 For now, you will need to interact directly with the smart contract:
 
 ![](https://blog.kleros.io/content/images/2021/03/image-6.png)
 
 1. Go to the Etherscan page of the [PoH contract](https://etherscan.io/address/0xC5E9dDebb09Cd64DfaCab4011A0D5cEDaf7c9BDb#writeContract)
-2. Connect your wallet \(look for the "Connect to Web3" button\). IMPORTANT: It has to be the same wallet you use to register.
-3. Look for the withdrawSubmission function \(it's the last one\). Click to expand.
+2. Connect your wallet (look for the "Connect to Web3" button). IMPORTANT: It has to be the same wallet you use to register.
+3. Look for the withdrawSubmission function (it's the last one). Click to expand.
 4. Click "Write". Metamask might suggest a crazy gas limit, but the function should cost only around 50k gas.
 5. Confirm the Tx and you will get back your deposit and your profile will be transitioned to "Removed".
 
 ![](https://blog.kleros.io/content/images/2021/03/image-5.png)
 
-**IF YOUR PROFILE IS ALREADY "REGISTERED"**  
+**IF YOUR PROFILE IS ALREADY "REGISTERED"**\
 First, you need to remove your own outdated profile and then either reapply or submit with another address for a new registration. In order to remove your old registered profile, you need to go to your registered profile page and click on the "Request Removal" button and then provide evidence that you are indeed the submitter.
 
 ![](https://blog.kleros.io/content/images/2021/03/image-7.png)
@@ -141,9 +141,8 @@ Improvements in machine learning are likely to affect the effectiveness of both 
 
 ## What if my religion forbids me from showing my face? What if I am physically unable to speak?
 
-Internal features of the face are the most important for face recognition \(see [this article](https://twin.sci-hub.tw/6930/15eaafba29e330ca74f92b4ef05e57c9/toseeb2014.pdf)\) and removing the requirement to pronounce the sentence would decrease the security of the system \(speech analysis can be used to detect multiple registrations\). For the moment, these edge cases do not allow the person to be registered. If you have a proposal that would enable the secure registration of this edge case \(and others\), you can submit it through the governance process.
+Internal features of the face are the most important for face recognition (see [this article](https://twin.sci-hub.tw/6930/15eaafba29e330ca74f92b4ef05e57c9/toseeb2014.pdf)) and removing the requirement to pronounce the sentence would decrease the security of the system (speech analysis can be used to detect multiple registrations). For the moment, these edge cases do not allow the person to be registered. If you have a proposal that would enable the secure registration of this edge case (and others), you can submit it through the governance process.
 
 ## What if I have an identical twin that also wants to be registered?
 
 While most people have a hard time distinguishing twins, identical twins aren't actually identical and can be distinguished by skilled individuals. Moreover, facial recognition algorithms tend to do a better job than humans distinguishing between twins. This means a twin submission could be challenged but the twin could probably easily provide evidence that he is a twin to win the dispute.
-
