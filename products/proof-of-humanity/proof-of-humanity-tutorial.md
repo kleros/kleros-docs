@@ -66,13 +66,13 @@ If you make a mistake in your submission (ex: Displaying a wrong address in the 
 
 * At the bottom of the submit page, you will have a choice between "Self-Funding" your deposit or "Crowdfunding" it. > "Self-Fund" means you will lock the deposit yourself (we recommend that option). > "Crowdfund" means you want to submit your profile without paying for the deposit or only partially (that means that your profile will be blocked in the starting phase of the validation process until someone pays the deposit for you). Only choose this option if you are sure someone will pay for your deposit in the future.
 
-![](<../../.gitbook/assets/image (9).png>)
+![](https://lh5.googleusercontent.com/zfhryjrgNlQfbd-SyG8RlXc\_6tLGwTQafnK3ep3gP21CkPsBMjfndHxaITfxEJsH7fl7Y95a4g73gQN3Jd8ahBieUHDUBWSqK6PqmbPRS2lunmuxKhzXw-eTYULGVgrcIGif8E82)
 
 {% hint style="info" %}
 **What is the Submitter Deposit?** The deposit is an amount of ETH you lock with the submission of your profile that will act as an incentive for potential challengers to prove you are a fake or bot and that will also pay for arbitration fees if a dispute is raised. If your profile goes through unchallenged, you are registered and get your deposit back. If you are a fake or have given incorrect information, someone can challenge your profile and a dedicated Kleros dispute will be opened to rule on your case.
 {% endhint %}
 
-* Once you are sure all of your submission information is good (check the [guidelines](https://ipfs.kleros.io/ipfs/Qmc7ag5XohnSAozvsKsLCUbvaFyasyLtyi3H7g3mmxznPU/proof-of-humanity-registry-policy.pdf)), you can click on the "Submit" button. This should trigger a transaction confirmation popup in your wallet after a few seconds. Send that transaction (ETH Deposit + blockchain fees) and wait for it to be validated.
+* Once you are sure all of your submission information is good (check the [guidelines](https://ipfs.kleros.io/ipfs/QmcT8TUxLEHistCnkmGERcEuVtMfMPhXcMDTxfBTYahqEh/proof-of-humanity-registry-policy-v1.2.pdf)), you can click on the "Submit" button. This should trigger a transaction confirmation popup in your wallet after a few seconds. Send that transaction (ETH Deposit + blockchain fees) and wait for it to be validated.
 
 ![](<../../.gitbook/assets/image (45).png>)
 
@@ -212,7 +212,7 @@ You can vouch for as many people as you would like. However, your vouch will onl
 For example, assume user A is registered. A vouches for user B. User B uses the vouch and moves to "Pending registration" phase. Then A vouches for user C. Since the vouching of A is already in use by B, C remains in the "Vouching Phase" for now, but will move to "Pending registration" phase once B is registered.
 {% endhint %}
 
-* You can remove your vouch at any time (except during "Pending Registration" phase) by going to the vouched person profile and clicking on "Remove Vouch".
+* You can remove your vouch at any time prior to the "Pending Registration" phase by going to the vouched person's profile and clicking on "Remove Vouch".
 
 ![](<../../.gitbook/assets/image (19).png>)
 {% endtab %}

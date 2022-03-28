@@ -123,7 +123,7 @@ _**Example 3: Send a removal request from a different address than the submitter
 
 **7.c/ Reapply a profile expired or soon-to-be expired**
 
-* When your profile is expired (one year after registration) or soon before expiration, you will need to reapply to the registry to prove you are still alive and in control of your Ethereum address
+* When your profile is expired (two year after registration) or soon before expiration, you will need to reapply to the registry to prove you are still alive and in control of your Ethereum address
 
 🚧👷 IN PROGRESS 👷🚧
 {% endtab %}
