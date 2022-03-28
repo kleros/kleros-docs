@@ -20,7 +20,7 @@ If you want to help to maintain the PoH registry and earn money by spotting fake
 
 ![](<../../.gitbook/assets/image (34).png>)
 
-* Once you have applied the filter, click on each profile one by one to check if their information, photo, and video follow the [PoH guidelines](https://ipfs.kleros.io/ipfs/Qmc7ag5XohnSAozvsKsLCUbvaFyasyLtyi3H7g3mmxznPU/proof-of-humanity-registry-policy.pdf) or if you can spot impersonators or deepfake videos.
+* Once you have applied the filter, click on each profile one by one to check if their information, photo, and video follow the [PoH guidelines](https://ipfs.kleros.io/ipfs/QmcT8TUxLEHistCnkmGERcEuVtMfMPhXcMDTxfBTYahqEh/proof-of-humanity-registry-policy-v1.2.pdf) or if you can spot impersonators or deepfake videos.
 
 {% hint style="info" %}
 You can use deepfake detection tools such as [https://deepware.ai/](https://deepware.ai), [https://sensity.ai/](https://sensity.ai) or other more powerful deepfake detection algorithms to help you in this enterprise. You can also use Voice Recognition Software to spot computer-generated voices or compare old and new submissions.
@@ -32,7 +32,7 @@ You can use deepfake detection tools such as [https://deepware.ai/](https://deep
 
 * This will open a modal asking you for a reason to the challenge. Select the relevant reason and click on "Challenge Request".
 
-![](<../../.gitbook/assets/image (26).png>)
+![](https://lh5.googleusercontent.com/i\_FY-o4RLOghfhPv3GqEszL6ms8qf5ebFVjJpEwWFmzCw935nIzSuF1g5CiNvK0LPTiYq\_jGFnHci\_9CMwXdYRTmdlNRM1jtDJb7dm9TnfyYLdjfLBXSRNWVuGVbFocE1R7JDRLB)
 
 * Send the Transaction with the challenger deposit. Once the transaction is validated, the profile will soon go to "Challenged Registration" status.
 
@@ -126,5 +126,26 @@ _**Example 3: Send a removal request from a different address than the submitter
 * When your profile is expired (one year after registration) or soon before expiration, you will need to reapply to the registry to prove you are still alive and in control of your Ethereum address
 
 🚧👷 IN PROGRESS 👷🚧
+{% endtab %}
+
+{% tab title="8/ Reapply a profile" %}
+Reapplying is a proof that you are still alive and want to continue your registration. When your profile is near expiry, a button to “Reapply” will appear. You may or may not renew your profile registration. If you don’t reapply, your profile will expire and the UBI drip to your Ethereum address will stop
+
+* To Reapply, go to your profile page by clicking on “My Profile” then click on “Reapply”
+
+![](https://lh3.googleusercontent.com/o\_SG\_QHoRYcPuHVe9WreYL\_mJdj\_T6C2nH4nkkJRvluKNlnD29qzoHJ8YpU7PjRtRgZx\_lk3MRFxJ44Oe043RRgft7JZ0MQcD0QUGhqt24i3ffqgRGlSBO8lrpWYK2cX4QS4mX4X)
+
+* Fill out the form (like in your initial registration) where you’ll be redirected to, but this time the display name is prefilled. Be sure to follow all guidelines&#x20;
+
+![](https://lh4.googleusercontent.com/P3nBXoGVZDVrkazF7PJc8MS3xEb2v-DIEYHR4wnyDme4U5yvEvk0XjsG14UG24YOYLLN1uxFgnaGz9vJfbjtfRElGtOHoQ9qAin33mMno6gtt6A6iQtRYWHVl7UwJypOmvegrAl7)
+
+* Once the files are uploaded, it’ll trigger a signature confirmation popup for your reapplication. Click on “Sign”
+
+![](https://lh6.googleusercontent.com/13wdVkznsLHTuuqqzjYerpkJ02\_JkLfEpjhIQr99\_N-8f9sHdJ9Sktug-LJP98I1yhMd84VC-GbvxvI2d3h4vo3jNv3\_w7zxXV7DUXBJcl1jyQTKu-N5z269wrjiD0CxxYipVuMa)
+
+![](https://lh5.googleusercontent.com/2P3takJLYKkE\_HQp4UyvvCie2a7oAC0McKmZBVfLbD3Qpcj2XR6DTaJlDGoOJWKbnAvN\_kQAcnm46xNyG2-AiCF3KmIfJJYeKh-Xlbo8XvmnXl2\_LfbA1EU\_wdhQtRfQpreWg3xN)
+
+* Then, another wallet pop up will appear for you to confirm the on-chain transaction (ETH Deposit + blockchain fees). Once your transaction is confirmed, your reapplication will go through the same phases as your initial registration except that you don’t need to be vouched for gas-vouched profiles.
+  * For gasless vouch, you may need to be vouched again as gasless vouch has expiration time.
 {% endtab %}
 {% endtabs %}

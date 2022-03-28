@@ -72,7 +72,7 @@ _Note: As this is an internal transaction, unlike the deposit transaction, you w
 
 ## How long does the registration last?
 
-Registrations have a duration of one year. This means that users need to periodically reapply to the registry. The purpose of the limited registration period is to remove people who die and malicious submissions which might have made it into the list. Conditions to reapply are similar to the original application.
+Registrations have a duration of two years. This means that users need to periodically reapply to the registry. The purpose of the limited registration period is to remove people who die and malicious submissions which might have made it into the list. Conditions to reapply are similar to the original application.
 
 You can reapply before the current registration period ends in order to avoid spending some time unregistered. Users reapplying (such that they have the required vouching and deposit) before their registration ends are considered registered for the entire period of their new application.
 

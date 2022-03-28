@@ -45,11 +45,13 @@ description: >-
 ![](<../../.gitbook/assets/image (20).png>)
 
 {% hint style="warning" %}
-**COMPLIANCE WARNING:** The information you submit about your profile will be checked and verified by the community to ensure you are not a not/fake and that you complied with all the guidelines. Please read thoroughly the instructions given on the submit page and check out the full [Proof of Humanity Guidelines](https://ipfs.kleros.io/ipfs/QmZD8RWxgW1nrMxVgMwPKAEzziDmzXVgtw9YWGDJ9pTmPv/proof-of-humanity-registry-policy-v1.1.pdf) to ensure the info you provide is correct.
+**COMPLIANCE WARNING:** The information you submit about your profile will be checked and verified by the community to ensure you are not a not/fake and that you complied with all the guidelines. Please read thoroughly the instructions given on the submit page and check out the full [Proof of Humanity Guidelines](https://ipfs.kleros.io/ipfs/QmcT8TUxLEHistCnkmGERcEuVtMfMPhXcMDTxfBTYahqEh/proof-of-humanity-registry-policy-v1.2.pdf) to ensure the info you provide is correct.
 
 You can only update information by withdrawing your profile and resubmitting it. There is no way to edit your profile (Evidences are there to argument that the case made against your profile is wrong, not to update your profile with a new video for example).
 
-If you make a mistake in your submission (ex: Displaying a wrong address in the video), it could be interpreted as a malicious attack by the challengers verifying the entry into the registry and you could lose your deposit.
+If you make a mistake in your submission (ex: Displaying a wrong address in the video), it could be interpreted as a malicious attack by the challengers verifying the entry into the registry and you could lose your deposit.\
+\
+**Advice**: Submissions are final and cannot be edited. Be sure to follow all submission rules to not lose your deposit.
 {% endhint %}
 
 * Once you have filled out your Name, First Name, Last Name & Short Bio, you will be asked to upload a front-facing profile picture and a video of yourself holding the Ethereum address you used for submission and saying "I certify that I am a real human and that I am not already registered in this registry"
@@ -96,6 +98,12 @@ In order to be notified of your profile progress in the validation process, you 
 
 * Once you click on "Save", your wallet will ask you to sign a message to confirm (no fee).
 * Once you have confirmed, it is done: you will now receive email updates when your profile changes status or gets challenged.
+
+****
+
+**Notifications through EPNS**
+
+In order to be notified of your profile progress in the validation process, you can also  subscribe to email notifications through [Ethereum Push Notification Service (EPNS)](https://app.epns.io). Check this [thread](https://twitter.com/epnsproject/status/1501611224517480451?s=21) for EPNS notification steps.
 {% endtab %}
 
 {% tab title="3/ Profile Validation Process" %}
