@@ -6,7 +6,7 @@ description: Data Curation as a Service using TCRs (Token Curated Registries)
 
 🗄️ [Kleros Curate app](https://curate.kleros.io) (mainnet) 🗄️\
 \
-**Kleros Curate** is a** **dapp that can be used to create open curated registries of just about anything using financial incentives and Kleros dispute resolution technology to ensure a list stays on topic and that each entry is compliant to the predefined acceptance criteria.
+**Kleros Curate** is a decentralized dApp that can be used to create open curated registries of just about anything using financial incentives and Kleros dispute resolution technology to ensure a list stays on topic and that each entry is compliant to the predefined acceptance criteria.
 
 ![](../../.gitbook/assets/curate.png)
 
