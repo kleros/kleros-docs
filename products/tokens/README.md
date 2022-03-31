@@ -6,7 +6,7 @@ description: A community-curated list of Tokens
 
 🟣 [Kleros Tokens App](https://tokens.kleros.io) 🟣
 
-**Kleros Tokens **is an open and decentralized curated registry of tokens. In other words, it is a community-managed list of ERC-20 tokens (including their name, ticker,  logo and address) open to any project and curated by the power of Kleros arbitration and economic incentives.
+**Kleros Tokens** is an open and decentralized curated registry of tokens. In other words, it is a community-managed list of ERC-20 tokens (including their name, ticker, logo and address) open to any project and curated by the power of Kleros arbitration and economic incentives.
 
 ![](<../../.gitbook/assets/image (51).png>)
 
@@ -14,7 +14,7 @@ description: A community-curated list of Tokens
 
 As the Ethereum ecosystem continues to evolve, we continue to see exponential growth in the number of ERC20 tokens being issued. This maturation reflects the success of permissionless innovation, a trend we expect will only accelerate in the future: everything of value will be tokenized.
 
-As the rate of token issuance accelerates, it has become increasingly difficult for users to filter out high quality, legitimate tokens from scams, fakes, and duplicates. Across the space, projects are managing and maintaining rapidly growing token lists. The end result is a lot of wasted time, slow listing processes and scammed users. In addition, builders should spend their time building, not deciding which tokens are legitimate and which are scams, fakes, or duplicates.
+As the rate of token issuance accelerates, it has become increasingly difficult for users to filter out high quality, legitimate tokens from scams, fakes, and duplicates. Across the space, projects are managing and maintaining rapidly growing token lists. The end result is a lot of wasted time, slow listing processes and scammed users. In addition, builders should spend their time building, not deciding which tokens are legitimate and which are scams, fakes, or duplicates.
 
 **Kleros Tokens** is a community-managed initiative to improve discoverability and trust in ERC20 tokens in a manner that is inclusive, transparent, and decentralized.
 
@@ -32,14 +32,14 @@ As the decentralized finance movement continues to remove gatekeepers, it is imp
 
 ## How does it work?
 
-Anyone can submit a token and its information with a deposit. The submission goes through a challenge period. 
+Anyone can submit a token and its information with a deposit. The submission goes through a challenge period.
 
 * If no one challenges it, it is automatically accepted into the list.
 * If someone challenges it by putting up a deposit, then it goes to Kleros Court for arbitration.
 
 It is also possible to make a removal request for an entry already accepted into the registry.
 
-![](../../.gitbook/assets/curate_infographic_header_cropped.png)
+![](../../.gitbook/assets/curate\_infographic\_header\_cropped.png)
 
 ## What about Badges?
 
