@@ -27,11 +27,15 @@ In short, Zodiac allows anyone to propose on-chain transactions that will be exe
 
 A detailed guide on Zodiac setup can be found [here](https://gnosis.github.io/zodiac/docs/tutorial-module-reality/get-started). When setting the parameters, make sure to select Kleros in the arbitrator field. If no arbitrator is set, Realitio will resolve disputed proposals in favor of the highest bond submitted instead of using a third party dispute resolution protocol like Kleros. Alternatively to the Zodiac documentation, you can follow this video tutorial to set up the module.
 
-![](../.gitbook/assets/1 - Zodiac-Kleros-Snapshot Setup.mp4)
+<video width="640" height="360" controls>
+  <source src="../.gitbook/assets/1 - Zodiac-Kleros-Snapshot Setup.mp4" type="video/mp4">
+</video>
 
 Once Zodiac is set up and [the Safesnap plugin was added to Snapshot](https://gnosis.github.io/zodiac/docs/tutorial-module-reality/integrate-snapshot), you can start testing proposals. Check also the following video guide on how to create executable proposals and process them after voting has ended:
 
-![](../.gitbook/assets/2 - Votes and Proposals.mp4)
+<video width="640" height="360" controls>
+  <source src="../.gitbook/assets/2 - Votes and Proposals.mp4" type="video/mp4">
+</video>
 
 ## <a id="set-arbitrator"></a>Adding Kleros to an Existing DAO
 
@@ -49,11 +53,11 @@ There is one final thing we need to do to make the DAO truly decentralized.
 
 The Safe signers still have control over the multisig and some privileges over the SafeSnap module (like changing the arbitrator, question timeout, etc.). Let's remove those. Go to "Settings" --> "Owners" and remove all signers of the multisig except for yourself. It's not possible to have an ownerless Safe. For this reason, the remaining owner (you) has to be replaced by the Zodiac module address.
 
-![](../.gitbook/assets/3 - Full decentralization.mp4)
-
 <video width="640" height="360" controls>
   <source src="../.gitbook/assets/3 - Full decentralization.mp4" type="video/mp4">
 </video>
+
+Once this is done, it will be only possible to interact with the DAO's Safe through the Zodiac module, i.e. via governance.
 
 ## More About Kleros
 
