@@ -51,6 +51,10 @@ The Safe signers still have control over the multisig and some privileges over t
 
 ![](../.gitbook/assets/3 - Full decentralization.mp4)
 
+<video width="640" height="360" controls>
+  <source src="../.gitbook/assets/3 - Full decentralization.mp4" type="video/mp4">
+</video>
+
 ## More About Kleros
 
 There are some important reasons why your governance system should be using Kleros as arbitrator.
