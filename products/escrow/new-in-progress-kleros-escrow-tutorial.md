@@ -146,7 +146,7 @@ Once the payment is submitted and the transaction is mined, you will be redirect
 
 The My Payments dashboard will be updated with all the status of the escrow payments as shown below.
 
-![](<../../.gitbook/assets/image (94).png>)
+![](<../../.gitbook/assets/image (94) (1).png>)
 {% endtab %}
 
 {% tab title="3/ Executing Payment" %}

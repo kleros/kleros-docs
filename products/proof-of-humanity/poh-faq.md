@@ -62,7 +62,7 @@ For example, assume user A is registered. A vouches for user B. User B uses the 
 
 ## Can I remove a vouch?
 
-Yes, you can remove a vouch at anytime by going to the vouched profile and clicking on "Remove Vouch"
+You can remove your vouch at any time prior to the "Pending Registration" phase by going to the vouched person's profile and clicking on "Remove Vouch".
 
 ## When does my deposit get refunded?
 
