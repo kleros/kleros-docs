@@ -36,7 +36,7 @@ The [Omen](https://omen.eth.link) prediction market (on Ethereum mainnet and xDa
 
 The [Gnosis Safe](https://gnosis-safe.io) multi-sig wallet can be used for DAO governance purposes thanks to the [SafeSnap](https://blog.gnosis.pm/introducing-safesnap-the-first-in-a-decentralized-governance-tool-suite-for-the-gnosis-safe-ea67eb95c34f) module. This module is using the [Kleros Oracle](https://kleros.gitbook.io/docs/products/oracle) solution (Reality.eth (bond escalation) + Kleros Court (Arbitration)) to effectively enforce on-chain the implementation and triggering of the proposals voted on by the DAO on Snapshot.
 
-### Reality Cards <a href="reality-cards" id="reality-cards"></a>
+### Reality Cards <a href="#reality-cards" id="reality-cards"></a>
 
 ​[Reality Cards](https://realitycards.io) is a unique hybrid of prediction markets and NFT art using the [Kleros Oracle](https://kleros.gitbook.io/docs/products/oracle) solution (Reality.eth (bond escalation) + Kleros Court (Arbitration)) to rule on the outcome of events that are being predicted in their markets.
 
@@ -66,7 +66,7 @@ The [Omen](https://omen.eth.link) prediction market (on Ethereum mainnet and xDa
 
 ### Paraswap
 
-[Paraswap ](https://paraswap.io/#/?network=ethereum)decentralized exchanges aggregator use  [Kleros Tokens](https://tokens.kleros.io/tokens) as one of their **default **token lists. This [token list](https://tokenlists.org/token-list?url=t2crtokens.eth) is the only one to be completely open, decentralized, and managed by the community.
+[Paraswap ](https://paraswap.io/#/?network=ethereum)decentralized exchanges aggregator use [Kleros Tokens](https://tokens.kleros.io/tokens) as one of their \*\*default \*\*token lists. This [token list](https://tokenlists.org/token-list?url=t2crtokens.eth) is the only one to be completely open, decentralized, and managed by the community.
 
 ### Zerion
 
@@ -78,7 +78,23 @@ The [Omen](https://omen.eth.link) prediction market (on Ethereum mainnet and xDa
 
 [Revoke.cash](https://kleros.gitbook.io/docs/products/tokens) is a tool allowing users to revoke ERC-20 allowances granted from their address to avoid malicious use of these allowances. It uses [Kleros Tokens](https://kleros.gitbook.io/docs/products/tokens) to identify tokens in the wallet connected.
 
-### 👤 Projects using Kleros arbitration through Proof of Humanity 👤
+### 🔵 Projects using Kleros arbitration through address tag TCR 🔵
+
+### Etherscan
+
+Etherscan uses and displays the address tags from the Kleros decentralized address tag registries on [Ethereum Mainnet](https://curate.kleros.io/tcr/0x6e31d83b0c696f7d57241d3dffd0f2b628d14c67?chainId=1) and the [xDai/Gnosis Chain](https://curate.kleros.io/tcr/0x76944a2678A0954A610096Ee78E8CEB8d46d5922?chainId=100)). These tags are contributed and verified by the community, and their usage in Etherscan greatly increases the security for Web3 users by allowing them to transact with more confidence with the contracts they are interacting with.
+
+![](<../.gitbook/assets/image (94).png>)
+
+
+
+
+
+
+
+[Uniswap](https://uniswap.org), [Sushiswap](https://sushi.com) and [Cowswap ](https://cowswap.exchange)decentralized exchanges use [Kleros Tokens](https://tokens.kleros.io/tokens) as one of their token lists to be selected to trade on their UIs. This [token list](https://tokenlists.org/token-list?url=t2crtokens.eth) is the only one to be completely open, decentralized, and managed by the community.
+
+### 👤 Projects using Kleros arbitration through Proof of Humanity👤
 
 ### Gitcoin Grants
 
@@ -92,16 +108,16 @@ Gitcoin Grants is a product enabling the funding of public goods using quadratic
 
 ### Universal Basic Income token (UBI)
 
-[UBI](https://blog.kleros.io/introducing-ubi-universal-basic-income-for-humans/) is a token built on top of the Proof of Humanity registry that is streamed directly to an Ethereum address as long as it gets verified as a human in the Proof of Humanity registry and starts the accrual process, establishing a fair and ongoing distribution model. It provides universal access to liquidity that serves to inhibit financial coercion of public decisions and is tradeable in all open markets
+[UBI](https://blog.kleros.io/introducing-ubi-universal-basic-income-for-humans/) is a token built on top of the Proof of Humanity registry that is streamed directly to an Ethereum address as long as it gets verified as a human in the Proof of Humanity registry and starts the accrual process, establishing a fair and ongoing distribution model. It provides universal access to liquidity that serves to inhibit financial coercion of public decisions and is tradable in all open markets
 
 ## Integrations #ComingSoon
 
-* **Hats Finance: **Dispute resolution for smart contract vulnerability disclosure
-* **API3: **Dispute resolution for data feed insurance
+* **Hats Finance:** Dispute resolution for smart contract vulnerability disclosure
+* **API3**: Dispute resolution for data feed insurance
 * **Union Protocol:** Dispute resolution for claims
 * **Gnosis Auctions:** Curation of IDOs
 * **Winding Tree:** Dispute resolution for marketplace
 * **Octo.fi:** Decentralized Listing process
-* **MakerDAO: **First prototype of curated registries for token onboarding legal models and real-world asset listing on MakerDAO in the scope of Maker<>Kleros fellowship
+* **MakerDAO**: First prototype of curated registries for token onboarding legal models and real-world asset listing on MakerDAO in the scope of Maker<>Kleros fellowship
 * 2 soon-to-be-announced DeFi Insurance projects for Claims arbitration projects.
 * 2 unannounced job marketplace platform
