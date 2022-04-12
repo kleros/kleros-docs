@@ -86,14 +86,6 @@ Etherscan uses and displays the address tags from the Kleros decentralized addre
 
 ![](<../.gitbook/assets/image (94).png>)
 
-
-
-
-
-
-
-[Uniswap](https://uniswap.org), [Sushiswap](https://sushi.com) and [Cowswap ](https://cowswap.exchange)decentralized exchanges use [Kleros Tokens](https://tokens.kleros.io/tokens) as one of their token lists to be selected to trade on their UIs. This [token list](https://tokenlists.org/token-list?url=t2crtokens.eth) is the only one to be completely open, decentralized, and managed by the community.
-
 ### 👤 Projects using Kleros arbitration through Proof of Humanity👤
 
 ### Gitcoin Grants
