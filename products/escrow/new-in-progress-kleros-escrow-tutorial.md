@@ -43,7 +43,7 @@ To start an Escrow transaction, you will need to connect your wallet and initiat
 
 * Before we get started, remember to sign up for email notifications to not miss any important deadlines. It is important as if one of the parties raise a dispute about the payment and you do not answer, they could win the case automatically.
 
-![](<../../.gitbook/assets/image (95) (1).png>)
+![](<../../.gitbook/assets/image (95) (1) (1).png>)
 
 #### 1.c/ Create a new Payment
 

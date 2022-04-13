@@ -14,7 +14,7 @@ description: How to integrate with Kleros?
 * If you want to manage crypto-vs-crypto transactions or service-vs-crypto transactions in your app, have a look at [Kleros Escrow](https://kleros.gitbook.io/docs/products/escrow) contract (+ Widget & SDK) for **Escrow-as-a-Service** features.
 * If you are a DAO looking to fully decentralize your governance (even the enforcement of proposal votes), check out [Kleros Governor](https://kleros.gitbook.io/docs/products/governor) and use it as **Supreme-Court-as-a-Service**.
 
-![](<../.gitbook/assets/image (95).png>)
+![](<../.gitbook/assets/image (95) (1).png>)
 
 ### What about Kleros products built on top of those services?
 
@@ -49,4 +49,3 @@ description: How to integrate with Kleros?
 {% content-ref url="analytics.md" %}
 [analytics.md](analytics.md)
 {% endcontent-ref %}
-
