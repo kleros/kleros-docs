@@ -40,6 +40,10 @@ The [Gnosis Safe](https://gnosis-safe.io) multi-sig wallet can be used for DAO g
 
 ​[Reality Cards](https://realitycards.io) is a unique hybrid of prediction markets and NFT art using the [Kleros Oracle](https://kleros.gitbook.io/docs/products/oracle) solution (Reality.eth (bond escalation) + Kleros Court (Arbitration)) to rule on the outcome of events that are being predicted in their markets.
 
+### 1Inch <a href="#reality-cards" id="reality-cards"></a>
+
+[1Inch](https://1inch.io) is a leading DeFi/DEX aggregator that has integrated the [Gnosis Zodiac Reality Module](https://gnosis.github.io/zodiac/docs/tutorial-module-reality/get-started/), with Kleros set as the arbitrator in case of oracle disputes on Reality.eth. &#x20;
+
 ### PolkaMarkets​
 
 [Polkamarkets](https://www.polkamarkets.com) is a gamified prediction market using the [Kleros Oracle](https://kleros.gitbook.io/docs/products/oracle) solution (Reality.eth (bond escalation) + Kleros Court (Arbitration)) to rule on the outcome of events that are being predicted in their markets.
