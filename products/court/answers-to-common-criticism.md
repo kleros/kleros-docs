@@ -10,7 +10,7 @@ description: >-
 
 ### FUD #1 - I only believe in systems that are in production and running, is Kleros even live?
 
-_(As of June 2021) _Kleros Court has been live since 2018 on Ethereum mainnet without any bug or downtime. It has handled and ruled on more than 865 different cases and has a community of more than 760 active jurors staking in 23 different courts (Source: [KlerosBoard](http://klerosboard.com)). Kleros Court has ruled fairly on several controversial cases where millions of dollars were at stake (cf. [Famous Kleros Cases](https://kleros.gitbook.io/docs/products/court/famous-kleros-cases)). It is trusted as an unbiased and transparent arbitration layer by multiple Dapps of the ecosystem in different fields (Prediction Markets, Insurance, DEX, Sybil-Resistance, Marketplaces,... check all those integrations [here](https://kleros.gitbook.io/docs/integrations/live-and-upcoming-integrations)). 
+\_(As of June 2021) \_Kleros Court has been live since 2018 on Ethereum mainnet without any bug or downtime. It has handled and ruled on more than 865 different cases and has a community of more than 760 active jurors staking in 23 different courts (Source: [KlerosBoard](http://klerosboard.com)). Kleros Court has ruled fairly on several controversial cases where millions of dollars were at stake (cf. [Famous Kleros Cases](https://kleros.gitbook.io/docs/products/court/famous-kleros-cases)). It is trusted as an unbiased and transparent arbitration layer by multiple Dapps of the ecosystem in different fields (Prediction Markets, Insurance, DEX, Sybil-Resistance, Marketplaces,... check all those integrations [here](https://kleros.gitbook.io/docs/integrations/live-and-upcoming-integrations)).
 
 ## Kleros is a fair dispute resolution system
 
@@ -26,7 +26,7 @@ It is extremely hard for a juror to be able to be drawn into a court where he ha
 
 It is possible that internal biases still exist in jurors. There are some ways within Kleros to present information in such a way that it minimizes this bias. However, it could be also argued that no system can be completely free of biases. For an in depth discussion about this, read [this article](https://medium.com/kleros/kleros-and-mob-justice-can-the-wisdom-of-the-crowd-go-wrong-ef311209ea36).
 
-### FUD #4  - How can Kleros know jurors have specific expertise if they are pseudonymous?
+### FUD #4 - How can Kleros know jurors have specific expertise if they are pseudonymous?
 
 Kleros jurors self-select into the subcourt where they wish to conduct arbitration. Kleros does not ask for the jurors' real identity or to prove they are qualified to arbitrate disputes in the subcourt where they want to work.
 
@@ -36,13 +36,13 @@ Even though, in theory, jurors may not have subject matter expertise (anyone can
 
 ### FUD #5 - How can I follow the dispute resolution process and be sure it has not been tampered with?
 
-Kleros protocol is committed to full transparency. Its cases are completely open and can be monitored by any person with access to an internet connection. The entire history of cases is also available and published on-chain for reference. Kleros dispute resolution procedure is documented in many places. All cryptoeconomic research is public and the code is open source. A fully working version of Kleros could be replicated in a matter of minutes by anyone with technical skills in blockchain. 
+Kleros protocol is committed to full transparency. Its cases are completely open and can be monitored by any person with access to an internet connection. The entire history of cases is also available and published on-chain for reference. Kleros dispute resolution procedure is documented in many places. All cryptoeconomic research is public and the code is open source. A fully working version of Kleros could be replicated in a matter of minutes by anyone with technical skills in blockchain.
 
 ## Kleros can not be gamed and controlled by whales
 
 ### FUD #6 - Is Kleros a court where rich people have more rights than ordinary folks (because appeals are more affordable for the rich)? / How can I expect fairness from a court where whales have staked a lot of PNK?
 
-Anyone can appeal a dispute ruling in Kleros. Most of the time both sides will be asked to contribute fees for the next round of voting to ensure jurors are rewarded and that that the losing side is reimbursed of its paid fees. This appeal system ensures that the final decision of jurors will always converge to the truth and that jurors in initial rounds of voting vote coherently from the start not to be penalized. 
+Anyone can appeal a dispute ruling in Kleros. Most of the time both sides will be asked to contribute fees for the next round of voting to ensure jurors are rewarded and that that the losing side is reimbursed of its paid fees. This appeal system ensures that the final decision of jurors will always converge to the truth and that jurors in initial rounds of voting vote coherently from the start not to be penalized.
 
 This usually leads to some critics saying that one of the parties with much greater resources than the other can always win a case. We have made a number of design choices regarding the structure of the appeal fee process in order for Kleros to provide just outcomes even in this situation:
 
@@ -57,9 +57,9 @@ In order for a "whale" attacker to flood the juror pool and try to "control the 
 
 An attacker may get lucky in rare circumstances and be selected for two of three juror spots with only a minority of the PNK. However, in order to maintain the attack through the appeal process, it would need to be selected for the majority of the juror spots on larger and larger juries, which will only be possible if the attacker actually has a majority of the PNK. Hence, substantial economic resources in the order of hundreds of millions of dollars would be required to perform a 51% attack.\
 \
-_**If a "whale" tries to buy 51% of all staked PNK:**_  The PNK market liquidity will dry up. As the attacker buys PNK, it will start to become scarce and each additional PNK will cost more and more. The attacker may not even be able to find 51% of PNK for sale on the open market at any given time and it will progressively cost so much that the attack would not be economically viable.\
+_**If a "whale" tries to buy 51% of all staked PNK:**_ The PNK market liquidity will dry up. As the attacker buys PNK, it will start to become scarce and each additional PNK will cost more and more. The attacker may not even be able to find 51% of PNK for sale on the open market at any given time and it will progressively cost so much that the attack would not be economically viable.\
 \
-_**If a malicious attacker did manage somehow to buy a majority of staked PNK:**_  The community would realize that it is under attack, particularly if the attacker uses his new PNK to commit obvious miscarriages of justice. In this case, Kleros would lose credibility as an arbitration platform and the value of PNK would decrease. Then the attacker would take a substantial loss on the PNK she bought, representing a high economic cost to carry out the attack.
+_**If a malicious attacker did manage somehow to buy a majority of staked PNK:**_ The community would realize that it is under attack, particularly if the attacker uses his new PNK to commit obvious miscarriages of justice. In this case, Kleros would lose credibility as an arbitration platform and the value of PNK would decrease. Then the attacker would take a substantial loss on the PNK she bought, representing a high economic cost to carry out the attack.
 
 _**If a malicious attacker made a successful 51% attack:**_ The community would perform a last-ditch defense by forking the system to remove the attackers’ holdings. Then the market would sort out which version of PNK should be used going forward. This is similar to the [ultimate appeal mechanism of Augur](https://medium.com/kleros/kleros-and-augur-keeping-people-honest-on-ethereum-through-game-theory-56210457649c).
 
@@ -69,14 +69,18 @@ On the left, an attacker has managed a 51% attack and starts carrying out obviou
 \
 More details [here](https://kleros.gitbook.io/docs/pnk-token).
 
-### Questions in progress
+### FUD #8 - Kleros is broken and unfair because jurors look at policies and do not empathize with people involved in disputes
 
-"Kleros is broken and unfair because jurors look at policies and do not empathize with people involved in disputes”
+The rules of each court and case are meant to ensure that jurors vote impartially and independently without bias and prejudice to previous cases. Cases that were resolved according to these rules but have outcomes that feel unjust/unfair can be used by the community as reason to vote for changes to the rules.
 
-"Jurors will give whatever ruling brings them more cases in the future"
+### FUD #9 - Jurors will give whatever ruling brings them more cases in the future
 
-“Game theory is just a basic simplification of real life, therefore Kleros is broken"
+Voting incoherently within the span of a single case in order to incite appeals will only cause the initial jurors a risk of losing even more money.\
+As PNK and Kleros is economically and governmentally independent from all other DAOs, it is not possible for the jurors to cause more rulings to come into the Kleros Court. \
+That being said, if proper juror activity on Kleros Court leads to more DAOs/partners to entrust disputes to it, then it should be seen as a good thing.
 
-"Kleros only works for simple binary cases."
+### FUD #11 - Kleros only works for simple binary cases.
 
-🚧👷 IN PROGRESS 👷🚧
+Kleros can go beyond simple Yes/No arbitration cases to cover also multiple choices and even numerical/scalar outcomes (e.g. what is the number of electoral college votes won by Biden in the 2020 election?).&#x20;
+
+For complex multi-factorial cases, the [Pendulum arbitration](https://en.wikipedia.org/wiki/Pendulum\_arbitration) method can be used to ask the Kleros jury to choose between two or more sets of outcomes.

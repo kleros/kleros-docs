@@ -1,10 +1,5 @@
----
-description: "\U0001F6A7\U0001F477 IN PROGRESS \U0001F477\U0001F6A7"
----
+# Using Kleros arbitration for Dapps on xDai/Gnosis
 
-# Using Kleros arbitration for Dapps on xDai
+In the future v2 version of our court, disputes on the xDai/Gnosis chain will be passed over the bridge to our main court for arbitration in the rollup environment of choice.
 
-![](../../.gitbook/assets/kleros_reality.eth_arbitration_for_omen_on_xdai.png)
-
-
-
+![](../../.gitbook/assets/kleros\_reality.eth\_arbitration\_for\_omen\_on\_xdai.png)

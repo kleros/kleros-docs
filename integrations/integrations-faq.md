@@ -26,7 +26,7 @@ Kleros Courts are currently only deployed on Ethereum mainnet.
 
 _**Gas fees:**_ As for any smart contract, interacting with Kleros means paying gas fees when sending a transaction. The gas price will vary 24/7 depending on the current utilization of the whole Ethereum blockchain and thus, the gas fee will also vary with it.
 
-_**Arbitration fees:**_ IN PROGRESS
+_**Arbitration fees:**_ This is a product of the number of jurors you choose to draw into the dispute and the juror fee applicable to the (sub)court of choice (juror fees are fixed per court).
 
 We can't use anonymous jurors in my use case. Can we tweak Kleros to only select jurors from a pre-vetted pool?
 
@@ -35,4 +35,3 @@ At this point, it is not possible to select jurors from a pre-defined pool. Anyo
 ## Which project is currently using Kleros and how has it worked for them?
 
 We invite you to take a look at our [Live Integrations](https://kleros.gitbook.io/docs/integrations/live-and-upcoming-integrations) page for the answer.
-

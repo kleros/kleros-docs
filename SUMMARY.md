@@ -47,10 +47,10 @@
   * [Escrow React Widget](integrations/integration-tools/escrow-react-widget.md)
 * [Live & Upcoming Integrations](integrations/live-and-upcoming-integrations.md)
 * [Scalability & Cross-chain](integrations/scalability-and-crosschain/README.md)
-  * [Using Kleros arbitration for Dapps on xDai](integrations/scalability-and-crosschain/xdai.md)
+  * [Using Kleros arbitration for Dapps on xDai/Gnosis](integrations/scalability-and-crosschain/xdai.md)
 * [Kleros Analytics](integrations/analytics.md)
 
-## Developers <a href="developer" id="developer"></a>
+## Developers <a href="#developer" id="developer"></a>
 
 * [ERC-792: Arbitration Standard](developer/erc-792-arbitration-standard.md)
 * [ERC 1497: Evidence Standard](developer/erc-1497-evidence-standard.md)
@@ -82,7 +82,7 @@
 * [Discord](https://discord.gg/cAvWk8B23f)
 * [Telegram](https://t.me/kleros)
 * [Governance Forum](https://forum.kleros.io)
-* [Twitter](https://twitter.com/kleros_io)
+* [Twitter](https://twitter.com/kleros\_io)
 * [Blog](https://blog.kleros.io)
 * [Reddit](https://reddit.com/r/Kleros/)
 * [Github](https://github.com/kleros)

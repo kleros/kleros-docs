@@ -9,7 +9,7 @@ description: >-
 ⛓️ [**PNK Token Contract Address on Ethereum Mainnet**](https://etherscan.io/token/0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d)
 
 {% hint style="info" %}
-#### \*\*Where to buy PNK? \*\*
+#### Where to buy PNK?
 
 * DEX Aggregators (Large Trade): 🔼 [Paraswap ](https://paraswap.io/#/)/ 🦓 [1inch](https://1inch.exchange/#/)
 * DEX L1 (Medium Trade): 🦄\*\* \*\*[Un](https://app.uniswap.org/#/swap?inputCurrency=ETH\&outputCurrency=0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d)[iswap](https://app.uniswap.org/#/swap?inputCurrency=ETH\&outputCurrency=0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d) / 🍣 [S](https://app.sushi.com/swap)[ushiswap](https://app.sushi.com/swap?inputCurrency=ETH\&outputCurrency=0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d) / ⚖️ [Balancer](https://balancer.exchange/#/swap)
@@ -88,7 +88,7 @@ On the left, an attacker has managed a 51% attack and starts carrying out obviou
 
 Ultimately, the integrity of juries is the essence of what the Kleros protocol aims to provide. As such, it is key to maximize their defense against 51% attacks. This is why Kleros needs its own native token.
 
-\*\*More details: \*\*[https://medium.com/kleros/why-kleros-needs-a-native-token-5c6c6e39cdfe](https://medium.com/kleros/why-kleros-needs-a-native-token-5c6c6e39cdfe)
+**More details:** [https://medium.com/kleros/why-kleros-needs-a-native-token-5c6c6e39cdfe](https://medium.com/kleros/why-kleros-needs-a-native-token-5c6c6e39cdfe)
 
 ## Conclusion
 
