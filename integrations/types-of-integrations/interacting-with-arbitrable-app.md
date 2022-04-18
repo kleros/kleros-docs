@@ -10,16 +10,16 @@ There are as many ways to interact with an `Arbitrable` app as there are Arbitra
 
 ## Query the app subgraph API
 
-If a [Graph Protocol](https://thegraph.com/) subgraph already exists for the application you want to read from, you can directly [query its subgraph](https://thegraph.com/docs/query-the-graph).
+If a [Graph Protocol](https://thegraph.com) subgraph already exists for the application you want to read from, you can directly [query its subgraph](https://thegraph.com/docs/query-the-graph).
 
 {% hint style="info" %}
 **Kleros Arbitrable apps subgraphs**
 
-* \*\*\*\*[Kleros Tokens \(Mainnet\) subgraph](https://thegraph.com/explorer/subgraph/kleros/t2cr)
-* [Kleros Curate \(Mainnet\) subgraph](https://thegraph.com/explorer/subgraph/kleros/curate)
-* [Kleros Curate \(Rinkeby\) subgraph](https://thegraph.com/explorer/subgraph/kleros/curate-rinkeby)
-* [Proof of Humanity \(Mainnet\) subgraph](https://thegraph.com/explorer/subgraph/kleros/proof-of-humanity-mainnet)
-* [Proof of Humanity \(Kovan\) subgraph](https://thegraph.com/explorer/subgraph/epiqueras/proof-of-humanity-kovan)
+* [Kleros Tokens (Mainnet) subgraph](https://thegraph.com/explorer/subgraph/kleros/t2cr)
+* [Kleros Curate (Mainnet) subgraph](https://thegraph.com/explorer/subgraph/kleros/curate)
+* [Kleros Curate (Rinkeby) subgraph](https://thegraph.com/explorer/subgraph/kleros/curate-rinkeby)
+* [Proof of Humanity (Mainnet) subgraph](https://thegraph.com/explorer/subgraph/kleros/proof-of-humanity-mainnet)
+* [Proof of Humanity (Kovan) subgraph](https://thegraph.com/explorer/subgraph/epiqueras/proof-of-humanity-kovan)
 {% endhint %}
 
 If no subgraph exists for the application you want to read from, you can request one to the Kleros team, or [define ](https://thegraph.com/docs/define-a-subgraph)and [deploy](https://thegraph.com/docs/deploy-a-subgraph) one.
@@ -37,4 +37,3 @@ Check out the Kleros repository, Proof of Humanity repository, or Kleros-Integra
 ## Use the Archon library
 
 Use the [Archon Library Arbitrable package](https://archon.readthedocs.io/en/latest/archon-arbitrable.html) to read disputes, evidence, metaevidence, and ruling from arbitrable smart contracts.
-

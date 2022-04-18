@@ -20,7 +20,7 @@ description: >-
 
 If you want to integrate with Kleros for dispute resolution, you will have to create an `Arbitrable` smart contract as per the[ Arbitration Standard](https://kleros.gitbook.io/docs/developer/erc-792-arbitration-standard) that will allow executing the following flow:
 
-![](../../.gitbook/assets/flow_arbitrable-arbitrator-smart-contract.png)
+![](../../.gitbook/assets/flow\_arbitrable-arbitrator-smart-contract.png)
 
 In the `Arbitrable` contract, you will have to define at least:
 
@@ -36,8 +36,8 @@ In the `Arbitrable` contract, you will have to define at least:
 
 {% hint style="info" %}
 **List of Subcourt IDs (Ethereum Mainnet)**\
-****\
-****The General Court ID is 0.
+\
+The General Court ID is 0.
 
 1. Blockchain
 2. Non-Technical

@@ -70,7 +70,7 @@ Kleros Tokens registry was used at the time to curate tokens to be listed on the
 Baer Chain was then classified as a Ponzi scheme by the Chinese government a few months later.
 
 {% hint style="info" %}
-\*\*Examples of evidence material:\*\*‌
+**Examples of evidence material:**
 
 * [​Evidence F​](https://ipfs.kleros.io/ipfs/QmV7cM4hYrx2sdbH4mMUspBz5ACRJZ4wzU8Hrys7jZ7H1r/claim-against-brc-token-elligibility-2.pdf)
 * [​Evidence G](https://ipfs.kleros.io/ipfs/QmckzrdTb2yb7o5iEJXQxnTjde2a1LAZMBZgUss9GUWeAa/claim-against-brc-token-elligibility.pdf)
@@ -88,7 +88,7 @@ Baer Chain was then classified as a Ponzi scheme by the Chinese government a few
 Proof of Humanity is a Sybil-resistant list of humans using social vouching and Kleros arbitration to endure no fake/duplicate/incorrect profiles make it into the regisrty. [Kevin Owocki](https://twitter.com/owocki?lang=fr), the founder of [Gitcoin](https://gitcoin.co), submitted his [profile ](https://app.proofofhumanity.id/profile/0x00de4b13153673bcae2616b67bf822500d325fc3?network=mainnet)into PoH but got challenged because the policy asked for a "front-facing picture" and he provided one where he was looking at an angle from the photograph. Long debates ensued to clarify what a front-facing picture meant and what would an acceptable angle be. The profile was finally rejected but Kevin Owocki was of course able to submit another one and make it into the registry.
 
 {% hint style="info" %}
-\*\*Examples of evidence material:\*\*‌
+**Examples of evidence material:‌**
 
 * [​Evidence I](https://ipfs.kleros.io/ipfs/QmUUgeMLZPM3d5b2tnwDG5Z7waDjmveWZVr8AVgo838Quf/evidence.jpg)
 * [Evidence J](https://ipfs.kleros.io/ipfs/QmPS8yDaeDhEh2EpPJ6r3huYto3DwFEkecUvH17GhSb3UK/Rebuttals-final.pdf)
@@ -110,9 +110,9 @@ Proof of Humanity is a Sybil-resistant list of humans using social vouching and 
 Kleros Tokens registry was used at the time to curate tokens to be listed on the Ethfinex exchange in a decentralized manner. One of the famous examples of cases originating from this decentralized listing process is the listing of the Grid+ token. This token was rejected because the community estimated that, even if the project was legitimate, the rules required that the contracts should have been audited by a third party (and Conensys Diligence was not considered a 3rd party as Grid+ was a Consensys-incubated startup).
 
 {% hint style="info" %}
-\*\*Examples of evidence material:\*\*‌
+**Examples of evidence material:**
 
-* [​Evidence L](https://ipfs.kleros.io/ipfs/QmbvuyXczHVsQxAkEbx3Ec84uTF3ooHQixMAXAScLw3iWj/heliast-gridplus-challenge.pdf)
+* ****[​Evidence L](https://ipfs.kleros.io/ipfs/QmbvuyXczHVsQxAkEbx3Ec84uTF3ooHQixMAXAScLw3iWj/heliast-gridplus-challenge.pdf)
 * [Evidence M](https://ipfs.kleros.io/ipfs/QmUke7s1V7pkgSCUV2nBcuwxW2jwt4LHroD2yRcNvxwyn3/gridplus-violating-4.1.pdf)
 * [Evidence N](https://ipfs.kleros.io/ipfs/Qmb8g71Guw7Dj5kwRDKd6cXLaSVdFRWgg42mCagMmYHjGX/kleros-tcr-gridplus-ethfinex-compliance-badge-challenge-response.pdf)
 {% endhint %}
@@ -132,12 +132,12 @@ Towards the end of the experiment, the following image was submitted into the Do
 ![](<../../.gitbook/assets/image (21) (1) (1) (2).png>)
 
 {% hint style="info" %}
-\*\*Examples of evidence material:\*\*‌
+**Examples of evidence material:**
 
 * [​Evidence O](https://ipfs.kleros.io/ipfs/QmXNYjTuc9XJ325qMuUjv9YQzjEvXDnU7oevR7ZbkkEMg4/Ricky's%20Case%20for%20Doges%20on%20Trial.pdf)
 * [Evidence P](https://ipfs.kleros.io/ipfs/Qmf77Cmd5BVzDtosxRfCmHX46qDBNp27tAKYBNkrdFPmxX/Cat%20In%20The%20Snow%20Evidence.pdf)
 {% endhint %}
 
-The submitter claimed that this was the image of a cat and requested the 50 ETH reward. It was\*\* \*\*the opinion of Coopérative Kleros that the submitted image did not comply with the payout policy in the sense that it did not “clearly display” a cat as stated in the rules. Coopérative Kleros and the submitter agreed to settle the dispute using the recently launched Kleros Escrow Dapp and the payment was rejected in the end.
+The submitter claimed that this was the image of a cat and requested the 50 ETH reward. It was the opinion of Coopérative Kleros that the submitted image did not comply with the payout policy in the sense that it did not “clearly display” a cat as stated in the rules. Coopérative Kleros and the submitter agreed to settle the dispute using the recently launched Kleros Escrow Dapp and the payment was rejected in the end.
 
 Learn more about this case: [https://blog.kleros.io/kleros-vs-cat-in-the-snow-the-escrow-leading-case/](https://blog.kleros.io/kleros-vs-cat-in-the-snow-the-escrow-leading-case/)

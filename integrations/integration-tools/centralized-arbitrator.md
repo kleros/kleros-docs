@@ -4,7 +4,7 @@ description: Test your integration with Kleros Court easily
 
 # Centralized Arbitrator
 
-🔨 [Centralized Arbitrator](https://centralizedarbitrator.kleros.io)\*\* \*\*🔨\
+🔨 [Centralized Arbitrator](https://centralizedarbitrator.kleros.io)🔨\
 \
 The **Centralized Arbitrator** dashboard allows anyone to quickly deploy and operate a centralized arbitrator from a graphical user interface. This serves as a quick demonstration tool and can help to debug arbitrable apps trying to integrate with Kleros Court as an arbitrator.
 
@@ -15,7 +15,7 @@ The **Centralized Arbitrator** dashboard allows anyone to quickly deploy and ope
 * You start by accessing the [dashboard](https://centralizedarbitrator.kleros.io) and connecting with a Metamask wallet set to the correct network you want to test on.
 
 {% hint style="info" %}
-\*\*NETWORK COMPATIBILITY: \*\*\
+**NETWORK COMPATIBILITY:** \
 The Centralized Arbitrator can be used on:
 
 * Ethereum Mainnet

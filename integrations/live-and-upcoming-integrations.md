@@ -70,7 +70,7 @@ The [Omen](https://omen.eth.link) prediction market (on Ethereum mainnet and xDa
 
 ### Paraswap
 
-[Paraswap ](https://paraswap.io/#/?network=ethereum)decentralized exchanges aggregator use [Kleros Tokens](https://tokens.kleros.io/tokens) as one of their \*\*default \*\*token lists. This [token list](https://tokenlists.org/token-list?url=t2crtokens.eth) is the only one to be completely open, decentralized, and managed by the community.
+[Paraswap ](https://paraswap.io/#/?network=ethereum)decentralized exchanges aggregator use [Kleros Tokens](https://tokens.kleros.io/tokens) as one of their **default** token lists. This [token list](https://tokenlists.org/token-list?url=t2crtokens.eth) is the only one to be completely open, decentralized, and managed by the community.
 
 ### Zerion
 

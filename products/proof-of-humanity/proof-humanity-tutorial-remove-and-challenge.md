@@ -37,7 +37,7 @@ You can use deepfake detection tools such as [https://deepware.ai/](https://deep
 * Send the Transaction with the challenger deposit. Once the transaction is validated, the profile will soon go to "Challenged Registration" status.
 
 {% hint style="info" %}
-\*\*What is the Challenger Deposit? \*\*The deposit is an amount of ETH you lock with the challenge of the profile that will act as a deterrent to prevent people from challenging profiles for no valid reason. If your challenge of the profile is successful, you get your challenger deposit back and earn the submitter deposit (minus arbitration fees). If you have challenged a valid profile, you will lose this deposit.
+**What is the Challenger Deposit?** The deposit is an amount of ETH you lock with the challenge of the profile that will act as a deterrent to prevent people from challenging profiles for no valid reason. If your challenge of the profile is successful, you get your challenger deposit back and earn the submitter deposit (minus arbitration fees). If you have challenged a valid profile, you will lose this deposit.
 {% endhint %}
 
 * A dispute will then be raised in [Kleros Court](https://kleros.gitbook.io/docs/products/court) where jurors will vote on a ruling. Anyone can submit evidence from the profile interface (at the bottom of the page)
@@ -109,7 +109,7 @@ _**Example 3: Send a removal request from a different address than the submitter
 
 ![](<../../.gitbook/assets/image (49).png>)
 
-* For this, go directly to your profile page using _`https://app.proofofhumanity.id/profile/youraddress?network=mainnet`\*\* \*\*_ or click on "My Profile", and check that it is in "Removed" status. If it's not, remove it using these instructions in the [previous tab](https://kleros.gitbook.io/docs/products/proof-of-humanity/proof-humanity-tutorial-remove-and-challenge#6-remove-a-profile-from-the-registry).
+* For this, go directly to your profile page using _`https://app.proofofhumanity.id/profile/youraddress?network=mainnet`_or click on "My Profile", and check that it is in "Removed" status. If it's not, remove it using these instructions in the [previous tab](https://kleros.gitbook.io/docs/products/proof-of-humanity/proof-humanity-tutorial-remove-and-challenge#6-remove-a-profile-from-the-registry).
 * Then, connect your new Ethereum address to the app, and [submit your new profile](https://kleros.gitbook.io/docs/products/proof-of-humanity/proof-of-humanity-tutorial#1-register-your-profile-5-10mn) like you did the first time.
 
 **7.b/ Resubmit a profile from the same address**
@@ -118,7 +118,7 @@ _**Example 3: Send a removal request from a different address than the submitter
 
 ![](<../../.gitbook/assets/image (49) (1).png>)
 
-* For this, go directly to your profile page using `https://app.proofofhumanity.id/profile/youraddress?network=mainnet`\*\* \*\* or click on "My Profile", and check that it is in "Removed" status. If it's not, remove it using these instructions in the [previous tab](https://kleros.gitbook.io/docs/products/proof-of-humanity/proof-humanity-tutorial-remove-and-challenge#6-remove-a-profile-from-the-registry).
+* For this, go directly to your profile page using `https://app.proofofhumanity.id/profile/youraddress?network=mainnet`or click on "My Profile", and check that it is in "Removed" status. If it's not, remove it using these instructions in the [previous tab](https://kleros.gitbook.io/docs/products/proof-of-humanity/proof-humanity-tutorial-remove-and-challenge#6-remove-a-profile-from-the-registry).
 * Then, locate the "Resubmit Profile" button at the bottom left of your profile and click it.
 
 **7.c/ Reapply a profile expired or soon-to-be expired**
