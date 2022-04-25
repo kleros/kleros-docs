@@ -35,10 +35,6 @@ Kleros is looking to change that by using crowdsourced jurors to adjudicate a nu
 
 > Employing a trust backed escrow platform is a win-win. Create higher sales conversions for companies whilst offering higher quality services to consumers.
 
-{% content-ref url="broken-reference/" %}
-[broken-reference](broken-reference/)
-{% endcontent-ref %}
-
 {% content-ref url="../../integrations/integration-tools/escrow-sdk.md" %}
 [escrow-sdk.md](../../integrations/integration-tools/escrow-sdk.md)
 {% endcontent-ref %}

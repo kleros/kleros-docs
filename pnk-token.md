@@ -12,7 +12,7 @@ description: >-
 #### Where to buy PNK?
 
 * DEX Aggregators (Large Trade): 🔼 [Paraswap ](https://paraswap.io/#/)/ 🦓 [1inch](https://1inch.exchange/#/)
-* DEX L1 (Medium Trade): 🦄\*\* \*\*[Un](https://app.uniswap.org/#/swap?inputCurrency=ETH\&outputCurrency=0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d)[iswap](https://app.uniswap.org/#/swap?inputCurrency=ETH\&outputCurrency=0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d) / 🍣 [S](https://app.sushi.com/swap)[ushiswap](https://app.sushi.com/swap?inputCurrency=ETH\&outputCurrency=0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d) / ⚖️ [Balancer](https://balancer.exchange/#/swap)
+* DEX L1 (Medium Trade): 🦄  [Un](https://app.uniswap.org/#/swap?inputCurrency=ETH\&outputCurrency=0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d)[iswap](https://app.uniswap.org/#/swap?inputCurrency=ETH\&outputCurrency=0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d) / 🍣 [S](https://app.sushi.com/swap)[ushiswap](https://app.sushi.com/swap?inputCurrency=ETH\&outputCurrency=0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d) / ⚖️ [Balancer](https://balancer.exchange/#/swap)
 * DEX L2 (Small Trade): 🔷 [Deversifi](https://app.deversifi.com)
 * Centralized Exchanges (Fiat Trade): 🍃 [Bitfinex](https://www.bitfinex.com/t/PNKETH) / 🚪 [Gate.io](https://www.gate.io/trade/PNK\_USDT/?ch=en\_sm\_0421) / 🆗 [OKEX](https://www.okex.com/markets/spot-info/pnk-usdt)
 * Credit Card Onramp: 🛡️ [Guardarian](https://guardarian.com)
@@ -22,7 +22,7 @@ description: >-
 
 PNK is used both to stake (for the possibility to become a juror and to protect against attacks) and in the governance (voting rights) when new proposals, courts, or other parameters are suggested throughout our Dapps.
 
-* **Voting Rights:** PNK is used for all governance decisions taken on the Kleros platform. Users can vote with their PNK in any related votes. We already use this mechanism in our token curated list and court governance decisions. \\
+* **Voting Rights:** PNK is used for all governance decisions taken on the Kleros platform. Users can vote with their PNK in any related votes. We already use this mechanism in our token curated list and court governance decisions.
 * **Staking Rewards:** Users must stake PNK in order to be able to become jurors in disputes. The more PNK a user stakes, the more chance he has of being chosen as a juror in the selected court.
 
 ![](.gitbook/assets/pnk-token.png)
