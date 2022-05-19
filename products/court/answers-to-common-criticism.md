@@ -10,7 +10,7 @@ description: >-
 
 ### FUD #1 - I only believe in systems that are in production and running, is Kleros even live?
 
-\_(As of June 2021) \_Kleros Court has been live since 2018 on Ethereum mainnet without any bug or downtime. It has handled and ruled on more than 865 different cases and has a community of more than 760 active jurors staking in 23 different courts (Source: [KlerosBoard](http://klerosboard.com)). Kleros Court has ruled fairly on several controversial cases where millions of dollars were at stake (cf. [Famous Kleros Cases](https://kleros.gitbook.io/docs/products/court/famous-kleros-cases)). It is trusted as an unbiased and transparent arbitration layer by multiple Dapps of the ecosystem in different fields (Prediction Markets, Insurance, DEX, Sybil-Resistance, Marketplaces,... check all those integrations [here](https://kleros.gitbook.io/docs/integrations/live-and-upcoming-integrations)).
+Kleros Court has been live since 2018 on Ethereum mainnet, and it has handled and ruled on more than a thousand different cases and has a community of more than 760 active jurors staking in 23 different courts (Source: [KlerosBoard](http://klerosboard.com)). Kleros Court has ruled fairly on several controversial cases where millions of dollars were at stake (cf. [Famous Kleros Cases](https://kleros.gitbook.io/docs/products/court/famous-kleros-cases)). It is trusted as an unbiased and transparent arbitration layer by multiple Dapps of the ecosystem in different fields (Prediction Markets, Insurance, DEX, Sybil-Resistance, Marketplaces,... check all those integrations [here](https://kleros.gitbook.io/docs/integrations/live-and-upcoming-integrations)).
 
 ## Kleros is a fair dispute resolution system
 
