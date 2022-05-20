@@ -6,7 +6,7 @@ description: >-
 
 # Oracle
 
-Kleros Oracle is an optimistic oracle product that combines Kleros's dispute resolution system with [Reality.eth](https://reality.eth.link/)'s cryptoeconomic mechanism for verifying real world events on-chain, to deliver a subjective oracle solution able to answer absolutely any question with a publicly verifiable answer.
+Kleros Oracle is a product that combines Kleros's dispute resolution system with [Reality.eth](https://reality.eth.link/)'s cryptoeconomic mechanism for verifying real world events on-chain, to deliver a subjective oracle solution able to answer absolutely any question with a publicly verifiable answer. It falls under the category of optimistic oracle solutions, allowing dApps to very quickly arrive at answers or information unless there is a dispute.
 
 ## How does it work?
 
