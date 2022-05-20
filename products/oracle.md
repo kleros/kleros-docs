@@ -6,11 +6,11 @@ description: >-
 
 # Oracle
 
-Kleros Oracle is a product combining Kleros dispute resolution with Reality.eth cryptoeconomic mechanism for verifying real world events on-chain, to deliver a subjective oracle solution able to answer absolutely any question with a publicly verifiable answer.
+Kleros Oracle is an optimistic oracle product that combines Kleros's dispute resolution system with [Reality.eth](https://reality.eth.link/)'s cryptoeconomic mechanism for verifying real world events on-chain, to deliver a subjective oracle solution able to answer absolutely any question with a publicly verifiable answer.
 
 ## How does it work?
 
-Anyone (individual or dapp) can submit a question to the Reality.eth platform while specifying Kleros as the final arbitrator. For example:
+Anyone (individual or dApp) can submit a question to the [Reality.eth](https://reality.eth.link/) platform while specifying Kleros as the final arbitrator. For example:
 
 * Who won the gold medal in the individual kata category in the Karate World Championship in 2004?
 * In which month and year was the first version of the game ‘_The Curse of Monkey Island_’ released?
