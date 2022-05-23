@@ -26,11 +26,13 @@ Legacy insurance companies often handle claims in a non-transparent and indisput
 
 The solution most often used by DeFi insurance projects is to delegate the challenges above to their DAO governance. While it might seem intuitively like a great solution, it is often fraught with dangers and pitfalls. Here are a few of them:&#x20;
 
+* **Conflict of interest for the DAO token holders**\
+  ****There is a fundamental conflict of interest whenever a DAO governing an insurance protocol is tasked with its own claim approval process. On one hand, they have the duty to ensure rightful claims are paid out, thus allowing the protocol to serve its intended purpose. On the other hand, every successful claim chips away at their own capital staked in the protocol. Unless the voters/deciders in the claim approval process has no direct interest in the approval or rejection of a claim, the process cannot be said to be credibly neutral.
 * **Risk of creating a weaker single-use court system**\
   If a DeFi protection app recreates a system where a few randomly selected governance token holders vote, then they will basically have to recreate a version of a dedicated arbitration system such as Kleros Courts. They will also not have any guarantee that the culture around their token will develop appropriately, as it takes time and effort to cultivate a community that is educated on jury duty in the decentralized world.&#x20;
 * **DAO governance is weakened**\
   ****The lock-up/staking of tokens is a cornerstone of any tokenomic design of an effective and honest decentralised court. What this means is that tokens locked up for court participation cannot be used for governance, and vice versa. Because of this, attempting to combine two use cases into a single token dramatically increases the vulnerability of both to 51% attacks. Furthermore, a court operating on the won't benefit from the network effects that Kleros has through working with a huge network of token-holding juries, arbitrating for multiple DAOs.
-* **Community-wide Vote Fatigue**\
+* **Community-wide vote fatigue**\
   If an insurance project asks every token holder to vote on every claim ever raised, it will require a massive duplication of effort and might be plagued by low response rates progressively creating security issues in the form of claim validation vote that could easily be swayed by a single whale. If voting is made optional, the results could skew towards the goals of those with specific agendas that may not be in the interest of the community, opening the door for collusion or vote buying.
 
 Most DeFi insurance projects operate with a (semi-)centralized process that employs a multi-step voting process to manage their claims. The claims will first often go through a community-wide approval or rejection process before being reviewed by a final committee that acts as the final decision-maker.&#x20;
@@ -47,7 +49,7 @@ Kleros offers better decentralized solutions to the challenges mentioned above, 
 
 ### Kleros as a fair and trustless Claim Arbitration System
 
-Kleros recommends a Claimant-Challenger model for decentralizing your claim management process: a solution that can be achieved using Kleros's [Dispute Resolver](https://resolve.kleros.io), which allows claims and disputes from an insurance protocol to be passed on to the Kleros Courts for arbitration.
+Kleros recommends a Claimant-Challenger model for decentralizing your claim management process: a solution that can be achieved using Kleros's [Dispute Resolver](https://resolve.kleros.io/), which allows claims and disputes from an insurance protocol to be passed on to the Kleros Courts for arbitration.
 
 An arbitrable Claim Management contract can be written to interface between the Kleros Courts and the insurance protocol's payout contracts, allowing the decisions of the jurors in the Kleros Courts to translate to decision on claims within a DeFi insurance protocol.
 
