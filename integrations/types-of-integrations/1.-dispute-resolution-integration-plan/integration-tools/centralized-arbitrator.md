@@ -8,7 +8,7 @@ description: Test your integration with Kleros Court easily
 \
 The **Centralized Arbitrator** dashboard allows anyone to quickly deploy and operate a centralized arbitrator from a graphical user interface. This serves as a quick demonstration tool and can help to debug arbitrable apps trying to integrate with Kleros Court as an arbitrator.
 
-![](<../../.gitbook/assets/image (52).png>)
+![](<../../../../.gitbook/assets/image (52).png>)
 
 ## How does it work?
 
@@ -33,12 +33,12 @@ The Centralized Arbitrator can be used on:
     * by inputting its address in the relevant field
     * or selecting it in the dropdown list if you already used it locally.
 
-![](<../../.gitbook/assets/image (54).png>)
+![](<../../../../.gitbook/assets/image (54).png>)
 
 * You can change the arbitration fee required by your arbitrator if needed;
 
-![](<../../.gitbook/assets/image (53) (1).png>)
+![](<../../../../.gitbook/assets/image (53) (1).png>)
 
 * On the list below, you will be able to track incoming disputes from arbitrable apps, filter them by status and give rulings directly from the interface.
 
-![](<../../.gitbook/assets/image (57).png>)
+![](<../../../../.gitbook/assets/image (57).png>)

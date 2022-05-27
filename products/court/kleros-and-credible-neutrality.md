@@ -18,7 +18,7 @@ Kleros has implemented these principles in the design of its Court, and added ad
 #### **Rule 1: Don’t write specific people or specific outcomes into the mechanism**
 
 * Kleros utilizes **sortition** (selection by the random drawing of lots) in the juror selection process, making it very difficult for disputants and voters to collude.&#x20;
-* As an independent arbitration service, Kleros has no direct interest in the outcome of a dispute. This is especially relevant in high-value [insurance](../../integrations/use-cases/defi-insurance.md) or DAO governance disputes.
+* As an independent arbitration service, Kleros has no direct interest in the outcome of a dispute. This is especially relevant in high-value [insurance](../../integrations/types-of-integrations/1.-dispute-resolution-integration-plan/use-cases/defi-insurance.md) or DAO governance disputes.
 
 **Rule 2: Open source and publicly verifiable execution**
 

@@ -10,7 +10,7 @@ There are as many ways to interact with an `Arbitrable` app as there are Arbitra
 
 ## Query the app subgraph API
 
-If a [Graph Protocol](https://thegraph.com) subgraph already exists for the application you want to read from, you can directly [query its subgraph](https://thegraph.com/docs/query-the-graph).
+If a [Graph Protocol](https://thegraph.com/) subgraph already exists for the application you want to read from, you can directly [query its subgraph](https://thegraph.com/docs/query-the-graph).
 
 {% hint style="info" %}
 **Kleros Arbitrable apps subgraphs**

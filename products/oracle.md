@@ -21,6 +21,6 @@ Through this bond escalation mechanism, most questions will rapidly get an answe
 
 Kleros will either confirm the current answer (in which case, the party who provided the final answer receives the bond) or it will provide a different answer (in which case, the new answer is considered definitive and the party who paid the arbitration fees receives the bond).
 
-{% content-ref url="../integrations/types-of-integrations/how-to-use-reality.eth-+-kleros-as-an-oracle.md" %}
-[how-to-use-reality.eth-+-kleros-as-an-oracle.md](../integrations/types-of-integrations/how-to-use-reality.eth-+-kleros-as-an-oracle.md)
+{% content-ref url="../integrations/types-of-integrations/1.-dispute-resolution-integration-plan/channel-partners/how-to-use-reality.eth-+-kleros-as-an-oracle.md" %}
+[how-to-use-reality.eth-+-kleros-as-an-oracle.md](../integrations/types-of-integrations/1.-dispute-resolution-integration-plan/channel-partners/how-to-use-reality.eth-+-kleros-as-an-oracle.md)
 {% endcontent-ref %}

@@ -14,7 +14,7 @@ description: >-
 {% tab title="1/ Register your profile" %}
 ### 1/ Register your profile (5-10mn)
 
-#### 1.a/ Go to the [Proof of Humanity](https://app.proofofhumanity.id) app
+#### 1.a/ Go to the [Proof of Humanity](https://app.proofofhumanity.id/) app
 
 * You will see the homepage of the app with the recent profiles registered in PoH.
 
@@ -24,14 +24,14 @@ description: >-
 
 ![](<../../.gitbook/assets/image (58).png>)
 
-* Select the wallet you want to use (We recommend [Metamask](https://metamask.io/faqs.html), [WalletConnect](https://walletconnect.org) or [Authereum](https://authereum.com/welcome/))
+* Select the wallet you want to use (We recommend [Metamask](https://metamask.io/faqs.html), [WalletConnect](https://walletconnect.org/) or [Authereum](https://authereum.com/welcome/))
 
 ![](<../../.gitbook/assets/image (64) (1).png>)
 
 * Once you have connected the wallet to the app (the wallet will ask you to confirm the connection), you will need to ensure you have some Ether (ETH) loaded in the wallet to interact with the Ethereum blockchain (pays transaction fees) and to be able to lock the ETH deposit needed to enter the registry (it will be reimbursed to you).
 
 {% hint style="danger" %}
-**PRIVACY WARNING:** The Ethereum address you are using to submit your profile will be publicly linked to your identity. If you don't want your wallet holdings and transaction history to be linked to your identity, we recommend using a new Ethereum address that you seeded with funds from an exchange or from [Tornado.cash](https://tornado.cash)
+**PRIVACY WARNING:** The Ethereum address you are using to submit your profile will be publicly linked to your identity. If you don't want your wallet holdings and transaction history to be linked to your identity, we recommend using a new Ethereum address that you seeded with funds from an exchange or from [Tornado.cash](https://tornado.cash/)
 {% endhint %}
 
 **1.c/ Click on "Submit profile" in the top banner**
@@ -103,7 +103,7 @@ In order to be notified of your profile progress in the validation process, you 
 
 **Notifications through EPNS**
 
-In order to be notified of your profile progress in the validation process, you can also  subscribe to email notifications through [Ethereum Push Notification Service (EPNS)](https://app.epns.io). Check this [thread](https://twitter.com/epnsproject/status/1501611224517480451?s=21) for EPNS notification steps.
+In order to be notified of your profile progress in the validation process, you can also  subscribe to email notifications through [Ethereum Push Notification Service (EPNS)](https://app.epns.io/). Check this [thread](https://twitter.com/epnsproject/status/1501611224517480451?s=21) for EPNS notification steps.
 {% endtab %}
 
 {% tab title="3/ Profile Validation Process" %}

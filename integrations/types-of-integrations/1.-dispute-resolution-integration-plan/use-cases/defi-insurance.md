@@ -18,7 +18,7 @@ Various decentralized projects have risen to fulfil this much needed service. Th
 
 An insurance claim is a formal request by a user to an insurance product for coverage or compensation for a covered loss or policy event. In the case of a decentralized finance insurance organization, a designated authority (DAO, Multi-sig, centralized resolver,...) should validate this claim (or deny it). If it is approved, the insurance contract will issue payment to the insured or an approved interested party on behalf of the insured.
 
-![Insurance governance token holder that will see the value of its holdings decrease in case of a hack payout: “I don’t see any damage/hack here, sir.”](../../.gitbook/assets/0.png)
+![Insurance governance token holder that will see the value of its holdings decrease in case of a hack payout: “I don’t see any damage/hack here, sir.”](../../../../.gitbook/assets/0.png)
 
 Legacy insurance companies often handle claims in a non-transparent and indisputable manner. The challenge for new DeFi Insurance products (apart from offering coverage for investments that could not be covered anywhere else) is therefore to offer a trust-minimized and fair mechanism to manage and arbitrate claims.
 
@@ -37,7 +37,7 @@ The solution most often used by DeFi insurance projects is to delegate the chall
 
 Most DeFi insurance projects operate with a (semi-)centralized process that employs a multi-step voting process to manage their claims. The claims will first often go through a community-wide approval or rejection process before being reviewed by a final committee that acts as the final decision-maker.&#x20;
 
-![Common Claim Process Template for DeFi Insurance projects](../../.gitbook/assets/1.png)
+![Common Claim Process Template for DeFi Insurance projects](../../../../.gitbook/assets/1.png)
 
 However, the fact that the first round of vote by the governance token holders can be overridden every time by a committee of a handful of experts without a possibility to challenge them can make the whole process look like decentralization theater.
 
@@ -55,7 +55,7 @@ An arbitrable Claim Management contract can be written to interface between the 
 
 The Claimant-Challenger model follows the standard request-challenge protocol with a crowdfunded appeal system, where the claim submitter registers the claim and anyone can challenge said claim, thus creating a dispute in Kleros Court. An insuree would then be able to submit a claim using that contract and to provide the information related to his claim. If their claim is challenged, a dispute will be opened in the relevant Kleros Court. If not challenged, the claim will be considered valid and a payout will be triggered. An illustration of this process can be seen below:
 
-![The most commonly prescribed claims process for insurance protocols using Kleros.](../../.gitbook/assets/defi-insurance-project\_1.png)
+![The most commonly prescribed claims process for insurance protocols using Kleros.](../../../../.gitbook/assets/defi-insurance-project\_1.png)
 
 The Claim Management contract also can be designed to go beyond just simple Approve/Reject decisions, incorporating functionalities such as the ability for counter-offers to claims to be raised by parties such as the DAO governance or designated claim oversight teams.
 

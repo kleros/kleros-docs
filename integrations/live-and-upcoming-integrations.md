@@ -42,7 +42,7 @@ The [Gnosis Safe](https://gnosis-safe.io) multi-sig wallet can be used for DAO g
 
 ### 1Inch <a href="#reality-cards" id="reality-cards"></a>
 
-[1Inch](https://1inch.io) is a leading DeFi/DEX aggregator that has integrated the [Gnosis Zodiac Reality Module](https://gnosis.github.io/zodiac/docs/tutorial-module-reality/get-started/), with Kleros set as the arbitrator in case of oracle disputes on Reality.eth. &#x20;
+[1Inch](https://1inch.io/) is a leading DeFi/DEX aggregator that has integrated the [Gnosis Zodiac Reality Module](https://gnosis.github.io/zodiac/docs/tutorial-module-reality/get-started/), with Kleros set as the arbitrator in case of oracle disputes on Reality.eth. &#x20;
 
 ### PolkaMarkets​
 

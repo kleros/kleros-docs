@@ -30,12 +30,12 @@ description: How to integrate with Kleros?
 [integrations-faq.md](integrations-faq.md)
 {% endcontent-ref %}
 
-{% content-ref url="use-cases/" %}
-[use-cases](use-cases/)
+{% content-ref url="types-of-integrations/1.-dispute-resolution-integration-plan/use-cases/" %}
+[use-cases](types-of-integrations/1.-dispute-resolution-integration-plan/use-cases/)
 {% endcontent-ref %}
 
-{% content-ref url="integration-tools/" %}
-[integration-tools](integration-tools/)
+{% content-ref url="types-of-integrations/1.-dispute-resolution-integration-plan/integration-tools/" %}
+[integration-tools](types-of-integrations/1.-dispute-resolution-integration-plan/integration-tools/)
 {% endcontent-ref %}
 
 {% content-ref url="live-and-upcoming-integrations.md" %}
