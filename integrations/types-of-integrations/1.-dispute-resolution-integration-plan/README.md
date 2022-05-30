@@ -36,8 +36,10 @@ As with real-world courts, Kleros Court is only an arbitration service, and it i
 
 To be explicit, you need to decide on and document the following before escalating a dispute to Kleros:
 
-* **Escalation criteria**: when your platform will allow an escalation of a dispute to Kleros.
-* **Enforcement criteria**: what criteria need to be fulfilled for your platform/service to commit to enforcing a ruling from Kleros.
+* **Escalation criteria**: when your platform will allow an escalation of a dispute to Kleros&#x20;
+  * Example: after a first round of dispute resolution has taken place by the platform, and the disputed transaction  above a certain transaction value)
+* **Enforcement criteria**: what criteria need to be fulfilled for your platform/service to commit to enforcing a ruling from Kleros
+  * Example: the agreement of DAO governance or approval committees, if the enforcement is governed by a 'multisig' of which Kleros Court represents only 1-of-n signers.
 
 {% hint style="info" %}
 If a smart contract integration with Kleros Court is used (see [**Step 4** ](./#4.-integrate-with-the-court)below), the escalation and enforcement criteria could be baked into the logic of your 'Arbitrable' contract.
