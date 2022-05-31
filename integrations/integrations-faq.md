@@ -32,6 +32,10 @@ We can't use anonymous jurors in my use case. Can we tweak Kleros to only select
 
 At this point, it is not possible to select jurors from a pre-defined pool. Anyone having tokens can self-select to be drawn randomly as a juror.
 
+## Can/should I prevent new evidence from being submitted after a dispute has been initiated?
+
+It is not possible to stop this from a technical perspective, and it should not be done either as it could lead to the censorship of one of the disputing sides. What can be done is to mention that certain important evidences of a dispute must be submitted at the start of dispute, otherwise the jury must reject the claim.
+
 ## Which project is currently using Kleros and how has it worked for them?
 
 We invite you to take a look at our [Live Integrations](https://kleros.gitbook.io/docs/integrations/live-and-upcoming-integrations) page for the answer.
