@@ -4,11 +4,11 @@ description: >-
   Kleros
 ---
 
-# 2. Read-only integration plan
+# 2. Curated-data integration plan
 
 ## Introduction
 
-While resolving disputes is the most direct way to integrate with Kleros, the Court can also be used to power decentralized curation of information.&#x20;
+While resolving disputes is the most direct way to integrate with Kleros, the Court can also be used to power the decentralized curation of information.&#x20;
 
 Here are a few examples:
 
@@ -16,8 +16,8 @@ Here are a few examples:
   * [Token registries](https://blog.kleros.io/tokens-by-kleros-securing-uniswap-with-decentralized-lists/)&#x20;
   * [Address tag registries](https://blog.kleros.io/the-kleros-decentralized-tag-registry-a-proof-of-concept-for-securing-web3/)
   * [NFT registries](https://www.reddit.com/r/loopringorg/comments/srji2h/introducing\_kleros\_curated\_nft\_registry\_a\_work\_in/)
-* ****[**Proof-of-Humanity**](https://www.proofofhumanity.id/)****
-  * Identity registries
+* Identity registries
+  * [**Proof-of-Humanity**](https://www.proofofhumanity.id/)****
 
 A full list of Kleros's existing integrations and partnerships can be found [here](../../live-and-upcoming-integrations.md).
 
@@ -33,7 +33,7 @@ Each curated registry of Kleros has a unique acceptance policy and field set for
 
 #### Using one of the existing registries
 
-The [main page](https://curate.kleros.io/) of Kleros Curate features a number of existing curated registries that have met certain quality standards in their policy and format. Note registries are specific to a chain, and you will see different lists on xDai/Gnosis chain than on Ethereum Mainnet.&#x20;
+The [main page](https://curate.kleros.io/) of Kleros Curate features a number of existing curated registries that have met certain quality standards in their policy and format. Note that the registries are specific to a chain, and you will see different lists on xDai/Gnosis chain than on Ethereum Mainnet.&#x20;
 
 A few of the most important lists are:
 
@@ -64,8 +64,8 @@ Once the curated registry has been decided/created, and the query for retrieving
 Once all the above are done, it is time to communicate the involvement of Kleros in the dispute resolution processes of your platform to reduce any potential confusion around the processes. This includes but is not limited to:
 
 1. Educating them on the decentralized nature of the curated registries, that the data is not under the control of Kleros (the organisation).
-2. Educating them on how to [submit and challenge entries](../../../products/curate/kleros-curate-tutorial.md) to the curated registries being used.
-3. Communicate the process for them to submit additional evidence and raise appeals (if supported).
+2. Educating them on how to [submit and challenge entries](../../../products/curate/kleros-curate-tutorial.md) to the curated registries in question.
+3. Communicating the process for them to submit additional evidence and raise appeals (if supported).
 
 Once all the above are done, you are ready to go live with Kleros!&#x20;
 

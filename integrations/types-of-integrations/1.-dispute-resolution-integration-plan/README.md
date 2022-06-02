@@ -6,7 +6,7 @@ description: Solution plan for integrating Kleros as an arbitrator to decide on 
 
 ## Introduction
 
-Using [**Kleros Court**](../../../products/court/) to decide on disputes is the most direct way to use Kleros. The ways Kleros decisions can be used are numerous, and here are a few of them:
+Using [**Kleros Court**](../../../products/court/) to decide on disputes is the most direct way to use Kleros. The ways to use this are numerous, but here are a few of them:
 
 * **Escrow** (see [Kleros Escrow](../../../products/escrow/))
 * **(DeFi) insurance claim disputes** (see our partnership with [Unslashed Finance](https://blog.kleros.io/welcome-to-decentralized-insurance-kleros-x-unslashed-finance/))
@@ -32,33 +32,33 @@ Following these 5 steps in sequence will ensure that your integration is secure 
 
 An integration with Kleros implies that you have chosen for the jurisdiction of Kleros Court for the resolution of a dispute.&#x20;
 
-As with real-world courts, Kleros Court is only an arbitration service, and it is important to remember that our decentralized jury only takes care of the ruling on a dispute given certain facts/evidences and policy documents; enforcement of the ruling is out of scope for Kleros, and needs to be carefully taken care of by your service/platform/dApp.&#x20;
+As with real-world courts, Kleros Court is only an arbitration service, and it is important to remember that our decentralized jury only takes care of the ruling on a dispute given certain facts/evidences and policy documents. Enforcement of the ruling is out of scope for Kleros, and needs to be carefully taken care of by your service/platform/dApp.&#x20;
 
-To be explicit, you need to decide on and document the following before escalating a dispute to Kleros:
+What this means in concrete terms is that you need to decide on and document the following before escalating a dispute to Kleros:
 
 * **Escalation criteria**: when your platform will allow an escalation of a dispute to Kleros&#x20;
-  * Example: after a first round of dispute resolution has taken place by the platform, and the disputed transaction  above a certain transaction value)
+  * Example: _escalation is only allowed after a first round of dispute resolution has taken place within your platform, and the disputed transaction above a certain transaction value._
 * **Enforcement criteria**: what criteria need to be fulfilled for your platform/service to commit to enforcing a ruling from Kleros
-  * Example: the agreement of DAO governance or approval committees, if the enforcement is governed by a 'multisig' of which Kleros Court represents only 1-of-n signers.
+  * Example: _enforcement is dependent on the agreement of DAO governance or approval committees, if the enforcement is governed by a 'multisig', of which Kleros Court represents only 1-of-n signers._
 
 {% hint style="info" %}
-If a smart contract integration with Kleros Court is used (see [**Step 4** ](./#4.-integrate-with-the-court)below), the escalation and enforcement criteria could be baked into the logic of your 'Arbitrable' contract.
+If a smart contract integration with Kleros Court is used (see [**Step 4** ](./#4.-integrate-with-the-court)below), the escalation and enforcement criteria could be built into the logic of your 'Arbitrable' contract.
 {% endhint %}
 
 ### 2. Write a good 'Dispute Policy'
 
-The dispute policy is the primary document presented to the jurors to inform them on how to resolve a dispute. It is similar to a piece of real-world law referenced during cases to decide a dispute, but only pertaining to your specific integration.&#x20;
+The dispute policy is the primary document presented to the jurors to inform them on how to resolve a dispute. It is similar to a piece of real-world law referenced during cases to decide a dispute, but in this case only pertaining to your specific integration.&#x20;
 
 Jurors will use three main categories of information to decide on their vote:
 
 1. The dispute policy
-2. The evidence provided (which can potentially be by anyone on the internet)
+2. The evidence provided (which can potentially be submitted by anyone on the internet)
 3. If the above two are insufficient for deciding on the case, then the policies of the Court in question are considered.
 
 Writing a good dispute policy is therefore crucial to the fair and speedy resolution of a case, as it sets the backdrop against which the pieces of evidence are considered.
 
 {% hint style="info" %}
-Save time by using our[ model policy here!](https://docs.google.com/document/u/1/d/1UYJ2mKSPhAn0-erAGa9MLiKQr25lpi-YPcMQrJyMOz4/copy?copyComments=true)&#x20;
+Save time and avoid omissions by using our[ model policy here!](https://docs.google.com/document/u/1/d/1UYJ2mKSPhAn0-erAGa9MLiKQr25lpi-YPcMQrJyMOz4/copy?copyComments=true)&#x20;
 
 Refer to the policy writing guide [here](../../policy-writing-guide.md) if you need help adjusting it to your use case.
 {% endhint %}
@@ -70,28 +70,28 @@ Once the above has been done, the next step is to decide on
 1. The **Court** where you would want your cases to be arbitrated in
 2. The **number of jurors** you want to draw into the first round of arbitration.
 
-Choosing the right court for your case ensures that it will be resolved in the quickest and most efficient manner. Do keep in mind the two choices in this section directly affect the cost of arbitration; it is a function of the number of jurors drawn into the case, and the cost of involving an additional juror differs with each court.
+Choosing the right court for your case ensures that it will be resolved in the quickest and most efficient manner. Do keep in mind the choices in this section directly affect the cost of arbitration; it is a function of the number of jurors drawn into the case, and the cost of involving an additional juror differs with each court.
 
 For an overview of the courts available on Ethereum Mainnet and their parameters, please refer to the community-managed [Klerosboard](https://klerosboard.com/court/?network=mainnet).
 
 {% hint style="info" %}
-If you need guidance on this, please reach out to us at [integrations@kleros.io](mailto:integrations@kleros.io).
+A guide on the recommendation parameters for different use cases will be made available soon. For now, please reach out to us at [integrations@kleros.io](mailto:integrations@kleros.io) for guidance.
 {% endhint %}
 
 ### 4. Integrate with the Court
 
-There are two ways to use Kleros Court for your dispute decisions:
+There are two ways to use Kleros Court for your dispute resolution:
 
 #### A. Smart contract integration
 
-The best way to integrate with Kleros is to invest in a smart contract integration with Kleros Court. While it takes work to write and audit an 'Arbitrable' smart contract (complying with the [**ERC-792**](../../../developer/erc-792-arbitration-standard.md) standard), it does allow for a **trustless** integration and can allay user concerns of centralized control or censorship. \
+The best way to integrate with Kleros is to invest in a smart contract integration with Kleros Court. While it takes work to write and audit an 'Arbitrable' smart contract (complying with the [**ERC-792**](../../../developer/erc-792-arbitration-standard.md) standard), it does allow for a **trustless** integration and can fully address user concerns of centralized control or censorship. \
 The full integration guide for this technical integration can be found here:
 
 [smart-contract-integration.md](smart-contract-integration.md "mention")
 
 #### B. A standalone 'Recognition-of-Jurisdiction' (RoJ) integrations
 
-Sometimes there can be reasons why a full smart contract integration is not feasible (yet):
+Sometimes there might be reasons why a full smart contract integration is not feasible for you (yet):
 
 * The case involves an off-chain dispute that cannot be trustlessly integrated with Kleros (e.g. off-chain video game disputes, real-world arbitration cases).
 * Kleros Court is not (yet) available on the chain/L2 you are on.
@@ -113,7 +113,7 @@ Once all the above are done, it is time to communicate the involvement of Kleros
 Once all the above are done, you are ready to go live with Kleros!&#x20;
 
 {% hint style="info" %}
-To help you keep track of your integration process, click [**here**](https://docs.google.com/document/d/11HUXGV25cy\_DMKXJvIn7LeAGBjY7ohXtO5uNN\_C9wI0/copy?copyComments=true) to make a copy of our model integration plan!
+Reminder: To help you keep track of your integration process, click [**here**](https://docs.google.com/document/d/11HUXGV25cy\_DMKXJvIn7LeAGBjY7ohXtO5uNN\_C9wI0/copy?copyComments=true) to make a copy of our model integration plan!
 {% endhint %}
 
 ## Ready-made integrations
