@@ -51,9 +51,11 @@ If none of the lists mentioned in the links above suit your needs, feel free to 
 
 ### 2. Determine the method for data retrieval
 
-We recommend using one of the subgraphs built using [The Graph's](https://thegraph.com/en/) technology to query for the information from the existing curated lists. Check out the endpoints for Curate and Proof-of-Humanity here:
+We recommend using one of the subgraphs built using [The Graph's](https://thegraph.com/en/) technology to query for the information from the existing curated lists. Check out the endpoints available here:
 
 [interacting-with-arbitrable-app.md](interacting-with-arbitrable-app.md "mention")
+
+For Proof-of-Humanity, a more detailed technical integration guide is available [here on Github](https://gist.github.com/alcercu/703c118fa5d42c4d0163efdaed1d9ff6).
 
 ### 3. Build your frontend (if applicable)
 
