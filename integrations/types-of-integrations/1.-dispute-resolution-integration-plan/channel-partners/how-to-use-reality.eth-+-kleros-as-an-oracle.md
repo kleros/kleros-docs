@@ -45,8 +45,12 @@ function askQuestion ( uint256 template_id, string question, address arbitrator,
 {% hint style="info" %}
 **Reality.eth <> Kleros Arbitrator Proxy deployments**
 
-* (Current version) Mainnet - to be deployed soon
-* (Current version) [Kovan](https://kovan.etherscan.io/address/0xDEd12537dA82C1019b3CA1714A5d58B7c5c19A04)
+* (Current version) Mainnet: General Court - 0x728cba71a3723caab33ea416cb46e2cc9215a596
+* (Current version) Mainnet: Technical Court - 0xf72cfd1b34a91a64f9a98537fe63fbab7530adca
+* (Current version) Kovan: Non-technical Court - 0xDEd12537dA82C1019b3CA1714A5d58B7c5c19A04
+
+**Deprecated**
+
 * (Old version without appeals) [Mainnet](https://etherscan.io/address/0xd47f72a2d1d0E91b0Ec5e5f5d02B2dc26d00A14D)
   * 500 votes in general Court
 * (Old version without appeals) [Kovan](https://kovan.etherscan.io/address/0xa6ead513d05347138184324392d8ceb24c116118)
