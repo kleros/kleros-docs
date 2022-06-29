@@ -98,7 +98,7 @@ Sometimes there might be reasons why a full smart contract integration is not fe
 * There are no resources to perform the full smart contract integration in the near term.
 * You prefer to test out the process with Kleros before investing development resources.
 
-In such cases, you can start with a simple Recognition-of-Jurisdiction (aka **RoJ**) setup, where your service/platform simply pledges (to your users) to enforce the ruling of Kleros.&#x20;
+In such cases, you can start with a simple Recognition-of-Jurisdiction (aka **RoJ**) setup in which disputes are created 'standalone' on [resolve.kleros.io](https://resolve.kleros.io/), and your service/platform simply pledges (to your users) to enforce the ruling of Kleros.&#x20;
 
 While this is not a trustless integration method, it does allow you to introduce Kleros's rulings into your dispute resolution process very quickly, and allows you to test usage before investing in a full smart contract integration.
 
