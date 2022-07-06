@@ -42,7 +42,7 @@
     * [Channel partners](integrations/types-of-integrations/1.-dispute-resolution-integration-plan/channel-partners/README.md)
       * [How to use Reality.eth + Kleros as an oracle](integrations/types-of-integrations/1.-dispute-resolution-integration-plan/channel-partners/how-to-use-reality.eth-+-kleros-as-an-oracle.md)
     * [Integration Tools](integrations/types-of-integrations/1.-dispute-resolution-integration-plan/integration-tools/README.md)
-      * [Escrow React Widget](integrations/types-of-integrations/1.-dispute-resolution-integration-plan/integration-tools/escrow-react-widget.md)
+      * [Escrow React](integrations/types-of-integrations/1.-dispute-resolution-integration-plan/integration-tools/escrow-react-widget.md)
       * [Escrow SDK](integrations/types-of-integrations/1.-dispute-resolution-integration-plan/integration-tools/escrow-sdk.md)
       * [Centralized Arbitrator](integrations/types-of-integrations/1.-dispute-resolution-integration-plan/integration-tools/centralized-arbitrator.md)
   * [2. Curated-data integration plan](integrations/types-of-integrations/2.-curated-data-integration-plan/README.md)

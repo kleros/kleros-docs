@@ -254,3 +254,13 @@ When the final ruling is made, the winning party can withdraw its funds from the
 [Learn more about the dispute process.](https://kleros.gitbook.io/docs/products/court)
 {% endtab %}
 {% endtabs %}
+
+## Build With Escrow
+
+{% content-ref url="../../integrations/types-of-integrations/1.-dispute-resolution-integration-plan/integration-tools/escrow-react-widget.md" %}
+[escrow-react-widget.md](../../integrations/types-of-integrations/1.-dispute-resolution-integration-plan/integration-tools/escrow-react-widget.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../integrations/types-of-integrations/1.-dispute-resolution-integration-plan/integration-tools/escrow-sdk.md" %}
+[escrow-sdk.md](../../integrations/types-of-integrations/1.-dispute-resolution-integration-plan/integration-tools/escrow-sdk.md)
+{% endcontent-ref %}
