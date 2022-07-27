@@ -61,6 +61,7 @@
 * [Archon: Ethereum Arbitration Standard Interaction Library](developer/archon-ethereum-arbitration-standard-api.md)
 * [Curate Classic: Integration for Devs](developer/classic.md)
 * [Light Curate: Integration for Devs](developer/light-curate.md)
+* [Deployment Addresses](developer/deployment-addresses.md)
 
 ## Contribution Guidelines
 

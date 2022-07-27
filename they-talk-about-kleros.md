@@ -33,3 +33,9 @@ description: What people have to say about Kleros decentralized courts
 ## University of Valencia
 
 {% embed url="https://twitter.com/angrytatargirl/status/1539657185151488000?s=20&t=rOXISov0pDZtHQQ_Ki0PMQ" %}
+
+## What do I think About Network States? - Vitalik Buterin
+
+**Full Article:** [**https://vitalik.ca/general/2022/07/13/networkstates.html**](https://vitalik.ca/general/2022/07/13/networkstates.html)****
+
+![](.gitbook/assets/9673AC3A-3821-4055-BF2A-959F64836708\_4\_5005\_c.jpeg)
