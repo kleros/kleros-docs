@@ -41,6 +41,7 @@
       * [Gaming](integrations/types-of-integrations/1.-dispute-resolution-integration-plan/use-cases/gaming.md)
     * [Channel partners](integrations/types-of-integrations/1.-dispute-resolution-integration-plan/channel-partners/README.md)
       * [How to use Reality.eth + Kleros as an oracle](integrations/types-of-integrations/1.-dispute-resolution-integration-plan/channel-partners/how-to-use-reality.eth-+-kleros-as-an-oracle.md)
+      * [Safe Zodiac integration](integrations/zodiac-integration.md)
     * [Integration Tools](integrations/types-of-integrations/1.-dispute-resolution-integration-plan/integration-tools/README.md)
       * [Escrow React](integrations/types-of-integrations/1.-dispute-resolution-integration-plan/integration-tools/escrow-react-widget.md)
       * [Escrow SDK](integrations/types-of-integrations/1.-dispute-resolution-integration-plan/integration-tools/escrow-sdk.md)
@@ -48,7 +49,7 @@
   * [2. Curated-data integration plan](integrations/types-of-integrations/2.-curated-data-integration-plan/README.md)
     * [Interact with Arbitrable apps built on top of Kleros Court](integrations/types-of-integrations/2.-curated-data-integration-plan/interacting-with-arbitrable-app.md)
 * [Policy writing guide](integrations/policy-writing-guide.md)
-* [Zodiac integration](integrations/zodiac-integration.md)
+
 * [Live & Upcoming Integrations](integrations/live-and-upcoming-integrations.md)
 * [Kleros Analytics](integrations/analytics.md)
 * [Scalability & Cross-chain](integrations/scalability-and-crosschain/README.md)
