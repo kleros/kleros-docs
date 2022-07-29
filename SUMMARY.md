@@ -48,6 +48,7 @@
   * [2. Curated-data integration plan](integrations/types-of-integrations/2.-curated-data-integration-plan/README.md)
     * [Interact with Arbitrable apps built on top of Kleros Court](integrations/types-of-integrations/2.-curated-data-integration-plan/interacting-with-arbitrable-app.md)
 * [Policy writing guide](integrations/policy-writing-guide.md)
+* [Zodiac integration](integrations/zodiac-integration.md)
 * [Live & Upcoming Integrations](integrations/live-and-upcoming-integrations.md)
 * [Kleros Analytics](integrations/analytics.md)
 * [Scalability & Cross-chain](integrations/scalability-and-crosschain/README.md)
