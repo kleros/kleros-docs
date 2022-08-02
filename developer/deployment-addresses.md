@@ -57,7 +57,7 @@
 | Contract          	| Address 	|
 |-------------------	|--------------------------------------------	|
 | **KlerosLiquid**  	| [0x60B2AbfDfaD9c0873242f59f2A8c32A3Cc682f80](https://kovan.etherscan.io/address/0x60B2AbfDfaD9c0873242f59f2A8c32A3Cc682f80) 	|
-| **PNK**           	| [0x4E95b2e0EcB3bD394e1ddDD775504820A746D3bd](https://kovan.etherscan.io/address/0x4E95b2e0EcB3bD394e1ddDD775504820A746D3bd) 	|
+| **PNK**           	| [0x1EE318dBC19267dBCE08F54A66ab198F73EdE356](https://kovan.etherscan.io/address/0x1EE318dBC19267dBCE08F54A66ab198F73EdE356) 	|
 | **PNK Faucet**     	| [0x4e95b2e0ecb3bd394e1dddd775504820a746d3bd](https://kovan.etherscan.io/address/0x4e95b2e0ecb3bd394e1dddd775504820a746d3bd) 	|
 
 ### Sokol Testnet
