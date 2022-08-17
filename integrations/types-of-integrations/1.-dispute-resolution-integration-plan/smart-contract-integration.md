@@ -8,7 +8,7 @@ description: >-
 
 Kleros Court is the implementation of an arbitrator as per the [Arbitration standard](https://kleros.gitbook.io/docs/developer/erc-792-arbitration-standard) we developed. Most integrations consist in building or customizing an Arbitrable app so it can request arbitration to Kleros Court. Once you integrate with the Arbitration standard, you (or your users) will be able to choose any arbitrator that follows the standard to solve disputes, including Kleros.
 
-![](<../../../.gitbook/assets/image (48) (3) (3) (3) (2) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (48) (3) (3) (3) (2) (1) (1) (1) (1).png>)
 
 You can build an arbitrable smart contract or ensure your existing smart contracts are compliant with the Arbitrable interface:
 

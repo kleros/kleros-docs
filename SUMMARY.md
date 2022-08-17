@@ -13,7 +13,6 @@
   * [Famous Kleros Cases](products/court/famous-kleros-cases.md)
   * [What happens during a dispute?](products/court/what-happens-during-a-dispute.md)
   * [Kleros & Credible Neutrality](products/court/kleros-and-credible-neutrality.md)
-  * [Answers to common Kleros criticism](products/court/answers-to-common-criticism.md)
 * [Proof of Humanity](products/proof-of-humanity/README.md)
   * [Proof of Humanity Tutorial (Register & Vouch)](products/proof-of-humanity/proof-of-humanity-tutorial.md)
   * [Proof Humanity Tutorial (Remove & Challenge)](products/proof-of-humanity/proof-humanity-tutorial-remove-and-challenge.md)
@@ -49,7 +48,6 @@
   * [2. Curated-data integration plan](integrations/types-of-integrations/2.-curated-data-integration-plan/README.md)
     * [Interact with Arbitrable apps built on top of Kleros Court](integrations/types-of-integrations/2.-curated-data-integration-plan/interacting-with-arbitrable-app.md)
 * [Policy writing guide](integrations/policy-writing-guide.md)
-
 * [Live & Upcoming Integrations](integrations/live-and-upcoming-integrations.md)
 * [Kleros Analytics](integrations/analytics.md)
 * [Scalability & Cross-chain](integrations/scalability-and-crosschain/README.md)

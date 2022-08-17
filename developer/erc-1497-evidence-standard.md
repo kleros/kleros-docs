@@ -4,7 +4,7 @@ description: An evidence standard for arbitration
 
 # ERC 1497: Evidence Standard
 
-📖 [Link to full ERC-1497 documentation](https://developer.kleros.io/en/latest/erc-1497.html#) 📖‌
+📖 [Link to full ERC-1497 documentation](https://developer.kleros.io/en/latest/erc-1497.html) 📖‌
 
 📜 [EIP-1497](https://github.com/ethereum/EIPs/issues/1497) 📜
 
@@ -18,7 +18,7 @@ Standardizing `MetaEvidence` and `Evidence` allows interoperability between `Arb
 
 The ERC792 standardizes the way the smart contracts interact with each other while this standard is made to standardize the way the interfaces interact in the context of disputes.
 
-![](<../.gitbook/assets/image (7) (2) (2) (2) (2) (2) (2) (2) (1).png>)
+![](<../.gitbook/assets/image (7) (2) (2) (2) (2) (2) (2) (2) (1) (1).png>)
 
 ## Introduction to the Evidence Standard
 
