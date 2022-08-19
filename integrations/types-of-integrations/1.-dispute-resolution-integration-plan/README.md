@@ -19,7 +19,7 @@ A full list of Kleros's existing integrations and partnerships can be found [her
 Integrating Kleros into your dispute decision process will always involve 5 main steps and they are outlined below.&#x20;
 
 {% hint style="info" %}
-To help you keep track of your integration process, click [**here**](https://docs.google.com/document/d/11HUXGV25cy\_DMKXJvIn7LeAGBjY7ohXtO5uNN\_C9wI0/copy?copyComments=true) to make a copy of our model integration plan!
+To help you keep track of your integration process, click [**here**](https://docs.google.com/document/d/11HUXGV25cy\_DMKXJvIn7LeAGBjY7ohXtO5uNN\_C9wI0/copy?copyComments=true) to make a copy of our  Dispute Resolution model integration plan!
 {% endhint %}
 
 To help you keep track of the process, click here to make a copy of our model integration plan!
