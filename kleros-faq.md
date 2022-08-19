@@ -75,7 +75,9 @@ Kleros protocol is committed to full transparency. Its cases are completely open
 
 Kleros can go beyond simple Yes/No arbitration cases to cover also multiple choices and even numerical/scalar outcomes (e.g. what is the number of electoral college votes won by Biden in the 2020 election?).&#x20;
 
-For complex multi-factorial cases, the [Pendulum arbitration](https://en.wikipedia.org/wiki/Pendulum\_arbitration) method can be used to ask the Kleros jury to choose between two or more sets of outcomes.
+We normally prescribe offering binary choices to the jury as it avoids the negative effects of vote-splitting, and allows for a small number of jurors (potentially as low as just one) to already arrive at a useful result.
+
+For complex multi-factorial cases, the [Pendulum arbitration](https://en.wikipedia.org/wiki/Pendulum\_arbitration) method can be used to ask the Kleros jury to choose between two (or more sets of outcomes).
 
 ## Jurors
 
