@@ -32,7 +32,7 @@ The Ethereum address you are using to submit your profile will be publicly linke
 
 Once you have submitted your profile, it will be in the “Vouching Phase” until you get vouched for and your deposit gets fully funded. Initially, you will only need 1 person to vouch for you (it enables faster onboarding in the registry at launch) but the number of vouches needed can be increased later on.
 
-Then, your profile will move to the “Pending Registration” phase, during which anyone can challenge it for a period of 3.5 days if they think you are not human or if it violates the [submission guidelines](https://ipfs.kleros.io/ipfs/QmcT8TUxLEHistCnkmGERcEuVtMfMPhXcMDTxfBTYahqEh/proof-of-humanity-registry-policy-v1.2.pdf).
+Then, your profile will move to the “Pending Registration” phase, during which anyone can challenge it for a period of 3.5 days if they think you are not human or if it violates the [submission guidelines](https://ipfs.kleros.io/ipfs/QmXDiiBAizCPoLqHvcfTzuMT7uvFEe1j3s4TgoWWd4k5np/proof-of-humanity-registry-policy-v1.3.pdf).
 
 If your profile isn’t challenged during this period or the challenges are not successful, you are “Registered”.
 

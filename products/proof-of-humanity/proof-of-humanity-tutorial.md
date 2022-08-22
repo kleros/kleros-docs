@@ -45,7 +45,7 @@ description: >-
 ![](<../../.gitbook/assets/image (20).png>)
 
 {% hint style="warning" %}
-**COMPLIANCE WARNING:** The information you submit about your profile will be checked and verified by the community to ensure you are not a not/fake and that you complied with all the guidelines. Please read thoroughly the instructions given on the submit page and check out the full [Proof of Humanity Guidelines](https://ipfs.kleros.io/ipfs/QmcT8TUxLEHistCnkmGERcEuVtMfMPhXcMDTxfBTYahqEh/proof-of-humanity-registry-policy-v1.2.pdf) to ensure the info you provide is correct.
+**COMPLIANCE WARNING:** The information you submit about your profile will be checked and verified by the community to ensure you are not a not/fake and that you complied with all the guidelines. Please read thoroughly the instructions given on the submit page and check out the full [Proof of Humanity Guidelines](https://ipfs.kleros.io/ipfs/QmXDiiBAizCPoLqHvcfTzuMT7uvFEe1j3s4TgoWWd4k5np/proof-of-humanity-registry-policy-v1.3.pdf) to ensure the info you provide is correct.
 
 You can only update information by withdrawing your profile and resubmitting it. There is no way to edit your profile (Evidences are there to argument that the case made against your profile is wrong, not to update your profile with a new video for example).
 
@@ -72,7 +72,7 @@ If you make a mistake in your submission (ex: Displaying a wrong address in the 
 **What is the Submitter Deposit?** The deposit is an amount of ETH you lock with the submission of your profile that will act as an incentive for potential challengers to prove you are a fake or bot and that will also pay for arbitration fees if a dispute is raised. If your profile goes through unchallenged, you are registered and get your deposit back. If you are a fake or have given incorrect information, someone can challenge your profile and a dedicated Kleros dispute will be opened to rule on your case.
 {% endhint %}
 
-* Once you are sure all of your submission information is good (check the [guidelines](https://ipfs.kleros.io/ipfs/QmcT8TUxLEHistCnkmGERcEuVtMfMPhXcMDTxfBTYahqEh/proof-of-humanity-registry-policy-v1.2.pdf)), you can click on the "Submit" button. This should trigger a transaction confirmation popup in your wallet after a few seconds. Send that transaction (ETH Deposit + blockchain fees) and wait for it to be validated.
+* Once you are sure all of your submission information is good (check the [guidelines](https://ipfs.kleros.io/ipfs/QmXDiiBAizCPoLqHvcfTzuMT7uvFEe1j3s4TgoWWd4k5np/proof-of-humanity-registry-policy-v1.3.pdf)), you can click on the "Submit" button. This should trigger a transaction confirmation popup in your wallet after a few seconds. Send that transaction (ETH Deposit + blockchain fees) and wait for it to be validated.
 
 ![](<../../.gitbook/assets/image (45).png>)
 
@@ -119,7 +119,7 @@ You can check the current status of your profile by clicking on "My profile" in 
 
 * You need to find one person who is in "Registered" status and that knows you in real-life (or that can prove that you really are the person your profile describes) and ask that person to vouch for you.
 
-![](<../../.gitbook/assets/image (25) (1) (2) (2) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (25) (1) (2) (2) (1) (1).png>)
 
 * This person will need to go to your profile page and click on the "Gasless Vouch" button and sign a message from his wallet.
 
