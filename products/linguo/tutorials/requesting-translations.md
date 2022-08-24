@@ -6,11 +6,11 @@ description: Here is a step-by-step guide on how to use Linguo to request transl
 
 1\. Click on the My Translations option to see a list of ongoing translation requests that you have submitted.
 
-![Alternatively, you can click the request translations above to reach the same page.](../.gitbook/assets/r1.jpg)
+![Alternatively, you can click the request translations above to reach the same page.](../../.gitbook/assets/r1.jpg)
 
 2\. Click the new translation button to begin the submission.
 
-![Click on New Translation](../.gitbook/assets/r2t2.jpg)
+![Click on New Translation](../../.gitbook/assets/r2t2.jpg)
 
 3\. Fill out the form and click next to continue with the next step.
 
@@ -19,7 +19,7 @@ description: Here is a step-by-step guide on how to use Linguo to request transl
 * Choose the expected quality of the translation (make sure you choose carefully as this matches your request to a translator with the appropriate level of experience)
 {% endhint %}
 
-![Fill out the form depending on your requirement.](../.gitbook/assets/r3.jpg)
+![Fill out the form depending on your requirement.](../../.gitbook/assets/r3.jpg)
 
 4\. Now input all the details of your request and click Request the translation.&#x20;
 
@@ -39,25 +39,25 @@ If you just want a fixed price translation with no price discovery, set both the
 
 {% endhint %}
 
-![Almost done.](../.gitbook/assets/r4.jpg)
+![Almost done.](../../.gitbook/assets/r4.jpg)
 
 5\. You will now be prompted with a transaction in your wallet. Please double-check the details and click confirm.
 
-![This will create a new task as per your specifications.](../.gitbook/assets/r5.jpg)
+![This will create a new task as per your specifications.](../../.gitbook/assets/r5.jpg)
 
 6\. Your request is now active! A translator should pick it up shortly.
 
-![Your request will appear on the list!](../.gitbook/assets/r6.jpg)
+![Your request will appear on the list!](../../.gitbook/assets/r6.jpg)
 
 {% hint style="info" %}
 **In case your request isn’t picked up on time, you can collect your deposit by clicking ‘Reimburse Me’.**
 
-****![](../.gitbook/assets/r6.b.jpg)****
+****![](../../.gitbook/assets/r6.b.jpg)****
 {% endhint %}
 
 7\. You will be notified every time an update happens on your request. You can see them by clicking the notifications icon on the upper right-hand side.
 
-![You can see updates every step of the way. ](../.gitbook/assets/r7.png)
+![You can see updates every step of the way. ](../../.gitbook/assets/r7.png)
 
 8\. Once the translator submits the translation, it will be under review for 7 days. During this time you or any jurors can review it and create a dispute if the final result isn’t satisfactory or doesn’t meet your specified requirements!
 
@@ -66,10 +66,10 @@ If you want to dispute the translation you can do it as follows.
 
 * To submit a challenge navigate to the request page, gather your evidence in a file and upload it by clicking the Evidence for Challenge button and confirm the transaction in your wallet.
 
-![](<../.gitbook/assets/Screenshot 2022-07-22 at 11.29.46 AM.png>)\
+![](<../../.gitbook/assets/Screenshot 2022-07-22 at 11.29.46 AM.png>)\
 
 
 * Once you’ve submitted the evidence and made the challenger deposit the case will be sent to the respective courts to be evaluated by the jurors.
 
-![](../.gitbook/assets/r9v2.png)
+![](../../.gitbook/assets/r9v2.png)
 {% endhint %}
