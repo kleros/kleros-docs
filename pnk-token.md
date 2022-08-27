@@ -9,10 +9,10 @@ description: >-
 ⛓️ [**PNK Token Contract Address on Ethereum Mainnet**](https://etherscan.io/token/0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d)
 
 {% hint style="info" %}
-#### Where to buy PNK?
+**Where to buy PNK?**
 
 * DEX Aggregators (Large Trade): 🔼 [Paraswap ](https://paraswap.io/#/)/ 🦓 [1inch](https://1inch.exchange/#/)
-* DEX L1 (Medium Trade): 🦄  [Un](https://app.uniswap.org/#/swap?inputCurrency=ETH\&outputCurrency=0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d)[iswap](https://app.uniswap.org/#/swap?inputCurrency=ETH\&outputCurrency=0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d) / 🍣 [S](https://app.sushi.com/swap)[ushiswap](https://app.sushi.com/swap?inputCurrency=ETH\&outputCurrency=0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d) / ⚖️ [Balancer](https://balancer.exchange/#/swap)
+* DEX L1 (Medium Trade): 🦄 [Un](https://app.uniswap.org/#/swap?inputCurrency=ETH\&outputCurrency=0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d)[iswap](https://app.uniswap.org/#/swap?inputCurrency=ETH\&outputCurrency=0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d) / 🍣 [S](https://app.sushi.com/swap)[ushiswap](https://app.sushi.com/swap?inputCurrency=ETH\&outputCurrency=0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d) / ⚖️ [Balancer](https://balancer.exchange/#/swap)
 * DEX L2 (Small Trade): 🔷 [Deversifi](https://app.deversifi.com)
 * Centralized Exchanges (Fiat Trade): 🍃 [Bitfinex](https://www.bitfinex.com/t/PNKETH) / 🚪 [Gate.io](https://www.gate.io/trade/PNK\_USDT/?ch=en\_sm\_0421) / 🆗 [OKEX](https://www.okex.com/markets/spot-info/pnk-usdt)
 * Credit Card Onramp: 🛡️ [Guardarian](https://guardarian.com)
@@ -32,10 +32,10 @@ PNK is used both to stake (for the possibility to become a juror and to protect 
 
 Call `request` function to receive 10,000 PNK. It only gives once for each address.
 
-* [Goerli PNK Faucet]([0x4B89e798B10478A839Ea0Abcf86C4B94A3C782A4](https://goerli.etherscan.io/address/0x4B89e798B10478A839Ea0Abcf86C4B94A3C782A4#writeContract))
-* [Ropsten PNK Faucet](https://ropsten.etherscan.io/address/0x9AdCEAa6CFd7182b838Beb085e97729EB1Da681E#writeContract)
+* [Goerli PNK Faucet](https://https/goerli.etherscan.io/address/0x4B89e798B10478A839Ea0Abcf86C4B94A3C782A4/README.md#writeContract) (work on going to support it across all apps)
 * [Kovan PNK Faucet](https://kovan.etherscan.io/address/0x4e95b2e0ecb3bd394e1dddd775504820a746d3bd#writeContract)
-* [Rinkeby PNK Faucet](https://rinkeby.etherscan.io/address/0xb01c9de0e9de0a6cab6df586484707b7078de684#writeContract)
+* [Ropsten PNK Faucet](https://ropsten.etherscan.io/address/0x9AdCEAa6CFd7182b838Beb085e97729EB1Da681E#writeContract) (not actively supported anymore)
+* [Rinkeby PNK Faucet](https://rinkeby.etherscan.io/address/0xb01c9de0e9de0a6cab6df586484707b7078de684#writeContract) (not actively supported anymore)
 * _Contact the Kleros team if you need a PNK faucet on other testnets_
 {% endhint %}
 
