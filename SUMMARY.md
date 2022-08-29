@@ -62,6 +62,7 @@
 * [Curate Classic: Integration for Devs](developer/classic.md)
 * [Light Curate: Integration for Devs](developer/light-curate.md)
 * [Deployment Addresses](developer/deployment-addresses.md)
+* [Guide for Preparing Transactions](developer/guide-for-preparing-transactions.md)
 
 ## Contribution Guidelines
 
