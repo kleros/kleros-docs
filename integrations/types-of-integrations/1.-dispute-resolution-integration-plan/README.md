@@ -84,7 +84,7 @@ There are two ways to use Kleros Court for your dispute resolution:
 
 #### A. Smart contract integration
 
-The best way to integrate with Kleros is to invest in a smart contract integration with Kleros Court. While it takes work to write and audit an 'Arbitrable' smart contract (complying with the [**ERC-792**](../../../developer/erc-792-arbitration-standard.md) standard), it does allow for a **trustless** integration and can fully address user concerns of centralized control or censorship. \
+The best way to integrate with Kleros is to invest in a smart contract integration with Kleros Court. While it takes work to write and audit an 'Arbitrable' smart contract (complying with the [**ERC-792**](../../../developer/arbitration-development/erc-792-arbitration-standard.md) standard), it does allow for a **trustless** integration and can fully address user concerns of centralized control or censorship. \
 The full integration guide for this technical integration can be found here:
 
 [smart-contract-integration.md](smart-contract-integration.md "mention")

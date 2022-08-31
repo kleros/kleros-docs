@@ -78,8 +78,8 @@ You can also check the subcourt IDs on community-owned [http://klerosboard.com/]
 
 Learn more about how to build an Arbitrable app integrated with the Kleros Court arbitrator by reading the ERC-792 Arbitration Standard linked below.
 
-{% content-ref url="../../../developer/erc-792-arbitration-standard.md" %}
-[erc-792-arbitration-standard.md](../../../developer/erc-792-arbitration-standard.md)
+{% content-ref url="../../../developer/arbitration-development/erc-792-arbitration-standard.md" %}
+[erc-792-arbitration-standard.md](../../../developer/arbitration-development/erc-792-arbitration-standard.md)
 {% endcontent-ref %}
 
 ## Test it with the Centralized Arbitrator
