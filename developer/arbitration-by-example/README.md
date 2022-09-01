@@ -1,3 +1,7 @@
+---
+description: ERC-792 & ERC-1497 Implementation
+---
+
 # Arbitration by Example
 
 We've compiled a few examples of arbitrable smart contracts to demonstrate the standards discussed in [arbitration-development](../arbitration-development/ "mention").
