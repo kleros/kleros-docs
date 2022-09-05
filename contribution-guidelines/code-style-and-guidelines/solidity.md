@@ -24,7 +24,7 @@ If a function is **not** `O(1)` , the first line of the `@dev` part of the ENSF 
 
 #### External Trust
 
-For functions that make an external call with enough gas for re-entry, not `send` or `transfer`, specify **"UN/TRUSTED."** at the end of the `@dev` part of the ENSF comment. This tells readers wether the external call receiver is trusted or not, i.e. the code it executes is controlled.
+For functions that make an external call with enough gas for re-entry, not `send` or `transfer`, specify **"UN/TRUSTED."** at the end of the `@dev` part of the ENSF comment. This tells readers whether the external call receiver is trusted or not, i.e. the code it executes is controlled.
 
 {% hint style="danger" %}
 Note that specifying a **contract type** for a variable **does not guarantee** that it will reference a contract of that **type** as any address can be coerced into any contract, and vice-versa.
@@ -51,7 +51,7 @@ Traditional back ends do most of the heavy lifting for the front end, because co
 Abstractions can be made to make front end developers' lives easier. Our [archon](https://github.com/kleros/archon) does just that for ERC 792 contracts.
 {% endhint %}
 
-This and the security risks of smart contracts that interact with other smart contracts with complex and stateful interdependencies requires that we take a unique approach and mindset when developing smart contracts. Here are some general guidelines:
+This and the security risks of smart contracts that interact with other smart contracts with complex and stateful interdependencies require that we take a unique approach and mindset when developing smart contracts. Here are some general guidelines:
 
 * If possible, i.e. does not lead to a significant increase in computation, externally called functions should follow this **3-step pattern**:
 

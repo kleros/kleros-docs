@@ -10,7 +10,7 @@ description: Our methodology for keeping track of development work.
 See [Git Code Style & Guidelines](../code-style-and-guidelines/git.md) for our message and branch names style and guidelines.
 {% endhint %}
 
-We try to keep the number of tools we use to a minimum for simplicity and ease of on-boarding. The new features of Github make it possible to keep most of the project management next to the code, and this is our approach:
+We try to keep the number of tools we use to a minimum for simplicity and ease of onboarding. The new features of Github make it possible to keep most of the project management next to the code, and this is our approach:
 
 | Issues                                                  | Projects                               | Milestones                                             |
 | ------------------------------------------------------- | -------------------------------------- | ------------------------------------------------------ |

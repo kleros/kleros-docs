@@ -19,7 +19,7 @@ In the context of reviews, audits and bounties, findings have to be pointed out 
 
 Note that this is the same risk rating model used by the [Ethereum Bounty Program](https://bounty.ethereum.org/).
 
-In addition to the severity classification, emphasis should be put in writing clear descriptions, adding tests and instructions for facilitating reproduceability and including potential fixes if known.
+In addition to the severity classification, emphasis should be put in writing clear descriptions, adding tests and instructions for facilitating reproducibility and including potential fixes if known.
 
 ## RAB Pragmas
 
