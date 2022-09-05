@@ -46,6 +46,6 @@ This site is maintained at [github.com/kleros/CONTRIBUTING.md](https://github.co
 
 The rules in this guide are meant to be followed as much as possible, but should not override common sense.
 
-> The golden rules is that there are no golden rules.
+> The golden rule is that there are no golden rules.
 >
 > \-George Bernard Shaw-
