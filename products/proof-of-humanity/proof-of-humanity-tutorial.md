@@ -26,7 +26,7 @@ description: >-
 
 * Select the wallet you want to use (We recommend [Metamask](https://metamask.io/faqs.html), [WalletConnect](https://walletconnect.org/) or [Authereum](https://authereum.com/welcome/))
 
-![](<../../.gitbook/assets/image (64) (1).png>)
+![](<../../.gitbook/assets/image (64).png>)
 
 * Once you have connected the wallet to the app (the wallet will ask you to confirm the connection), you will need to ensure you have some Ether (ETH) loaded in the wallet to interact with the Ethereum blockchain (pays transaction fees) and to be able to lock the ETH deposit needed to enter the registry (it will be reimbursed to you).
 
@@ -90,7 +90,7 @@ In order to be notified of your profile progress in the validation process, you 
 
 * For this, click on the "Account" button on the top right and then on the "Notifications" tab.
 
-![](<../../.gitbook/assets/image (27) (1).png>)
+![](<../../.gitbook/assets/image (27).png>)
 
 * There, you can check the subscription option and fill out your email address.
 
@@ -119,7 +119,7 @@ You can check the current status of your profile by clicking on "My profile" in 
 
 * You need to find one person who is in "Registered" status and that knows you in real-life (or that can prove that you really are the person your profile describes) and ask that person to vouch for you.
 
-![](<../../.gitbook/assets/image (25) (1) (2) (2) (1) (1).png>)
+![](<../../.gitbook/assets/image (25) (1) (2) (2) (1) (2) (1).png>)
 
 * This person will need to go to your profile page and click on the "Gasless Vouch" button and sign a message from his wallet.
 
@@ -167,7 +167,7 @@ Vouching for someone is a benevolent act to help them get into the registry. Cur
 
 * Once the transaction is validated, you will be in "Registered" status, accruing UBI and you will have the capacity to vouch for other people. Your deposit will also be refunded at this time.
 
-![](<../../.gitbook/assets/image (21) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (21) (1) (1) (1).png>)
 
 {% hint style="info" %}
 **What if I am challenged?**
