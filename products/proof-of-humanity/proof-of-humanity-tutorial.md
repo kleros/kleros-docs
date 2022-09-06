@@ -26,7 +26,7 @@ description: >-
 
 * Select the wallet you want to use (We recommend [Metamask](https://metamask.io/faqs.html), [WalletConnect](https://walletconnect.org/) or [Authereum](https://authereum.com/welcome/))
 
-![](<../../.gitbook/assets/image (64).png>)
+![](<../../.gitbook/assets/image (64) (1).png>)
 
 * Once you have connected the wallet to the app (the wallet will ask you to confirm the connection), you will need to ensure you have some Ether (ETH) loaded in the wallet to interact with the Ethereum blockchain (pays transaction fees) and to be able to lock the ETH deposit needed to enter the registry (it will be reimbursed to you).
 
@@ -42,7 +42,7 @@ description: >-
 
 * You will be asked to fill out the information required to submit a profile
 
-![](<../../.gitbook/assets/image (20).png>)
+![](<../../.gitbook/assets/image (20) (1).png>)
 
 {% hint style="warning" %}
 **COMPLIANCE WARNING:** The information you submit about your profile will be checked and verified by the community to ensure you are not a not/fake and that you complied with all the guidelines. Please read thoroughly the instructions given on the submit page and check out the full [Proof of Humanity Guidelines](https://ipfs.kleros.io/ipfs/QmXDiiBAizCPoLqHvcfTzuMT7uvFEe1j3s4TgoWWd4k5np/proof-of-humanity-registry-policy-v1.3.pdf) to ensure the info you provide is correct.
@@ -78,7 +78,7 @@ If you make a mistake in your submission (ex: Displaying a wrong address in the 
 
 * Once the transaction has been mined (it can take a long time depending on the gas price you selected), you should be redirected to your profile page. If you are not redirected, please check that your transaction has really gone through, and if yes, check that your profile is not already submitted by clicking on "Profiles" in the top banner. You don't want to submit your profile 2 times by mistake.
 
-![](<../../.gitbook/assets/image (24).png>)
+![](<../../.gitbook/assets/image (24) (1).png>)
 
 Don't forget to subscribe to Profile Update Notifications (2nd tab at the top of this page)
 {% endtab %}
@@ -90,7 +90,7 @@ In order to be notified of your profile progress in the validation process, you 
 
 * For this, click on the "Account" button on the top right and then on the "Notifications" tab.
 
-![](<../../.gitbook/assets/image (27).png>)
+![](<../../.gitbook/assets/image (27) (1).png>)
 
 * There, you can check the subscription option and fill out your email address.
 
@@ -119,7 +119,7 @@ You can check the current status of your profile by clicking on "My profile" in 
 
 * You need to find one person who is in "Registered" status and that knows you in real-life (or that can prove that you really are the person your profile describes) and ask that person to vouch for you.
 
-![](<../../.gitbook/assets/image (25) (1) (2) (2) (1) (2) (1).png>)
+![](<../../.gitbook/assets/image (25) (1) (2) (2) (1) (1).png>)
 
 * This person will need to go to your profile page and click on the "Gasless Vouch" button and sign a message from his wallet.
 
@@ -167,7 +167,7 @@ Vouching for someone is a benevolent act to help them get into the registry. Cur
 
 * Once the transaction is validated, you will be in "Registered" status, accruing UBI and you will have the capacity to vouch for other people. Your deposit will also be refunded at this time.
 
-![](<../../.gitbook/assets/image (21) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (21) (1) (1) (1) (1).png>)
 
 {% hint style="info" %}
 **What if I am challenged?**
@@ -214,6 +214,6 @@ For example, assume user A is registered. A vouches for user B. User B uses the 
 
 * You can remove your vouch at any time prior to the "Pending Registration" phase by going to the vouched person's profile and clicking on "Remove Vouch".
 
-![](<../../.gitbook/assets/image (19).png>)
+![](<../../.gitbook/assets/image (19) (1).png>)
 {% endtab %}
 {% endtabs %}

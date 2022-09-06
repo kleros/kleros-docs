@@ -33,11 +33,11 @@ The Centralized Arbitrator can be used on:
     * by inputting its address in the relevant field
     * or selecting it in the dropdown list if you already used it locally.
 
-![](<../../../../.gitbook/assets/image (54).png>)
+![](<../../../../.gitbook/assets/image (54) (1).png>)
 
 * You can change the arbitration fee required by your arbitrator if needed;
 
-![](<../../../../.gitbook/assets/image (53).png>)
+![](<../../../../.gitbook/assets/image (53) (1).png>)
 
 * On the list below, you will be able to track incoming disputes from arbitrable apps, filter them by status and give rulings directly from the interface.
 

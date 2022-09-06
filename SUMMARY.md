@@ -28,6 +28,12 @@
   * [Kleros Escrow Specifications](products/escrow/kleros-escrow-specifications.md)
 * [Linguo](products/linguo/README.md)
   * [Kleros Linguo Tutorial](products/linguo/kleros-linguo-tutorial.md)
+  * [Step-by-step Tutorial](products/linguo/step-by-step-tutorial/README.md)
+    * [Requesting translations](products/linguo/step-by-step-tutorial/requesting-translations.md)
+    * [Working as a translator](products/linguo/step-by-step-tutorial/working-as-a-translator.md)
+    * [Reviewing translations](products/linguo/step-by-step-tutorial/reviewing-translations.md)
+  * [F.A.Q](products/linguo/f.a.q.md)
+  * [High-level Overview](products/linguo/high-level-overview.md)
 
 ## INTEGRATIONS
 

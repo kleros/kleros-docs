@@ -20,7 +20,7 @@ When there is no centralized actor to do the dirty work, you need some incentivi
 
 You just have to follow [a step by step process](https://kleros.gitbook.io/docs/products/curate/kleros-curate-tutorial) where you will be able to define the name of your list, the items that should be accepted and a number of guidelines that community members should follow in the curation process. Curate also offers [many advanced options](https://blog.kleros.io/choosing-parameters-in-kleros-curate/) that give users free rein on how to design their lists.
 
-![](<../../.gitbook/assets/image (11).png>)
+![](<../../.gitbook/assets/image (11) (1).png>)
 
 Once your list is up, people will be able to submit items and other users will be able to challenge them.
 

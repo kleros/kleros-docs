@@ -13,7 +13,7 @@ The ERC-792 - Arbitration Standard describes a standard of `Arbitrable` and `Arb
 Using two contracts allows separation between the ruling and its enforcement. This abstraction allows `Arbitrable` contract developers not to have to know the internal process of the `Arbitrator` contracts. Neither do `Arbitrator` contract developers with `Arbitrable` ones.\
 It allows dapps to easily switch from one arbitration service to another one. Or to allow their users to choose themselves their arbitration services.
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (12).png>)
 
 ### Arbitrable Interface
 
