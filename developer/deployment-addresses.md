@@ -49,9 +49,9 @@
 
 
 
-## Testnet
+## Testnets
 
-### Goerli Testnet
+### Goerli
 
 | Contract            | Address                                                                                                                      |
 | ------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
@@ -62,7 +62,14 @@
 | **ArbitrableProxy** | [0x78ac5F189FC6DAB261437a7B95D11cAcf0234FFe](https://goerli.etherscan.io/address/0x78ac5F189FC6DAB261437a7B95D11cAcf0234FFe) |
 | **PolicyRegistry**  | [0x28c8A3A2E3c8Cd3F795DB83764316a1129a069bA](https://goerli.etherscan.io/address/0x28c8A3A2E3c8Cd3F795DB83764316a1129a069bA) |
 
-### Kovan Testnet
+### Rinkeby
+
+| Contract       | Address                                                                                                                                     |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| **PNK**        | [0x14aba1fa8a31a8649e8098ad067b739cc5708f30](https://rinkeby.etherscan.io/token/0x14aba1fa8a31a8649e8098ad067b739cc5708f30)                 |
+| **PNK Faucet** | [0xb01c9de0e9de0a6cab6df586484707b7078de684](https://rinkeby.etherscan.io/address/0xb01c9de0e9de0a6cab6df586484707b7078de684#writeContract) |
+
+### Kovan
 
 | Contract         | Address                                                                                                                     |
 | ---------------- | --------------------------------------------------------------------------------------------------------------------------- |
@@ -70,7 +77,7 @@
 | **PNK**          | [0x1EE318dBC19267dBCE08F54A66ab198F73EdE356](https://kovan.etherscan.io/address/0x1EE318dBC19267dBCE08F54A66ab198F73EdE356) |
 | **PNK Faucet**   | [0x4e95b2e0ecb3bd394e1dddd775504820a746d3bd](https://kovan.etherscan.io/address/0x4e95b2e0ecb3bd394e1dddd775504820a746d3bd) |
 
-### Sokol Testnet
+### Sokol
 
 | Contract          | Address                                                                                                                         |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------- |
