@@ -35,14 +35,14 @@
 
 | Contract                                                                             | Address                                                                                                                              |
 | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
-| **xKlerosLiquid**                                                                    | [0x9C1dA9A04925bDfDedf0f6421bC7EEa8305F9002](https://blockscout.com/xdai/mainnet/address/0x9C1dA9A04925bDfDedf0f6421bC7EEa8305F9002) |
-| **wrappedPNK**                                                                       | [0xcb3231aBA3b451343e0Fddfc45883c842f223846](https://blockscout.com/xdai/mainnet/address/0xcb3231aBA3b451343e0Fddfc45883c842f223846) |
-| <p><strong>Realitio Cross-Chain</strong> </p><p><strong>xDAI Home Proxy</strong></p> | [0x29f39de98d750eb77b5fafb31b2837f079fce222](https://blockscout.com/xdai/mainnet/address/0x29f39de98d750eb77b5fafb31b2837f079fce222) |
-| **PolicyRegistry**                                                                   | [0x9d494768936b6bDaabc46733b8D53A937A6c6D7e](https://blockscout.com/xdai/mainnet/address/0x9d494768936b6bDaabc46733b8D53A937A6c6D7e) |
-| **KlerosLiquid/PNK ProxyAdmin**                                                      | [0xD1a711a863aFB85D1b4E721DcB3e48C477E46475](https://blockscout.com/xdai/mainnet/address/0xD1a711a863aFB85D1b4E721DcB3e48C477E46475) |
-| **KlerosLiquid Extra Views**                                                         | [0xFA71f907B48f27d22f670d9E446f8137b0769e4B](https://blockscout.com/xdai/mainnet/address/0xFA71f907B48f27d22f670d9E446f8137b0769e4B) |
-| **SortitionSumTreeFactory**                                                          | [0x7AE716d9935F41F173D944FE6557c1e117d561E9](https://blockscout.com/xdai/mainnet/address/0x7AE716d9935F41F173D944FE6557c1e117d561E9) |
-| **Transaction Batcher Contract**                                                     | [0x6426800F8508b15AED271337498fa5e7D0794d46](https://blockscout.com/xdai/mainnet/address/0x6426800F8508b15AED271337498fa5e7D0794d46) |
+| **xKlerosLiquid**                                                                    | [0x9C1dA9A04925bDfDedf0f6421bC7EEa8305F9002](https://gnosisscan.io/address/0x9C1dA9A04925bDfDedf0f6421bC7EEa8305F9002) |
+| **wrappedPNK**                                                                       | [0xcb3231aBA3b451343e0Fddfc45883c842f223846](https://gnosisscan.io/address/0xcb3231aBA3b451343e0Fddfc45883c842f223846) |
+| <p><strong>Realitio Cross-Chain</strong> </p><p><strong>xDAI Home Proxy</strong></p> | [0x29f39de98d750eb77b5fafb31b2837f079fce222](https://gnosisscan.io/address/0x29f39de98d750eb77b5fafb31b2837f079fce222) |
+| **PolicyRegistry**                                                                   | [0x9d494768936b6bDaabc46733b8D53A937A6c6D7e](https://gnosisscan.io/address/0x9d494768936b6bDaabc46733b8D53A937A6c6D7e) |
+| **KlerosLiquid/PNK ProxyAdmin**                                                      | [0xD1a711a863aFB85D1b4E721DcB3e48C477E46475](https://gnosisscan.io/address/0xD1a711a863aFB85D1b4E721DcB3e48C477E46475) |
+| **KlerosLiquid Extra Views**                                                         | [0xFA71f907B48f27d22f670d9E446f8137b0769e4B](https://gnosisscan.io/address/0xFA71f907B48f27d22f670d9E446f8137b0769e4B) |
+| **SortitionSumTreeFactory**                                                          | [0x7AE716d9935F41F173D944FE6557c1e117d561E9](https://gnosisscan.io/address/0x7AE716d9935F41F173D944FE6557c1e117d561E9) |
+| **Transaction Batcher Contract**                                                     | [0x6426800F8508b15AED271337498fa5e7D0794d46](https://gnosisscan.io/address/0x6426800F8508b15AED271337498fa5e7D0794d46) |
 | **Kleros Linguo Contracts**                                                          | See [here](https://github.com/kleros/linguo-contracts/tree/master/deployments/xdai).                                                 |
 
 
