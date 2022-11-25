@@ -95,7 +95,7 @@ Proof of Humanity is a Sybil-resistant list of humans using social vouching and 
 * [Evidence K](https://ipfs.kleros.io/ipfs/QmNjE2ZsL3NdbqyW6Cpgg9hvvhTNdfXeMadUgx1BQ3JvNE/EvidenceSubmissionAppeal2-Final.pdf)
 {% endhint %}
 
-![](<../../.gitbook/assets/image (56) (2) (2) (2) (2) (2) (2) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (56) (2) (2) (2) (2) (2) (2) (1) (1) (1).png>)
 
 **1 hour-long street poll video asking about face angles**
 
@@ -129,7 +129,7 @@ On July 31st 2018, the Kleros protocol was launched on the Ethereum mainnet with
 
 Towards the end of the experiment, the following image was submitted into the Doges on Trial website. As the image did not get challenged during the initial Challenge Period (24 hours), it was accepted into the list a day after.
 
-![](<../../.gitbook/assets/image (21) (1) (1) (2).png>)
+![](<../../.gitbook/assets/image (21) (1) (1) (2) (1).png>)
 
 {% hint style="info" %}
 **Examples of evidence material:**

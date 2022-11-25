@@ -20,11 +20,11 @@ To start an Escrow transaction, you will need to connect your wallet and initiat
 
 * If you don't have a web3-enabled browser, you will need to connect your **Metamask** wallet or **WalletConnect** to use the Escrow service.
 
-![](<../../.gitbook/assets/image (87).png>)
+![](<../../.gitbook/assets/image (88).png>)
 
 * Once you have connected the wallet to the app (the wallet will ask you to confirm the connection), you will need to ensure you have some Ether (ETH) loaded in the wallet to interact with the Ethereum blockchain (pays transaction fees) and to be able to pay for the Escrow transaction you'll be setting up later.
 
-![](<../../.gitbook/assets/image (91).png>)
+![](<../../.gitbook/assets/image (92).png>)
 
 * You should now be able to see the homepage shown below
 
