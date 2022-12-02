@@ -1,18 +1,8 @@
 ---
-description: Why DeFi Insurance needs an Ethereum-native claims arbitrator
+description: Solutions for decentralized Insurance protocols
 ---
 
 # DeFi Insurance
-
-## DeFi Insurance
-
-### An overview
-
-DeFi Insurance has been one of the fastest-growing sectors of DeFi in the last couple of years and will continue to be one of the sectors with the most growth potential in the coming few years. While DeFi brings with it permissionless access, decreased centralization and increased transparency, it introduces a new set of risks that traditional Centralized Finance do not have. This includes - but are not limited to - smart contract risks, stablecoin depeggings, oracle exploits and other market risks linked to the extreme price volatility of cryto-assets.
-
-While these risks can never be entirely eliminated, they can be insured against, and it is expected that insurance solutions will come to play an increasingly important role in solidifying user trust in DeFi.
-
-Various decentralized projects have risen to fulfil this much needed service. This is however no easy feat to pull off, and it is commonly believed that the most critical parts of these projects such as claim approval still needs to run on a centralized model. Kleros however believes that decentralization is possible. In this article, we will explore the benefits and detriments of the most common claim systems deployed currently, as well as what Kleros can bring to the table to improve them.
 
 ### Decentralizing claim management in DeFi Insurance
 
