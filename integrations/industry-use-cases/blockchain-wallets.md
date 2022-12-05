@@ -38,8 +38,9 @@ Retrieve the data from the above registries using the subgraph endpoints on this
 
 ## Key partners and users&#x20;
 
-Kleros is the leading decentralized data provider for blockchain wallets, and is used by leading players such as&#x20;
+Kleros is the leading decentralized data provider for blockchain wallets, and is used by industry leading players such as&#x20;
 
+* Etherscan
 * Ledger
 * Alphawallet
 * MyEtherWallet
