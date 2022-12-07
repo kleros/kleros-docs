@@ -22,7 +22,7 @@ This is a list of over a thousand (and growing) fungible tokens. Additional veri
 
 ### [Kleros Address tags](https://blog.kleros.io/the-kleros-decentralized-tag-registry-a-proof-of-concept-for-securing-web3/)
 
-[Kleros Address tags](https://blog.kleros.io/the-kleros-decentralized-tag-registry-a-proof-of-concept-for-securing-web3/) list of contract address tags on the Ethereum blockchain. (Other chains coming soon.)
+This is a list of [contract address tags](https://curate.kleros.io/tcr/100/0x76944a2678A0954A610096Ee78E8CEB8d46d5922) on the Ethereum blockchain that can be used to show users the labels of the contracts they are interacting with. _(Other chains coming soon.)_
 
 ### Kleros Address tags with domain names (coming soon)
 
