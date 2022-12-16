@@ -17,7 +17,7 @@ If a [Graph Protocol](https://thegraph.com/) subgraph already exists for the app
 
 * [Kleros Tokens (Mainnet) subgraph](https://thegraph.com/explorer/subgraph/kleros/t2cr)
 * [Kleros Curate (Mainnet) subgraph](https://thegraph.com/explorer/subgraph/kleros/curate)
-* [Kleros Curate (Rinkeby) subgraph](https://thegraph.com/explorer/subgraph/kleros/curate-rinkeby)
+* [Kleros Curate (Goerli) subgraph](https://thegraph.com/hosted-service/subgraph/greenlucid/curate-goerli)
 * [Proof of Humanity (Mainnet) subgraph](https://thegraph.com/explorer/subgraph/kleros/proof-of-humanity-mainnet)
 * [Proof of Humanity (Kovan) subgraph](https://thegraph.com/explorer/subgraph/epiqueras/proof-of-humanity-kovan)
 {% endhint %}
