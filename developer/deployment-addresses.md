@@ -102,6 +102,17 @@
 | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **PNK**  | [0x4DEeeFD054434bf6721eF39Aa18EfB3fd0D12610](https://goerli-rollup-explorer.arbitrum.io/token/0x4DEeeFD054434bf6721eF39Aa18EfB3fd0D12610/token-transfers) |
 
+### Chiado
+
+| Contract                   | Address                                                                                                                             |
+| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| **xKlerosLiquid**          | [0xD8798DfaE8194D6B4CD6e2Da6187ae4209d06f27](https://blockscout.chiadochain.net/address/0xD8798DfaE8194D6B4CD6e2Da6187ae4209d06f27) |
+| **xKlerosLiquidExtraViews**| [0xfDD698D6c9393d08c5DaD8488AF6d08c151e4860](https://blockscout.chiadochain.net/address/0xfDD698D6c9393d08c5DaD8488AF6d08c151e4860) |
+| **PNK**                    | [0xA353A70c8B3C7d38A869436d4CDeBe8e5611681a](https://blockscout.chiadochain.net/address/0xA353A70c8B3C7d38A869436d4CDeBe8e5611681a) |
+| **PNK Faucet**             | [0x4163BEeb923A06837BaE3Ee1999CcdB9CD606362](https://blockscout.chiadochain.net/address/0x4163BEeb923A06837BaE3Ee1999CcdB9CD606362) |
+| **ArbitrableProxy**        | [0x4BEf0321BD7fa943f85ae55e07f790c6beCbd177](https://blockscout.chiadochain.net/address/0x4BEf0321BD7fa943f85ae55e07f790c6beCbd177) |
+| **PolicyRegistry**         | [0x53FC70FE1EC3a60f8939A62aBCc61bf1A57938D7](https://blockscout.chiadochain.net/address/0x53FC70FE1EC3a60f8939A62aBCc61bf1A57938D7) |
+
 
 
 
