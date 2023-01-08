@@ -33,8 +33,8 @@
 
 ### Gnosis Chain
 
-| Contract                                                                             | Address                                                                                                                              |
-| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
+| Contract                                                                             | Address                                                                                                                |
+| ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
 | **xKlerosLiquid**                                                                    | [0x9C1dA9A04925bDfDedf0f6421bC7EEa8305F9002](https://gnosisscan.io/address/0x9C1dA9A04925bDfDedf0f6421bC7EEa8305F9002) |
 | **wrappedPNK**                                                                       | [0xcb3231aBA3b451343e0Fddfc45883c842f223846](https://gnosisscan.io/address/0xcb3231aBA3b451343e0Fddfc45883c842f223846) |
 | <p><strong>Realitio Cross-Chain</strong> </p><p><strong>xDAI Home Proxy</strong></p> | [0x29f39de98d750eb77b5fafb31b2837f079fce222](https://gnosisscan.io/address/0x29f39de98d750eb77b5fafb31b2837f079fce222) |
@@ -43,9 +43,7 @@
 | **KlerosLiquid Extra Views**                                                         | [0xFA71f907B48f27d22f670d9E446f8137b0769e4B](https://gnosisscan.io/address/0xFA71f907B48f27d22f670d9E446f8137b0769e4B) |
 | **SortitionSumTreeFactory**                                                          | [0x7AE716d9935F41F173D944FE6557c1e117d561E9](https://gnosisscan.io/address/0x7AE716d9935F41F173D944FE6557c1e117d561E9) |
 | **Transaction Batcher Contract**                                                     | [0x6426800F8508b15AED271337498fa5e7D0794d46](https://gnosisscan.io/address/0x6426800F8508b15AED271337498fa5e7D0794d46) |
-| **Kleros Linguo Contracts**                                                          | See [here](https://github.com/kleros/linguo-contracts/tree/master/deployments/xdai).                                                 |
-
-
+| **Kleros Linguo Contracts**                                                          | See [here](https://github.com/kleros/linguo-contracts/tree/master/deployments/xdai).                                   |
 
 ### Arbitrum One
 
@@ -53,20 +51,19 @@
 | -------- | ------------------------------------------------------------------------------------------------------------------ |
 | **PNK**  | [0x330bd769382cfc6d50175903434ccc8d206dcae5](https://arbiscan.io/token/0x330bd769382cfc6d50175903434ccc8d206dcae5) |
 
-
-
 ## Testnets
 
 ### Goerli
 
-| Contract            | Address                                                                                                                      |
-| ------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| **KlerosLiquid**    | [0x1128eD55ab2d796fa92D2F8E1f336d745354a77A](https://goerli.etherscan.io/address/0x1128eD55ab2d796fa92D2F8E1f336d745354a77A) |
-| **PNK**             | [0xA3B02bA6E10F55fb177637917B1b472da0110CcC](https://goerli.etherscan.io/address/0xA3B02bA6E10F55fb177637917B1b472da0110CcC) |
-| **PNK Faucet**      | [0x4B89e798B10478A839Ea0Abcf86C4B94A3C782A4](https://goerli.etherscan.io/address/0x4B89e798B10478A839Ea0Abcf86C4B94A3C782A4) |
-| **Governor**        | [0xd74AB183e2B793A68cB3e647D8f4Df60936B59cA](https://goerli.etherscan.io/address/0xd74AB183e2B793A68cB3e647D8f4Df60936B59cA) |
-| **ArbitrableProxy** | [0x78ac5F189FC6DAB261437a7B95D11cAcf0234FFe](https://goerli.etherscan.io/address/0x78ac5F189FC6DAB261437a7B95D11cAcf0234FFe) |
-| **PolicyRegistry**  | [0x28c8A3A2E3c8Cd3F795DB83764316a1129a069bA](https://goerli.etherscan.io/address/0x28c8A3A2E3c8Cd3F795DB83764316a1129a069bA) |
+| Contract                    | Address                                                                                                                      |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| **KlerosLiquid**            | [0x1128eD55ab2d796fa92D2F8E1f336d745354a77A](https://goerli.etherscan.io/address/0x1128eD55ab2d796fa92D2F8E1f336d745354a77A) |
+| **PNK**                     | [0xA3B02bA6E10F55fb177637917B1b472da0110CcC](https://goerli.etherscan.io/address/0xA3B02bA6E10F55fb177637917B1b472da0110CcC) |
+| **PNK Faucet**              | [0x4B89e798B10478A839Ea0Abcf86C4B94A3C782A4](https://goerli.etherscan.io/address/0x4B89e798B10478A839Ea0Abcf86C4B94A3C782A4) |
+| **Governor**                | [0xd74AB183e2B793A68cB3e647D8f4Df60936B59cA](https://goerli.etherscan.io/address/0xd74AB183e2B793A68cB3e647D8f4Df60936B59cA) |
+| **ArbitrableProxy**         | [0x78ac5F189FC6DAB261437a7B95D11cAcf0234FFe](https://goerli.etherscan.io/address/0x78ac5F189FC6DAB261437a7B95D11cAcf0234FFe) |
+| **PolicyRegistry**          | [0x28c8A3A2E3c8Cd3F795DB83764316a1129a069bA](https://goerli.etherscan.io/address/0x28c8A3A2E3c8Cd3F795DB83764316a1129a069bA) |
+| **Kleros Linguo Contracts** | See [here](https://github.com/kleros/linguo-contracts/tree/master/deployments/goerli).                                       |
 
 ### Rinkeby
 
@@ -104,20 +101,11 @@
 
 ### Chiado
 
-| Contract                   | Address                                                                                                                             |
-| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| **xKlerosLiquid**          | [0xD8798DfaE8194D6B4CD6e2Da6187ae4209d06f27](https://blockscout.chiadochain.net/address/0xD8798DfaE8194D6B4CD6e2Da6187ae4209d06f27) |
-| **xKlerosLiquidExtraViews**| [0xfDD698D6c9393d08c5DaD8488AF6d08c151e4860](https://blockscout.chiadochain.net/address/0xfDD698D6c9393d08c5DaD8488AF6d08c151e4860) |
-| **PNK**                    | [0xA353A70c8B3C7d38A869436d4CDeBe8e5611681a](https://blockscout.chiadochain.net/address/0xA353A70c8B3C7d38A869436d4CDeBe8e5611681a) |
-| **PNK Faucet**             | [0x4163BEeb923A06837BaE3Ee1999CcdB9CD606362](https://blockscout.chiadochain.net/address/0x4163BEeb923A06837BaE3Ee1999CcdB9CD606362) |
-| **ArbitrableProxy**        | [0x4BEf0321BD7fa943f85ae55e07f790c6beCbd177](https://blockscout.chiadochain.net/address/0x4BEf0321BD7fa943f85ae55e07f790c6beCbd177) |
-| **PolicyRegistry**         | [0x53FC70FE1EC3a60f8939A62aBCc61bf1A57938D7](https://blockscout.chiadochain.net/address/0x53FC70FE1EC3a60f8939A62aBCc61bf1A57938D7) |
-
-
-
-
-
-
-
-
-
+| Contract                    | Address                                                                                                                             |
+| --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| **xKlerosLiquid**           | [0xD8798DfaE8194D6B4CD6e2Da6187ae4209d06f27](https://blockscout.chiadochain.net/address/0xD8798DfaE8194D6B4CD6e2Da6187ae4209d06f27) |
+| **xKlerosLiquidExtraViews** | [0xfDD698D6c9393d08c5DaD8488AF6d08c151e4860](https://blockscout.chiadochain.net/address/0xfDD698D6c9393d08c5DaD8488AF6d08c151e4860) |
+| **PNK**                     | [0xA353A70c8B3C7d38A869436d4CDeBe8e5611681a](https://blockscout.chiadochain.net/address/0xA353A70c8B3C7d38A869436d4CDeBe8e5611681a) |
+| **PNK Faucet**              | [0x4163BEeb923A06837BaE3Ee1999CcdB9CD606362](https://blockscout.chiadochain.net/address/0x4163BEeb923A06837BaE3Ee1999CcdB9CD606362) |
+| **ArbitrableProxy**         | [0x4BEf0321BD7fa943f85ae55e07f790c6beCbd177](https://blockscout.chiadochain.net/address/0x4BEf0321BD7fa943f85ae55e07f790c6beCbd177) |
+| **PolicyRegistry**          | [0x53FC70FE1EC3a60f8939A62aBCc61bf1A57938D7](https://blockscout.chiadochain.net/address/0x53FC70FE1EC3a60f8939A62aBCc61bf1A57938D7) |
