@@ -39,7 +39,7 @@ contract TwoPartyArbitrable is Arbitrable {
 
     /** @dev Constructor. Choose the arbitrator.
      *  @param _arbitrator The arbitrator of the contract.
-     *  @param _timeout Time after which a party automatically looe a dispute.
+     *  @param _timeout Time after which a party automatically lose a dispute.
      *  @param _partyB The recipient of the transaction.
      *  @param _amountOfChoices The number of ruling options available.
      *  @param _arbitratorExtraData Extra data for the arbitrator.
