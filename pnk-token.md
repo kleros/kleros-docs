@@ -67,11 +67,11 @@ So far, this would still be true if we had potential jurors stake ETH instead of
 
 ### PNK makes an attack hard <a href="#5cc3" id="5cc3"></a>
 
-If would-be jurors were drawn based on how much ETH they had staked (rather than PNK), it would be much more viable for an attacker to try to buy enough ETH to outspend the rest of the market. If an attacker wants to obtain 51% of PNK, market liquidity will dry up. As the attacker buys PNK , it will start to become scarce and each additional PNK will cost more and more. The attacker may not even be able to find 51% of PNK for sale on the open market at any given time.
+If would-be jurors were drawn based on how much ETH they had staked (rather than PNK), it would be much more viable for an attacker to try to buy enough ETH to outspend the rest of the market. If an attacker wants to obtain 51% of PNK, market liquidity will dry up. As the attacker buys PNK, it will start to become scarce and each additional PNK will cost more and more. The attacker may not even be able to find 51% of PNK for sale on the open market at any given time.
 
 In contrast, consider the situation of an attacker who wants to buy enough ETH to make a stake that is greater than whatever would be already staked in Kleros courts at a given time. There is a lot of ETH floating around, and Kleros will presumably only represent a part of the broader Ethereum ecosystem.
 
-[Current 24 hour market volumes for ETH are hovering around 2–3 billion USD with all time highs near 10 billion.](https://coinmarketcap.com/currencies/ethereum/) If someone wanted to buy enough ETH to overwhelm whatever is staked in Kleros, it probably wouldn’t take them all that long. Moreover, the market for ETH is much [deeper](https://en.wikipedia.org/wiki/Market\_depth) than the market for PNK will be. So, while a large purchase of ETH might move the price of ETH a bit, market liquidity effects woudn’t come to Kleros’ defense in the same way as they do by having a native token.
+[Current 24 hour market volumes for ETH are hovering around 2–3 billion USD with all time highs near 10 billion.](https://coinmarketcap.com/currencies/ethereum/) If someone wanted to buy enough ETH to overwhelm whatever is staked in Kleros, it probably wouldn’t take them all that long. Moreover, the market for ETH is much [deeper](https://en.wikipedia.org/wiki/Market\_depth) than the market for PNK will be. So, while a large purchase of ETH might move the price of ETH a bit, market liquidity effects wouldn’t come to Kleros’ defense in the same way as they do by having a native token.
 
 ### PNK makes an attack expensive <a href="#78fc" id="78fc"></a>
 
