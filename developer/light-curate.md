@@ -8,9 +8,9 @@ Light Curate is a new version of the contract that significantly decreases costs
 
 ## Development
 
-This section will be devided into 3 sections:
+This section will be divided into 3 sections:
 
-1- Fetching Parameters: Your UI needs to display some important information to the users such as, what is the bounty for successfuly challenges and how long do items stay in the challenge period. 1- Item Submission: Here you will learn how to build a button to submit an item to the UI. 2- Fetching Items: How to view items and item details. 3- Item Interaction: This includes challenging, submitting evidence and crowdfunding appeals.
+1- Fetching Parameters: Your UI needs to display some important information to the users such as, what is the bounty for successful challenges and how long do items stay in the challenge period. 1- Item Submission: Here you will learn how to build a button to submit an item to the UI. 2- Fetching Items: How to view items and item details. 3- Item Interaction: This includes challenging, submitting evidence and crowdfunding appeals.
 
 ### Fetching Parameters
 
@@ -166,7 +166,7 @@ async function jsonStreamToPromise(stream) {
 }
 ```
 
-The JSON file for the object is composed of the its metadata and fields.
+The JSON file for the object is composed of its metadata and fields.
 
 * Metadata \(columns\): An array describing each of the items columns \(what's its type, name, description, etc.\)
 * Values \(values\): An object mapping the column name to the value.
@@ -247,7 +247,7 @@ const tx = await gtcr.addItem(ipfsEvidencePath, {
 
 > We break down this section into two as list views and details view have different requirements.
 
-Fetchin items is best done via the subgraph we provide. If you deployed an list using the factory, it already has a subgraph deployed and available \(here\)\[[https://thegraph.com/explorer/subgraph/kleros/light-curate-kovan](https://thegraph.com/explorer/subgraph/kleros/light-curate-kovan)\].
+Fetching items is best done via the subgraph we provide. If you deployed a list using the factory, it already has a subgraph deployed and available \(here\)\[[https://thegraph.com/explorer/subgraph/kleros/light-curate-kovan](https://thegraph.com/explorer/subgraph/kleros/light-curate-kovan)\].
 
 #### List
 
