@@ -28,7 +28,7 @@ The Kleros court process works in the following way:
 
 * Once a Dapp sends a dispute, the system randomly picks jurors in a court specified for the case in question.
 * The case enters the evidence submission period where all interested parties (disputing parties, jurors, challengers, and any external agent) are able to submit their evidence.
-* After the evidence period is finished, jurors are able to vote on the case. For now, Kleros jurors can vote 'Yes', 'No' and 'Refuse to Arbitrate'. The third option is available in cases of an invalid submissions, illegal or morally unacceptable content or evidence.
+* After the evidence period is finished, jurors are able to vote on the case. For now, Kleros jurors can vote 'Yes', 'No' and 'Refuse to Arbitrate'. The third option is available in cases of an invalid submission, illegal or morally unacceptable content or evidence.
 
 ![](../../.gitbook/assets/kleros-arbitration.png)
 
