@@ -85,7 +85,7 @@ Baer Chain was then classified as a Ponzi scheme by the Chinese government a few
 
 ![](<../../.gitbook/assets/image (62).png>)
 
-Proof of Humanity is a Sybil-resistant list of humans using social vouching and Kleros arbitration to endure no fake/duplicate/incorrect profiles make it into the regisrty. [Kevin Owocki](https://twitter.com/owocki?lang=fr), the founder of [Gitcoin](https://gitcoin.co), submitted his [profile ](https://app.proofofhumanity.id/profile/0x00de4b13153673bcae2616b67bf822500d325fc3?network=mainnet)into PoH but got challenged because the policy asked for a "front-facing picture" and he provided one where he was looking at an angle from the photograph. Long debates ensued to clarify what a front-facing picture meant and what would an acceptable angle be. The profile was finally rejected but Kevin Owocki was of course able to submit another one and make it into the registry.
+Proof of Humanity is a Sybil-resistant list of humans using social vouching and Kleros arbitration to endure no fake/duplicate/incorrect profiles make it into the registry. [Kevin Owocki](https://twitter.com/owocki?lang=fr), the founder of [Gitcoin](https://gitcoin.co), submitted his [profile ](https://app.proofofhumanity.id/profile/0x00de4b13153673bcae2616b67bf822500d325fc3?network=mainnet)into PoH but got challenged because the policy asked for a "front-facing picture" and he provided one where he was looking at an angle from the photograph. Long debates ensued to clarify what a front-facing picture meant and what would an acceptable angle be. The profile was finally rejected but Kevin Owocki was of course able to submit another one and make it into the registry.
 
 {% hint style="info" %}
 **Examples of evidence material:‌**
