@@ -34,6 +34,19 @@
     * [Reviewing translations](products/linguo/step-by-step-tutorial/reviewing-translations.md)
   * [F.A.Q](products/linguo/f.a.q.md)
   * [High-level Overview](products/linguo/high-level-overview.md)
+* [Moderate](products/moderate/README.md)
+  * [Susie](products/moderate/susie/README.md)
+    * [Getting Started](products/moderate/susie/getting-started/README.md)
+      * [Add Susie](products/moderate/susie/getting-started/add-susie.md)
+      * [Start Susie](products/moderate/susie/getting-started/start-susie.md)
+    * [Basics](products/moderate/susie/basics/README.md)
+      * [Welcome](products/moderate/susie/basics/welcome.md)
+      * [Language](products/moderate/susie/basics/language.md)
+      * [Notifications](products/moderate/susie/basics/notifications.md)
+    * [Rules](products/moderate/susie/rules.md)
+    * [Reports](products/moderate/susie/reports.md)
+    * [Evidence](products/moderate/susie/evidence.md)
+    * [Federations](products/moderate/susie/federations.md)
 
 ## INTEGRATIONS
 
