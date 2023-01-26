@@ -5,7 +5,7 @@ pragma solidity ^0.4.15;
 import "./Arbitrable.sol";
 
 /** @title Two-Party Arbitrable
- *  @dev A contract between two parties which can be arbitrated. Both parties has to pay for the arbitration fee. The winning party will get its fee refunded.
+ *  @dev A contract between two parties which can be arbitrated. Both parties have to pay for the arbitration fee. The winning party will get its fee refunded.
  *  To develop a contract inheriting from this one, you need to:
  *  - Redefine RULING_OPTIONS to explain the consequences of the possible rulings.
  *  - Redefine executeRuling while still calling super.executeRuling to implement the results of the arbitration.
@@ -32,14 +32,14 @@ contract TwoPartyArbitrable is Arbitrable {
 
     enum Party {PartyA, PartyB}
 
-    /** @dev Indicate that a party has to pay a fee or would otherwise be considered as loosing.
+    /** @dev Indicate that a party has to pay a fee or would otherwise be considered as losing.
      *  @param _party The party who has to pay.
      */
     event HasToPayFee(Party _party);
 
     /** @dev Constructor. Choose the arbitrator.
      *  @param _arbitrator The arbitrator of the contract.
-     *  @param _timeout Time after which a party automatically loose a dispute.
+     *  @param _timeout Time after which a party automatically looe a dispute.
      *  @param _partyB The recipient of the transaction.
      *  @param _amountOfChoices The number of ruling options available.
      *  @param _arbitratorExtraData Extra data for the arbitrator.
@@ -79,7 +79,7 @@ contract TwoPartyArbitrable is Arbitrable {
         require(status < Status.DisputeCreated, "Dispute has already been created."); // Make sure a dispute has not been created yet.
 
         lastInteraction = now;
-        // The partyB still has to pay. This can also happens if he has paid, but arbitrationCost has increased.
+        // The partyB still has to pay. This can also happen if he has paid, but arbitrationCost has increased.
         if (partyBFee < arbitrationCost) {
             status = Status.WaitingPartyB;
             emit HasToPayFee(Party.PartyB);
@@ -102,7 +102,7 @@ contract TwoPartyArbitrable is Arbitrable {
         require(status < Status.DisputeCreated, "Dispute has already been created."); // Make sure a dispute has not been created yet.
 
         lastInteraction = now;
-        // The partyA still has to pay. This can also happens if he has paid, but arbitrationCost has increased.
+        // The partyA still has to pay. This can also happen if he has paid, but arbitrationCost has increased.
         if (partyAFee < arbitrationCost) {
             status = Status.WaitingPartyA;
             emit HasToPayFee(Party.PartyA);
@@ -155,8 +155,8 @@ contract TwoPartyArbitrable is Arbitrable {
         arbitrator.appeal.value(msg.value)(disputeID,_extraData);
     }
 
-    /** @dev Execute a ruling of a dispute. It reimburse the fee to the winning party.
-     *  This need to be extended by contract inheriting from it.
+    /** @dev Execute a ruling of a dispute. It reimburses the fee to the winning party.
+     *  This needs to be extended by contract inheriting from it.
      *  @param _disputeID ID of the dispute in the Arbitrator contract.
      *  @param _ruling Ruling given by the arbitrator. 1 : Reimburse the partyA. 2 : Pay the partyB.
      */
