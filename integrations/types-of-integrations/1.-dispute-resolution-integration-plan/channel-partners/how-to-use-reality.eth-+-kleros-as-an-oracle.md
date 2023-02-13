@@ -47,6 +47,10 @@ function askQuestion ( uint256 template_id, string question, address arbitrator,
 
 * (Current version) Mainnet: General Court - 0x728cba71a3723caab33ea416cb46e2cc9215a596
 * (Current version) Mainnet: Technical Court - 0xf72cfd1b34a91a64f9a98537fe63fbab7530adca
+* (Current version) Polygon: General Court - \
+  0x5afa42b30955f137e10f89dfb5ef1542a186f90e
+* (Current version) Mumbai: General Court - \
+  0xead0c9a4baeaf9b5221358539173602fa12b4b7d
 * (Current version) Kovan: Non-technical Court - 0xDEd12537dA82C1019b3CA1714A5d58B7c5c19A04
 
 **Deprecated**
