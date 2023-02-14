@@ -23,8 +23,6 @@ A full list of Kleros's existing integrations and partnerships can be found [her
 
 Using Kleros's curated data registries always consists of the following steps, which are outlined below.
 
-To help you keep track of your integration process, click [**here**](https://docs.google.com/document/d/11HUXGV25cy\_DMKXJvIn7LeAGBjY7ohXtO5uNN\_C9wI0/copy?copyComments=true) to make a copy of our  Dispute Resolution model integration plan!
-
 {% hint style="info" %}
 To help you keep track of your integration process, click [**here**](https://docs.google.com/document/d/1al1JwX8LPQzNDKSmG\_IIiLwqwtEVhnlGX9K\_PI-o08M/copy?copyComments=true) to make a copy of our  Curated Data model integration plan!
 {% endhint %}
