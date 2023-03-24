@@ -24,6 +24,7 @@
 | **Realitio Proxy With Appeals (Gnosis Zodiac)**                | [0xf72cfd1b34a91a64f9a98537fe63fbab7530adca](https://etherscan.io/address/0xf72cfd1b34a91a64f9a98537fe63fbab7530adca)      |
 | **Realitio Cross-Chain xDAI Foreign Proxy**                    | [0x2f0895732bfacdcf2fdb19962fe609d0da695f21](https://etherscan.io/address/0x2f0895732bfacdcf2fdb19962fe609d0da695f21)      |
 | **Realitio Cross-chain xDAI Foreign Proxy (for Realitio 2.1)** | [0x79d0464ec27f67663dadf761432fc8dd0aea3d49](https://etherscan.io/address/0x79d0464ec27f67663dadf761432fc8dd0aea3d49#code) |
+| **Realitio Cross-chain Polygon Foreign Proxy**                 | [0x776e5853e3d61b2dfb22bcf872a43bf9a1231e52](https://etherscan.io/address/0x776e5853e3d61b2dfb22bcf872a43bf9a1231e52#code) |
 | **KlerosConnector for Unslashed**                              | [0xe0e1bc8C6cd1B81993e2Fcfb80832d814886eA38](https://etherscan.io/address/0xe0e1bc8C6cd1B81993e2Fcfb80832d814886eA38#code) |
 | **Proof Of Humanity**                                          | [0xC5E9dDebb09Cd64DfaCab4011A0D5cEDaf7c9BDb](https://etherscan.io/address/0xC5E9dDebb09Cd64DfaCab4011A0D5cEDaf7c9BDb)      |
 | **UBI Pool**                                                   | [0xa27bfea336bc7058ff1297eeff2732389f8b208f](https://etherscan.io/address/0xa27bfea336bc7058ff1297eeff2732389f8b208f)      |
@@ -44,6 +45,12 @@
 | **SortitionSumTreeFactory**                                                          | [0x7AE716d9935F41F173D944FE6557c1e117d561E9](https://gnosisscan.io/address/0x7AE716d9935F41F173D944FE6557c1e117d561E9) |
 | **Transaction Batcher Contract**                                                     | [0x6426800F8508b15AED271337498fa5e7D0794d46](https://gnosisscan.io/address/0x6426800F8508b15AED271337498fa5e7D0794d46) |
 | **Kleros Linguo Contracts**                                                          | See [here](https://github.com/kleros/linguo-contracts/tree/master/deployments/xdai).                                   |
+
+### Polygon
+
+| Contract                                                                             | Address                                                                                                                |
+| ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
+| <p><strong>Realitio Cross-Chain</strong> </p><p><strong>Polygon Home Proxy</strong></p> | [0x5AFa42b30955f137e10f89dfb5EF1542a186F90e](https://polygonscan.com/address/0x5AFa42b30955f137e10f89dfb5EF1542a186F90e) |
 
 ### Arbitrum One
 
