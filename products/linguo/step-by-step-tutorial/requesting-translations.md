@@ -69,9 +69,9 @@ If you want to dispute the translation you can do it as follows.
 
 * To submit a challenge navigate to the request page, gather your evidence in a file and upload it by clicking the Evidence for Challenge button and confirm the transaction in your wallet.
 
-![](<../../../.gitbook/assets/image (20) (3).png>)
+![](<../../../.gitbook/assets/image (20) (2) (1).png>)
 
 * Once you’ve submitted the evidence and made the challenger deposit the case will be sent to the respective courts to be evaluated by the jurors.
 
-![](<../../../.gitbook/assets/image (1) (3).png>)
+![](<../../../.gitbook/assets/image (1) (4) (1).png>)
 {% endhint %}

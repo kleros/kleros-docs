@@ -20,6 +20,8 @@ If a [Graph Protocol](https://thegraph.com/) subgraph already exists for the app
 * [Kleros Curate (Goerli) subgraph](https://thegraph.com/hosted-service/subgraph/greenlucid/curate-goerli)
 * [Proof of Humanity (Mainnet) subgraph](https://thegraph.com/explorer/subgraph/kleros/proof-of-humanity-mainnet)
 * [Proof of Humanity (Kovan) subgraph](https://thegraph.com/explorer/subgraph/epiqueras/proof-of-humanity-kovan)
+* [Kleros Court (Mainnet) subgraph](https://thegraph.com/hosted-service/subgraph/salgozino/klerosboard)
+* [Kleros Court (xDai) subgraph](https://thegraph.com/hosted-service/subgraph/salgozino/klerosboard-xdai)
 {% endhint %}
 
 If no subgraph exists for the application you want to read from, you can request one to the Kleros team, or [define ](https://thegraph.com/docs/define-a-subgraph)and [deploy](https://thegraph.com/docs/deploy-a-subgraph) one.

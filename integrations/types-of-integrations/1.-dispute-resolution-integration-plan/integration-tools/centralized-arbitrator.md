@@ -37,7 +37,7 @@ The Centralized Arbitrator can be used on:
 
 * You can change the arbitration fee required by your arbitrator if needed;
 
-![](<../../../../.gitbook/assets/image (53) (2).png>)
+![](<../../../../.gitbook/assets/image (53) (1).png>)
 
 * On the list below, you will be able to track incoming disputes from arbitrable apps, filter them by status and give rulings directly from the interface.
 
