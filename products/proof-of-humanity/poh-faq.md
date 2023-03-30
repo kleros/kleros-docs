@@ -38,13 +38,13 @@ If your profile isn’t challenged during this period or the challenges are not 
 
 If you are challenged, you will either go back to “Pending Registration” phase or be “Removed” depending on the ruling of Kleros Court.
 
-Once you are “Registered”, your profile can either expire after a year (if you don’t reapply) or someone can make a request for removal which will move it to the “Pending removal” phase during when anyone can challenge the removal.
+Once you are “Registered”, your profile can either expire after a year (if you don’t reapply) or someone can make a request for removal which will move it to the “Pending removal” phase during which anyone can challenge the removal.
 
 If your profile is “Expired”, “Removed” or about to expire soon, you can reapply for submission which will bring you back to the “Vouching Phase”
 
 ![Simplified phase transitions of a profile in PoH (without appeals).](https://lh6.googleusercontent.com/b\_2pVuJKBR1w-SxU95uvjJ27NVynA3jWtO4lF2DGYlLYNT39-xez\_YNySzUMTYkzgvHke4S6M-1IJbWXWNuGm1WAIxlNOuqudpzrBsOngx59AfSot93wAAvddJ8CQtPC0ViSycpg)
 
-You can learn more about how the challenge and the dispute resolution system works in Kleros Court [documentation](https://kleros.gitbook.io/docs/products/court).
+You can learn more about how the challenge and the dispute resolution system work in Kleros Court [documentation](https://kleros.gitbook.io/docs/products/court).
 
 ## Why should I vouch for someone? What's in it for me?
 

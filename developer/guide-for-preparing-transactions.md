@@ -92,7 +92,7 @@ Javascript Court: /ipfs/Qme15AUfpvLX3iwEtqswe26PQHMmKnF4eWGywBPqbkdqcD/xDai-Java
 
 ### Presenting Transactions:
 
-* Make a copy of this [template](https://docs.google.com/document/d/1av-IU5aKwRFzKhktdVNAlkt12sozows6uBapj1T-lq8/edit?usp=sharing) and fill in the necessary informaton.
+* Make a copy of this [template](https://docs.google.com/document/d/1av-IU5aKwRFzKhktdVNAlkt12sozows6uBapj1T-lq8/edit?usp=sharing) and fill in the necessary information.
 * If submitting through **Discord** tag @xpriment626 and share the link to your doc.
 * If submitting through **Telegram** tag @clesaege and share the link to your doc.
 * If submitting through **Slack** share the link to your doc on the public #dev channel.

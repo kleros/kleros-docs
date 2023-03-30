@@ -8,9 +8,9 @@ description: Secure and decentralized data sources for blockchain wallets
 
 With the number of smart contract exploits and hacks getting higher than ever, it is more important than ever to be able to provide wallet users with reliable and meaningful contract information before they perform any transaction.&#x20;
 
-The number of deployed smart contracts on Ethereum alone number in the millions, and wallet providers often have have to rely on data sources sourced from centralized parties, or turn to crowd-sourced but insecure public lists.&#x20;
+The number of deployed smart contracts on Ethereum alone number in the millions, and wallet providers often have to rely on data sources sourced from centralized parties, or turn to crowd-sourced but insecure public lists.&#x20;
 
-Kleros solves this problem with it's fully trustless and permissionless data registries built specially for blockchain wallets.
+Kleros solves this problem with its fully trustless and permissionless data registries built especially for blockchain wallets.
 
 ## **How Kleros can be used**
 
