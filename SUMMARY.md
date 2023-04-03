@@ -64,6 +64,7 @@
     * [Channel partners](integrations/types-of-integrations/1.-dispute-resolution-integration-plan/channel-partners/README.md)
       * [How to use Reality.eth + Kleros as an oracle](integrations/types-of-integrations/1.-dispute-resolution-integration-plan/channel-partners/how-to-use-reality.eth-+-kleros-as-an-oracle.md)
       * [Safe Zodiac integration](integrations/zodiac-integration.md)
+      * [Kleros Reality Module](integrations/kleros-reality-module.md)
     * [Integration Tools](integrations/types-of-integrations/1.-dispute-resolution-integration-plan/integration-tools/README.md)
       * [Escrow React](integrations/types-of-integrations/1.-dispute-resolution-integration-plan/integration-tools/escrow-react-widget.md)
       * [Escrow SDK](integrations/types-of-integrations/1.-dispute-resolution-integration-plan/integration-tools/escrow-sdk.md)
