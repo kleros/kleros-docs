@@ -10,7 +10,7 @@
 | **PNK**                                                        | [0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d](https://etherscan.io/address/0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d)      |
 | **Governor**                                                   | [0xe5bcEa6F87aAEe4a81f64dfDB4d30d400e0e5cf4](https://etherscan.io/address/0xe5bcEa6F87aAEe4a81f64dfDB4d30d400e0e5cf4)      |
 | **PolicyRegistry**                                             | [0xcf1f07713d5193fae5c1653c9f61953d048bece4](https://etherscan.io/address/0xcf1f07713d5193fae5c1653c9f61953d048bece4)      |
-| **ArbitrableProxy**                                            | [0xA3B02bA6E10F55fb177637917B1b472da0110CcC](https://etherscan.io/address/0xA3B02bA6E10F55fb177637917B1b472da0110CcC)      |
+| **ArbitrableProxy**                                            | [0x99489d7bb33539f3d1a401741e56e8f02b9ae0cf](https://etherscan.io/address/0x99489d7bb33539f3d1a401741e56e8f02b9ae0cf)      |
 | **KlerosLiquid Extra Views**                                   | [0xda47f3252bb03c5c7950d7bb2fd32637fc5ad943](https://etherscan.io/address/0xda47f3252bb03c5c7950d7bb2fd32637fc5ad943)      |
 | **SortitionSumTreeFactory**                                    | [0x180eba68d164c3f8c3f6dc354125ebccf4dfcb86](https://etherscan.io/address/0x180eba68d164c3f8c3f6dc354125ebccf4dfcb86)      |
 | **RNGenerator**                                                | [0x90992fb4E15ce0C59aEFfb376460Fda4Ee19C879](https://etherscan.io/address/0x90992fb4E15ce0C59aEFfb376460Fda4Ee19C879#code) |
