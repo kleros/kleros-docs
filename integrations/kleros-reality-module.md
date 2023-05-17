@@ -1,14 +1,14 @@
-# Kleros Reality Module
+# Kleros Snapshot Module
 
-From the Zodiac app within the Safe app, you can deploy a Kleros Reality Module. This is a wrapper of the already existing Reality Module, and will automatically deploy it using Kleros as arbitrator. This module is available in Mainnet, Gnosis Chain, and Polygon.
+From the Zodiac app within the Safe app, you can deploy a Kleros Snapshot Module. This is a wrapper of the already existing Reality Module, and will automatically deploy it using Kleros as arbitrator. This module is available in Mainnet, Gnosis Chain, and Polygon.
 
 ## Setup
 
 Open your Safe dashboard, and click on _Apps_, search _Zodiac_, and open it.
 
-Click on _Kleros Reality Module_. If you can't see it, it might mean your safe is in a different chain. Kleros is only available on Mainnet, Gnosis and Polygon.
+Click on _Kleros Snapshot Module_. If you can't see it, it might mean your safe is in a different chain. Kleros is only available on Mainnet, Gnosis and Polygon.
 
-![image](https://user-images.githubusercontent.com/40367733/229220090-2267df33-31f3-499f-a328-f1c61dd082c5.png)
+![image](https://user-images.githubusercontent.com/40367733/238977515-9f96b906-57d2-4419-bd04-927d659a62c7.png)
 
 Fill in the information. Some guidelines:
 
@@ -16,6 +16,12 @@ Fill in the information. Some guidelines:
 - _Cooldown_ is the period from the point the answer is final, to the point the transaction batch can be executed. This is used to prevent malicious answers that might have slipped through from causing immediate damage, by allowing potential victims to react. In order to prevent damage, parties using the Safe are expected to stay vigilant and regularly pay attention to questions created by this module, as anyone is able to create them, without going through a Snapshot proposal.
 - _Expiration_ is how long until an accepted transaction batch becomes too outdated to be executed.
 - _Bond_ is the minimum amount required to post an answer to a question. Keeping it large makes it more punishing to attackers. Remember this amount is denominated in the chain's native token.
+
+### Monitoring
+
+You can use Open Zeppelin Sentinel to monitor proposals. Take into account that anyone can submit a proposal to the Reality Module, so they are not to be trusted. With this monitoring system, you will be notified through various channels whenever a proposal is submitted. If a proposal turns out to be malicious, it must be countered through rejecting it's validity in the reality.eth question it will create.
+
+![image](https://user-images.githubusercontent.com/40367733/238977898-1597d303-c755-4fe1-816b-7710179ab89c.png)
 
 ## SafeSnap
 
