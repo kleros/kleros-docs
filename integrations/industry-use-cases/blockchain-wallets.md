@@ -14,7 +14,7 @@ Kleros solves this problem with it's fully trustless and permissionless data reg
 
 ## **How Kleros can be used**
 
-****[**Kleros Curate**](../../products/curate/) **** has been used to construct several fully trustless and permissionless token curated registries (TCRs). The data is crowdsourced and secured using submission deposits to ensure that the data on the list is correct.
+[**Kleros Curate**](../../products/curate/) has been used to construct several fully trustless and permissionless token curated registries (TCRs). The data is crowdsourced and secured using submission deposits to ensure that the data on the list is correct.
 
 ### [Kleros Tokens](../../products/tokens/)
 

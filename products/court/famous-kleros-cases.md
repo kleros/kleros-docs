@@ -95,7 +95,7 @@ Proof of Humanity is a Sybil-resistant list of humans using social vouching and 
 * [Evidence K](https://ipfs.kleros.io/ipfs/QmNjE2ZsL3NdbqyW6Cpgg9hvvhTNdfXeMadUgx1BQ3JvNE/EvidenceSubmissionAppeal2-Final.pdf)
 {% endhint %}
 
-![](<../../.gitbook/assets/image (56) (2) (2) (2) (2) (2) (2) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (56) (2) (2) (2) (2) (2) (2) (1) (1) (1) (1) (1) (2) (1).png>)
 
 **1 hour-long street poll video asking about face angles**
 
@@ -112,7 +112,7 @@ Kleros Tokens registry was used at the time to curate tokens to be listed on the
 {% hint style="info" %}
 **Examples of evidence material:**
 
-* ****[​Evidence L](https://ipfs.kleros.io/ipfs/QmbvuyXczHVsQxAkEbx3Ec84uTF3ooHQixMAXAScLw3iWj/heliast-gridplus-challenge.pdf)
+* [​Evidence L](https://ipfs.kleros.io/ipfs/QmbvuyXczHVsQxAkEbx3Ec84uTF3ooHQixMAXAScLw3iWj/heliast-gridplus-challenge.pdf)
 * [Evidence M](https://ipfs.kleros.io/ipfs/QmUke7s1V7pkgSCUV2nBcuwxW2jwt4LHroD2yRcNvxwyn3/gridplus-violating-4.1.pdf)
 * [Evidence N](https://ipfs.kleros.io/ipfs/Qmb8g71Guw7Dj5kwRDKd6cXLaSVdFRWgg42mCagMmYHjGX/kleros-tcr-gridplus-ethfinex-compliance-badge-challenge-response.pdf)
 {% endhint %}

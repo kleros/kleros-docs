@@ -36,6 +36,6 @@ description: What people have to say about Kleros decentralized courts
 
 ## What do I think About Network States? - Vitalik Buterin
 
-**Full Article:** [**https://vitalik.ca/general/2022/07/13/networkstates.html**](https://vitalik.ca/general/2022/07/13/networkstates.html)****
+**Full Article:** [**https://vitalik.ca/general/2022/07/13/networkstates.html**](https://vitalik.ca/general/2022/07/13/networkstates.html)
 
 ![](.gitbook/assets/9673AC3A-3821-4055-BF2A-959F64836708\_4\_5005\_c.jpeg)

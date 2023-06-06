@@ -53,7 +53,7 @@ If you just want a fixed price translation with no price discovery, set both the
 {% hint style="info" %}
 **In case your request isn’t picked up on time, you can collect your deposit by clicking ‘Reimburse Me’.**
 
-****![](<../../../.gitbook/assets/image (79).png>)****
+![](<../../../.gitbook/assets/image (79).png>)
 {% endhint %}
 
 7\. You will be notified every time an update happens on your request. You can see them by clicking the notifications icon on the upper right-hand side.
@@ -73,5 +73,5 @@ If you want to dispute the translation you can do it as follows.
 
 * Once you’ve submitted the evidence and made the challenger deposit the case will be sent to the respective courts to be evaluated by the jurors.
 
-![](<../../../.gitbook/assets/image (1) (4) (1).png>)
+![](<../../../.gitbook/assets/image (1) (3) (2) (1).png>)
 {% endhint %}

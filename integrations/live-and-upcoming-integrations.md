@@ -11,7 +11,7 @@ In total, we already have more than **60** partners either using our Court and p
 ![](<../.gitbook/assets/image (95).png>)
 
 {% hint style="info" %}
-Check out the full Kleros Ecosystem page [**here**](https://www.notion.so/kleros/Kleros-ecosystem-f013376368364a5ebc0bbee176ed7eb1) **** featuring all of our 60+ partners and collaborators**,** or scroll on to read about a few of the highlights below.
+Check out the full Kleros Ecosystem page [**here**](https://www.notion.so/kleros/Kleros-ecosystem-f013376368364a5ebc0bbee176ed7eb1) featuring all of our 60+ partners and collaborators**,** or scroll on to read about a few of the highlights below.
 {% endhint %}
 
 ## Highlighted Integrations:

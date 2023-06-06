@@ -12,12 +12,12 @@ While resolving disputes is the most direct way to integrate with Kleros, the Co
 
 Here are a few examples:
 
-* Built with [**Kleros Curate**](../../../products/curate/)****
+* Built with [**Kleros Curate**](../../../products/curate/)
   * [Token registries](https://blog.kleros.io/tokens-by-kleros-securing-uniswap-with-decentralized-lists/)&#x20;
   * [Address tag registries](https://blog.kleros.io/the-kleros-decentralized-tag-registry-a-proof-of-concept-for-securing-web3/)
   * [NFT registries](https://www.reddit.com/r/loopringorg/comments/srji2h/introducing\_kleros\_curated\_nft\_registry\_a\_work\_in/)
 * Identity registries
-  * [**Proof-of-Humanity**](https://www.proofofhumanity.id/)****
+  * [**Proof-of-Humanity**](https://www.proofofhumanity.id/)
 
 A full list of Kleros's existing integrations and partnerships can be found [here](../../live-and-upcoming-integrations.md).
 

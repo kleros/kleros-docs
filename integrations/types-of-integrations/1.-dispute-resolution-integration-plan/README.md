@@ -84,10 +84,14 @@ There are two ways to use Kleros Court for your dispute resolution:
 
 #### A. Smart contract integration
 
-The best way to integrate with Kleros is to invest in a smart contract integration with Kleros Court. While it takes work to write and audit an 'Arbitrable' smart contract (complying with the [**ERC-792**](../../../developer/arbitration-development/erc-792-arbitration-standard.md) standard), it does allow for a **trustless** integration and can fully address user concerns of centralized control or censorship. \
-The full integration guide for this technical integration can be found here:
+The best way to integrate with Kleros is to invest in a smart contract integration with Kleros Court. While it takes work to write and audit an 'Arbitrable' smart contract (complying with the [**ERC-792**](../../../developer/arbitration-development/erc-792-arbitration-standard.md) standard), it does allow for a **trustless** integration and can fully address user concerns of centralized control or censorship.&#x20;
 
-[smart-contract-integration.md](smart-contract-integration.md "mention")
+There are two ways to go about it:
+
+1.  **A fully ERC-792 compliant integration**, in which the full integration guide for this technical integration can be found here:
+
+    [smart-contract-integration.md](smart-contract-integration.md "mention")
+2. **A** **greatly simplified variant of the ERC-792 integration** using an ['arbitrable-proxy' contract](https://github.com/kleros/arbitrable-proxy-contracts/blob/master/contracts/ArbitrableProxy.sol), in which the evidence and appeal logic management and UI components are outsourced to Kleros-written smart contracts and frontends. All you need to do is for your pseudo-Arbitrable contact to call the `createDispute` function and poll for the ruling from the arbitrable-proxy afterwards.
 
 #### B. A standalone 'Recognition-of-Jurisdiction' (RoJ) integrations
 

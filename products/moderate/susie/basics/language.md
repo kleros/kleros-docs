@@ -15,4 +15,3 @@ Join the [@Susie Support](https://t.me/SusieSupport) Telegram group to request S
 
 `/lang <language code>:` Sets language
 
-``

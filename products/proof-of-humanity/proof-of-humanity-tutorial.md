@@ -99,7 +99,7 @@ In order to be notified of your profile progress in the validation process, you 
 * Once you click on "Save", your wallet will ask you to sign a message to confirm (no fee).
 * Once you have confirmed, it is done: you will now receive email updates when your profile changes status or gets challenged.
 
-****
+
 
 **Notifications through EPNS**
 
@@ -119,7 +119,7 @@ You can check the current status of your profile by clicking on "My profile" in 
 
 * You need to find one person who is in "Registered" status and that knows you in real-life (or that can prove that you really are the person your profile describes) and ask that person to vouch for you.
 
-![](<../../.gitbook/assets/image (25) (1) (2) (2) (1) (1) (1) (2).png>)
+![](<../../.gitbook/assets/image (25) (1) (2) (2) (1) (1) (1) (2) (2).png>)
 
 * This person will need to go to your profile page and click on the "Gasless Vouch" button and sign a message from his wallet.
 

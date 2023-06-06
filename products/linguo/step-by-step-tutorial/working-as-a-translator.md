@@ -50,7 +50,7 @@ To find tasks you’ve accepted on the sort tab and filter by ‘In Progress’ 
 
 <figure><img src="https://3220901460-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F5iFrRkxkxZd5fE3gLSlN%2Fuploads%2FYTZaTOLunBUWXRqDzQX7%2Ft7.jpg?alt=media&#x26;token=bda3b8eb-1515-454b-934d-7b988d82ba98" alt=""><figcaption><p>This will submit your translation.</p></figcaption></figure>
 
-10\. **** You’re all done, once the review period ends you can collect the payment as well as your deposit!\
+10\. You’re all done, once the review period ends you can collect the payment as well as your deposit!\
 
 
 <figure><img src="https://3220901460-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F5iFrRkxkxZd5fE3gLSlN%2Fuploads%2F1ffZLDDApU81PI2419l0%2Ft8.jpg?alt=media&#x26;token=f7fe7786-f9b2-4113-9f14-3ba64c2ee805" alt=""><figcaption><p>Congrats! You've submitted your first translation.</p></figcaption></figure>
