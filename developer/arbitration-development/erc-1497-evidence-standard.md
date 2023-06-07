@@ -118,7 +118,28 @@ Here's an example of MetaEvidence JSON:
 }
 ```
 
-Below you will find a diagram that illustrates how these elements translate to the [Court](https://court.kleros.io/cases/1213) and [Dispute Resolver](https://resolve.kleros.io/cases/1213) interfaces.
+The `evidenceDisplayInterfaceURI` can be used to display dynamic information in an iframe on the court interface about each case, including the details of the disputants, images or any other related information. There are no hard limits to the amount of content that can be displayed here, though a rule of thumb is to keep this page under 360px in height to make it easily readable on the court interface.
+
+When loading the iframe, the `evidenceDisplayInterfaceURI` will be called with a URL-encoded JSON string as the payload, with the following keys to allow the page to display and retrieve content dynamically:
+
+* `disputeID`
+* `chainID`
+* `arbitratorContractAddress`
+* `arbitratorJsonRpcUrl`
+* `arbitratorChainID`
+* `arbitrableContractAddress`
+* `arbitrableChainID`
+* `arbitrableJsonRpcUrl`
+* `jsonRpcUrl`
+
+Here is an example of the URL used by the iframe on the Arbitrator interface:
+
+```
+// URL decoded example for readability
+https://ipfs.kleros.io/ipfs/QmSL8d82dMhcThwERWaF4LtmCa4hgV7TyPjAo4fKCzPVkv/index.html?{"disputeID":"1500","chainID":1,"arbitratorContractAddress":"0x988b3a538b618c7a603e1c11ab82cd16dbe28069","arbitratorJsonRpcUrl":"https://eth-mainnet.alchemyapi.io/v2/uL6wnCNAu31Wh7c5P5NWPwD-ZYc2LTKh","arbitratorChainID":1,"arbitrableContractAddress":"0xC5E9dDebb09Cd64DfaCab4011A0D5cEDaf7c9BDb","arbitrableChainID":1,"arbitrableJsonRpcUrl":"https://eth-mainnet.alchemyapi.io/v2/uL6wnCNAu31Wh7c5P5NWPwD-ZYc2LTKh","jsonRpcUrl":"https://eth-mainnet.alchemyapi.io/v2/uL6wnCNAu31Wh7c5P5NWPwD-ZYc2LTKh"}
+```
+
+Below you will find a diagram that illustrates how all the elements above translate to the [Court](https://court.kleros.io/cases/1213) and [Dispute Resolver](https://resolve.kleros.io/cases/1213) interfaces.
 
 <figure><img src="../../.gitbook/assets/metaevidence_diagram.jpg" alt=""><figcaption><p>A screenshot of <a href="https://resolve.kleros.io/cases/1213">Case #1213 on resolve.kleros.io</a>, showcasing all the important elements in the MetaEvidence JSON of this case.</p></figcaption></figure>
 
