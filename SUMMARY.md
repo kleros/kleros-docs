@@ -83,6 +83,7 @@
 * [Arbitration Development](developer/arbitration-development/README.md)
   * [ERC-792: Arbitration Standard](developer/arbitration-development/erc-792-arbitration-standard.md)
   * [ERC 1497: Evidence Standard](developer/arbitration-development/erc-1497-evidence-standard.md)
+  * [Arbitrable Proxy](developer/arbitration-development/arbitrable-proxy.md)
 * [Arbitration by Example](developer/arbitration-by-example/README.md)
   * [ArbitrableDeposit.sol](developer/arbitration-by-example/arbitrabledeposit.sol.md)
   * [TwoPartyArbitrable.sol](developer/arbitration-by-example/twopartyarbitrable.sol.md)
