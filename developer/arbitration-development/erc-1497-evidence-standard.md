@@ -89,12 +89,30 @@ In the case of our Evidence Standard, MetaEvidence is the context while Evidence
 \
 In order to provide flexibility for all different types of disputes, and to try to keep minimal information on the chain, we decided to create standardized JSON objects that can be hosted anywhere and fetched by an interface to display a dispute. Below we provide some examples. For more information on what each field does, take a look at the [standard specification](https://github.com/ethereum/EIPs/issues/1497).
 
-#### MetaEvidence: <a href="#metaevidence" id="metaevidence"></a>
+### MetaEvidence: <a href="#metaevidence" id="metaevidence"></a>
 
-We have already discussed what MetaEvidence is, so let’s take a look at how a piece of MetaEvidence might actually look and how it would be used. Each dispute has one piece of MetaEvidence that is used to give all of the contextual information for a contract that might be disputed. MetaEvidence should be created at the same time as the agreement so that it can be impartial. The only restriction on MetaEvidence is that it must be created before a dispute can be raised in the smart contract.\
+We have already discussed what MetaEvidence is, so let’s take a look at how a piece of MetaEvidence might actually look and how it would be used. Each dispute has one piece of MetaEvidence that is used to give all of the contextual information for a contract that might be disputed. MetaEvidence should be created at the same time as the agreement so that it can be impartial. The only restriction on MetaEvidence is that it must be created before a dispute can be raised in the smart contract.
 
+The fields in this MetaEvidence JSON are as follows:
 
-Here's an example of MetaEvidence JSON:
+* `category`: The category that the dispute belongs to. All values are accepted here, but it's good to align it with other past disputes of the same kind for consistency.
+* `title`: A title to describe what the dispute is about. Can be constant for all disputes from your dApp.
+* `description`: Text to describe the situation of the case. It can also be static for all cases, in which you will just have a generic description that describes what to look out for in these cases.
+* `question`: This is question posed to the jury after they review all the facts, documents and evidences of the case.
+* `rulingOptions`:
+  * type: Can be one of the following values:
+    * `single-select`: the jurors select one answer among the provided options.
+    * `multiple-select`: the jurors can select any number of the provided options.
+    * `uint`: the jurors input an unsigned integer.
+    * `int`: the jurors input a signed integer.
+    * `string`: the jurors enter a string. String must fit into `bytes32`.
+  * `precision`:  only applicable for ruling types `int` and `uint` to indicate the number of decimal places a ruling contains.
+  * `titles`: an array of the options available to the jurors. NOTE: the sequence of the titles is important as they map directly to the rulings you get when the Arbitrator responds to your Arbitrable using the `rule()` function.
+  * `descriptions`: the description of the `rulingOption` titles.
+* `fileURI`: The URI that leads to the primary document of the case, which is a natural language contract, policy, or primary document that is the basis of the dispute. See [this section](../../integrations/types-of-integrations/1.-dispute-resolution-integration-plan/#2.-write-a-good-dispute-policy) on the role of the primary document and how to write a good one.
+* `evidenceDisplayInterfaceURI`: The URI to a display interface that should be used to render the facts of a case in an iframe by the Arbitrator.&#x20;
+
+Here's an example of a MetaEvidence JSON:&#x20;
 
 ```
 {
@@ -118,9 +136,16 @@ Here's an example of MetaEvidence JSON:
 }
 ```
 
+Below you will find a diagram that shows how the elements in the MetaEvidence JSON get displayed on the [Court](https://court.kleros.io/cases/1213) and [Dispute Resolver](https://resolve.kleros.io/cases/1213) interfaces.
+
+<figure><img src="../../.gitbook/assets/metaevidence_diagram.jpg" alt=""><figcaption><p>A screenshot of <a href="https://resolve.kleros.io/cases/1213">Case #1213 on resolve.kleros.io</a>, showcasing all the important elements in the MetaEvidence JSON of this case.</p></figcaption></figure>
+
+#### Additional information about the evidenceDisplayInterfaceURI
+
 The `evidenceDisplayInterfaceURI` can be used to display dynamic information in an iframe on the court interface about each case, including the details of the disputants, images or any other related information. There are no hard limits to the amount of content that can be displayed here, though a rule of thumb is to keep this page under 360px in height to make it easily readable on the court interface.
 
-When loading the iframe, the `evidenceDisplayInterfaceURI` will be called with a URL-encoded JSON string as the payload, with the following keys to allow the page to display and retrieve content dynamically:
+\
+When loading the iframe, the `evidenceDisplayInterfaceURI` will be called with a URL-encoded JSON query string as the payload, with the following keys to allow the page to display and retrieve content dynamically:
 
 * `disputeID`
 * `chainID`
@@ -132,18 +157,18 @@ When loading the iframe, the `evidenceDisplayInterfaceURI` will be called with a
 * `arbitrableJsonRpcUrl`
 * `jsonRpcUrl`
 
-Here is an example of the URL used by the iframe on the Arbitrator interface:
+Here is an example of the URL with query string used by the iframe on the Arbitrator interface:
 
 ```
 // URL decoded example for readability
 https://ipfs.kleros.io/ipfs/QmSL8d82dMhcThwERWaF4LtmCa4hgV7TyPjAo4fKCzPVkv/index.html?{"disputeID":"1500","chainID":1,"arbitratorContractAddress":"0x988b3a538b618c7a603e1c11ab82cd16dbe28069","arbitratorJsonRpcUrl":"https://eth-mainnet.alchemyapi.io/v2/uL6wnCNAu31Wh7c5P5NWPwD-ZYc2LTKh","arbitratorChainID":1,"arbitrableContractAddress":"0xC5E9dDebb09Cd64DfaCab4011A0D5cEDaf7c9BDb","arbitrableChainID":1,"arbitrableJsonRpcUrl":"https://eth-mainnet.alchemyapi.io/v2/uL6wnCNAu31Wh7c5P5NWPwD-ZYc2LTKh","jsonRpcUrl":"https://eth-mainnet.alchemyapi.io/v2/uL6wnCNAu31Wh7c5P5NWPwD-ZYc2LTKh"}
 ```
 
-Below you will find a diagram that illustrates how all the elements above translate to the [Court](https://court.kleros.io/cases/1213) and [Dispute Resolver](https://resolve.kleros.io/cases/1213) interfaces.
+{% hint style="info" %}
+Pro-tip: To avoid having to create a new MetaEvidence JSON and pin it to IPFS prior to every dispute, you can use just a static MetaEvidence JSON, and use a `evidenceDisplayInterfaceURI` that dynamically displays different information based on the query string.&#x20;
+{% endhint %}
 
-<figure><img src="../../.gitbook/assets/metaevidence_diagram.jpg" alt=""><figcaption><p>A screenshot of <a href="https://resolve.kleros.io/cases/1213">Case #1213 on resolve.kleros.io</a>, showcasing all the important elements in the MetaEvidence JSON of this case.</p></figcaption></figure>
-
-#### Evidence: <a href="#evidence" id="evidence"></a>
+### Evidence: <a href="#evidence" id="evidence"></a>
 
 It is also essential in many types of disputes that the participants have a chance to show their viewpoint and give reasons why they believe they are right. Therefore there needs to be a way for an Arbitrator to receive Evidence. The Evidence JSON file includes the following properties:
 
