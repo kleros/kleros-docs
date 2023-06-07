@@ -35,7 +35,7 @@ interface IEvidence {
     /**
      * @dev To be emitted when meta-evidence is submitted.
      * @param _metaEvidenceID Unique identifier of meta-evidence.
-     * @param _evidence IPFS path to metaevidence, example: '/ipfs/Qmarwkf7C9RuzDEJNnarT3WZ7kem5bk8DZAzx78acJjMFH/metaevidence.json'
+     * @param _evidence IPFS path to metaevidence, example: '/ipfs/QmbsNh1pDfqKmaySamNCnEoWQpd8E7RfpBrF3HPZS7xKVK'
      */
     event MetaEvidence(uint256 indexed _metaEvidenceID, string _evidence);
 
@@ -92,32 +92,35 @@ In order to provide flexibility for all different types of disputes, and to try 
 #### MetaEvidence: <a href="#metaevidence" id="metaevidence"></a>
 
 We have already discussed what MetaEvidence is, so let’s take a look at how a piece of MetaEvidence might actually look and how it would be used. Each dispute has one piece of MetaEvidence that is used to give all of the contextual information for a contract that might be disputed. MetaEvidence should be created at the same time as the agreement so that it can be impartial. The only restriction on MetaEvidence is that it must be created before a dispute can be raised in the smart contract.\
+
+
 Here's an example of MetaEvidence JSON:
 
 ```
 {
-	"fileURI": "/ipfs/QmUQMJbfiQYX7k6SWt8xMpR7g4vwtAYY1BTeJ8UY8JWRs9", 
-	"fileHash": "QmUQMJbfiQYX7k6SWt8xMpR7g4vwtAYY1BTeJ8UY8JWRs9",  		
-	"fileTypeExtension": "pdf",
-	"category": "Escrow",
-	"title": "Alice Builds an e-commerce webpage for Bob",
-	"description": "Alice is hired by Bob as a contractor to create an e-commerence website for his company. When completed, the site will be hosted at https://my-site.com.",
-	"aliases": {
-		"0x56b2b5C88C9AC1D0E5785ED1A7c7B28173F5eE1b": "Alice",
-		"0x8961286757C764a4a6Be9689649BA9E08DBaca4a": "Bob"
-	},
-	"question": "Is the website compliant with the terms of the contract?",
-	"rulingOptions": {
-		"titles": ["Yes", "No"],
-		"descriptions": [
-			"The website is compliant. This will release the funds to Alice.",
-			"The website is not compliant. This will refund Bob."
-	]},
-	"evidenceDisplayInterfaceURL": "https://my-site.com/evidence-display/escrow",
-	"evidenceDisplayInterfaceURLHash": "QmUQMJbfiQYX7k6SWt8xMpR7g4vwtAYY1BTeJ8UY8JWRs9",
-	"selfHash": "QmUQMJbfiQYX7k6SWt8xMpR7g4vwtAYY1BTeJ8UY8JWRs9"
+  "category": "Insurance",
+  "title": "Unslashed insurance claim",
+  "description": "The claimant requested a compensation for damages covered by Unslashed insurance in the provided amount.",
+  "question": "Should their claim be paid out?",
+  "rulingOptions": {
+    "type": "single-select",
+    "titles": [
+      "Accept the claim",
+      "Reject the claim"
+    ],
+    "descriptions": [
+      "Accept the claim if the claimant 1) incurred the alleged damages, 2) is covered by a relevant policy, 3) the damages and their cover are at least the claimed amount at the moment when the claim was filled.",
+      "Reject the claim if any of the acceptance criteria do not hold."
+    ]
+  },
+  "fileURI": "/ipfs/QmeTBY7jZe2ut5WjifNASADo3E4zBxkMd62WwBpXtwP9pg",
+  "evidenceDisplayInterfaceURI": "https://app.unslashed.finance/embed/claims"
 }
 ```
+
+Below you will find a diagram that illustrates how these elements translate to the [Court](https://court.kleros.io/cases/1213) and [Dispute Resolver](https://resolve.kleros.io/cases/1213) interfaces.
+
+<figure><img src="../../.gitbook/assets/metaevidence_diagram.jpg" alt=""><figcaption><p>A screenshot of <a href="https://resolve.kleros.io/cases/1213">Case #1213 on resolve.kleros.io</a>, showcasing all the important elements in the MetaEvidence JSON of this case.</p></figcaption></figure>
 
 #### Evidence: <a href="#evidence" id="evidence"></a>
 
