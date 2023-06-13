@@ -91,7 +91,9 @@ There are two ways to go about it:
 1.  **A fully ERC-792 compliant integration**, in which the full integration guide for this technical integration can be found here:
 
     [smart-contract-integration.md](smart-contract-integration.md "mention")
-2. **A** **greatly simplified variant of the ERC-792 integration** using an ['arbitrable-proxy' contract](https://github.com/kleros/arbitrable-proxy-contracts/blob/master/contracts/ArbitrableProxy.sol), in which the evidence and appeal logic management and UI components are outsourced to Kleros-written smart contracts and frontends. All you need to do is for your pseudo-Arbitrable contact to call the `createDispute` function and poll for the ruling from the arbitrable-proxy afterwards.
+2. **A** **greatly simplified variant of the ERC-792 integration** using an ['arbitrable-proxy' contract](../../../developer/arbitration-development/arbitrable-proxy.md), in which the evidence and appeal logic management and UI components are outsourced to Kleros-written smart contracts and frontends. All you need to do is for your pseudo-Arbitrable contact to call the `createDispute` function and poll for the ruling from the arbitrable-proxy afterwards.
+
+
 
 #### B. A standalone 'Recognition-of-Jurisdiction' (RoJ) integrations
 
