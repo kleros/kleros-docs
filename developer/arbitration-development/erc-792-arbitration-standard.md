@@ -148,6 +148,15 @@ interface IArbitrator {
 }
 ```
 
+{% hint style="info" %}
+The `extraData` is a byte array that is used to provide additional information about a dispute in a smart contract system. It consists of 64 bytes in total. The byte array is divided into two parts:
+
+1. ID of the subcourt (32 bytes): The first 32 bytes of the `extraData` array are dedicated to storing the ID of the subcourt where the dispute will be created. The subcourt ID is represented by a `uint96` data type. Subcourt IDs can be found on [this page](https://klerosboard.com/1/courts).
+2. Minimum number of jurors required (32 bytes): The next 32 bytes of the `extraData` array are reserved for specifying the minimum number of jurors that are required for the dispute. This value is represented by a `uint` data type. The minimum number required for most disputes is usually 3.
+
+By passing the `extraData` array to a relevant function (such as the `arbitrationCost` and `createDispute` functions), the subcourt ID and the minimum number of jurors can be extracted and utilized for further operations within the Arbitrator's smart contract.
+{% endhint %}
+
 In the linked documentation, you will be guided through the usage of this standard. We will implement some examples for `Arbitrable` and `Arbitrator` contracts.
 
 📖 [Link to full ERC-792 documentation](https://developer.kleros.io/en/latest/index.html) 📖
