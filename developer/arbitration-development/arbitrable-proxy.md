@@ -4,7 +4,7 @@ description: A simpler way to build arbitrable applications.
 
 # Arbitrable Proxy
 
-The arbitrable proxy contract abstracts away most of the heavy lifting associated with implementing the ERC792 and ERC1497 standards from scratch in an arbitrable application.
+The arbitrable proxy contract abstracts away most of the heavy lifting associated with implementing the ERC792 and ERC1497 standards from scratch in an arbitrable application. It abstracts away the evidence and appeal management logic from your contact, requiring you to handle just the dispute creation and ruling retrieval logic.
 
 ## Getting Started
 
@@ -69,7 +69,11 @@ contract MyArbitrable {
 
 ### Step 2:
 
-Create disputes through the proxy
+Create disputes through the proxy and paying the arbitration cost through the same transaction.
+
+{% hint style="info" %}
+The arbitration cost paid when calling the `createDispute()` function of the arbitrableProxy is the same as that of calling the same function on the final arbitrator (i.e. Kleros Court). The cost estimation is therefore best done by directly polling it from the final arbitrator (i.e. the [`arbitrationCost()` function of Kleros Liquid](https://etherscan.deth.net/address/0x988b3a538b618c7a603e1c11ab82cd16dbe28069#L1816))
+{% endhint %}
 
 ```solidity
 contract MyArbitrable {
