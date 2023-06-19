@@ -13,6 +13,7 @@
   * [Famous Kleros Cases](products/court/famous-kleros-cases.md)
   * [What happens during a dispute?](products/court/what-happens-during-a-dispute.md)
   * [Kleros & Credible Neutrality](products/court/kleros-and-credible-neutrality.md)
+* [Court V2](products/court-v2.md)
 * [Proof of Humanity](products/proof-of-humanity/README.md)
   * [Proof of Humanity Tutorial (Register & Vouch)](products/proof-of-humanity/proof-of-humanity-tutorial.md)
   * [Proof Humanity Tutorial (Remove & Challenge)](products/proof-of-humanity/proof-humanity-tutorial-remove-and-challenge.md)
