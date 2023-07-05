@@ -71,6 +71,7 @@
 | **ArbitrableProxy**         | [0x78ac5F189FC6DAB261437a7B95D11cAcf0234FFe](https://goerli.etherscan.io/address/0x78ac5F189FC6DAB261437a7B95D11cAcf0234FFe) |
 | **PolicyRegistry**          | [0x28c8A3A2E3c8Cd3F795DB83764316a1129a069bA](https://goerli.etherscan.io/address/0x28c8A3A2E3c8Cd3F795DB83764316a1129a069bA) |
 | **Kleros Linguo Contracts** | See [here](https://github.com/kleros/linguo-contracts/tree/master/deployments/goerli).                                       |
+| **Realitio Arbitrator**     | [0xba08deb3f07a9c55052777fed84a86be8e5ebc1c](https://goerli.etherscan.io/address/0xba08deb3f07a9c55052777fed84a86be8e5ebc1c) |
 
 ### Rinkeby
 
