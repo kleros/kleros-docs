@@ -117,3 +117,14 @@
 | **PNK Faucet**              | [0x4163BEeb923A06837BaE3Ee1999CcdB9CD606362](https://blockscout.chiadochain.net/address/0x4163BEeb923A06837BaE3Ee1999CcdB9CD606362) |
 | **ArbitrableProxy**         | [0x4BEf0321BD7fa943f85ae55e07f790c6beCbd177](https://blockscout.chiadochain.net/address/0x4BEf0321BD7fa943f85ae55e07f790c6beCbd177) |
 | **PolicyRegistry**          | [0x53FC70FE1EC3a60f8939A62aBCc61bf1A57938D7](https://blockscout.chiadochain.net/address/0x53FC70FE1EC3a60f8939A62aBCc61bf1A57938D7) |
+
+### Sepolia
+
+| Contract                   | Address                                                                                                                       |
+| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| **KlerosLiquid**           | [0x90992fb4E15ce0C59aEFfb376460Fda4Ee19C879](https://sepolia.etherscan.io/address/0x90992fb4E15ce0C59aEFfb376460Fda4Ee19C879) |
+| **KlerosLiquidExtraViews** | [0x5562Ac605764DC4039fb6aB56a74f7321396Cdf2](https://sepolia.etherscan.io/address/0x5562Ac605764DC4039fb6aB56a74f7321396Cdf2) |
+| **PNK**                    | [0xA1eE4D32bdBcA69cdb445D66fAA3804aFFa24bFE](https://sepolia.etherscan.io/address/0xA1eE4D32bdBcA69cdb445D66fAA3804aFFa24bFE) |
+| **PNK Faucet**             | [0x776e5853e3d61B2dFB22Bcf872a43bF9A1231e52](https://sepolia.etherscan.io/address/0x776e5853e3d61b2dfb22bcf872a43bf9a1231e52) |
+| **Realitio Proxy**         | [0x05b942faecfb3924970e3a28e0f230910cedff45](https://sepolia.etherscan.io/address/0x05b942faecfb3924970e3a28e0f230910cedff45) |
+| **PolicyRegistry**         | [0x88Fb25D399310c07d35cB9091b8346d8b1893aa5](https://sepolia.etherscan.io/address/0x88Fb25D399310c07d35cB9091b8346d8b1893aa5) |
