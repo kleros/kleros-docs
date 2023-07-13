@@ -52,10 +52,7 @@
 ## INTEGRATIONS
 
 * [Overview](integrations/overview.md)
-* [Industry use cases](integrations/industry-use-cases/README.md)
-  * [DeFi Insurance](integrations/industry-use-cases/defi-insurance.md)
-  * [Blockchain wallets](integrations/industry-use-cases/blockchain-wallets.md)
-  * [Prediction Markets](integrations/industry-use-cases/prediction-markets.md)
+* [Industry use cases](integrations/industry-use-cases.md)
 * [Types of Integrations](integrations/types-of-integrations/README.md)
   * [1. Dispute resolution integration plan](integrations/types-of-integrations/1.-dispute-resolution-integration-plan/README.md)
     * [Smart contract integration with Kleros Court (Arbitrator)](integrations/types-of-integrations/1.-dispute-resolution-integration-plan/smart-contract-integration.md)
