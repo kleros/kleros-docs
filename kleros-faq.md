@@ -85,6 +85,10 @@ For complex multi-factorial cases, the [Pendulum arbitration](https://en.wikiped
 
 Yes, it’s possible to create an arbitrable smart contract that uses Kleros for solving first instance disputes and allows appeals to be handled outside of Kleros.
 
+### Can I use a smart contract account to stake in the court?
+
+Jurors should not stake using a smart contract account specifically in **courts where hiddenVotes are enabled** - this is because the frontend is currently unable to verify the signature. At the moment, the courts which have hiddenVotes enabled are the **General Court on Gnosis Chain** and the **Spanish General Court on both Ethereum Mainnet and Gnosis Chain.**
+
 ### If parties can also be jurors, doesn't this pose a conflict of interest? / How can you ensure the jurors are perfectly impartial?
 
 The procedure for random selection of jurors among those who staked tokens in a subcourt makes it extremely hard to be selected on purpose as a juror for a case you are involved in.
