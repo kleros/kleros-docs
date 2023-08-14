@@ -24,21 +24,7 @@
 
 <table><thead><tr><th width="296">Contract</th><th>Address</th></tr></thead><tbody><tr><td><strong>KlerosLiquid</strong></td><td><a href="https://goerli.etherscan.io/address/0x1128eD55ab2d796fa92D2F8E1f336d745354a77A">0x1128eD55ab2d796fa92D2F8E1f336d745354a77A</a></td></tr><tr><td><strong>PNK</strong></td><td><a href="https://goerli.etherscan.io/address/0xA3B02bA6E10F55fb177637917B1b472da0110CcC">0xA3B02bA6E10F55fb177637917B1b472da0110CcC</a></td></tr><tr><td><strong>PNK Faucet</strong></td><td><a href="https://goerli.etherscan.io/address/0x4B89e798B10478A839Ea0Abcf86C4B94A3C782A4">0x4B89e798B10478A839Ea0Abcf86C4B94A3C782A4</a></td></tr><tr><td><strong>Governor</strong></td><td><a href="https://goerli.etherscan.io/address/0xd74AB183e2B793A68cB3e647D8f4Df60936B59cA">0xd74AB183e2B793A68cB3e647D8f4Df60936B59cA</a></td></tr><tr><td><strong>ArbitrableProxy</strong></td><td><a href="https://goerli.etherscan.io/address/0x78ac5F189FC6DAB261437a7B95D11cAcf0234FFe">0x78ac5F189FC6DAB261437a7B95D11cAcf0234FFe</a></td></tr><tr><td><strong>PolicyRegistry</strong></td><td><a href="https://goerli.etherscan.io/address/0x28c8A3A2E3c8Cd3F795DB83764316a1129a069bA">0x28c8A3A2E3c8Cd3F795DB83764316a1129a069bA</a></td></tr><tr><td><strong>Kleros Linguo Contracts</strong></td><td>See <a href="https://github.com/kleros/linguo-contracts/tree/master/deployments/goerli">here</a>.</td></tr><tr><td><strong>Realitio Arbitrator</strong></td><td><a href="https://goerli.etherscan.io/address/0xba08deb3f07a9c55052777fed84a86be8e5ebc1c">0xba08deb3f07a9c55052777fed84a86be8e5ebc1c</a></td></tr></tbody></table>
 
-### Rinkeby
-
 <table><thead><tr><th width="297">Contract</th><th>Address</th></tr></thead><tbody><tr><td><strong>PNK</strong></td><td><a href="https://rinkeby.etherscan.io/token/0x14aba1fa8a31a8649e8098ad067b739cc5708f30">0x14aba1fa8a31a8649e8098ad067b739cc5708f30</a></td></tr><tr><td><strong>PNK Faucet</strong></td><td><a href="https://rinkeby.etherscan.io/address/0xb01c9de0e9de0a6cab6df586484707b7078de684#writeContract">0xb01c9de0e9de0a6cab6df586484707b7078de684</a></td></tr></tbody></table>
-
-### Kovan
-
-<table><thead><tr><th width="290">Contract</th><th>Address</th></tr></thead><tbody><tr><td><strong>KlerosLiquid</strong></td><td><a href="https://kovan.etherscan.io/address/0x60B2AbfDfaD9c0873242f59f2A8c32A3Cc682f80">0x60B2AbfDfaD9c0873242f59f2A8c32A3Cc682f80</a></td></tr><tr><td><strong>PNK</strong></td><td><a href="https://kovan.etherscan.io/address/0x1EE318dBC19267dBCE08F54A66ab198F73EdE356">0x1EE318dBC19267dBCE08F54A66ab198F73EdE356</a></td></tr><tr><td><strong>PNK Faucet</strong></td><td><a href="https://kovan.etherscan.io/address/0x4e95b2e0ecb3bd394e1dddd775504820a746d3bd">0x4e95b2e0ecb3bd394e1dddd775504820a746d3bd</a></td></tr></tbody></table>
-
-### Sokol
-
-<table><thead><tr><th width="292">Contract</th><th>Address</th></tr></thead><tbody><tr><td><strong>xKlerosLiquid</strong></td><td><a href="https://blockscout.com/poa/sokol/token/0xb701ff19fBD9702DD7Ca099Ee7D0D42a2612baB5">0xb701ff19fBD9702DD7Ca099Ee7D0D42a2612baB5</a></td></tr><tr><td><strong>wrappedPNK</strong></td><td><a href="https://blockscout.com/poa/sokol/token/0x9Bc02E9f5291adbb1f0Cf5C15ab1B400dccd3665">0x9Bc02E9f5291adbb1f0Cf5C15ab1B400dccd3665</a></td></tr></tbody></table>
-
-### Arbitrum Rinkeby
-
-<table><thead><tr><th width="297">Contract</th><th>Address</th></tr></thead><tbody><tr><td><strong>PNK</strong></td><td><a href="https://testnet.arbiscan.io/token/0x364530164a2338cdba211f72c1438eb811b5c639">0x364530164A2338CdBA211F72C1438EB811B5C639</a></td></tr></tbody></table>
 
 ### Arbitrum Goerli
 
