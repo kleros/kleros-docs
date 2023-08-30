@@ -6,6 +6,6 @@ description: 🚧 This page is under construction 🚧
 
 <div data-full-width="true">
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Preview</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (4).png" alt=""><figcaption><p>Preview</p></figcaption></figure>
 
 </div>

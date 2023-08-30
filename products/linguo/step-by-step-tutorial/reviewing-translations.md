@@ -18,7 +18,7 @@ description: >-
 Please make sure you do the self-assessment accurately as this would ensure you get matched to jobs that you are most suited for.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Enter all languages you are comfortable with and hit save.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Enter all languages you are comfortable with and hit save.</p></figcaption></figure>
 
 3\. Now you will see all open translations for review.\
 
