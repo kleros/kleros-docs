@@ -6,7 +6,7 @@ description: Most common questions to enable users to start using the Kleros Sco
 
 ## 1. How can I install the Kleros Scout Snap?
 
-Step 1: Install Metamask
+Step 1: Install [Metamask Flask](https://metamask.io/flask/)
 
 Step 2: Head to [https://contract-insight-snap.kleros.builders/](https://contract-insight-snap.kleros.builders/)
 
