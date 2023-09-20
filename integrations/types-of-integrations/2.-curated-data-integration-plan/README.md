@@ -12,10 +12,11 @@ While resolving disputes is the most direct way to integrate with Kleros, the Co
 
 Here are a few examples:
 
-* Built with [**Kleros Curate**](../../../products/curate/)
-  * [Token registries](https://blog.kleros.io/tokens-by-kleros-securing-uniswap-with-decentralized-lists/)&#x20;
-  * [Address tag registries](https://blog.kleros.io/the-kleros-decentralized-tag-registry-a-proof-of-concept-for-securing-web3/)
-  * [NFT registries](https://www.reddit.com/r/loopringorg/comments/srji2h/introducing\_kleros\_curated\_nft\_registry\_a\_work\_in/)
+* Contract metadata registries built with [**Kleros Curate**](../../../products/curate/)
+  * [Tokens registry](https://curate.kleros.io/tcr/100/0x70533554fe5c17CAf77fE530f77eAB933B92af60?ref=blog.kleros.io)
+  * [Address tags registry](https://curate.kleros.io/tcr/100/0x66260C69d03837016d88c9877e61e08Ef74C59F2?ref=blog.kleros.io)
+  * [Contract-Domain Name (CDN) registry](https://curate.kleros.io/tcr/100/0x957A53A994860BE4750810131d9c876b2f52d6E1?ref=blog.kleros.io)
+* [NFT registries](https://www.reddit.com/r/loopringorg/comments/srji2h/introducing\_kleros\_curated\_nft\_registry\_a\_work\_in/)
 * Identity registries
   * [**Proof-of-Humanity**](https://www.proofofhumanity.id/)
 
@@ -35,19 +36,19 @@ Following these steps in sequence will ensure that your integration is secure an
 
 Each curated registry of Kleros has a unique acceptance policy and field set for each entry onto the list. You can use one of the ready-made registries if it fits your needs. Otherwise, feel free to create your own list from scratch.&#x20;
 
-#### Using one of the existing registries
+#### 1.1 Using one of the existing registries
 
 The [main page](https://curate.kleros.io/) of Kleros Curate features a number of existing curated registries that have met certain quality standards in their policy and format. Note that the registries are specific to a chain, and you will see different lists on xDai/Gnosis chain than on Ethereum Mainnet.&#x20;
 
-A few of the most important lists are:
+A few of the most important lists that are related to contract security metadata are:
 
-1. Tokens registry (featured on the special subdomain: [tokens.kleros.io](https://tokens.kleros.io))
-2. Address tag registry ([xDai](https://curate.kleros.io/tcr/0x76944a2678A0954A610096Ee78E8CEB8d46d5922?chainId=100) and [ETH Mainnet](https://curate.kleros.io/tcr/0x6e31d83b0c696f7d57241d3dffd0f2b628d14c67?chainId=1) lists available, as mentioned [here](https://blog.kleros.io/the-kleros-decentralized-tag-registry-a-proof-of-concept-for-securing-web3/))
-3. NFT registries (only on xDai, as mentioned [here](https://mirror.xyz/mizu.eth/sc35WhEQfIC-UyXJd75AnEn2v0nTEJg31Ol5yL9palU))
+1. [Tokens registry](https://curate.kleros.io/tcr/100/0x70533554fe5c17CAf77fE530f77eAB933B92af60?ref=blog.kleros.io)&#x20;
+2. [Address tag registry](https://curate.kleros.io/tcr/100/0x66260C69d03837016d88c9877e61e08Ef74C59F2?ref=blog.kleros.io)&#x20;
+3. [Contract-Domain Name mappings](https://curate.kleros.io/tcr/100/0x957A53A994860BE4750810131d9c876b2f52d6E1?ref=blog.kleros.io)
 
 There is also the [Proof-of-Humanity project](https://www.proofofhumanity.id/), which is a Sybil resistant curated registry of real humans (linked to their ETH addresses) on the Ethereum blockchain.
 
-#### Creating your own TCR
+#### 1.2 Creating your own TCR
 
 If none of the lists mentioned in the links above suit your needs, feel free to create your own registry by following the instructions here:
 
@@ -61,11 +62,9 @@ Refer to the policy writing guide [here](../../policy-writing-guide.md) if you n
 
 ### 2. Determine the method for data retrieval
 
-We recommend using one of the subgraphs built using [The Graph's](https://thegraph.com/en/) technology to query for the information from the existing curated lists. Check out the endpoints available here:
+We recommend using one of the subgraphs built using [The Graph's](https://thegraph.com/en/) technology to query for the information one of the existing curated lists.&#x20;
 
 [interacting-with-arbitrable-app.md](interacting-with-arbitrable-app.md "mention")
-
-For Proof-of-Humanity, a more detailed technical integration guide is available [here on Github](https://gist.github.com/alcercu/703c118fa5d42c4d0163efdaed1d9ff6).
 
 ### 3. Build your frontend (if applicable)
 
@@ -80,7 +79,3 @@ Once all the above are done, it is time to communicate the involvement of Kleros
 3. Communicating the process for them to submit additional evidence and raise appeals (if supported).
 
 Once all the above are done, you are ready to go live with Kleros!&#x20;
-
-## Ready-made integrations
-
-_In progress ..._

@@ -71,7 +71,7 @@
       * [Escrow SDK](integrations/types-of-integrations/1.-dispute-resolution-integration-plan/integration-tools/escrow-sdk.md)
       * [Centralized Arbitrator](integrations/types-of-integrations/1.-dispute-resolution-integration-plan/integration-tools/centralized-arbitrator.md)
   * [2. Curated-data integration plan](integrations/types-of-integrations/2.-curated-data-integration-plan/README.md)
-    * [Interact with Arbitrable apps built on top of Kleros Court](integrations/types-of-integrations/2.-curated-data-integration-plan/interacting-with-arbitrable-app.md)
+    * [Retrieving information from Kleros Dapps](integrations/types-of-integrations/2.-curated-data-integration-plan/interacting-with-arbitrable-app.md)
 * [Policy writing guide](integrations/policy-writing-guide.md)
 * [Live & Upcoming Integrations](integrations/live-and-upcoming-integrations.md)
 * [Kleros Analytics](integrations/analytics.md)
