@@ -16,6 +16,6 @@ The Kleros Scout Snap utilises information from the following Kleros Curate regi
 
 * [**Address Tags registry**](https://curate.kleros.io/tcr/100/0x66260C69d03837016d88c9877e61e08Ef74C59F2) of verified project and name tag of contracts
 * [**Contract-Domain Name registry**](https://curate.kleros.io/tcr/100/0x957A53A994860BE4750810131d9c876b2f52d6E1) of verified contract-to-domain name pairings
-* [**Tokens registry**](https://curate.kleros.io/tcr/100/0x70533554fe5c17CAf77fE530f77eAB933B92af60) of ERC-20 tokens
+* [**Tokens registry**](https://curate.kleros.io/tcr/100/0xeE1502e29795Ef6C2D60F8D7120596abE3baD990) of ERC-20 tokens
 
 Install the Kleros Scout Plugin on the [**official Metamask Snaps Directory**](https://snaps.metamask.io/snap/npm/kleros/scout-snap/) today!&#x20;
