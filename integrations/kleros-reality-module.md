@@ -1,4 +1,4 @@
-# Kleros Snapshot Module
+# Kleros Reality Module
 
 From the Zodiac app within the Safe app, you can deploy a Kleros Snapshot Module. This is a wrapper of the already existing Reality Module, and will automatically deploy it using Kleros as arbitrator. This module is available in Mainnet, Gnosis Chain, and Polygon.
 
@@ -12,10 +12,10 @@ Click on _Kleros Snapshot Module_. If you can't see it, it might mean your safe 
 
 Fill in the information. Some guidelines:
 
-- _Timeout_ is a setting that affects the questions that will be created in Reality. An answer will be considered true if it remains unchanged during this period, unless called to arbitration.
-- _Cooldown_ is the period from the point the answer is final, to the point the transaction batch can be executed. This is used to prevent malicious answers that might have slipped through from causing immediate damage, by allowing potential victims to react. In order to prevent damage, parties using the Safe are expected to stay vigilant and regularly pay attention to questions created by this module, as anyone is able to create them, without going through a Snapshot proposal.
-- _Expiration_ is how long until an accepted transaction batch becomes too outdated to be executed.
-- _Bond_ is the minimum amount required to post an answer to a question. Keeping it large makes it more punishing to attackers. Remember this amount is denominated in the chain's native token.
+* _Timeout_ is a setting that affects the questions that will be created in Reality. An answer will be considered true if it remains unchanged during this period, unless called to arbitration.
+* _Cooldown_ is the period from the point the answer is final, to the point the transaction batch can be executed. This is used to prevent malicious answers that might have slipped through from causing immediate damage, by allowing potential victims to react. In order to prevent damage, parties using the Safe are expected to stay vigilant and regularly pay attention to questions created by this module, as anyone is able to create them, without going through a Snapshot proposal.
+* _Expiration_ is how long until an accepted transaction batch becomes too outdated to be executed.
+* _Bond_ is the minimum amount required to post an answer to a question. Keeping it large makes it more punishing to attackers. Remember this amount is denominated in the chain's native token.
 
 ### Monitoring
 
@@ -31,19 +31,19 @@ If you encountered this warning:
 
 it means one of the following:
 
-- The controller of the ENS is not the Safe.
-- You are not in Mainnet.
+* The controller of the ENS is not the Safe.
+* You are not in Mainnet.
 
 From here, you have two options. Most of the time, you will want to install SafeSnap manually.
 
 ### Have the Safe in control of the Snapshot Space
 
 This is only supported if you are in Mainnet.
- 
-- Don't do this if you're just testing.
-- Don't do this if you're planning on decentralizing later. You can do it later when you're ready.
-- Do this if you know what you're doing, and you want to decentralize immediately by removing all the signers of the Safe later.
-- This will cost more gas.
+
+* Don't do this if you're just testing.
+* Don't do this if you're planning on decentralizing later. You can do it later when you're ready.
+* Do this if you know what you're doing, and you want to decentralize immediately by removing all the signers of the Safe later.
+* This will cost more gas.
 
 To do this, go to [the ENS frontend](https://app.ens.domains/) and type the ENS in. The deployment will work if you just _Set_ the Controller of the ENS with the address of the Safe, but, if you want the Space to be fully in control of the Safe, and not in the control of anything else, you will need to _Transfer_ the ENS itself.
 
@@ -86,14 +86,14 @@ For reference, [here is a sample question created by the Reality Module](https:/
 
 If this _dao requirements record_ document does not exist, then it can be possible to resolve the question as _No_, since it is not possible to match the requirements of a document that does not exist. Alternatively, it could be resolve as _Yes_, since, if there are no requirements, that means there are also no restrictions.
 
-Questions can ultimately be applied for arbitration, by clicking _Apply for arbitration_ in Reality. This has a fixed cost, but parties that have already posted an answer might be incentivized to pay this cost, instead of posting a new answer and doubling the bond. This fixed arbitration cost can change depending on the chain. The [Terms of Service of the Kleros Arbitrator for Reality](https://ipfs.kleros.io/ipfs/QmXyo9M4Z2XY6Nw9UfuuUNzKXXNhvt24q6pejuN9RYWPMr/Reality_Module_Governance_Oracle-Question_Resolution_Policy.pdf) include some guidelines to limit the potential damage of not having set the `daorequirements` record, instructing the jurors to investigate the project, forum, etc, to find a reasonable frame of reference to find out these requirements, and assume some defaults if these requirements cannot be found. Still, this is a failsafe mechanism that should not be relied upon, at it can lead to different assumptions.
+Questions can ultimately be applied for arbitration, by clicking _Apply for arbitration_ in Reality. This has a fixed cost, but parties that have already posted an answer might be incentivized to pay this cost, instead of posting a new answer and doubling the bond. This fixed arbitration cost can change depending on the chain. The [Terms of Service of the Kleros Arbitrator for Reality](https://ipfs.kleros.io/ipfs/QmXyo9M4Z2XY6Nw9UfuuUNzKXXNhvt24q6pejuN9RYWPMr/Reality\_Module\_Governance\_Oracle-Question\_Resolution\_Policy.pdf) include some guidelines to limit the potential damage of not having set the `daorequirements` record, instructing the jurors to investigate the project, forum, etc, to find a reasonable frame of reference to find out these requirements, and assume some defaults if these requirements cannot be found. Still, this is a failsafe mechanism that should not be relied upon, at it can lead to different assumptions.
 
 In order to avoid this uncertainty, we advice adding a `daorequirements` record in the Snapshot Space ENS. To do so:
 
-- Create an acceptance document (plain text, pdf, anything is fine)
-- Proofread it to ensure it will not have unintended consequences. Kleros has experience writing policies and acceptance documents for subjective oracles, feel free to contact us if you want us to take a look.
-- Upload the document to IPFS.
-- Go to the [ENS frontend](https://app.ens.domains), access the ENS of the Snapshot Space, click on _Add/Edit Record_, and add a new record by selecting _text_ on the left selector, typing in _daorequirements_ in the right selector, and pasting the IPFS identifier.
+* Create an acceptance document (plain text, pdf, anything is fine)
+* Proofread it to ensure it will not have unintended consequences. Kleros has experience writing policies and acceptance documents for subjective oracles, feel free to contact us if you want us to take a look.
+* Upload the document to IPFS.
+* Go to the [ENS frontend](https://app.ens.domains), access the ENS of the Snapshot Space, click on _Add/Edit Record_, and add a new record by selecting _text_ on the left selector, typing in _daorequirements_ in the right selector, and pasting the IPFS identifier.
 
 ![image](https://user-images.githubusercontent.com/128833886/229306507-035eb088-1806-40a6-a65b-957340fd0a04.png)
 
@@ -117,6 +117,14 @@ You can handle it directly from Snapshot, or go to Reality by clicking _Question
 
 When the question is finally resolved, execution will not be able to start until the _Cooldown period_ passes. When it passes, you can use Snapshot to execute. Open the proposal that was accepted, and on the SafeSnap plugin on the bottom, you can execute the transaction.
 
+## Legal entity for your DAO
+
+After activating a Zodiac Reality module, you may consider establishing a legal entity in jurisdictions that enable your DAO to manage a real-world legal entity. This step is beneficial for managing real-world assets and participating in legal contracts.
+
+To facilitate this, we recommend consulting with one of our partners who specialize in these arrangements:
+
+* [OtoCo](https://otoco.io/spinup)
+
 ## Further Information
 
-You can check [Zodiac Intergration](./zodiac-integration.md) and [How to use Reality and Kleros as an Oracle](./types-of-integrations/1.-dispute-resolution-integration-plan/channel-partners/how-to-use-reality.eth-+-kleros-as-an-oracle.md).
+You can check [Zodiac Intergration](zodiac-integration.md) and [How to use Reality and Kleros as an Oracle](types-of-integrations/1.-dispute-resolution-integration-plan/channel-partners/how-to-use-reality.eth-+-kleros-as-an-oracle.md).
