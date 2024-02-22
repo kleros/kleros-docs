@@ -12,7 +12,7 @@ Step 2: Head to [https://contract-insight-snap.kleros.builders/](https://contrac
 
 Step 3: Search for _**@kleros/scout-snap**_
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 Step 4: Install _**@kleros/scout-snap**!_ It’s that easy :)
 
