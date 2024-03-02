@@ -6,7 +6,7 @@ description: Kleros Court cases that made history
 
 ## 1/ Case #532 - 2020 US Presidential Election Omen Market
 
-[Case #532 results](https://klerosboard.com/#/1/cases/532)
+[Case #532 results](https://klerosboard.com/1/cases/532)
 
 ![](<../../.gitbook/assets/image (72).png>)
 
@@ -32,7 +32,7 @@ Learn all about it by opening the Twitter thread below:
 
 ## 2/ Case #302 - Number of US COVID Deaths Omen Market
 
-[Case #302 results](https://klerosboard.com/#/1/cases/302)
+[Case #302 results](https://klerosboard.com/1/cases/302)
 
 ![](<../../.gitbook/assets/image (43).png>)
 
@@ -57,7 +57,7 @@ Learn all about it by opening the Twitter thread below:
 
 ## 3/ Case #16/#62/#89 - Listing of Baer token on Ethfinex
 
-[Case #16](https://klerosboard.com/#/1/cases/16)/[#62](https://klerosboard.com/#/1/cases/62)/[#89 Results](https://klerosboard.com/#/1/cases/89)
+[Case #16](https://klerosboard.com/1/cases/16)/[#62](https://klerosboard.com/1/cases/62)/[#89 Results](https://klerosboard.com/1/cases/89)
 
 ![](<../../.gitbook/assets/image (46).png>)
 
@@ -81,7 +81,7 @@ Baer Chain was then classified as a Ponzi scheme by the Chinese government a few
 
 ## 4/ Case #554 - Registration of Kevin Owocki to Proof of Humanity
 
-[Case #554 Results](https://klerosboard.com/#/1/cases/554)
+[Case #554 Results](https://klerosboard.com/1/cases/554)
 
 ![](<../../.gitbook/assets/image (62).png>)
 
@@ -103,7 +103,7 @@ Proof of Humanity is a Sybil-resistant list of humans using social vouching and 
 
 ## 5/ Case #82 - Listing of Grid+ token on Ethfinex
 
-[Case #82 Results](https://klerosboard.com/#/1/cases/82)
+[Case #82 Results](https://klerosboard.com/1/cases/82)
 
 ![](<../../.gitbook/assets/image (55).png>)
 
@@ -121,7 +121,7 @@ Kleros Tokens registry was used at the time to curate tokens to be listed on the
 
 ## 6/ Case #92 - "Is this a Doge or a cat in the snow?"
 
-[Case #92 results](https://klerosboard.com/#/1/cases/92)
+[Case #92 results](https://klerosboard.com/1/cases/92)
 
 ![](<../../.gitbook/assets/image (70).png>)
 
