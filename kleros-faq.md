@@ -91,7 +91,7 @@ Jurors should not stake using a smart contract account specifically in **courts 
 
 ### I have been drawn to rule on a dispute, can I recuse myself from the case without penalty?&#x20;
 
-Jurors drawn for a dispute must participate and cannot recuse themselves. However, they can opt for a “Refuse to Arbitrate” vote under specific conditions (see below).&#x20;
+Jurors drawn for a dispute must participate and cannot recuse themselves. However, they can opt for a “Refuse to Arbitrate” vote under specific conditions, more details on this [below](kleros-faq.md#when-should-i-vote-refuse-to-arbitrate).&#x20;
 
 Allowing jurors to recuse themselves would disrupt the balance of dispute resolution costs, which are intended to be competitive and fair, particularly in complex cases. These complex disputes demand the most from jurors, and abstention could compromise the integrity of outcomes, potentially lowering the bar for influencing decisions and thereby worsening the quality of rulings in challenging cases.
 
