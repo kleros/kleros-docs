@@ -89,6 +89,22 @@ Yes, it’s possible to create an arbitrable smart contract that uses Kleros for
 
 Jurors should not stake using a smart contract account specifically in **courts where hiddenVotes are enabled** - this is because the frontend is currently unable to verify the signature. At the moment, the courts which have hiddenVotes enabled are the **General Court on Gnosis Chain** and the **Spanish General Court on both Ethereum Mainnet and Gnosis Chain.**
 
+### I have been drawn to rule on a dispute, can I recuse myself from the case without penalty?&#x20;
+
+Jurors drawn for a dispute must participate and cannot recuse themselves. However, they can opt for a “Refuse to Arbitrate” vote under specific conditions (see below).&#x20;
+
+Allowing jurors to recuse themselves would disrupt the balance of dispute resolution costs, which are intended to be competitive and fair, particularly in complex cases. These complex disputes demand the most from jurors, and abstention could compromise the integrity of outcomes, potentially lowering the bar for influencing decisions and thereby worsening the quality of rulings in challenging cases.
+
+### **When should I vote "Refuse to Arbitrate" ?**
+
+There are situations where a juror should vote “Refuse to Arbitrate”:
+
+* If the General Court guidelines indicate so. For instance, the General Court guidelines may mandate refusal to arbitrate when both parties in the dispute have engaged in immoral activities, such as in an assassination market dispute.
+* If the specific court or sub-court’s guidelines indicate so. For example, if your case falls under the French-English translation court, its guidelines may indicate that if the disputed content is significant in size and the disputing parties fail to specify the disputed parts, jurors should refuse to arbitrate.
+* If the policy applicable to the case indicate so.
+
+You can easily access the court’s guidelines and the applicable policies on the case details page. As a juror, it is essential to review all the relevant documents to vote accurately.
+
 ### If parties can also be jurors, doesn't this pose a conflict of interest? / How can you ensure the jurors are perfectly impartial?
 
 The procedure for random selection of jurors among those who staked tokens in a subcourt makes it extremely hard to be selected on purpose as a juror for a case you are involved in.
