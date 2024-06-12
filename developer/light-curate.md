@@ -16,7 +16,8 @@ This section will be devided into 3 sections:
 
 We use a view contract to fetch all the relevant information at once. Deployments:
 
-* Kovan: `0x2dba4b729cb5f73bf85e7012ea99aa477a210dd6`
+
+* Gnosis: `0x08e58Bc26CFB0d346bABD253A1799866F269805a` ([source](https://github.com/kleros/gtcr-subgraph/blob/master/networks.json))
 
 > Note: If you are using react, you can take the hook we built [here](https://github.com/kleros/gtcr/blob/5e313ced24f5e3fc3a54f812e07fb1f86a6b2621/src/hooks/tcr-view.js) or use it as an example.
 
@@ -247,22 +248,22 @@ const tx = await gtcr.addItem(ipfsEvidencePath, {
 
 > We break down this section into two as list views and details view have different requirements.
 
-Fetchin items is best done via the subgraph we provide. If you deployed an list using the factory, it already has a subgraph deployed and available \(here\)\[[https://thegraph.com/explorer/subgraph/kleros/light-curate-kovan](https://thegraph.com/explorer/subgraph/kleros/light-curate-kovan)\].
+Fetchin items is best done via the subgraph we provide. If you deployed an list using the factory, it already has a subgraph deployed and available [here](https://thegraph.com/explorer/subgraphs/9hHo5MpjpC1JqfD3BsgFnojGurXRHTrHWcUcZPPCo6m8?view=Query&chain=arbitrum-one).
 
 #### List
 
 Whenever we want to fetch items, or a specific item, we must pass the TCR address to the subgraph.
 
-See \(this react example\)\[[https://github.com/kleros/gtcr/blob/5e313ced24f5e3fc3a54f812e07fb1f86a6b2621/src/pages/items/index.js](https://github.com/kleros/gtcr/blob/5e313ced24f5e3fc3a54f812e07fb1f86a6b2621/src/pages/items/index.js)\] for more details.
+See [this react example](https://github.com/kleros/gtcr/blob/5e313ced24f5e3fc3a54f812e07fb1f86a6b2621/src/pages/items/index.js) for more details.
 
 A standard query for the first page of a given list, ordered by the most recent requests, looks like this.
 
-```text
+```javascript
 const ITEMS_PER_PAGE = 40
 const orderDirection = 'asc'
 const page = 1
 const itemsWhere = `{ registry: "${tcrAddress.toLowerCase()}" }`
-const GTCR_SUBGRAPH_URL='https://api.thegraph.com/subgraphs/name/kleros/light-curate-kovan'
+const GTCR_SUBGRAPH_URL=`https://gateway-arbitrum.network.thegraph.com/api/${YOUR_API_KEY}/subgraphs/id/9hHo5MpjpC1JqfD3BsgFnojGurXRHTrHWcUcZPPCo6m8` // You need to replace with your API key
 const query = {
   query: `
       {
