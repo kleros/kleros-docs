@@ -79,6 +79,51 @@ const pinFiles = async (
   }
   return [cids, inconsistentCids];
 };
+
+
+/**
+ * Send file to IPFS network via The Graph hosted IPFS node
+ * @param data - The raw data from the file to upload.
+ * @returns  ipfs response. Should include the hash and path of the stored item.
+ */
+export const publishToGraph = async (fileName, data) => {
+  const url = `${process.env.GRAPH_IPFS_ENDPOINT}/api/v0/add?wrap-with-directory=true`;
+
+  const payload = new FormData();
+  payload.append("file", new Blob([data]), fileName);
+
+  const response = await fetch(url, {
+    method: "POST",
+    body: payload,
+  });
+
+  if (!response.ok) {
+    throw new Error(
+      `HTTP error! status: ${response.status}, Failed to pin to graph`
+    );
+  }
+
+  const result = parseNewlineSeparatedJSON(await response.text());
+
+  return result.map(({ Name, Hash }) => ({
+    hash: Hash,
+    path: `/${Name}`,
+  }));
+};
+
+/**
+ * @description parses json from stringified json's seperated by new line
+ */
+const parseNewlineSeparatedJSON = (text) => {
+  const lines = text.trim().split("\n");
+  return lines.map((line) => JSON.parse(line));
+};
+
+export const areCidsConsistent = (filebaseCid, graphResult) => {
+  const graphCid = graphResult[1].hash;
+  return graphCid === filebaseCid;
+};
+
 ```
 
 The JSON file for the object is composed of the its metadata and fields.
@@ -162,7 +207,7 @@ const tx = await gtcr.addItem(ipfsEvidencePath, {
 
 > We break down this section into two as list views and details view have different requirements.
 
-Fetchin items is best done via the subgraph we provide. If you deployed an list using the factory, it already has a subgraph deployed and available [here](https://thegraph.com/explorer/subgraphs/9hHo5MpjpC1JqfD3BsgFnojGurXRHTrHWcUcZPPCo6m8?view=Query&chain=arbitrum-one).
+Fetching items is best done via the subgraph we provide. If you deployed a list using the factory, it already has a subgraph deployed and available [here](https://thegraph.com/explorer/subgraphs/9hHo5MpjpC1JqfD3BsgFnojGurXRHTrHWcUcZPPCo6m8?view=Query&chain=arbitrum-one).
 
 #### List
 
