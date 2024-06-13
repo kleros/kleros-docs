@@ -193,9 +193,7 @@ With this in hand we can submit the item.
 const gtcr = new ethers.Contract(tcrAddress, _gtcr, signer)
 const enc = new TextEncoder()
 const fileData = enc.encode(JSON.stringify({ columns, values }))
-const ipfsEvidenceObject = await ipfsPublish('item.json', fileData)
-const ipfsEvidencePath = `/ipfs/${ipfsEvidenceObject[1].hash +
-    ipfsEvidenceObject[0].path}`
+const ipfsEvidencePath = await ipfsPublish('item.json', fileData)
 
 // Request signature and submit.
 const tx = await gtcr.addItem(ipfsEvidencePath, {
@@ -236,8 +234,10 @@ const query = {
           itemID
           status
           data
-          props {
-              value
+          metadata{
+              props {
+               value
+             }
           }
           requests(first: 1, orderBy: submissionTime, orderDirection: desc) {
             disputed
@@ -264,6 +264,9 @@ const query = {
   const { data, errors } = await (
     await fetch(GTCR_SUBGRAPH_URL, {
         method: 'POST',
+        headers: {
+          'Content-Type': "application/json",
+        },
         body: JSON.stringify(query)
     })
   ).json()
