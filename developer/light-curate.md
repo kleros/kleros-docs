@@ -211,7 +211,7 @@ Fetching items is best done via the subgraph we provide. If you deployed a list 
 
 Whenever we want to fetch items, or a specific item, we must pass the TCR address to the subgraph.
 
-See [this react example](https://github.com/kleros/gtcr/blob/5e313ced24f5e3fc3a54f812e07fb1f86a6b2621/src/pages/items/index.js) for more details.
+See [this react example](https://github.com/kleros/gtcr/blob/7995e3de0a740dc1056a03a68a34185ac71d8909/src/utils/graphql/light-items.js#L29-L37) for more details.
 
 A standard query for the first page of a given list, ordered by the most recent requests, looks like this.
 
