@@ -31,7 +31,7 @@ Since we use `@graphprotocol/graph-ts` we must submit items to its ipfs endpoint
 
 Full example [here](https://github.com/kleros/gtcr/blob/5e313ced24f5e3fc3a54f812e07fb1f86a6b2621/src/utils/ipfs-publish.js)
 
-```text
+```bash
 REACT_APP_IPFS_GATEWAY=https://cdn.kleros.link
 REACT_APP_HOSTED_GRAPH_IPFS_ENDPOINT=https://api.thegraph.com/ipfs
 ```
@@ -135,7 +135,7 @@ The metadata is available inside the meta evidence file, which is returned by th
 
 Example of columns used by the TCR at
 
-```text
+```json
 [
   {
     "label": "Logo",
@@ -176,7 +176,7 @@ Example of columns used by the TCR at
 
 And an example of values. Note that it is required for the keys to match the column names in the columns object.
 
-```text
+```json
 {
   "Logo": "/ipfs/QmT4vij3PrGZEQ1zarTrPmkqQWggRQN6VEpewSHJXbkeXh/pnk-logo.png",
   "Name": "Pinakion",
@@ -189,7 +189,7 @@ And an example of values. Note that it is required for the keys to match the col
 
 With this in hand we can submit the item.
 
-```text
+```typescript
 const gtcr = new ethers.Contract(tcrAddress, _gtcr, signer)
 const enc = new TextEncoder()
 const fileData = enc.encode(JSON.stringify({ columns, values }))

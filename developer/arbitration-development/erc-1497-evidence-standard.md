@@ -114,7 +114,7 @@ The fields in this MetaEvidence JSON are as follows:
 
 Here's an example of a MetaEvidence JSON:&#x20;
 
-```
+```json
 {
   "category": "Insurance",
   "title": "Unslashed insurance claim",
@@ -159,7 +159,7 @@ When loading the iframe, the `evidenceDisplayInterfaceURI` will be called with a
 
 Here is an example of the URL with query string used by the iframe on the Arbitrator interface:
 
-```
+```typescript
 // URL decoded example for readability
 https://ipfs.kleros.io/ipfs/QmSL8d82dMhcThwERWaF4LtmCa4hgV7TyPjAo4fKCzPVkv/index.html?{"disputeID":"1500","chainID":1,"arbitratorContractAddress":"0x988b3a538b618c7a603e1c11ab82cd16dbe28069","arbitratorJsonRpcUrl":"https://eth-mainnet.alchemyapi.io/v2/uL6wnCNAu31Wh7c5P5NWPwD-ZYc2LTKh","arbitratorChainID":1,"arbitrableContractAddress":"0xC5E9dDebb09Cd64DfaCab4011A0D5cEDaf7c9BDb","arbitrableChainID":1,"arbitrableJsonRpcUrl":"https://eth-mainnet.alchemyapi.io/v2/uL6wnCNAu31Wh7c5P5NWPwD-ZYc2LTKh","jsonRpcUrl":"https://eth-mainnet.alchemyapi.io/v2/uL6wnCNAu31Wh7c5P5NWPwD-ZYc2LTKh"}
 ```
@@ -172,7 +172,7 @@ Pro-tip: To avoid having to create a new MetaEvidence JSON and pin it to IPFS pr
 
 It is also essential in many types of disputes that the participants have a chance to show their viewpoint and give reasons why they believe they are right. Therefore there needs to be a way for an Arbitrator to receive Evidence. The Evidence JSON file includes the following properties:
 
-```
+```json
 {
 	"fileURI": "/ipfs/QmWQV5ZFFhEJiW8Lm7ay2zLxC2XS4wx1b2W7FfdrLMyQQc",
 	"fileHash": "QmWQV5ZFFhEJiW8Lm7ay2zLxC2XS4wx1b2W7FfdrLMyQQc",	

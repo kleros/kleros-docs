@@ -6,7 +6,7 @@ description: A class that lets you create and manage Kleros Escrow transactions.
 
 This class lets you create and manage Kleros Escrow transactions. Use this Kleros Escrow SDK to easily integrate on-chain escrow features on your platform.
 
-```
+```shell
 npm i @kleros/components
 ```
 

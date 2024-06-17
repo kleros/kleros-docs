@@ -65,7 +65,7 @@ In `realityAddress`, paste in the address of the Reality Module. You can find th
 
 For the field `umaAddress`, you can either ignore it or remove the line. Check the sample config below for a deployment on Mainnet.
 
-```
+```json
 {
   "safes": [
     {
