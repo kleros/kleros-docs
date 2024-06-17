@@ -16,7 +16,8 @@ This section will be devided into 3 sections:
 
 We use a view contract to fetch all the relevant information at once. Deployments:
 
-* Kovan: `0x2dba4b729cb5f73bf85e7012ea99aa477a210dd6`
+
+* Gnosis: `0x08e58Bc26CFB0d346bABD253A1799866F269805a` ([source](https://github.com/kleros/gtcr-subgraph/blob/master/networks.json))
 
 > Note: If you are using react, you can take the hook we built [here](https://github.com/kleros/gtcr/blob/5e313ced24f5e3fc3a54f812e07fb1f86a6b2621/src/hooks/tcr-view.js) or use it as an example.
 
@@ -31,139 +32,98 @@ Since we use `@graphprotocol/graph-ts` we must submit items to its ipfs endpoint
 Full example [here](https://github.com/kleros/gtcr/blob/5e313ced24f5e3fc3a54f812e07fb1f86a6b2621/src/utils/ipfs-publish.js)
 
 ```text
-REACT_APP_IPFS_GATEWAY=https://ipfs.kleros.io
+REACT_APP_IPFS_GATEWAY=https://cdn.kleros.link
 REACT_APP_HOSTED_GRAPH_IPFS_ENDPOINT=https://api.thegraph.com/ipfs
 ```
 
 #### Upload and Transaction
 
-```text
-// ipfs-publish.js
+```typescript
+const pinFiles = async (
+  data: FormData,
+  pinToGraph: boolean
+): Promise<
+  [Array<string>, Array<{ filebaseCid: string; graphCid: string }>]
+> => {
+  const cids = new Array<string>();
+  // keep track in case some cids are inconsistent
+  const inconsistentCids = new Array<{
+    filebaseCid: string;
+    graphCid: string;
+  }>();
 
-import deepEqual from 'fast-deep-equal/es6'
+  for (const [_, dataElement] of Object.entries(data)) {
+    if (dataElement.isFile) {
+      const { filename, mimeType, content } = dataElement;
+      const path = `${filename}`;
+      const cid = await filebase.storeDirectory([
+        new File([content], path, { type: mimeType }),
+      ]);
 
-const mirroredExtensions = ['.json']
+      if (pinToGraph) {
+        const graphResult = await publishToGraph(filename, content);
+        if (!areCidsConsistent(cid, graphResult)) {
+          console.warn("Inconsistent cids from Filebase and Graph Node :", {
+            filebaseCid: cid,
+            graphCid: graphResult[1].hash,
+          });
+          inconsistentCids.push({
+            filebaseCid: cid,
+            graphCid: graphResult[1].hash,
+          });
+        }
+      }
 
-/**
- * Send file to IPFS network.
- * @param {string} fileName - The name that will be used to store the file. This is useful to preserve extension type.
- * @param {ArrayBuffer} data - The raw data from the file to upload.
- * @returns {object} ipfs response. Should include the hash and path of the stored item.
- */
-export default async function ipfsPublish(fileName, data) {
-  if (!mirroredExtensions.some(ext => fileName.endsWith(ext)))
-    return publishToKlerosNode(fileName, data)
-
-  const [klerosResult, theGraphResult] = await Promise.all([
-    publishToKlerosNode(fileName, data),
-    publishToTheGraphNode(fileName, data),
-    // Pin to your own ipfs node here as well.
-  ])
-
-  if (!deepEqual(klerosResult, theGraphResult)) {
-    console.warn('IPFS upload result is different:', {
-      kleros: klerosResult,
-      theGraph: theGraphResult
-    })
-    throw new Error('IPFS upload result is different.')
-  }
-
-  return klerosResult
-}
-
-/**
- * Send file to IPFS network via the Kleros IPFS node
- * @param {string} fileName - The name that will be used to store the file. This is useful to preserve extension type.
- * @param {ArrayBuffer} data - The raw data from the file to upload.
- * @returns {object} ipfs response. Should include the hash and path of the stored item.
- */
-async function publishToKlerosNode(fileName, data) {
-  const buffer = await Buffer.from(data)
-  const url = `${process.env.REACT_APP_IPFS_GATEWAY}/add`
-
-  const response = await fetch(url, {
-    method: 'POST',
-    body: JSON.stringify({
-      fileName,
-      buffer
-    }),
-    headers: {
-      'content-type': 'application/json'
+      cids.push(`/ipfs/${cid}/${path}`);
     }
-  })
+  }
+  return [cids, inconsistentCids];
+};
 
-  const body = await response.json()
-
-  return body.data
-}
 
 /**
  * Send file to IPFS network via The Graph hosted IPFS node
- * @param {string} fileName - The name that will be used to store the file. This is useful to preserve extension type.
- * @param {ArrayBuffer} data - The raw data from the file to upload.
- * @returns {object} ipfs response. Should include the hash and path of the stored item.
+ * @param data - The raw data from the file to upload.
+ * @returns  ipfs response. Should include the hash and path of the stored item.
  */
-async function publishToTheGraphNode(fileName, data) {
-  const url = `${process.env.REACT_APP_HOSTED_GRAPH_IPFS_ENDPOINT}/api/v0/add?wrap-with-directory=true`
+export const publishToGraph = async (fileName, data) => {
+  const url = `${process.env.GRAPH_IPFS_ENDPOINT}/api/v0/add?wrap-with-directory=true`;
 
-  const payload = new FormData()
-  payload.append('file', new Blob([data]), fileName)
+  const payload = new FormData();
+  payload.append("file", new Blob([data]), fileName);
 
   const response = await fetch(url, {
-    method: 'POST',
-    body: payload
-  })
+    method: "POST",
+    body: payload,
+  });
 
-  const result = await jsonStreamToPromise(response.body)
+  if (!response.ok) {
+    throw new Error(
+      `HTTP error! status: ${response.status}, Failed to pin to graph`
+    );
+  }
+
+  const result = parseNewlineSeparatedJSON(await response.text());
 
   return result.map(({ Name, Hash }) => ({
     hash: Hash,
-    path: `/${Name}`
-  }))
-}
+    path: `/${Name}`,
+  }));
+};
 
 /**
- * Accumulates a JSON stream body into an array of JSON objects.
- * @param {ReadableStream} stream The stream to read from.
- * @returns {Promise<any>} An array of all JSON objects emitted by the stream.
+ * @description parses json from stringified json's seperated by new line
  */
-async function jsonStreamToPromise(stream) {
-  const reader = stream.getReader()
-  const decoder = new TextDecoder('utf-8')
+const parseNewlineSeparatedJSON = (text) => {
+  const lines = text.trim().split("\n");
+  return lines.map((line) => JSON.parse(line));
+};
 
-  const deferred = {
-    resolve: undefined,
-    reject: undefined
-  }
+export const areCidsConsistent = (filebaseCid, graphResult) => {
+  const graphCid = graphResult[1].hash;
+  return graphCid === filebaseCid;
+};
 
-  const result = new Promise((resolve, reject) => {
-    deferred.resolve = resolve
-    deferred.reject = reject
-  })
-
-  const acc = []
-  const start = async () => {
-    reader
-      .read()
-      .then(({ done, value }) => {
-        if (done) return deferred.resolve(acc)
-
-        // Each `read` can produce one or more lines...
-        const lines = decoder.decode(value).split(/\n/)
-        const objects = lines
-          .filter(line => line.trim() !== '')
-          .map(line => JSON.parse(line))
-        acc.push(...objects)
-
-        return start()
-      })
-      .catch(err => deferred.reject(err))
-  }
-
-  start()
-
-  return result
-}
 ```
 
 The JSON file for the object is composed of the its metadata and fields.
@@ -233,9 +193,7 @@ With this in hand we can submit the item.
 const gtcr = new ethers.Contract(tcrAddress, _gtcr, signer)
 const enc = new TextEncoder()
 const fileData = enc.encode(JSON.stringify({ columns, values }))
-const ipfsEvidenceObject = await ipfsPublish('item.json', fileData)
-const ipfsEvidencePath = `/ipfs/${ipfsEvidenceObject[1].hash +
-    ipfsEvidenceObject[0].path}`
+const ipfsEvidencePath = await ipfsPublish('item.json', fileData)
 
 // Request signature and submit.
 const tx = await gtcr.addItem(ipfsEvidencePath, {
@@ -247,22 +205,22 @@ const tx = await gtcr.addItem(ipfsEvidencePath, {
 
 > We break down this section into two as list views and details view have different requirements.
 
-Fetchin items is best done via the subgraph we provide. If you deployed an list using the factory, it already has a subgraph deployed and available \(here\)\[[https://thegraph.com/explorer/subgraph/kleros/light-curate-kovan](https://thegraph.com/explorer/subgraph/kleros/light-curate-kovan)\].
+Fetching items is best done via the subgraph we provide. If you deployed a list using the factory, it already has a subgraph deployed and available [here](https://thegraph.com/explorer/subgraphs/9hHo5MpjpC1JqfD3BsgFnojGurXRHTrHWcUcZPPCo6m8?view=Query&chain=arbitrum-one).
 
 #### List
 
 Whenever we want to fetch items, or a specific item, we must pass the TCR address to the subgraph.
 
-See \(this react example\)\[[https://github.com/kleros/gtcr/blob/5e313ced24f5e3fc3a54f812e07fb1f86a6b2621/src/pages/items/index.js](https://github.com/kleros/gtcr/blob/5e313ced24f5e3fc3a54f812e07fb1f86a6b2621/src/pages/items/index.js)\] for more details.
+See [this react example](https://github.com/kleros/gtcr/blob/7995e3de0a740dc1056a03a68a34185ac71d8909/src/utils/graphql/light-items.js#L29-L37) for more details.
 
 A standard query for the first page of a given list, ordered by the most recent requests, looks like this.
 
-```text
+```typescript
 const ITEMS_PER_PAGE = 40
 const orderDirection = 'asc'
 const page = 1
 const itemsWhere = `{ registry: "${tcrAddress.toLowerCase()}" }`
-const GTCR_SUBGRAPH_URL='https://api.thegraph.com/subgraphs/name/kleros/light-curate-kovan'
+const GTCR_SUBGRAPH_URL=`https://gateway-arbitrum.network.thegraph.com/api/${YOUR_API_KEY}/subgraphs/id/9hHo5MpjpC1JqfD3BsgFnojGurXRHTrHWcUcZPPCo6m8` // You need to replace with your API key
 const query = {
   query: `
       {
@@ -276,8 +234,10 @@ const query = {
           itemID
           status
           data
-          props {
-              value
+          metadata{
+              props {
+               value
+             }
           }
           requests(first: 1, orderBy: submissionTime, orderDirection: desc) {
             disputed
@@ -304,6 +264,9 @@ const query = {
   const { data, errors } = await (
     await fetch(GTCR_SUBGRAPH_URL, {
         method: 'POST',
+        headers: {
+          'Content-Type': "application/json",
+        },
         body: JSON.stringify(query)
     })
   ).json()
@@ -313,7 +276,7 @@ const query = {
 
 If you want, you can also use apollo to cache queries and make the app load faster.
 
-```text
+```typescript
 const ITEM_DETAILS_QUERY = gql`
   query itemDetailsQuery($id: String!) {
     item(id: $id) {

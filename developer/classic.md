@@ -20,7 +20,7 @@ The status quo is that central parties get to write the law \(listing criteria\)
 
 Kleros provides an SDK to ease integration:
 
-```text
+```shell
 npm add @kleros/gtcr-sdk
 ```
 
@@ -32,7 +32,7 @@ Example: [https://codesandbox.io/s/elastic-frog-d5w32](https://codesandbox.io/s/
 
 Curate uses a factory contract to deploy and keep track of TCRs. To fetch a list of addresses of GTCRs you just have to provide the factory address:
 
-```text
+```typescript
 // The GTCR factory contract on mainnet is located at: 0xe9dd523600b74b8ef0af164687079a6c437f9cd5
 import { GTCRFactory } from "@kleros/gtcr-sdk";
 
@@ -53,13 +53,13 @@ You can find a react example at [https://codesandbox.io/s/inspiring-jackson-0nx0
 
 To get information on a single item, use the `getItem` function of the `GeneralizedTCR` class:
 
-```text
+```typescript
 import { GTCRFactory } from "@kleros/gtcr-sdk";
 
 // This example assumes you have an injected provider
 // (e.g. Metamask) set to mainnet.
 const GTCR_VIEW_ADDRESS = "0x98f1309f96044000174a89c2a0e2001ea5d7a524";
-const IPFS_GATEWAY = "https://ipfs.kleros.io";
+const IPFS_GATEWAY = "https://cdn.kleros.link";
 
 const LIST_ADDRESS = "0x99A0f0e0d9Ee776D791D2E55c215d05ccF7286fC"; // List of stories for the kleros storytelling program.
 const DEPLOYMENT_BLOCK = 10247266; // Optional, but recommended. Setting the deployment block speeds up requests.
@@ -87,13 +87,13 @@ You can find a react example at [https://codesandbox.io/s/great-frog-rti1f](http
 
 You can fetch items from a list using the `getItems` method of the `GeneralizedTCR` class. This will return an array of items with the latest request information:
 
-```text
+```typescript
 import { GTCRFactory } from "@kleros/gtcr-sdk";
 
 // This example assumes you have an injected provider
 // (e.g. Metamask) set to mainnet.
 const GTCR_VIEW_ADDRESS = "0x98f1309f96044000174a89c2a0e2001ea5d7a524";
-const IPFS_GATEWAY = "https://ipfs.kleros.io";
+const IPFS_GATEWAY = "https://cdn.kleros.link";
 
 const LIST_ADDRESS = "0x99A0f0e0d9Ee776D791D2E55c215d05ccF7286fC"; // List of stories for the kleros storytelling program.
 const DEPLOYMENT_BLOCK = 10247266; // Optional, but recommended. Setting the deployment block speeds up requests.
@@ -118,7 +118,7 @@ You can find a React example at: [https://codesandbox.io/s/elastic-frog-d5w32](h
 
 The address of a GTCR by itself is not very useful for building, UIs. Usually we need other information such as the list name, description, logo etc. This data is stored inside the `metadata` field inside the meta evidence file. You can use the `getLatestMetaEvidence` to get the file like so:
 
-```text
+```typescript
 const gtcr = new GeneralizedTCR(
     window.ethereum,
     LIST_ADDRESS,
@@ -130,11 +130,9 @@ const gtcr = new GeneralizedTCR(
   const [registrationMetaEvidence, removalMetaEvidence] = (await gtcr.getLatestMetaEvidence())
 
   // Both removal and registration meta evidence contain the same `metadata`.
-
   console.info(registrationMetaEvidence.metadata)
 
   // Outputs
-
   {
     tcrTitle: string        // The list title.
     tcrDescription: string  // The list description.
@@ -147,8 +145,6 @@ const gtcr = new GeneralizedTCR(
     relTcrDisabled: boolean    // Whether the badges TCR is enabled.
   }
 ```
-
-Example [https://codesandbox.io/s/kind-banach-4fxnj](https://codesandbox.io/s/kind-banach-4fxnj)
 
 > For more information on meta evidence files, see [EIP-792](https://github.com/ethereum/EIPs/issues/792) and [erc-792 docs](https://developer.kleros.io/en/latest/)introduction.html.
 
