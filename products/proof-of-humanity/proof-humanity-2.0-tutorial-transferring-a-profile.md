@@ -1,5 +1,5 @@
 ---
-description: How to tranfer a profile to another chain
+description: How to transfer a profile to another chain
 ---
 
 # Proof Humanity 2.0 Tutorial ( Transferring a Profile)
@@ -10,7 +10,7 @@ PoH ID is live on both Ethereum mainnet and Gnosis chain, and you have the optio
 
 <figure><img src="../../.gitbook/assets/Transfer.png" alt=""><figcaption><p>a sample from a Sepolia testnet profile</p></figcaption></figure>
 
-* A tranfer prompt will then appear for a reminder and to confirm your transfer request.
+* A transfer prompt will then appear for a reminder and to confirm your transfer request.
 
 <figure><img src="../../.gitbook/assets/Transfer prompt.png" alt=""><figcaption></figcaption></figure>
 

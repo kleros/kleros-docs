@@ -6,7 +6,7 @@ description: >-
 
 # Proof Humanity 2.0 Tutorial (Remove & Challenge)
 
-❓ Check out the [FAQ ](https://kleros.gitbook.io/docs/products/proof-of-humanity/poh-faq)or [Part 1 of the PoH Tutorial](https://kleros.gitbook.io/docs/products/proof-of-humanity/proof-of-humanity-tutorial) if you don't find your answer here.
+❓ Check out the [FAQ ](https://kleros.gitbook.io/docs/products/proof-of-humanity/poh-faq)or [Part 1 of the PoH Tutorial](https://kleros.gitbook.io/docs/products/proof-of-humanity/proof-of-humanity-tutorial) if you don't find your answers here.
 
 {% tabs %}
 {% tab title="5/ Challenge a claim" %}
