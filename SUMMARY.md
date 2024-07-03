@@ -18,6 +18,8 @@
   * [Proof of Humanity Tutorial (Register & Vouch)](products/proof-of-humanity/proof-of-humanity-tutorial.md)
   * [Proof Humanity Tutorial (Remove & Challenge)](products/proof-of-humanity/proof-humanity-tutorial-remove-and-challenge.md)
   * [Proof of Humanity FAQ](products/proof-of-humanity/poh-faq.md)
+  * [Proof Humanity 2.0 Tutorial (Remove & Challenge)](products/proof-of-humanity/proof-humanity-2.0-tutorial-remove-and-challenge.md)
+  * [Proof Humanity 2.0 Tutorial ( Transferring a Profile)](products/proof-of-humanity/proof-humanity-2.0-tutorial-transferring-a-profile.md)
 * [Tokens](products/tokens.md)
 * [Curate](products/curate/README.md)
   * [Kleros Curate Tutorial](products/curate/kleros-curate-tutorial.md)
