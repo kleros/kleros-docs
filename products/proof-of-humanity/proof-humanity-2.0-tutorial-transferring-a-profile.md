@@ -1,10 +1,10 @@
 ---
-description: How to transfer a profile to another chain
+description: How to transfer a profile to another supported chain
 ---
 
 # Proof Humanity 2.0 Tutorial ( Transferring a Profile)
 
-PoH ID is live on both Ethereum mainnet and Gnosis chain, and you have the option to transfer from one chain to another using the same steps as below:
+PoH 2.0 is live on both Ethereum mainnet and Gnosis chain, and you have the option to transfer from one chain to another using the same steps as below:
 
 * First, go to your profile page and click "Transfer"&#x20;
 
@@ -12,7 +12,7 @@ PoH ID is live on both Ethereum mainnet and Gnosis chain, and you have the optio
 
 * A transfer prompt will then appear for a reminder and to confirm your transfer request.
 
-<figure><img src="../../.gitbook/assets/Transfer prompt.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Transfer prompt.png" alt="" width="375"><figcaption></figcaption></figure>
 
 * Once the transaction is confirmed, your profile status will change from "Registered" to "Pending Update". You will then need to change your network connection to the network you want the profile to be transferred to. Once your wallet is connected to the new desired chain, go to your profile page and click "Update state".&#x20;
 
