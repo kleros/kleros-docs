@@ -2,6 +2,7 @@
 description: >-
   How to challenge a profile, remove your own or someone else's profile and
   resubmit.
+hidden: true
 ---
 
 # Proof Humanity Tutorial (Remove & Challenge)
