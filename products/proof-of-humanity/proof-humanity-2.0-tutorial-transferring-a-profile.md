@@ -2,11 +2,11 @@
 description: How to transfer a profile to another supported chain
 ---
 
-# Proof Humanity 2.0 Tutorial ( Transferring a Profile)
+# Proof Humanity 2.0 Tutorial (Transferring a Profile)
 
-PoH 2.0 is live on both Ethereum mainnet and Gnosis chain, and you have the option to transfer from one chain to another using the same steps as below:
+PoH 2.0 is live on both Ethereum Mainnet and Gnosis chain. Even though you can only have your profile active on one chain at a time, you have the option to transfer from one chain to another using the same steps as below:
 
-* First, go to your profile page and click "Transfer"&#x20;
+* First, go to your profile page and click '<mark style="color:orange;">Transfer</mark>'&#x20;
 
 <figure><img src="../../.gitbook/assets/Transfer.png" alt=""><figcaption><p>a sample from a Sepolia testnet profile</p></figcaption></figure>
 
@@ -14,11 +14,11 @@ PoH 2.0 is live on both Ethereum mainnet and Gnosis chain, and you have the opti
 
 <figure><img src="../../.gitbook/assets/Transfer prompt.png" alt="" width="375"><figcaption></figcaption></figure>
 
-* Once the transaction is confirmed, your profile status will change from "Registered" to "Pending Update". You will then need to change your network connection to the network you want the profile to be transferred to. Once your wallet is connected to the new desired chain, go to your profile page and click "Update state".&#x20;
+* Once the transaction is confirmed, your profile status will change from 'Registered' to 'Pending Update'. You will then need to change your network connection to the network you want the profile to be transferred to. Once your wallet is connected to the new desired chain, go to your profile page and click '<mark style="color:orange;">Update state</mark>'.&#x20;
 
 <figure><img src="../../.gitbook/assets/Update state.png" alt=""><figcaption></figcaption></figure>
 
-* An update prompt will appear where you should initiate the "Relay State Update" option and confirm the transaction.
+* An update prompt will appear where you should initiate the '<mark style="color:orange;">Relay State Update</mark>' option and confirm the transaction.
 
 <figure><img src="../../.gitbook/assets/relay state update.png" alt="" width="375"><figcaption><p>a sample from a Sepolia testnet profile</p></figcaption></figure>
 
@@ -26,7 +26,7 @@ PoH 2.0 is live on both Ethereum mainnet and Gnosis chain, and you have the opti
 Make sure that you have enough funds to transact on your desired new chain to update or complete the profile transfer
 {% endhint %}
 
-* Once the transaction is validated, your current profile request status will be in "Resolved Claim" with the icon of the new network it's included in, while the immediate past profile request status will change to "Transferred"
+* Once the transaction is validated, your current profile request status will be in '_<mark style="color:green;">Resolved Claim</mark>_' with the icon of the new network it's included in, while the immediate past profile request status will change to 'Transferred'.
 
 <div>
 

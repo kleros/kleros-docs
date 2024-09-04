@@ -1,92 +1,74 @@
 ---
-description: A Sybil-resistant (=duplicate and bot-proof) registry of humans
+description: A Sybil-resistant (=duplicate and bot-proof) registry of humans.
 ---
 
 # Proof of Humanity
 
-👤 [Proof of Humanity App](https://proofofhumanity.id/)👤
+## ✨ [<mark style="color:orange;">Proof of Humanity App</mark>](https://v2.poh.id/) ✨
 
-![](../../.gitbook/assets/image%20%2823%29.png)
+## What is Proof of Humanity?
 
-**Proof of Humanity** is a system combining social verification with video submission in order to create a Sybil-proof list of humans. It is meant to be used by individuals as a point-of-entry to a myriad of new use cases that require users to prove they are real humans and not duplicate/fake/bot accounts. It will be plugged into a variety of existing and new applications in need for such identity systems.
+<mark style="color:orange;">**Proof of Humanity (PoH)**</mark> is a Sybil-resistant registry of humans, combining social verification with video submission to create a trusted list of real humans. This innovative system serves as a gateway to numerous applications requiring verified human identities, ensuring users are genuine and not fake or duplicate accounts. PoH can be seamlessly integrated into a variety of existing and emerging identity systems, enhancing their security and reliability.
 
-{% embed url="https://youtu.be/bVUGvCHd3w0" caption="" %}
+When applying to the list, users need to provide their name, a photo, and a short video, allowing others to verify that they are indeed human.
 
-Building this type of advanced identity registry is not an end in itself. It is a point-of-entry to a myriad of new use cases that require Sybil-resistance \(duplicate resistance\) and also to be plugged into a variety of existing and new applications in need for such identity systems. Let's browse through a non-exhaustive list of use cases that benefit from PoH.
+{% embed url="https://youtu.be/bVUGvCHd3w0" %}
 
-{% page-ref page="proof-of-humanity-tutorial.md" %}
+## Introducing Proof of Humanity _<mark style="color:orange;">v2</mark>_
 
-{% page-ref page="proof-humanity-tutorial-remove-and-challenge.md" %}
+In 2021, we launched the first version of Proof of Humanity, which successfully registered almost 19,000 users. However, the Ethereum mainnet's high costs and various community challenges, which led to a fork, highlighted the need for improvements, paving the way for Proof of Humanity 2.0.
 
-{% page-ref page="poh-faq.md" %}
+Proof of Humanity 2.0 has been deployed on Gnosis Chain to reduce the fees associated with registering, making it more accessible for everyone.
 
-## Proof of Humanity Use Cases <a id="proof-of-humanity-use-cases"></a>
+Proof of Humanity 2.0 introduces two exciting new features: <mark style="color:orange;">**soulbound IDs**</mark> and <mark style="color:orange;">**multi-chain expansion**</mark>.
 
-#### Universal Basic Income <a id="universal-basic-income"></a>
+**Soulbound IDs** are unique, non-transferable identifiers that link each human to a single ID (PoH ID), ensuring the authenticity and permanence of their digital identity. This feature allows users to recover their reputation and assets even if they lose access to their original wallet, enhancing security and reliability.
 
-Universal basic income \(UBI\) is a program for a periodic payment delivered to all individuals of a given population with no strings attached.
+**Multi-chain expansion** allows the system to operate across multiple blockchain networks, including Gnosis Chain, enhancing accessibility and interoperability. This feature enables users to maintain and transfer their verified identity across different chains, ensuring a seamless and versatile digital experience.
 
-The Proof of Humanity registry technology enables a truly universal and fairer form of distribution for UBI projects as the only condition to receive it would be to be registered as a verified human.
 
-A UBI project based on Proof of Humanity is already underway as a collaboration between Kleros and Democracy Earth.
 
-Check out the [_announcement of the UBI token launch_](https://blog.kleros.io/proof-of-humanity-building-the-internet-of-humans/) to learn more about this.
+## Proof of Humanity Use Cases <a href="#proof-of-humanity-use-cases" id="proof-of-humanity-use-cases"></a>
 
-#### Innovative DAO frameworks <a id="innovative-dao-frameworks"></a>
+Let’s explore some exciting use cases that benefit from Proof of Humanity.
 
-DAO frameworks and apps using the PoH registry to check the “humanity” of voters can experiment with truly democratic systems \(1 person = 1 vote\) and innovative preferential or quadratic voting features for which Sybil-resistance is required.
+#### <mark style="color:orange;">Online Voting & Governance</mark> <a href="#universal-basic-income" id="universal-basic-income"></a>
 
-For example, the UBI DAO will be based on a governance system such as this one in order to better account for the voices of every community member. A similar system could be added as a plugin to common DAO tools such as Colony, Aragon, or DAOstack.
+PoH can be used to verify that voters are real people, thus preventing Sybil attacks where a single entity could create multiple fake identities to influence voting outcomes.
 
-#### Better Funding Mechanisms <a id="better-funding-mechanisms"></a>
+#### <mark style="color:orange;">Universal Basic Income (UBI) Distribution</mark> <a href="#innovative-dao-frameworks" id="innovative-dao-frameworks"></a>
 
-By extending the concept of Quadratic Voting to a funding mechanism, one can create new mechanisms for endogenous community formation. [Quadratic funding](https://wtfisqf.com/) is a design for philanthropic or publicly-funded seeding to allow \(near\) optimal provision of a decentralized, self-organizing ecosystem of public goods.
+PoH can be used to ensure that only verified humans receive UBI payments. This prevents fraud and ensures that the benefits reach those who are genuinely eligible.
 
-Citizens make public goods contributions to projects of value to them. The amount received by a project is proportional to the square of the sum of the square roots of contributions received.
+#### <mark style="color:orange;">Decentralized Social Media Platforms</mark> <a href="#better-funding-mechanisms" id="better-funding-mechanisms"></a>
 
-This mechanism requires accounts to be Sybil-resistant as splitting one’s funding across multiple accounts increases the amount given to the target project. And Proof of Humanity allows for this Sybil-resistance. Proof of Humanity can be an important piece of infrastructure to bring into reality some of the innovative governance ideas explained in the book "Radical Markets". For example, quadratic voting.
+PoH can help ensure that users on social media platforms are real individuals, which can reduce spam, trolling, and the influence of bots. This creates a more authentic and trustworthy online community.
 
-#### Universal Identifiers and Self-Sovereign Identities <a id="universal-identifiers-and-self-sovereign-identities"></a>
+#### <mark style="color:orange;">Peer-to-Peer Marketplaces</mark> <a href="#universal-identifiers-and-self-sovereign-identities" id="universal-identifiers-and-self-sovereign-identities"></a>
 
-Accounts created on PoH can directly be used as a universal login method: imagine dapps recognizing users automatically without the need for registration.
+In peer-to-peer (P2P) marketplaces, such as those for freelance work, rentals, or second-hand goods, PoH can be used to verify the identity of participants. This increases trust between users, reducing the risk of fraud and enhancing the overall reliability of the platform.
 
-They can also be associated with other existing identity-adjacent systems such as 3box, ENS, or Serto.id to add Sybil-resistance to a user's profile.
+#### <mark style="color:orange;">Universal Identifiers and Self-Sovereign Identities</mark> <a href="#certification-and-reputation-systems" id="certification-and-reputation-systems"></a>
 
-#### Certification and Reputation Systems <a id="certification-and-reputation-systems"></a>
+PoH accounts can serve as universal login methods, automatically recognized by dapps without requiring registration.
 
-Various certifications or reputation points \(such as credit scoring\) could be added to PoH profiles.
+#### <mark style="color:orange;">Better Funding Mechanisms</mark> <a href="#sybil-resistant-airdrops-yield-farming-and-nft-distribution" id="sybil-resistant-airdrops-yield-farming-and-nft-distribution"></a>
 
-Registered individuals would select the certifications they want to be made public. These could be confirmed by central entities or through a curated registry and displayed as a badge on the individual profile.
+By applying PoH to Quadratic Voting, we can develop new funding models for community projects. This ensures optimal distribution of funds, as PoH's Sybil-resistance prevents manipulation by multiple fake accounts, supporting the fair allocation of resources in decentralized ecosystems.
 
-Certifications can include:
+#### <mark style="color:orange;">Anti-Spam Tool</mark> <a href="#anti-spam-tools" id="anti-spam-tools"></a>
 
-* Country of citizenship
-* Degrees and professional certifications
-* Skills \(for example an “experienced Solidity developer” badge which could be assessed by looking at open source code published by the individual\)
+Systems often use captchas before allowing a user action in order to prevent spam. These are wasting user time and do not prevent spam from a determined user who would be willing to spend the time to solve them (or outsource the solution). People in the PoH registry could be allowed a number of captcha-free interactions (potentially high enough such that they never have to fill a captcha).
 
-#### Sybil-Resistant Airdrops, Yield Farming, and NFT Distribution <a id="sybil-resistant-airdrops-yield-farming-and-nft-distribution"></a>
+#### <mark style="color:orange;">Sidechains Secured by Proof-of-Humanity Consensus</mark> <a href="#sidechains-secured-by-proof-of-humanity-consensus" id="sidechains-secured-by-proof-of-humanity-consensus"></a>
 
-Airdrops are a popular way to distribute tokens. However, even when requiring different forms of identification \(telegram accounts, passports\), those airdrops were typically Sybil-attacked.
-
-This led to a switch toward airdrops proportional to the user balance of a specific coin and lock drops \(where users need to lock some coins and receive tokens proportionally\). Those techniques, despite being Sybil-resistant, benefit users already having a high amount of crypto-holdings.
-
-Proof Of Humanity will allow Sybil-resistant airdrops where participants will each be given the same amount of coins. The same method can be applied to Sybil-resistant yield-farming \(UBI token accrual, for example\); to ensure gift NFTs are not hoarded by a small minority, or to ensure free subscription schemes are not abused.
-
-#### Anti-Spam Tools <a id="anti-spam-tools"></a>
-
-Systems often use captchas \(small exercises testing user capacity to analyze an image or a sound which are hard to complete for AIs\) before allowing a user action in order to prevent spam.
-
-These are wasting user time and do not prevent spam from a determined user who would be willing to spend the time to solve them \(or outsource the solution\). People in the PoH registry could be allowed a number of captcha-free interactions \(potentially high enough such that they never have to fill a captcha\).
-
-Users spamming the system could get temporarily or permanently banned. And they would not be able to just create a new account in order to evade the ban.
-
-#### Sidechains Secured by Proof-of-Humanity Consensus <a id="sidechains-secured-by-proof-of-humanity-consensus"></a>
-
-The PoH registry could also be used to create a novel type of sidechain secured by Proof Of Identity with a “1 person = 1 vote” principle. This would assume an honest majority of humans in the registry and would work in a way similar to Proof Of Authority sidechains.
+The PoH registry could also be used to create a novel type of sidechain secured by Proof of Identity with a “1 person = 1 vote” principle. This would assume an honest majority of humans in the registry and would work in a way similar to Proof of Authority sidechains.
 
 _**And many others such as social recovery, inheritance planning...**_
 
-## The Next Level: Adding Privacy to Proof of Humanity <a id="the-next-level-adding-privacy-to-proof-of-humanity"></a>
+
+
+## The Next Level: Adding Privacy to Proof of Humanity <a href="#the-next-level-adding-privacy-to-proof-of-humanity" id="the-next-level-adding-privacy-to-proof-of-humanity"></a>
 
 All of these use cases can be improved upon by building new privacy layers on top of Proof of humanity that will enrich it with new capabilities. A key step for the future would be the creation of anonymous Sybil-resistant identities.
 
@@ -96,9 +78,10 @@ This would allow individuals to prove that they are humans and not bots while no
 
 Another good use of anonymous identities is being able to prove one’s reputation or scoring without detailing the full history of actions made by one’s account in the past.
 
-### Just Start Building! <a id="just-start-building-"></a>
+
+
+### Just Start Building! <a href="#just-start-building" id="just-start-building"></a>
 
 Proof of Humanity is an open-source project. You are free to start integrating it into your project or building on top of it as soon as you are ready to do it.
 
 **If you need some support, feel free to reach out to Cooperative Kleros at** [**contact@kleros.io**](mailto:contact@kleros.io)**,** [**Discord**](https://discord.gg/WfmtDdGe9p)**,** [**Telegram**](https://t.me/kleros)**.**
-
