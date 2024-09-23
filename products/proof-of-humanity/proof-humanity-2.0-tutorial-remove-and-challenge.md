@@ -47,7 +47,7 @@ You can use deepfake detection tools such as [https://deepware.ai/](https://deep
 <figure><img src="../../.gitbook/assets/disputed claim.png" alt=""><figcaption><p>a sample from a Sepolia testnet profile</p></figcaption></figure>
 
 {% hint style="info" %}
-**What is the Challenger Deposit?** The deposit is an amount of ETH you lock with the challenge of the profile that will act as a deterrent to prevent people from challenging profiles for no valid reason. If your challenge of the profile is successful, you get your challenger deposit back and earn the submitter deposit (minus arbitration fees). If you have challenged a valid profile, you will lose this deposit.
+**What is the Challenger Deposit?** The deposit is an amount of ETH or xDAi you lock with the challenge of the profile that will act as a deterrent to prevent people from challenging profiles for no valid reason. If your challenge of the profile is successful, you get your challenger deposit back and earn the submitter deposit (minus arbitration fees). If you have challenged a valid profile, you will lose this deposit.
 {% endhint %}
 
 * A dispute will then be raised in [Kleros Court](https://kleros.gitbook.io/docs/products/court) where jurors will vote on a ruling. Anyone can submit evidence from the profile interface (at the bottom of the page)
