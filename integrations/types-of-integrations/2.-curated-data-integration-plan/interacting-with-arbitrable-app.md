@@ -75,9 +75,8 @@ If you wish to pull data from custom registries or any other Dapps of Kleros, si
 {% hint style="info" %}
 **Kleros Arbitrable apps subgraphs**
 
-* [Kleros Curate (Mainnet) subgraph](https://thegraph.com/explorer/subgraph/kleros/curate)
-* [Kleros Curate (Goerli) subgraph](https://thegraph.com/hosted-service/subgraph/greenlucid/curate-goerli)
-* [Kleros Curate (Gnosis) subgraph](https://thegraph.com/hosted-service/subgraph/kleros/legacy-curate-xdai)
+* [Kleros Curate (Mainnet) subgraph](https://thegraph.com/explorer/subgraphs/A5oqWboEuDezwqpkaJjih4ckGhoHRoXZExqUbja2k1NQ?view=Query\&chain=arbitrum-one) (Updated Sep 2024)
+* [Kleros Curate (Gnosis) subgraph](https://thegraph.com/explorer/subgraphs/9hHo5MpjpC1JqfD3BsgFnojGurXRHTrHWcUcZPPCo6m8?view=Query\&chain=arbitrum-one) (Updated Sep 2024)
 * [Proof of Humanity (Mainnet) subgraph](https://thegraph.com/explorer/subgraph/kleros/proof-of-humanity-mainnet)
 * [Proof of Humanity (Kovan) subgraph](https://thegraph.com/explorer/subgraph/epiqueras/proof-of-humanity-kovan)
 * [Kleros Court (Mainnet) subgraph](https://thegraph.com/hosted-service/subgraph/salgozino/klerosboard)
