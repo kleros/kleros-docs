@@ -131,7 +131,7 @@ In case the `isHuman` call renders true, one may want to address whether the acc
 
 The results can be interpreted as follows:
 
-- If the outcome has no record for this account, it means that the account was originally registered on the same partner's chain and thus, it is the home chain. This is so, since transferred profiles leaves record of this action on the cross-chain contract, and no record means the account has never been transferred.
+- If the outcome has no record for this account, it means that the account was originally registered on the same partner's chain and thus, it is the home chain. This is so, since transferred profiles leaves record of this action on the cross-chain contract, and no record means the account has never been transferred (nor its state updated).
 - If the outcome triggers the `isHomeChain` parameter as true and the `expirationTime` has not been reached, then the account's home chain is the partner's chain.
-- If the outcome triggers the `isHomeChain` parameter as false and the `expirationTime` has not been reached, then the account's home chain is not the partner's chain.
-- If the outcome triggers an `expirationTime` that has already been reached, then the account's home chain is the partner's chain, no matter which is the `isHomeChain` outcome. This is so, given that the information on the cross-chain contract corresponds to an old transfer, and therefore we know that this latter account's instance has been created on the partner's chain.
+- If the outcome triggers the `isHomeChain` parameter as false and the `expirationTime` has not been reached, then the account's home chain is **not** the partner's chain.
+- If the outcome triggers an `expirationTime` that has already been reached, then the account's home chain is the partner's chain, no matter which is the `isHomeChain` outcome. This is so, given that the information on the cross-chain contract corresponds to an old transfer (or state update relayed), and therefore we know that this latter account's instance has been created on the partner's chain.
