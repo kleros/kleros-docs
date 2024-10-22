@@ -37,5 +37,9 @@ Gnosis CrossChain proxy contract: [0x16044E1063C08670f8653055A786b7CC2034d2b0](h
 
 ### On-chain verification:
 
-- For verifying if an account **is registered** in PoHv2, it is necessary to call the `isHuman(address)` function on the cross-chain contract deployed on the target chain.
+- For verifying if an account **is registered** in PoHv2, it is necessary to call the `isHuman(address)` function on the crossChain contract deployed on the target chain.
 - For verifying if the target chain is the **home chain** of a registered account, it is necessary to call the `isHuman(address)` function on the main PoHv2 contract deployed on the target chain.
+
+In general, you just want to verify that an account is verified (so call the crossChain contract).
+
+However if your application is deployed on multiple chains and you don't want to allow an user to be registered with the same humanity on both chains (for example if you are streaming a UBI to the user, you may want to be sure he can only claim it on one chain), you should call the PoHv2 contract to verify it is his home chain. You must also have a way to notify your app that the user does not have a home chain application anymore (as users can move their home chain to another chain, for example in the case of streaming a UBI, you can allow anyone to call a function to terminate the user stream if he is not registered on PoHv2 of this specific chain anymore).
