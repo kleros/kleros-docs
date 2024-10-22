@@ -37,4 +37,29 @@ Gnosis CrossChain proxy contract: [0x16044E1063C08670f8653055A786b7CC2034d2b0](h
 
 ### On-chain verification:
 
-For verifying if an account is registered in PoHv2, it is necessary to call the `isHuman(address)` function on the cross-chain contract deployed on the target chain. The result is a boolean which, in case of being true, will confirm that the current chain is the **home chain**.
+For verifying if an account is registered in PoHv2, it is necessary to call the `isHuman(address)` function on the cross-chain contract deployed on the target chain. The result is a boolean.
+
+In addition, for verifying if the target chain is the **home chain** it is necessary to call the following functions on the same cross-chain contract's instance:
+
+- call the `humanityOf` function to obtain the _bytes20 humanity id_
+- call the `humanityData` function with the obtained humanity id to observe the resulting parameters:
+
+#### humanityData(bytes20)
+
+Additional information about the registered humanity and its interaction with cross-chain functionalities.
+
+Parameters:
+
+- humanityId(bytes20): the humanity to consult
+
+Returns
+
+- owner(address): the account corresponding to this humanity
+- expirationTime(uint40): time in seconds when this humanity registry expires
+- lastTransferTime(uint40): time in seconds when this humanity identity has been transferred from the foreign chain
+- isHomeChain(bool): whether the humanity identity is registered in the main PoHv2 contract instance deployed on this chain
+
+The results can be interpreted as follows:
+
+- If the outcome has no record for this account, it means that the account was originally registered on the target chain and thus, it is the **home chain**.
+- If the outcome triggers the `isHomeChain` parameter as true, the `expirationTime` has not been reached, and `owner` corresponds to this PoHv2 account, then the account's **home chain** is the target chain.
