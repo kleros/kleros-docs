@@ -46,8 +46,6 @@ In addition, for verifying if the target chain is the **home chain** it is neces
 
 #### humanityData(bytes20)
 
-Additional information about the registered humanity and its interaction with cross-chain functionalities.
-
 Parameters:
 
 - humanityId(bytes20): the humanity to consult
