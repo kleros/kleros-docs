@@ -19,6 +19,7 @@
   * [Proof Humanity Tutorial (Remove & Challenge)](products/proof-of-humanity/proof-humanity-tutorial-remove-and-challenge.md)
   * [Proof Humanity 2.0 Tutorial (Remove & Challenge)](products/proof-of-humanity/proof-humanity-2.0-tutorial-remove-and-challenge.md)
   * [Proof Humanity 2.0 Tutorial (Transferring a Profile)](products/proof-of-humanity/proof-humanity-2.0-tutorial-transferring-a-profile.md)
+  * [(Proof of Humanity 2.0 Integration Guide)](products/proof-of-humanity/proof-of-humaity-2.0-integrations-guide.md)
   * [Proof of Humanity FAQ](products/proof-of-humanity/poh-faq/README.md)
     * [Proof of Humanity 2.0 launch FAQ](products/proof-of-humanity/poh-faq/proof-of-humanity-2.0-launch-faq.md)
 * [Tokens](products/tokens.md)
