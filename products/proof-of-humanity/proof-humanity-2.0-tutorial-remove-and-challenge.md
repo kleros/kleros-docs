@@ -57,6 +57,10 @@ You can use deepfake detection tools such as [https://deepware.ai/](https://deep
 ![](<../../.gitbook/assets/evidence prompt (1).png>)
 
 * Now, you just have to monitor the progress of the dispute through the profile interface over the following 5 to 7 days. If you don't agree with the final ruling, you will have the possibility to appeal.
+
+<figure><img src="../../.gitbook/assets/Fund appeal_.png" alt=""><figcaption><p>The option is found at the top right of the challenged profile</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/appeal xdai.png" alt="" width="375"><figcaption><p>an appeal interface from a real dispute in Gnosis</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="6/ Remove a profile" %}

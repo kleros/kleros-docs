@@ -73,14 +73,13 @@ You can also query the contract directly deployed at [0xC5E9dDebb09Cd64DfaCab401
 If you wish to pull data from custom registries or any other Dapps of Kleros, simply [query one of the subgraphs below](https://thegraph.com/docs/query-the-graph):
 
 {% hint style="info" %}
-**Kleros Arbitrable apps subgraphs**
+**Kleros Arbitrable apps subgraphs** (Updated Sep 2024)
 
-* [Kleros Curate (Mainnet) subgraph](https://thegraph.com/explorer/subgraphs/A5oqWboEuDezwqpkaJjih4ckGhoHRoXZExqUbja2k1NQ?view=Query\&chain=arbitrum-one) (Updated Sep 2024)
-* [Kleros Curate (Gnosis) subgraph](https://thegraph.com/explorer/subgraphs/9hHo5MpjpC1JqfD3BsgFnojGurXRHTrHWcUcZPPCo6m8?view=Query\&chain=arbitrum-one) (Updated Sep 2024)
-* [Proof of Humanity (Mainnet) subgraph](https://thegraph.com/explorer/subgraph/kleros/proof-of-humanity-mainnet)
-* [Proof of Humanity (Kovan) subgraph](https://thegraph.com/explorer/subgraph/epiqueras/proof-of-humanity-kovan)
-* [Kleros Court (Mainnet) subgraph](https://thegraph.com/hosted-service/subgraph/salgozino/klerosboard)
-* [Kleros Court (Gnosis) subgraph](https://thegraph.com/hosted-service/subgraph/salgozino/klerosboard-xdai)
+* [Kleros Curate (Mainnet) subgraph](https://thegraph.com/explorer/subgraphs/A5oqWboEuDezwqpkaJjih4ckGhoHRoXZExqUbja2k1NQ?view=Query\&chain=arbitrum-one)&#x20;
+* [Kleros Curate (Gnosis) subgraph](https://thegraph.com/explorer/subgraphs/9hHo5MpjpC1JqfD3BsgFnojGurXRHTrHWcUcZPPCo6m8?view=Query\&chain=arbitrum-one)&#x20;
+* [Proof of Humanity v1 (Mainnet) subgraph](https://thegraph.com/explorer/subgraph/kleros/proof-of-humanity-mainnet)
+* [Kleros Court (Mainnet) subgraph](https://thegraph.com/explorer/subgraphs/Edg8H3AioJtYaih5PtfJhRNaERS6bU1XMn9dfPjEr5ao?view=Query\&chain=arbitrum-one)&#x20;
+* [Kleros Court (Gnosis) subgraph](https://thegraph.com/explorer/subgraphs/AgBjAUhmpmg3wqebGX1nJgouEj4HjV8aed2HverETrYk?view=Query\&chain=arbitrum-one)
 {% endhint %}
 
 If no subgraph exists for the application you want to read from, you can request one to the Kleros team, or [define ](https://thegraph.com/docs/define-a-subgraph)and [deploy](https://thegraph.com/docs/deploy-a-subgraph) one.
