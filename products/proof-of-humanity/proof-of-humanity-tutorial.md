@@ -100,11 +100,11 @@ The sign can show the wallet address written or printed on paper, or have the wa
 * **Step 2. Submission Deposit:** Enter the required deposit amount. Remember, this deposit is refunded after successful registration or lost in case of failure. Any amount you don't contribute now can be covered later.
 
 {% hint style="info" %}
-Make sure you have enough DAI loaded in your wallet to pay for the deposit and transaction fee. If you don't have the amount for the deposit yet, you can pay the deposit later, but make sure you still have enough DAI to cover the transaction fee.\
+Make sure you have enough xDAI or ETH loaded in your wallet to pay for the deposit and transaction fee. If you don't have the amount for the deposit yet, you can pay the deposit later, but make sure you still have enough xDAI or ETH to cover the transaction fee.\
 \
 **WHAT IS THE SUBMITTER'S DEPOSIT?**&#x20;
 
-The deposit is an amount of DAI you lock with the submission of your profile. It acts as an incentive for potential challengers to prove you are a fake or bot and also covers arbitration fees if a dispute is raised. If your profile goes through unchallenged and successfully registered, you’ll get your deposit back. If you are a fake or have provided incorrect information, someone can challenge your profile, and a dedicated Kleros dispute will be opened to rule on your case.
+The deposit is an amount you lock with the submission of your profile. It acts as an incentive for potential challengers to prove you are a fake or bot and also covers arbitration fees if a dispute is raised. If your profile goes through unchallenged and successfully registered, you’ll get your deposit back. If you are a fake or have provided incorrect information, someone can challenge your profile, and a dedicated Kleros dispute will be opened to rule on your case.
 {% endhint %}
 
 {% hint style="danger" %}
@@ -205,7 +205,7 @@ You can provide evidence on your profile page to defend your case and monitor th
 
 You can also appeal when a ruling is given by jurors if you don't agree with it.
 
-If the jury rules in your favor, your profile goes back to '_<mark style="color:blue;">Pending Claim</mark>_' phase for 3.5 days. If the jury rules in favor of the challenger, your profile goes to '_Withdrawn_' status.
+If the jury rules in your favor, your profile goes back to '_<mark style="color:blue;">Pending Claim</mark>_' phase for 3.5 days. If the jury rules in favor of the challenger, your profile goes to 'Expired' status.
 {% endhint %}
 {% endtab %}
 
