@@ -97,7 +97,7 @@ contract MyArbitrable {
 
 ### Step 3:
 
-Create a fetchRuling function.&#x20;
+Create a `fetchRuling` function.&#x20;
 
 A key difference between using the proxy and implementing your own ERC792 arbitrable from scratch is that a rule function is not directly called in your contract by the arbitrator. The proxy stores the data of rulings locally in an array and its up to you to query the rulings relevant to your contract.
 

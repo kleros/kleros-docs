@@ -1,5 +1,6 @@
 ---
 description: A community-curated list of fungible Tokens
+hidden: true
 ---
 
 # Tokens
@@ -39,7 +40,7 @@ It is also possible to make a removal request for an entry already accepted into
 
 The full instructions for how to submit to the registry can be found [here](https://blog.kleros.io/how-to-submitting-to-the-security-metadata-registries-on-kleros-curate/).
 
-![](../.gitbook/assets/curate\_infographic\_header\_cropped.png)
+![](../.gitbook/assets/curate_infographic_header_cropped.png)
 
 ## What type of information is stored in the Tokens registry
 
