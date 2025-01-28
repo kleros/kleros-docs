@@ -8,7 +8,7 @@ Light Curate is a new version of the contract that significantly decreases costs
 
 ## Development
 
-This section will be devided into 3 sections:
+This section will be divided into 3 sections:
 
 1- Fetching Parameters: Your UI needs to display some important information to the users such as, what is the bounty for successfuly challenges and how long do items stay in the challenge period. 1- Item Submission: Here you will learn how to build a button to submit an item to the UI. 2- Fetching Items: How to view items and item details. 3- Item Interaction: This includes challenging, submitting evidence and crowdfunding appeals.
 
@@ -112,7 +112,7 @@ export const publishToGraph = async (fileName, data) => {
 };
 
 /**
- * @description parses json from stringified json's seperated by new line
+ * @description parses json from stringified json's separated by new line
  */
 const parseNewlineSeparatedJSON = (text) => {
   const lines = text.trim().split("\n");
@@ -126,12 +126,12 @@ export const areCidsConsistent = (filebaseCid, graphResult) => {
 
 ```
 
-The JSON file for the object is composed of the its metadata and fields.
+The JSON file for the object is composed of its metadata and fields.
 
 * Metadata \(columns\): An array describing each of the items columns \(what's its type, name, description, etc.\)
 * Values \(values\): An object mapping the column name to the value.
 
-The metadata is available inside the meta evidence file, which is returned by the useTCRView hook. The Values are input by the user.
+The metadata is available inside the meta evidence file, which is returned by the useTCRView hook. The values are input by the user.
 
 Example of columns used by the TCR at
 

@@ -41,7 +41,7 @@ Call `request` function to receive 10,000 PNK. It only gives once for each addre
 
 ## Why Kleros Needs a Native Token? <a href="#e301" id="e301"></a>
 
-At Kleros we are building a blockchain-based, crowdsourced dispute resolution platform. An essential part of the mechanism-design is the native \_Kleros \_token (PNK).
+At Kleros we are building a blockchain-based, crowdsourced dispute resolution platform. An essential part of the mechanism-design is the native Kleros token (PNK).
 
 ![A Pinakion](.gitbook/assets/1\_ecud\_ah2egiomrvl8l8o0a.jpeg)
 
@@ -49,7 +49,7 @@ The PNK ticker comes from "Pinakions" originating from Ancient Athens. These sma
 
 For each dispute that is arbitrated by Kleros, some number of jurors are required. A jury as small as three people may provide an initial ruling of a dispute. Then if one of the parties decides to appeal the ruling, the number of jurors in subsequent rounds increases.
 
-PNK holders can stake their tokens in a Kleros court to indicate their availability to serve as jurors. However, eventually, we will implement specialized subcourts and PNK holders will be able to choose which subcourts to stake their token in). In order to select the jurors for a case, random PNK are drawn from among those who have been staked, and the people who hold these PNK are the jurors.
+PNK holders can stake their tokens in a Kleros court to indicate their availability to serve as jurors. However, eventually, we will implement specialized subcourts and PNK holders will be able to choose which subcourts to stake their token in. In order to select the jurors for a case, random PNK are drawn from among those who have been staked, and the people who hold these PNK are the jurors.
 
 {% hint style="info" %}
 **TOTAL SUPPLY**
