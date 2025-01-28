@@ -6,7 +6,7 @@ Welcome to the Proof of Humanity v2 (PoHv2) integration documentation. This guid
 
 ## Key Features
 
-- A sybil resistant protocol (non-duplicate and bot-proof) registry of humans.
+- A Sybil-resistant protocol (non-duplicate and bot-proof) registry of humans.
 - Prevents duplicate accounts, ensuring each entry represents a distinct individual.
 - Trusted list of humans curated by a decentralized community.
 - Consultable human identities registered through a unique wallet account, enhancing transparency and trustworthiness.
@@ -15,7 +15,7 @@ Welcome to the Proof of Humanity v2 (PoHv2) integration documentation. This guid
 - Operates across multiple blockchain networks, allowing for widespread adoption and flexibility.
 - PoHv2 is currently deployed in Ethereum and Gnosis.
 - PoHv2 is an open-source project developed and maintained by Kleros.
-- The Kleros Justice Protocol is a (multichain) on-chain dispute resolution platform. It is integrated to PoHv2 and constitutes the ultimate resource utilized to verify and maintain the curated list of human identities registered in PoHv2.
+- The Kleros Justice Protocol is a (multichain) on-chain dispute resolution platform. It is integrated into PoHv2 and constitutes the ultimate resource utilized to verify and maintain the curated list of human identities registered in PoHv2.
 
 ## Smart Contract Interactions
 
@@ -42,4 +42,4 @@ Gnosis CrossChain proxy contract: [0x16044E1063C08670f8653055A786b7CC2034d2b0](h
 
 In general, you just want to verify that an account is verified (so call the crossChain contract).
 
-However if your application is deployed on multiple chains and you don't want to allow an user to be registered with the same humanity on both chains (for example if you are streaming a UBI to the user, you may want to be sure he can only claim it on one chain), you should call the PoHv2 contract to verify it is his home chain. You must also have a way to notify your app that the user does not have a home chain application anymore (as users can move their home chain to another chain, for example in the case of streaming a UBI, you can allow anyone to call a function to terminate the user stream if he is not registered on PoHv2 of this specific chain anymore).
+However, if your application is deployed on multiple chains and you don't want to allow a user to be registered with the same humanity on both chains (for example, if you are streaming a UBI to the user, you may want to be sure they can only claim it on one chain), you should call the PoHv2 contract to verify it is their home chain. You must also have a way to notify your app that the user does not have a home chain application anymore (as users can move their home chain to another chain; for example, in the case of streaming a UBI, you can allow anyone to call a function to terminate the user's stream if they are not registered on PoHv2 of this specific chain anymore).

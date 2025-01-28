@@ -36,7 +36,7 @@ Team Members: 18% First Round of Token Sale: 16% Airdrop: 4% Subsequent Rounds a
 
 ### Could Kleros become a platform used by mainstream online retailers such as eBay or Amazon?
 
-Yes, by adopting Kleros, any mainstream e-commerce platform could enjoy a fast, affordable, and transparent dispute resolution method. If you want to learn more, watch [t](https://youtu.be/ssdgdV\_fngI)his talk ["When Decentralized Protocols Meet the Real World"](https://youtu.be/ssdgdV\_fngI) or contact us.
+Yes, by adopting Kleros, any mainstream e-commerce platform could enjoy a fast, affordable, and transparent dispute resolution method. If you want to learn more, watch this talk ["When Decentralized Protocols Meet the Real World"](https://youtu.be/ssdgdV\_fngI) or contact us.
 
 ### Is Kleros a court where rich people have more rights than ordinary folks (because appeals are more affordable for the rich)? / How can I expect fairness from a court where whales have staked a lot of PNK?
 
