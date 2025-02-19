@@ -16,7 +16,7 @@ Any user in your group chat can request to view your group chat's rules.
 
 ## Setting Up Your Rules
 
-Every groups starts with [default rules](https://ipfs.kleros.io/ipfs/Qme3Qbj9rKUNHUe9vj9rqCLnTVUCWKy2YfveQF8HiuWQSu/Kleros%20Moderate%20Community%20Rules.pdf). You can also set customize the rules.
+Every groups starts with [default rules](https://cdn.kleros.link/ipfs/Qme3Qbj9rKUNHUe9vj9rqCLnTVUCWKy2YfveQF8HiuWQSu/Kleros%20Moderate%20Community%20Rules.pdf). You can also set customize the rules.
 
 **Rule Writing Tips**
 

@@ -19,9 +19,9 @@ Learn all about it by opening the Twitter thread below:
 {% hint style="info" %}
 **Examples of evidence material:**
 
-* [Evidence A](https://ipfs.kleros.io/ipfs/QmPxshJDife5p9m9upLJER5VumMDqfTqQneSWXXrNCSmYh)
-* [Evidence B](https://docs.google.com/document/d/1XTwh9iPKkAl5Sf2TcYLm1xvxAHX7yVnMgzvFpYgfSgI)
-* [Evidence C](https://docs.google.com/document/d/1mFnPwHt76cFDr9kGYKdVYkh1IQXZygWpw9HtNI4hPV4/)
+* [Evidence A](https://cdn.kleros.link/ipfs/QmPxshJDife5p9m9upLJER5VumMDqfTqQneSWXXrNCSmYh)
+* [Evidence B](https://cdn.kleros.link/ipfs/QmfMGWZDdQpxB4hhHppg18qCt4skhZjEwPBgN16Ek5b5Tm)
+* [Evidence C](https://cdn.kleros.link/ipfs/QmUjb7qmcyPqvZkehdS38JJK8mzzic4BpwWhabZf67yhVt)
 {% endhint %}
 
 {% embed url="https://youtu.be/Cku7jRpCFyc" %}
@@ -48,7 +48,7 @@ Learn all about it by opening the Twitter thread below:
 **Examples of evidence material:**
 
 * [Evidence D](http://case302.eth.link)
-* [Evidence E](https://ipfs.kleros.io/ipfs/QmUk45qhoxF1jPuoHsQDdMnQqk5S81JVFE4aEhm6PgpZGX)
+* [Evidence E](https://cdn.kleros.link/ipfs/QmUk45qhoxF1jPuoHsQDdMnQqk5S81JVFE4aEhm6PgpZGX)
 {% endhint %}
 
 {% embed url="https://youtu.be/cPk6JHGzh6E" %}
@@ -72,8 +72,8 @@ Baer Chain was then classified as a Ponzi scheme by the Chinese government a few
 {% hint style="info" %}
 **Examples of evidence material:**
 
-* [​Evidence F​](https://ipfs.kleros.io/ipfs/QmV7cM4hYrx2sdbH4mMUspBz5ACRJZ4wzU8Hrys7jZ7H1r/claim-against-brc-token-elligibility-2.pdf)
-* [​Evidence G](https://ipfs.kleros.io/ipfs/QmckzrdTb2yb7o5iEJXQxnTjde2a1LAZMBZgUss9GUWeAa/claim-against-brc-token-elligibility.pdf)
+* [​Evidence F​](https://cdn.kleros.link/ipfs/QmV7cM4hYrx2sdbH4mMUspBz5ACRJZ4wzU8Hrys7jZ7H1r/claim-against-brc-token-elligibility-2.pdf)
+* [​Evidence G](https://cdn.kleros.link/ipfs/QmckzrdTb2yb7o5iEJXQxnTjde2a1LAZMBZgUss9GUWeAa/claim-against-brc-token-elligibility.pdf)
 * [Evidence H](https://forum.kleros.io/t/kleros-t2cr-weekly-rundown-the-case-of-the-baer-chain-ethfinex-badge-submission/212)
 {% endhint %}
 
@@ -90,9 +90,9 @@ Proof of Humanity is a Sybil-resistant list of humans using social vouching and 
 {% hint style="info" %}
 **Examples of evidence material:‌**
 
-* [​Evidence I](https://ipfs.kleros.io/ipfs/QmUUgeMLZPM3d5b2tnwDG5Z7waDjmveWZVr8AVgo838Quf/evidence.jpg)
-* [Evidence J](https://ipfs.kleros.io/ipfs/QmPS8yDaeDhEh2EpPJ6r3huYto3DwFEkecUvH17GhSb3UK/Rebuttals-final.pdf)
-* [Evidence K](https://ipfs.kleros.io/ipfs/QmNjE2ZsL3NdbqyW6Cpgg9hvvhTNdfXeMadUgx1BQ3JvNE/EvidenceSubmissionAppeal2-Final.pdf)
+* [​Evidence I](https://cdn.kleros.link/ipfs/QmUUgeMLZPM3d5b2tnwDG5Z7waDjmveWZVr8AVgo838Quf/evidence.jpg)
+* [Evidence J](https://cdn.kleros.link/ipfs/QmPS8yDaeDhEh2EpPJ6r3huYto3DwFEkecUvH17GhSb3UK/Rebuttals-final.pdf)
+* [Evidence K](https://cdn.kleros.link/ipfs/QmNjE2ZsL3NdbqyW6Cpgg9hvvhTNdfXeMadUgx1BQ3JvNE/EvidenceSubmissionAppeal2-Final.pdf)
 {% endhint %}
 
 ![](<../../.gitbook/assets/image (56) (2) (2) (2) (2) (2) (2) (1) (1) (1) (1) (1) (2) (1).png>)
@@ -112,9 +112,9 @@ Kleros Tokens registry was used at the time to curate tokens to be listed on the
 {% hint style="info" %}
 **Examples of evidence material:**
 
-* [​Evidence L](https://ipfs.kleros.io/ipfs/QmbvuyXczHVsQxAkEbx3Ec84uTF3ooHQixMAXAScLw3iWj/heliast-gridplus-challenge.pdf)
-* [Evidence M](https://ipfs.kleros.io/ipfs/QmUke7s1V7pkgSCUV2nBcuwxW2jwt4LHroD2yRcNvxwyn3/gridplus-violating-4.1.pdf)
-* [Evidence N](https://ipfs.kleros.io/ipfs/Qmb8g71Guw7Dj5kwRDKd6cXLaSVdFRWgg42mCagMmYHjGX/kleros-tcr-gridplus-ethfinex-compliance-badge-challenge-response.pdf)
+* [​Evidence L](https://cdn.kleros.link/ipfs/QmbvuyXczHVsQxAkEbx3Ec84uTF3ooHQixMAXAScLw3iWj/heliast-gridplus-challenge.pdf)
+* [Evidence M](https://cdn.kleros.link/ipfs/QmUke7s1V7pkgSCUV2nBcuwxW2jwt4LHroD2yRcNvxwyn3/gridplus-violating-4.1.pdf)
+* [Evidence N](https://cdn.kleros.link/ipfs/Qmb8g71Guw7Dj5kwRDKd6cXLaSVdFRWgg42mCagMmYHjGX/kleros-tcr-gridplus-ethfinex-compliance-badge-challenge-response.pdf)
 {% endhint %}
 
 {% embed url="https://youtu.be/qEMhjgo9kcQ?t=855" %}
@@ -134,8 +134,8 @@ Towards the end of the experiment, the following image was submitted into the Do
 {% hint style="info" %}
 **Examples of evidence material:**
 
-* [​Evidence O](https://ipfs.kleros.io/ipfs/QmXNYjTuc9XJ325qMuUjv9YQzjEvXDnU7oevR7ZbkkEMg4/Ricky's%20Case%20for%20Doges%20on%20Trial.pdf)
-* [Evidence P](https://ipfs.kleros.io/ipfs/Qmf77Cmd5BVzDtosxRfCmHX46qDBNp27tAKYBNkrdFPmxX/Cat%20In%20The%20Snow%20Evidence.pdf)
+* [​Evidence O](https://cdn.kleros.link/ipfs/QmXNYjTuc9XJ325qMuUjv9YQzjEvXDnU7oevR7ZbkkEMg4/Ricky's%20Case%20for%20Doges%20on%20Trial.pdf)
+* [Evidence P](https://cdn.kleros.link/ipfs/Qmf77Cmd5BVzDtosxRfCmHX46qDBNp27tAKYBNkrdFPmxX/Cat%20In%20The%20Snow%20Evidence.pdf)
 {% endhint %}
 
 The submitter claimed that this was the image of a cat and requested the 50 ETH reward. It was the opinion of Coopérative Kleros that the submitted image did not comply with the payout policy in the sense that it did not “clearly display” a cat as stated in the rules. Coopérative Kleros and the submitter agreed to settle the dispute using the recently launched Kleros Escrow Dapp and the payment was rejected in the end.

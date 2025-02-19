@@ -32,7 +32,7 @@ The Ethereum address you are using to submit your profile will be publicly linke
 
 Once you have submitted your profile, it will be in the “Vouching Phase” until you get vouched for and your deposit gets fully funded. Initially, you will only need 1 person to vouch for you \(it enables faster onboarding in the registry at launch\) but the number of vouches needed can be increased later on.
 
-Then, your profile will move to the “Pending Registration” phase, during which anyone can challenge it for a period of 3.5 days if they think you are not human or if it violates the [submission guidelines](https://ipfs.kleros.io/ipfs/Qmc7ag5XohnSAozvsKsLCUbvaFyasyLtyi3H7g3mmxznPU/proof-of-humanity-registry-policy.pdf).
+Then, your profile will move to the “Pending Registration” phase, during which anyone can challenge it for a period of 3.5 days if they think you are not human or if it violates the [submission guidelines](https://cdn.kleros.link/ipfs/Qmc7ag5XohnSAozvsKsLCUbvaFyasyLtyi3H7g3mmxznPU/proof-of-humanity-registry-policy.pdf).
 
 If your profile isn’t challenged during this period or the challenges are not successful, you are “Registered”.
 
@@ -72,7 +72,7 @@ You can reapply before the current registration period ends in order to avoid sp
 
 ### What rules should I follow to submit a proper profile or to remove an incorrect one?
 
-Check the [Proof of Humanity policy](https://ipfs.kleros.io/ipfs/Qmc7ag5XohnSAozvsKsLCUbvaFyasyLtyi3H7g3mmxznPU/proof-of-humanity-registry-policy.pdf) to obtain all the detailed conditions for a profile to be accepted or rejected from the registry.
+Check the [Proof of Humanity policy](https://cdn.kleros.link/ipfs/Qmc7ag5XohnSAozvsKsLCUbvaFyasyLtyi3H7g3mmxznPU/proof-of-humanity-registry-policy.pdf) to obtain all the detailed conditions for a profile to be accepted or rejected from the registry.
 
 ### Can I request to remove someone else profile from the registry?
 
