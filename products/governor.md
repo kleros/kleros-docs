@@ -13,7 +13,7 @@ Once a decision has been reached, a (technically inclined) user then needs to tr
 
 If a competing list is submitted in the same session, a dispute will be automatically created in Kleros Court, and jurors will get to choose which list is correct. After dispute resolution concludes, the deposit from the losing list will be used to pay the jurors and reward the user that submitted the winning list.
 
-Lists that most completely enforce the greatest number of governance decisions will be accepted. The process for choosing between lists can be seen [here](https://ipfs.kleros.io/ipfs/QmPt2oTHCYZYUShuLxiK4QWH6sXPHjvgXTqMDpCShKogQY/KlerosGovernorPrimaryDocument.pdf). 
+Lists that most completely enforce the greatest number of governance decisions will be accepted. The process for choosing between lists can be seen [here](https://cdn.kleros.link/ipfs/QmPt2oTHCYZYUShuLxiK4QWH6sXPHjvgXTqMDpCShKogQY/KlerosGovernorPrimaryDocument.pdf). 
 
 
 🏛 [Kleros Governor App](https://governor.kleros.io/) 🏛

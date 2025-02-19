@@ -21,7 +21,7 @@ If you want to help to maintain the PoH registry and earn money by spotting fake
 
 ![](<../../.gitbook/assets/image (34).png>)
 
-* Once you have applied the filter, click on each profile one by one to check if their information, photo, and video follow the [PoH guidelines](https://ipfs.kleros.io/ipfs/QmXDiiBAizCPoLqHvcfTzuMT7uvFEe1j3s4TgoWWd4k5np/proof-of-humanity-registry-policy-v1.3.pdf) or if you can spot impersonators or deepfake videos.
+* Once you have applied the filter, click on each profile one by one to check if their information, photo, and video follow the [PoH guidelines](https://cdn.kleros.link/ipfs/QmXDiiBAizCPoLqHvcfTzuMT7uvFEe1j3s4TgoWWd4k5np/proof-of-humanity-registry-policy-v1.3.pdf) or if you can spot impersonators or deepfake videos.
 
 {% hint style="info" %}
 You can use deepfake detection tools such as [https://deepware.ai/](https://deepware.ai), [https://sensity.ai/](https://sensity.ai) or other more powerful deepfake detection algorithms to help you in this enterprise. You can also use Voice Recognition Software to spot computer-generated voices or compare old and new submissions.

@@ -28,7 +28,7 @@ In short, yes.
 
 We’ve had one of [our lists](http://tokens.kleros.io/) running for some time which is a collection of Ethereum ERC20 tokens that meet a certain predefined criteria \(which we call “The Policy”\) as curated by the decentralized community.
 
-This particular list stipulates that each of the items \(in this case tokens\) conform to a predefined [criteria](https://ipfs.kleros.io/ipfs/QmbqgkZoGu7jJ8nTqee4NypEhK7YVBEJJmPJbJxz8Bx8nY/t2cr-primary-doc.pdf).
+This particular list stipulates that each of the items \(in this case tokens\) conform to a predefined [criteria](https://cdn.kleros.link/ipfs/QmbqgkZoGu7jJ8nTqee4NypEhK7YVBEJJmPJbJxz8Bx8nY/t2cr-primary-doc.pdf).
 
 You can see in the image below a clearly defined policy regarding item submissions to the list
 
