@@ -6,10 +6,9 @@ description: A guide on how to use Kleros as a standalone dispute resolution ser
 
 ## Introduction
 
-If you're interested in using the [**Kleros Court**](../../../../../products/court/) for dispute resolution within your project/company with zero technical work, the Recognition of Jurisdiction Integration (RoJ) is a great alternative. This is especially useful for **Protocols or Companies that are:**&#x20;
+If you're interested in using the [**Kleros Court**](../../../../../products/court/) for dispute resolution within your project/company with zero technical work, the Recognition of Jurisdiction Integration (RoJ) is a great alternative. This is especially useful for **Protocols or Companies that are:** &#x20;
 
-* Operating on **chains other than Ethereum and Gnosis Chain** (where Kleros offers native support)**.**&#x20;
-* Interested in **testing out the workflow with Kleros** without investing in a technical integration
+* Interested in **testing out the workflow with Kleros**&#x20;
 * **Traditional companies** (web 2 or web 2.5) that do not interact with the blockchain
 
 Completing the necessary documentation for a RoJ is a relatively short process, which shouldn't take more than a few weeks (or even a few days). \
