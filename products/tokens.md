@@ -9,7 +9,7 @@ hidden: true
 
 **Kleros Tokens** is an open and decentralized curated registry of tokens. In other words, it is a community-managed list of ERC-20 tokens (including their name, ticker, logo and address) open to any project and curated by the power of Kleros arbitration and economic incentives.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ## Why does the ecosystem need a decentralized and open list of tokens?
 

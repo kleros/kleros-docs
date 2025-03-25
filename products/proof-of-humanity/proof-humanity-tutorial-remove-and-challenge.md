@@ -5,7 +5,7 @@ description: >-
 hidden: true
 ---
 
-# Proof Humanity Tutorial (Remove & Challenge)
+# Proof of Humanity Tutorial (Remove & Challenge)
 
 ❓ Check out the [FAQ ](https://kleros.gitbook.io/docs/products/proof-of-humanity/poh-faq)or [Part 1 of the PoH Tutorial](https://kleros.gitbook.io/docs/products/proof-of-humanity/proof-of-humanity-tutorial) if you don't find your answer here.
 
@@ -33,7 +33,7 @@ You can use deepfake detection tools such as [https://deepware.ai/](https://deep
 
 * This will open a modal asking you for a reason to the challenge. Select the relevant reason and click on "Challenge Request".
 
-![](https://lh5.googleusercontent.com/i\_FY-o4RLOghfhPv3GqEszL6ms8qf5ebFVjJpEwWFmzCw935nIzSuF1g5CiNvK0LPTiYq\_jGFnHci\_9CMwXdYRTmdlNRM1jtDJb7dm9TnfyYLdjfLBXSRNWVuGVbFocE1R7JDRLB)
+![](https://lh5.googleusercontent.com/i_FY-o4RLOghfhPv3GqEszL6ms8qf5ebFVjJpEwWFmzCw935nIzSuF1g5CiNvK0LPTiYq_jGFnHci_9CMwXdYRTmdlNRM1jtDJb7dm9TnfyYLdjfLBXSRNWVuGVbFocE1R7JDRLB)
 
 * Send the Transaction with the challenger deposit. Once the transaction is validated, the profile will soon go to "Challenged Registration" status.
 
@@ -110,7 +110,7 @@ _**Example 3: Send a removal request from a different address than the submitter
 
 ![](<../../.gitbook/assets/image (49).png>)
 
-* For this, go directly to your profile page using _`https://app.proofofhumanity.id/profile/youraddress?network=mainnet`_or click on "My Profile", and check that it is in "Removed" status. If it's not, remove it using these instructions in the [previous tab](https://kleros.gitbook.io/docs/products/proof-of-humanity/proof-humanity-tutorial-remove-and-challenge#6-remove-a-profile-from-the-registry).
+* For this, go directly to your profile page using _`https://app.proofofhumanity.id/profile/youraddress?network=mainnet`_&#x6F;r click on "My Profile", and check that it is in "Removed" status. If it's not, remove it using these instructions in the [previous tab](https://kleros.gitbook.io/docs/products/proof-of-humanity/proof-humanity-tutorial-remove-and-challenge#6-remove-a-profile-from-the-registry).
 * Then, connect your new Ethereum address to the app, and [submit your new profile](https://kleros.gitbook.io/docs/products/proof-of-humanity/proof-of-humanity-tutorial#1-register-your-profile-5-10mn) like you did the first time.
 
 **7.b/ Resubmit a profile from the same address**
@@ -134,7 +134,7 @@ Reapplying is a proof that you are still alive and want to continue your registr
 
 * To Reapply, go to your profile page by clicking on “My Profile” then click on “Reapply”
 
-![](https://lh3.googleusercontent.com/o\_SG\_QHoRYcPuHVe9WreYL\_mJdj\_T6C2nH4nkkJRvluKNlnD29qzoHJ8YpU7PjRtRgZx\_lk3MRFxJ44Oe043RRgft7JZ0MQcD0QUGhqt24i3ffqgRGlSBO8lrpWYK2cX4QS4mX4X)
+![](https://lh3.googleusercontent.com/o_SG_QHoRYcPuHVe9WreYL_mJdj_T6C2nH4nkkJRvluKNlnD29qzoHJ8YpU7PjRtRgZx_lk3MRFxJ44Oe043RRgft7JZ0MQcD0QUGhqt24i3ffqgRGlSBO8lrpWYK2cX4QS4mX4X)
 
 * Fill out the form (like in your initial registration) where you’ll be redirected to, but this time the display name is prefilled. Be sure to follow all guidelines&#x20;
 
@@ -142,9 +142,9 @@ Reapplying is a proof that you are still alive and want to continue your registr
 
 * Once the files are uploaded, it’ll trigger a signature confirmation popup for your reapplication. Click on “Sign”
 
-![](https://lh6.googleusercontent.com/13wdVkznsLHTuuqqzjYerpkJ02\_JkLfEpjhIQr99\_N-8f9sHdJ9Sktug-LJP98I1yhMd84VC-GbvxvI2d3h4vo3jNv3\_w7zxXV7DUXBJcl1jyQTKu-N5z269wrjiD0CxxYipVuMa)
+![](https://lh6.googleusercontent.com/13wdVkznsLHTuuqqzjYerpkJ02_JkLfEpjhIQr99_N-8f9sHdJ9Sktug-LJP98I1yhMd84VC-GbvxvI2d3h4vo3jNv3_w7zxXV7DUXBJcl1jyQTKu-N5z269wrjiD0CxxYipVuMa)
 
-![](https://lh5.googleusercontent.com/2P3takJLYKkE\_HQp4UyvvCie2a7oAC0McKmZBVfLbD3Qpcj2XR6DTaJlDGoOJWKbnAvN\_kQAcnm46xNyG2-AiCF3KmIfJJYeKh-Xlbo8XvmnXl2\_LfbA1EU\_wdhQtRfQpreWg3xN)
+![](https://lh5.googleusercontent.com/2P3takJLYKkE_HQp4UyvvCie2a7oAC0McKmZBVfLbD3Qpcj2XR6DTaJlDGoOJWKbnAvN_kQAcnm46xNyG2-AiCF3KmIfJJYeKh-Xlbo8XvmnXl2_LfbA1EU_wdhQtRfQpreWg3xN)
 
 * Then, another wallet pop up will appear for you to confirm the on-chain transaction (ETH Deposit + blockchain fees). Once your transaction is confirmed, your reapplication will go through the same phases as your initial registration except that you don’t need to be vouched for gas-vouched profiles.
   * For gasless vouch, you may need to be vouched again as gasless vouch has expiration time.

@@ -108,7 +108,7 @@ Check our tutorial on [how to remove or withdraw a profile](../proof-humanity-2.
 First, you need to remove your own existing profile and then either reapply using the same wallet address or submit with another address for a new registration. In order to remove your old registered profile, you need to go to your registered profile page and click on the '<mark style="color:orange;">Revoke</mark>' button and then provide evidence that you are indeed the submitter. Check out our [tutorial](../proof-humanity-2.0-tutorial-remove-and-challenge.md).
 
 {% hint style="success" %}
-_**Example 1.**** **<mark style="color:orange;">**Send a removal request from the same address as the submitter.**</mark>_
+_**Example 1.****&#x20;**<mark style="color:orange;">**Send a removal request from the same address as the submitter.**</mark>_
 
 **Evidence Name**: Self-removal of submission.
 
@@ -116,7 +116,7 @@ _**Example 1.**** **<mark style="color:orange;">**Send a removal request from th
 {% endhint %}
 
 {% hint style="success" %}
-_**Example 2:**** **<mark style="color:orange;">**Send a removal request from a different address than the submitter.**</mark>_
+_**Example 2:****&#x20;**<mark style="color:orange;">**Send a removal request from a different address than the submitter.**</mark>_
 
 **Evidence Name**: Self-removal of submission.
 
@@ -124,7 +124,7 @@ _**Example 2:**** **<mark style="color:orange;">**Send a removal request from a 
 {% endhint %}
 
 {% hint style="success" %}
-_**Example 3:**** **<mark style="color:orange;">**Send a removal request to remove a malicious or incorrect submission.**</mark>_
+_**Example 3:****&#x20;**<mark style="color:orange;">**Send a removal request to remove a malicious or incorrect submission.**</mark>_
 
 **Evidence Name**: Removal of deepfake submission.
 
