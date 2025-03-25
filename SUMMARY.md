@@ -90,7 +90,8 @@
 
 ## Developers <a href="#developer" id="developer"></a>
 
-* [Arbitration Development](developer/arbitration-development/README.md)
+* [Deployment Addresses](developer/deployment-addresses.md)
+* [Arbitration Standard](developer/arbitration-development/README.md)
   * [ERC-792: Arbitration Standard](developer/arbitration-development/erc-792-arbitration-standard.md)
   * [ERC 1497: Evidence Standard](developer/arbitration-development/erc-1497-evidence-standard.md)
   * [Arbitrable Proxy](developer/arbitration-development/arbitrable-proxy.md)
@@ -101,32 +102,36 @@
   * [ArbitrableTransaction.sol](developer/arbitration-by-example/arbitrabletransaction.sol.md)
   * [MultipleArbitrableTransaction.sol](developer/arbitration-by-example/multiplearbitrabletransaction.sol.md)
   * [MultipleArbitrableTokenTransaction.sol](developer/arbitration-by-example/multiplearbitrabletokentransaction.sol.md)
-* [Archon: Ethereum Arbitration Standard Interaction Library](developer/archon-ethereum-arbitration-standard-api.md)
-* [Deployment Addresses](developer/deployment-addresses.md)
-* [Curate Classic: Integration for Devs](developer/classic.md)
-* [Light Curate: Integration for Devs](developer/light-curate.md)
-* [Guide for Preparing Transactions](developer/guide-for-preparing-transactions.md)
+* [Archon: Arbitration SDK](developer/archon-ethereum-arbitration-standard-api.md)
+* Product Integration for Devs
+  * [Curate Classic Integration](developer/classic.md)
+  * [Light Curate Integration](developer/light-curate.md)
+* Contribution Guidelines
+  * [Overview](contribution-guidelines/overview.md)
+  * [General Dev. Workflow](contribution-guidelines/general-dev.-workflow/README.md)
+    * [Task Tracking & Lifecycle](contribution-guidelines/general-dev.-workflow/task-tracking-and-lifecycle.md)
+    * [Releases](contribution-guidelines/general-dev.-workflow/releases.md)
+  * [Smart Contract Workflow](contribution-guidelines/smart-contract-workflow/README.md)
+    * [Task Tracking & Lifecycle](contribution-guidelines/smart-contract-workflow/task-tracking-and-lifecycle.md)
+    * [RAB - Review, Audit, Bounty](contribution-guidelines/smart-contract-workflow/rab.md)
+    * [RABd (+ Deploy)](contribution-guidelines/smart-contract-workflow/rabd.md)
+    * [Reporting Vulnerabilities](contribution-guidelines/smart-contract-workflow/reporting-vulnerabilities.md)
+  * [Code Style and Guidelines](contribution-guidelines/code-style-and-guidelines/README.md)
+    * [Git](contribution-guidelines/code-style-and-guidelines/git.md)
+    * [Solidity](contribution-guidelines/code-style-and-guidelines/solidity.md)
+    * [Web Languages](contribution-guidelines/code-style-and-guidelines/web-languages.md)
+  * [License & Code of Conduct](contribution-guidelines/license-and-code-of-conduct/README.md)
+    * [License](contribution-guidelines/license-and-code-of-conduct/license.md)
+    * [Code of Conduct](contribution-guidelines/license-and-code-of-conduct/code-of-conduct.md)
 
-## Contribution Guidelines
+## PRODUCT & TECH SUPPORT
+* [Support Playbook](support/support-playbook.md)
+* [Support FAQ](support/support-faq.md)
+* Technical Guides
+  * [Proposing Transactions to the Governance](support/guide-for-preparing-transactions.md)
+  * [Drawing Jurors Manually](support/guide-manual-jurors-drawing.md)
 
-* [Overview](contribution-guidelines/overview.md)
-* [General Dev. Workflow](contribution-guidelines/general-dev.-workflow/README.md)
-  * [Task Tracking & Lifecycle](contribution-guidelines/general-dev.-workflow/task-tracking-and-lifecycle.md)
-  * [Releases](contribution-guidelines/general-dev.-workflow/releases.md)
-* [Smart Contract Workflow](contribution-guidelines/smart-contract-workflow/README.md)
-  * [Task Tracking & Lifecycle](contribution-guidelines/smart-contract-workflow/task-tracking-and-lifecycle.md)
-  * [RAB - Review, Audit, Bounty](contribution-guidelines/smart-contract-workflow/rab.md)
-  * [RABd (+ Deploy)](contribution-guidelines/smart-contract-workflow/rabd.md)
-  * [Reporting Vulnerabilities](contribution-guidelines/smart-contract-workflow/reporting-vulnerabilities.md)
-* [Code Style and Guidelines](contribution-guidelines/code-style-and-guidelines/README.md)
-  * [Git](contribution-guidelines/code-style-and-guidelines/git.md)
-  * [Solidity](contribution-guidelines/code-style-and-guidelines/solidity.md)
-  * [Web Languages](contribution-guidelines/code-style-and-guidelines/web-languages.md)
-* [License & Code of Conduct](contribution-guidelines/license-and-code-of-conduct/README.md)
-  * [License](contribution-guidelines/license-and-code-of-conduct/license.md)
-  * [Code of Conduct](contribution-guidelines/license-and-code-of-conduct/code-of-conduct.md)
-
-## Additional Resources
+## Resources
 
 * [Discord](https://discord.gg/cAvWk8B23f)
 * [Telegram](https://t.me/kleros)
