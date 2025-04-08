@@ -8,7 +8,7 @@ description: ❓ Frequently Asked Questions about Kleros
 
 ### Can you really trust a decision made by a bunch of anonymous people on the Internet?
 
-Satoshi Nakamoto taught us that a number of anonymous computers who do not trust each can still reach consensus, provided incentives are correctly structured. Kleros extends this principle to human decision-making. A number of anonymous jurors who do not trust each other can reach consensus on a right decision, provided incentives are correctly structured.&#x20;
+Satoshi Nakamoto taught us that a number of anonymous computers who do not trust each can still reach consensus, provided incentives are correctly structured. Kleros extends this principle to human decision-making. A number of anonymous jurors who do not trust each other can reach consensus on a right decision, provided incentives are correctly structured.
 
 Since decisions made in Kleros affect the allocation of resources, there is an incentive for parties to try to bribe or intimidate the tribunal. Pseudonymity is intended to protect jurors from bribing attempts, intimidation, and retaliation. It favors their functional independence (ability to freely give their judgement). It also simplifies the process of users becoming jurors and avoids the costs of identity verification. By providing a secure environment and simplifying the selection process, Kleros greatly enlarges the pool of potential jurors. This results in lower arbitration costs and the democratization of access to justice.
 
@@ -36,7 +36,7 @@ Team Members: 18% First Round of Token Sale: 16% Airdrop: 4% Subsequent Rounds a
 
 ### Could Kleros become a platform used by mainstream online retailers such as eBay or Amazon?
 
-Yes, by adopting Kleros, any mainstream e-commerce platform could enjoy a fast, affordable, and transparent dispute resolution method. If you want to learn more, watch this talk ["When Decentralized Protocols Meet the Real World"](https://youtu.be/ssdgdV\_fngI) or contact us.
+Yes, by adopting Kleros, any mainstream e-commerce platform could enjoy a fast, affordable, and transparent dispute resolution method. If you want to learn more, watch this talk ["When Decentralized Protocols Meet the Real World"](https://youtu.be/ssdgdV_fngI) or contact us.
 
 ### Is Kleros a court where rich people have more rights than ordinary folks (because appeals are more affordable for the rich)? / How can I expect fairness from a court where whales have staked a lot of PNK?
 
@@ -55,9 +55,9 @@ In order for a "whale" attacker to flood the juror pool and try to "control the 
 
 An attacker may get lucky in rare circumstances and be selected for two of three juror spots with only a minority of the PNK. However, in order to maintain the attack through the appeal process, it would need to be selected for the majority of the juror spots on larger and larger juries, which will only be possible if the attacker actually has a majority of the PNK. Hence, substantial economic resources in the order of hundreds of millions of dollars would be required to perform a 51% attack.\
 \
-_**If a "whale" tries to buy 51% of all staked PNK:**_ The PNK market liquidity will dry up. As the attacker buys PNK, it will start to become scarce and each additional PNK will cost more and more. The attacker may not even be able to find 51% of PNK for sale on the open market at any given time and it will progressively cost so much that the attack would not be economically viable.\
+&#xNAN;_**If a "whale" tries to buy 51% of all staked PNK:**_ The PNK market liquidity will dry up. As the attacker buys PNK, it will start to become scarce and each additional PNK will cost more and more. The attacker may not even be able to find 51% of PNK for sale on the open market at any given time and it will progressively cost so much that the attack would not be economically viable.\
 \
-_**If a malicious attacker did manage somehow to buy a majority of staked PNK:**_ The community would realize that it is under attack, particularly if the attacker uses his new PNK to commit obvious miscarriages of justice. In this case, Kleros would lose credibility as an arbitration platform and the value of PNK would decrease. Then the attacker would take a substantial loss on the PNK she bought, representing a high economic cost to carry out the attack.
+&#xNAN;_**If a malicious attacker did manage somehow to buy a majority of staked PNK:**_ The community would realize that it is under attack, particularly if the attacker uses his new PNK to commit obvious miscarriages of justice. In this case, Kleros would lose credibility as an arbitration platform and the value of PNK would decrease. Then the attacker would take a substantial loss on the PNK she bought, representing a high economic cost to carry out the attack.
 
 _**If a malicious attacker made a successful 51% attack:**_ The community would perform a last-ditch defense by forking the system to remove the attackers’ holdings. Then the market would sort out which version of PNK should be used going forward. This is similar to the [ultimate appeal mechanism of Augur](https://medium.com/kleros/kleros-and-augur-keeping-people-honest-on-ethereum-through-game-theory-56210457649c).
 
@@ -73,11 +73,11 @@ Kleros protocol is committed to full transparency. Its cases are completely open
 
 ### Can Kleros go beyond simple binary cases?
 
-Kleros can go beyond simple Yes/No arbitration cases to cover also multiple choices and even numerical/scalar outcomes (e.g. what is the number of electoral college votes won by Biden in the 2020 election?).&#x20;
+Kleros can go beyond simple Yes/No arbitration cases to cover also multiple choices and even numerical/scalar outcomes (e.g. what is the number of electoral college votes won by Biden in the 2020 election?).
 
 We normally prescribe offering binary choices to the jury as it avoids the negative effects of vote-splitting, and allows for a small number of jurors (potentially as low as just one) to already arrive at a useful result.
 
-For complex multi-factorial cases, the [Pendulum arbitration](https://en.wikipedia.org/wiki/Pendulum\_arbitration) method can be used to ask the Kleros jury to choose between two (or more sets of outcomes).
+For complex multi-factorial cases, the [Pendulum arbitration](https://en.wikipedia.org/wiki/Pendulum_arbitration) method can be used to ask the Kleros jury to choose between two (or more sets of outcomes).
 
 ## Jurors
 
@@ -89,9 +89,9 @@ Yes, it’s possible to create an arbitrable smart contract that uses Kleros for
 
 Jurors should not stake using a smart contract account specifically in **courts where hiddenVotes are enabled** - this is because the frontend is currently unable to verify the signature. At the moment, the courts which have hiddenVotes enabled are the **General Court on Gnosis Chain** and the **Spanish General Court on both Ethereum Mainnet and Gnosis Chain.**
 
-### I have been drawn to rule on a dispute, can I recuse myself from the case without penalty?&#x20;
+### I have been drawn to rule on a dispute, can I recuse myself from the case without penalty?
 
-Jurors drawn for a dispute must participate and cannot recuse themselves. However, they can opt for a “Refuse to Arbitrate” vote under specific conditions, more details on this [below](kleros-faq.md#when-should-i-vote-refuse-to-arbitrate).&#x20;
+Jurors drawn for a dispute must participate and cannot recuse themselves. However, they can opt for a “Refuse to Arbitrate” vote under specific conditions, more details on this [below](kleros-faq.md#when-should-i-vote-refuse-to-arbitrate).
 
 Allowing jurors to recuse themselves would disrupt the balance of dispute resolution costs, which are intended to be competitive and fair, particularly in complex cases. These complex disputes demand the most from jurors, and abstention could compromise the integrity of outcomes, potentially lowering the bar for influencing decisions and thereby worsening the quality of rulings in challenging cases.
 
@@ -156,7 +156,7 @@ Jurors who don't give their ruling before the deadline are penalized by losing s
 ### Are jurors incentivised to rule in a way which brings them more cases in the future?
 
 Voting incoherently within the span of a single case in order to incite appeals will only cause the initial jurors a risk of losing even more money.\
-As PNK and Kleros is economically and governmentally independent from all other DAOs, it is not possible for the jurors to cause more rulings to come into the Kleros Court. \
+As PNK and Kleros is economically and governmentally independent from all other DAOs, it is not possible for the jurors to cause more rulings to come into the Kleros Court.\
 That being said, if proper juror activity on Kleros Court leads to more DAOs/partners to entrust disputes to it, then it should be seen as a good thing.
 
 ## Legal

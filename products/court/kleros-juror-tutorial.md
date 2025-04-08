@@ -20,7 +20,7 @@ In order to become a juror, there is no sign up, no personal information needed.
 
 To start using the Kleros Court, you first need to get a [Metamask wallet](https://blog.wetrust.io/how-to-install-and-use-metamask-7210720ca047) and [buy some PNK](https://blog.kleros.io/how-to-buy-pnk-on-bitfinex-exchange/), with some ETH on the side to pay for gas fees. If you don’t have PNK yet, the easiest way to obtain some is to go to the Court interface and just click ‘Buy PNK’ from the top right of the courts homepage. The fastest way to obtain PNK is to get it directly from the ["Buy PNK"](https://court.kleros.io/tokens) page of the Court or using one of the exchanges listed there.
 
-![](https://lh4.googleusercontent.com/UAFeO\_EN4QapE-HVAxhyLnrnr6MEww84fTKkIJX0BzWRX7G664rC08wyXSz2Xvfe0pDqqBZ3dNBrQNHajz-mK-96BLIzHIVHpW3dLo-2\_Mid1iJ4FKLLl4Q5aDO1m-GKJ\_bu3V-C)
+![](https://lh4.googleusercontent.com/UAFeO_EN4QapE-HVAxhyLnrnr6MEww84fTKkIJX0BzWRX7G664rC08wyXSz2Xvfe0pDqqBZ3dNBrQNHajz-mK-96BLIzHIVHpW3dLo-2_Mid1iJ4FKLLl4Q5aDO1m-GKJ_bu3V-C)
 
 Once you've obtained your PNK, all that remains is to stake it. Since the Court is decentralized, jurors have to vet themselves to see whether they're specialized in a specific court's field.
 
@@ -32,7 +32,7 @@ Once you’ve taken a look at the courts, what remains is to stake your PNK and 
 
 * Go to the [Kleros Court](https://court.kleros.io/). In the header, click on "Courts" and then "Join a Court".
 
-![](https://lh5.googleusercontent.com/iZM7CkC3W3B9\_vjpHizGjSwj9EUFfw3luoUDQm6CJnepjbNmM6q8bsk9yuiQ1r5VE050QYkmd833-X7y8GRNICoE0wGp8WHv\_92BK4K\_yl9gvELflBA1VhlVFgD1n459iNFK0rjq)
+![](https://lh5.googleusercontent.com/iZM7CkC3W3B9_vjpHizGjSwj9EUFfw3luoUDQm6CJnepjbNmM6q8bsk9yuiQ1r5VE050QYkmd833-X7y8GRNICoE0wGp8WHv_92BK4K_yl9gvELflBA1VhlVFgD1n459iNFK0rjq)
 
 * Next, you will see the default ‘General Court’ selected. This is the parent court, so you can click down the court tree to see each court’s description and requirements. For this example, we will click through the ‘General Court’ court to the ‘Curation’ court.
 
@@ -57,7 +57,7 @@ Once you’ve taken a look at the courts, what remains is to stake your PNK and 
 
 ## The Kleros court process
 
-![Kleros Court process](<../../.gitbook/assets/image (1) (1) (1).png>)
+![Kleros Court process](<../../.gitbook/assets/image (1) (1) (1) (1).png>)
 
 **Important note: before you vote, review the policies carefully.**
 

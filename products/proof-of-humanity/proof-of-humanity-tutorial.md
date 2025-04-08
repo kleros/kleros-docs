@@ -84,7 +84,7 @@ If you don't see the '<mark style="color:orange;">Register</mark>' in the top me
 {% hint style="info" %}
 :pushpin: Your video must show you holding a sign with your wallet address (e.g., 0xFdc78b748d6Bc5f77892f6654ca73426a0D3b127) and saying the phrase:\
 \
-_"<mark style="color:orange;">**I certify that I am a real human and that I am not already registered in this registry**</mark>"._
+&#xNAN;_"<mark style="color:orange;">**I certify that I am a real human and that I am not already registered in this registry**</mark>"._
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-07-25 at 11.55.24 AM.png" alt=""><figcaption></figcaption></figure>
