@@ -106,13 +106,28 @@ The fields in this MetaEvidence JSON are as follows:
     * `uint`: the jurors input an unsigned integer.
     * `int`: the jurors input a signed integer.
     * `string`: the jurors enter a string. String must fit into `bytes32`.
-  * `precision`:  only applicable for ruling types `int` and `uint` to indicate the number of decimal places a ruling contains.
+  * `precision`: only applicable for ruling types `int` and `uint` to indicate the number of decimal places a ruling contains.
   * `titles`: an array of the options available to the jurors. NOTE: the sequence of the titles is important as they map directly to the rulings you get when the Arbitrator responds to your Arbitrable using the `rule()` function.
   * `descriptions`: the description of the `rulingOption` titles.
-* `fileURI`: The URI that leads to the primary document of the case, which is a natural language contract, policy, or primary document that is the basis of the dispute. See [this section](../../integrations/types-of-integrations/1.-dispute-resolution-integration-plan/#2.-write-a-good-dispute-policy) on the role of the primary document and how to write a good one.
-* `evidenceDisplayInterfaceURI`: The URI to a display interface that should be used to render the facts of a case in an iframe by the Arbitrator.&#x20;
+*   `fileURI`: The URI points to the primary document of the case, which is the foundational document that establishes the rules for the dispute. This document is typically a dispute policy that defines criteria for resolution and serves as the basis for jurors to make their decisions. We have established dispute policies for the following products that can be referenced:&#x20;
 
-Here's an example of a MetaEvidence JSON:&#x20;
+    * **Kleros Scout**
+      * [ATR (Address Tag Registry)](https://ipfs.kleros.io/ipfs/QmXuUER9is6n4XgiDtNnZBqPCTsJvMj1ku5gQg5EZGxfxw/atr-registry-policy.pdf)
+      * [CDN (Curated Domain Names)](https://ipfs.kleros.io/ipfs/QmVL3hR8E2XcnJ1PjKARqh7e5SDJM1HeKLsUYnLnUyKEWo/domain-name-dispute-resolution-policy-v1.0.pdf)
+      * [Snap](https://ipfs.kleros.io/ipfs/QmcARXVNcX8LpvjMZDgL8AQyW8q1XxwMfVTPSJ3YRvCpvx/snap-dispute-policy.pdf)
+    * **Oracle**
+      * [Oracle Dispute Policy](https://ipfs.kleros.io/ipfs/QmfHRnNnBxxa1uD5MKP2HNrB8hWjHsrNfqaLetiEa8LfaT/reality-eth-dispute-policy.pdf)
+    * **Court**
+      * [Court Policies](https://ipfs.kleros.io/ipfs/QmZYxRxwKMPpSMq8MJSd5QFeSUZoii7hFwXJvQn7bvnbCq/kleros-court-justice-policy.pdf)
+    * **Governor**
+      * [Governor Policy](https://ipfs.kleros.io/ipfs/QmVMqK7yXTXVXzLGJgT1XLJeaWD5LJhN2A2PrqMM41BbWY/kleros-governor-policy.pdf)
+    * **Proof of Humanity**
+      * [PoH v2 Policy](https://ipfs.kleros.io/ipfs/QmNSV9xXKiBtaRW1MYmFaVkqsD1Qez2ZDX1jyP21j87jxj/poh-v2-policy.pdf)
+
+    For guidance on creating your own dispute policy document, please refer to our [Policy Writing Guide](https://docs.kleros.io/integrations/policy-writing-guide).
+* `evidenceDisplayInterfaceURI`: The URI to a display interface that should be used to render the facts of a case in an iframe by the Arbitrator.
+
+Here's an example of a MetaEvidence JSON:
 
 ```json
 {
@@ -165,7 +180,7 @@ https://cdn.kleros.link/ipfs/QmSL8d82dMhcThwERWaF4LtmCa4hgV7TyPjAo4fKCzPVkv/inde
 ```
 
 {% hint style="info" %}
-Pro-tip: To avoid having to create a new MetaEvidence JSON and pin it to IPFS prior to every dispute, you can use just a static MetaEvidence JSON, and use a `evidenceDisplayInterfaceURI` that dynamically displays different information based on the query string.&#x20;
+Pro-tip: To avoid having to create a new MetaEvidence JSON and pin it to IPFS prior to every dispute, you can use just a static MetaEvidence JSON, and use a `evidenceDisplayInterfaceURI` that dynamically displays different information based on the query string.
 {% endhint %}
 
 ### Evidence: <a href="#evidence" id="evidence"></a>
