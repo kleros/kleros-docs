@@ -19,7 +19,7 @@ A full list of Kleros's existing integrations and partnerships can be found [her
 Integrating Kleros into your dispute decision process will always involve 5 main steps and they are outlined below.&#x20;
 
 {% hint style="info" %}
-To help you keep track of your integration process, click [**here**](https://docs.google.com/document/d/11HUXGV25cy\_DMKXJvIn7LeAGBjY7ohXtO5uNN\_C9wI0/copy?copyComments=true) to make a copy of our  Dispute Resolution model integration plan!
+To help you keep track of your integration process, click [**here**](https://docs.google.com/document/d/11HUXGV25cy_DMKXJvIn7LeAGBjY7ohXtO5uNN_C9wI0/copy?copyComments=true) to make a copy of our  Dispute Resolution model integration plan!
 {% endhint %}
 
 To help you keep track of the process, click here to make a copy of our model integration plan!
@@ -119,7 +119,7 @@ Once all the above are done, it is time to communicate the involvement of Kleros
 Once all the above are done, you are ready to go live with Kleros!&#x20;
 
 {% hint style="info" %}
-Reminder: To help you keep track of your integration process, click [**here**](https://docs.google.com/document/d/11HUXGV25cy\_DMKXJvIn7LeAGBjY7ohXtO5uNN\_C9wI0/copy?copyComments=true) to make a copy of our model integration plan!
+Reminder: To help you keep track of your integration process, click [**here**](https://docs.google.com/document/d/11HUXGV25cy_DMKXJvIn7LeAGBjY7ohXtO5uNN_C9wI0/copy?copyComments=true) to make a copy of our model integration plan!
 {% endhint %}
 
 ## Ready-made integrations
@@ -144,9 +144,7 @@ If you are performing a smart contract integration, you can use the centralized 
 
 [centralized-arbitrator.md](integration-tools/centralized-arbitrator.md "mention")
 
-If you would like to use the existing escrow smart contracts of Kleros behind [escrow.kleros.io](https://escrow.kleros.io), you can also make use of the following tools.
 
-[escrow-sdk.md](integration-tools/escrow-sdk.md "mention")
 
-[escrow-react-widget.md](integration-tools/escrow-react-widget.md "mention")
+
 

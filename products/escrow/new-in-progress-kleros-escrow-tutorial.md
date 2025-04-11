@@ -168,7 +168,7 @@ If you are the sender of the payment you'll see the following options for an exi
 
 In the final screen, you'll see a confirmation that the payment was made successfully.
 
-![](https://blog.kleros.io/content/images/2019/04/Payment\_completed.jpg)
+![](https://blog.kleros.io/content/images/2019/04/Payment_completed.jpg)
 
 * **No**: Select this if you're not satisfied with the outcome/action by the other party. You'll then have an option to either settle with a partial amount or raise a dispute to the Kleros court for arbitration
 
@@ -257,10 +257,10 @@ When the final ruling is made, the winning party can withdraw its funds from the
 
 ## Build With Escrow
 
-{% content-ref url="../../integrations/types-of-integrations/1.-dispute-resolution-integration-plan/integration-tools/escrow-react-widget.md" %}
-[escrow-react-widget.md](../../integrations/types-of-integrations/1.-dispute-resolution-integration-plan/integration-tools/escrow-react-widget.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="../../integrations/types-of-integrations/1.-dispute-resolution-integration-plan/integration-tools/escrow-sdk.md" %}
-[escrow-sdk.md](../../integrations/types-of-integrations/1.-dispute-resolution-integration-plan/integration-tools/escrow-sdk.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}

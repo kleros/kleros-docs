@@ -11,7 +11,7 @@ hidden: true
 
 {% tabs %}
 {% tab title="5/ Challenge a profile" %}
-### 5/ Challenge a profile in "Pending registration" status.
+#### 5/ Challenge a profile in "Pending registration" status.
 
 If you want to help to maintain the PoH registry and earn money by spotting fake, bot, and incorrect profiles, you will need to learn how to challenge these types of profiles when they are in "Pending Registration" status.
 
@@ -51,7 +51,7 @@ You can use deepfake detection tools such as [https://deepware.ai/](https://deep
 {% endtab %}
 
 {% tab title="6/ Remove a profile" %}
-### 6/ Remove a profile from the registry
+#### 6/ Remove a profile from the registry
 
 **6.a/ Remove your own profile still in "Vouching Phase"**
 
@@ -102,7 +102,7 @@ _**Example 3: Send a removal request from a different address than the submitter
 {% endtab %}
 
 {% tab title="7/ Resubmit/Reapply a profile" %}
-### 7/ Resubmit a profile
+#### 7/ Resubmit a profile
 
 **7.a/ Resubmit a profile from a new address**
 
@@ -125,8 +125,6 @@ _**Example 3: Send a removal request from a different address than the submitter
 **7.c/ Reapply a profile expired or soon-to-be expired**
 
 * When your profile is expired (two year after registration) or soon before expiration, you will need to reapply to the registry to prove you are still alive and in control of your Ethereum address
-
-
 {% endtab %}
 
 {% tab title="8/ Reapply a profile" %}
@@ -136,7 +134,7 @@ Reapplying is a proof that you are still alive and want to continue your registr
 
 ![](https://lh3.googleusercontent.com/o_SG_QHoRYcPuHVe9WreYL_mJdj_T6C2nH4nkkJRvluKNlnD29qzoHJ8YpU7PjRtRgZx_lk3MRFxJ44Oe043RRgft7JZ0MQcD0QUGhqt24i3ffqgRGlSBO8lrpWYK2cX4QS4mX4X)
 
-* Fill out the form (like in your initial registration) where you’ll be redirected to, but this time the display name is prefilled. Be sure to follow all guidelines&#x20;
+* Fill out the form (like in your initial registration) where you’ll be redirected to, but this time the display name is prefilled. Be sure to follow all guidelines
 
 ![](https://lh4.googleusercontent.com/P3nBXoGVZDVrkazF7PJc8MS3xEb2v-DIEYHR4wnyDme4U5yvEvk0XjsG14UG24YOYLLN1uxFgnaGz9vJfbjtfRElGtOHoQ9qAin33mMno6gtt6A6iQtRYWHVl7UwJypOmvegrAl7)
 
