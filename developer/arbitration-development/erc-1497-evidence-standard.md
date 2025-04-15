@@ -125,7 +125,64 @@ The fields in this MetaEvidence JSON are as follows:
       * [PoH v2 Policy](https://ipfs.kleros.io/ipfs/QmNSV9xXKiBtaRW1MYmFaVkqsD1Qez2ZDX1jyP21j87jxj/poh-v2-policy.pdf)
 
     For guidance on creating your own dispute policy document, please refer to our [Policy Writing Guide](https://docs.kleros.io/integrations/policy-writing-guide).
-* `evidenceDisplayInterfaceURI`: The URI to a display interface that should be used to render the facts of a case in an iframe by the Arbitrator.
+*   `evidenceDisplayInterfaceURI`: This field provides a URI that points to a display interface for rendering evidence in a more user-friendly way for arbitrators.
+
+    **Core purpose:**
+
+    * Creates a custom UI for presenting evidence within the arbitration interface
+    * Allows for branded, styled presentation of dispute evidence
+    * Renders in an iframe within the arbitrator's interface
+
+    **The query parameters passed to it include:**
+
+    * `disputeID`: Identifier for the specific dispute
+    * `chainID`: The blockchain network ID
+    * `arbitratorContractAddress`: Address of the arbitrator contract
+    * `arbitratorJsonRpcUrl`: JSON-RPC endpoint for the arbitrator's blockchain
+    * `arbitratorChainID`: Chain ID for the arbitrator
+    * `arbitrableContractAddress`: Address of the arbitrable contract
+    * `arbitrableChainID`: Chain ID for the arbitrable contract
+    * `arbitrableJsonRpcUrl`: JSON-RPC endpoint for the arbitrable contract's blockchain
+    * `jsonRpcUrl`: General JSON-RPC URL for the arbitrator's environment (typically Ethereum mainnet or Gnosis Chain)
+
+    While there are no hard limits to the amount of content that can be displayed, it's recommended to keep the interface under 360px in height to ensure it's easily readable within the court interface.
+
+    **When to use it:**
+
+    1. **Complex Financial Transactions**: For payment histories, multi-party transactions, or time-series data that benefits from visualization.
+    2. **Evidence Context and Relationships**: Standard evidence attachments are recommended for both textual and non-textual evidence, but the display interface can organize these attachments, provide context, and visualize relationships between different evidence elements.
+    3. **Branded Experience**: When maintaining your application's visual identity throughout the dispute resolution process is important. \
+       **Examples:** [escrow](https://github.com/kleros/escrow-evidence-display), [reality same chain](https://github.com/kleros/realitio-interface), [reality cross-chain](https://github.com/kleros/cross-chain-realitio-proxy/tree/master/evidence-display), [curate](https://github.com/kleros/gtcr-injected-uis)
+*   `dynamicScriptURI`: This field provides a URI to a script that can dynamically update the MetaEvidence when it's fetched by an arbitrator interface. This script must expose a function called `getMetaEvidence` that returns JSON data, which is then merged with the original MetaEvidence JSON.
+
+    **Core purpose:**
+
+    * Makes MetaEvidence more dynamic without requiring on-chain updates
+    * Reduces gas costs by avoiding repeated on-chain MetaEvidence updates
+    * Provides flexibility for disputes with changing content or context
+
+    **When to use it:**
+
+    1. **Template-Based Disputes**: For similar disputes with different parameters.
+    2. **Gas Optimization**: When emitting new MetaEvidence events for each dispute would be prohibitively expensive.
+    3. **Dynamic Content**: When dispute details aren't fully known at contract creation time but follow a predictable pattern.\
+       **Examples:** [reality same chain](https://github.com/kleros/realitio-script), [reality cross-chain](https://github.com/kleros/cross-chain-realitio-proxy/tree/master/dynamic-script)
+
+| If you need to                          | Consider using              |
+| --------------------------------------- | --------------------------- |
+| Visualize transaction flows             | evidenceDisplayInterfaceURI |
+| Show relationships between evidence     | evidenceDisplayInterfaceURI |
+| Maintain brand identity in disputes     | evidenceDisplayInterfaceURI |
+| Handle many similar disputes            | dynamicScriptURI            |
+| Reduce gas costs for many disputes      | dynamicScriptURI            |
+| Adapt MetaEvidence at runtime           | dynamicScriptURI            |
+| Complex visualization + dynamic content | Both fields together        |
+
+**Using Both Fields Together**
+
+When your dispute resolution needs are complex, you can use both fields together in the same MetaEvidence. This allows you to have both dynamic content and custom visualization.
+
+
 
 Here's an example of a MetaEvidence JSON:
 
@@ -155,22 +212,7 @@ Below you will find a diagram that shows how the elements in the MetaEvidence JS
 
 <figure><img src="../../.gitbook/assets/metaevidence_diagram.jpg" alt=""><figcaption><p>A screenshot of <a href="https://resolve.kleros.io/cases/1213">Case #1213 on resolve.kleros.io</a>, showcasing all the important elements in the MetaEvidence JSON of this case.</p></figcaption></figure>
 
-#### Additional information about the evidenceDisplayInterfaceURI
 
-The `evidenceDisplayInterfaceURI` can be used to display dynamic information in an iframe on the court interface about each case, including the details of the disputants, images or any other related information. There are no hard limits to the amount of content that can be displayed here, though a rule of thumb is to keep this page under 360px in height to make it easily readable on the court interface.
-
-\
-When loading the iframe, the `evidenceDisplayInterfaceURI` will be called with a URL-encoded JSON query string as the payload, with the following keys to allow the page to display and retrieve content dynamically:
-
-* `disputeID`
-* `chainID`
-* `arbitratorContractAddress`
-* `arbitratorJsonRpcUrl`
-* `arbitratorChainID`
-* `arbitrableContractAddress`
-* `arbitrableChainID`
-* `arbitrableJsonRpcUrl`
-* `jsonRpcUrl`
 
 Here is an example of the URL with query string used by the iframe on the Arbitrator interface:
 

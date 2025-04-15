@@ -254,13 +254,3 @@ When the final ruling is made, the winning party can withdraw its funds from the
 [Learn more about the dispute process.](https://kleros.gitbook.io/docs/products/court)
 {% endtab %}
 {% endtabs %}
-
-## Build With Escrow
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
