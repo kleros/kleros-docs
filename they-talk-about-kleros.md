@@ -8,7 +8,7 @@ description: What people have to say about Kleros decentralized courts
 
 {% embed url="https://twitter.com/VitalikButerin/status/1348894491793494018" %}
 
-!["Just Use Kleros"](<.gitbook/assets/image (2) (1) (1).png>)
+!["Just Use Kleros"](<.gitbook/assets/image (2) (1) (1) (1).png>)
 
 ## Naval Ravikant
 

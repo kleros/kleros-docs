@@ -11,7 +11,7 @@ description: Social media content moderation with Reality.eth x Kleros
 Supports
 
 * Telegram <img src="../../.gitbook/assets/image (1) (3).png" alt="" data-size="line">: ⚖️ [Susie | Kleros Moderator](https://t.me/SusieTheKlerosModeratorBot?start) ⚖️
-* Discord <img src="../../.gitbook/assets/image (3) (1).png" alt="" data-size="line">: **Soon**
+* Discord <img src="../../.gitbook/assets/image (3) (1) (1).png" alt="" data-size="line">: **Soon**
 
 How does it work?
 

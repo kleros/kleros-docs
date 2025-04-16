@@ -8,7 +8,7 @@ description: >-
 
 Many of the most important Web3 partners already use data from Kleros Scout, recognizing the value of fully decentralized and permissionless data curation, and supporting a safer blockchain ecosystem.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Why Integrate data from Kleros Scout?
 
