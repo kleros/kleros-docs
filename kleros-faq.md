@@ -40,7 +40,7 @@ Yes, by adopting Kleros, any mainstream e-commerce platform could enjoy a fast, 
 
 ### Is Kleros a court where rich people have more rights than ordinary folks (because appeals are more affordable for the rich)? / How can I expect fairness from a court where whales have staked a lot of PNK?
 
-Anyone can appeal a dispute ruling in Kleros. Most of the time both sides will be asked to contribute fees for the next round of voting to ensure jurors are rewarded and that the losing side is reimbursed of its paid fees. This appeal system ensures that the final decision of jurors will always converge to the truth and that jurors in initial rounds of voting vote coherently from the start not to be penalized.
+Anyone can appeal a dispute ruling in Kleros. Most of the time both sides will be asked to contribute fees for the next round of voting to ensure jurors are rewarded and that the winning side is reimbursed of its paid fees. This appeal system ensures that the final decision of jurors will always converge to the truth and that jurors in initial rounds of voting vote coherently from the start not to be penalized.
 
 This usually leads to some critics saying that one of the parties with much greater resources than the other can always win a case. We have made a number of design choices regarding the structure of the appeal fee process in order for Kleros to provide just outcomes even in this situation:
 
