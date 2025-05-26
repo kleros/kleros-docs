@@ -28,7 +28,7 @@ You should consider using Kleros Dispute Resolver in the following scenarios:
 1. **Need for Neutral Arbitration**: When you need a neutral third party to resolve a dispute.
 2. **Standalone Disputes**: When you want to create a dispute without integrating with an existing dApp or application.
 3. **Off-chain Disputes**: For disputes involving off-chain activities that cannot be trustlessly integrated with Kleros.
-4. **Cross-chain Arbitration**: When Kleros Court is not yet available on your specific blockchain/L2.
+4. **Simplified Arbitration Setup:** If Kleros Court isn't available on your blockchain, you can still use the Dispute Resolver app to create disputes. You'll get an official decision from Kleros judges, but without automatic enforcement. After receiving the ruling, you'll need to implement the decision manually in your own system. This approach gives you the benefit of Kleros's fair judgment while allowing you to handle enforcement according to your specific needs.
 5. **Limited Resources**: When you lack the resources for a full smart contract integration.
 6. **Custom Arbitrable Contracts**: For protocols with a custom arbitrable contract which don't have their own frontend to submit evidence or fund appeals. If the arbitrable contract implements the IDisputeResolver interface (available as an [NPM package](https://www.npmjs.com/package/@kleros/dispute-resolver-interface-contract)), it can take advantage of the Dispute Resolver frontend.
 
@@ -120,7 +120,7 @@ To interact with Dispute Resolver, you need to:
 
 1. Navigate to the "Interact" tab or click on a specific dispute
 2. Review the dispute timeline showing its current phase
-3. Explore the accordion sections for:
+3. Explore the Dropdown sections for:
    * Appeal information
    * Question details
    * Evidence timeline\
@@ -150,6 +150,8 @@ To interact with Dispute Resolver, you need to:
 4. View funding progress, suggested contribution, and potential return on investment
 5. Enter the amount you wish to contribute
 6. Confirm the transaction
+
+<figure><img src="../../../../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
 
 When a ruling is appealed:
 
