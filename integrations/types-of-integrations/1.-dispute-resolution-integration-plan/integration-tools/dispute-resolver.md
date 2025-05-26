@@ -57,7 +57,7 @@ The application provides a user-friendly form to create custom disputes. You can
 * Add party information (aliases and addresses)
 * Upload supporting documentation
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 3. Interact
 
@@ -70,7 +70,7 @@ This section allows users to:
 
 
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Using the Application
 

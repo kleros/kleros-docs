@@ -57,7 +57,7 @@ Once you’ve taken a look at the courts, what remains is to stake your PNK and 
 
 ## The Kleros court process
 
-![Kleros Court process](<../../.gitbook/assets/image (1) (1) (1) (1) (1).png>)
+![Kleros Court process](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png>)
 
 **Important note: before you vote, review the policies carefully.**
 

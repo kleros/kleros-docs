@@ -32,6 +32,7 @@
     * [Kleros Scout - Metamask Snaps](products/curate/kleros-scout/kleros-scout-metamask-snaps/README.md)
       * [Knowledge Base](products/curate/kleros-scout/kleros-scout-metamask-snaps/knowledge-base.md)
     * [FAQs](products/curate/kleros-scout/faqs.md)
+* [Enterprise](products/enterprise.md)
 * [Oracle](products/oracle.md)
 * [Governor](products/governor.md)
 * [Escrow](products/escrow/README.md)
