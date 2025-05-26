@@ -81,6 +81,7 @@
       * [Dispute Resolver](integrations/types-of-integrations/1.-dispute-resolution-integration-plan/integration-tools/dispute-resolver.md)
   * [2. Curated-data integration plan](integrations/types-of-integrations/2.-curated-data-integration-plan/README.md)
     * [Retrieving information from Kleros Dapps](integrations/types-of-integrations/2.-curated-data-integration-plan/interacting-with-arbitrable-app.md)
+  * [3. Kleros Oracle integration](integrations/types-of-integrations/3.-kleros-oracle-integration.md)
 * [Policy writing guide](integrations/policy-writing-guide.md)
 * [Live & Upcoming Integrations](integrations/live-and-upcoming-integrations.md)
 * [Kleros Analytics](integrations/analytics.md)

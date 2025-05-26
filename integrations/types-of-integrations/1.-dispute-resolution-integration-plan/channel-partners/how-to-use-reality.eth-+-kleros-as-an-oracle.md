@@ -1,5 +1,6 @@
 ---
 description: When you want your app to get data from a subjective oracle
+hidden: true
 ---
 
 # How to use Reality.eth + Kleros as an oracle
