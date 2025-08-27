@@ -89,6 +89,8 @@ Yes, it’s possible to create an arbitrable smart contract that uses Kleros for
 
 Jurors should not stake using a smart contract account specifically in **courts where hiddenVotes are enabled** - this is because the frontend is currently unable to verify the signature. At the moment, the courts which have hiddenVotes enabled are the **General Court on Gnosis Chain** and the **Spanish General Court on both Ethereum Mainnet and Gnosis Chain.**
 
+Additionally when using a smart contract wallet, the `receive()` function may cause transfers made with `.send()` to fail.  For example, receiving ETH juror rewards might fail. This is a known issue caused by the Berlin hardfork, as documented [here](https://help.safe.global/en/articles/40813-why-can-t-i-transfer-eth-from-a-contract-into-a-safe) by Safe. The Kleros contracts deployed from 2025 rely on a SafeSend mechanism which is not affected by this limitation.
+
 ### I have been drawn to rule on a dispute, can I recuse myself from the case without penalty?
 
 Jurors drawn for a dispute must participate and cannot recuse themselves. However, they can opt for a “Refuse to Arbitrate” vote under specific conditions, more details on this [below](kleros-faq.md#when-should-i-vote-refuse-to-arbitrate).
