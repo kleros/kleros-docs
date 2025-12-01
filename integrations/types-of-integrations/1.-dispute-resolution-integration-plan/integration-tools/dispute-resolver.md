@@ -104,8 +104,7 @@ To interact with Dispute Resolver, you need to:
    * Add party information if relevant
    * Upload any primary documentation (up to 4MB)
 3. Review the arbitration cost displayed
-4. Submit the form to create the dispute\
-
+4. Submit the form to create the dispute<br>
 
 <figure><img src="../../../../.gitbook/assets/image (106).png" alt=""><figcaption><p>A sample dispute for Klers Solidity court</p></figcaption></figure>
 
@@ -123,8 +122,7 @@ To interact with Dispute Resolver, you need to:
 3. Explore the Dropdown sections for:
    * Appeal information
    * Question details
-   * Evidence timeline\
-
+   * Evidence timeline<br>
 
 <figure><img src="../../../../.gitbook/assets/image (107).png" alt=""><figcaption><p>Interact with the sample dispute </p></figcaption></figure>
 

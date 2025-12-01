@@ -42,4 +42,4 @@ Yes! You can earn in two ways:
 Here you find the complete [guide](earn-with-kleros-scout.md). \
 Stay updated and Check the Kleros Scout interface or [Kleros Curate blog ](https://blog.kleros.io/)for active reward programs.
 
-\
+<br>

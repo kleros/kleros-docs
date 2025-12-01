@@ -20,7 +20,7 @@ If you want to help to maintain the PoH registry and earn money by spotting fake
 
 <div><img src="../../.gitbook/assets/pending claim.png" alt=""> <figure><img src="../../.gitbook/assets/pending revocation.png" alt=""><figcaption></figcaption></figure></div>
 
-* Once you have applied the filter, click on each profile one by one to check if their information, photo, and video follow the [PoH guidelines](https://cdn.kleros.link/ipfs/QmcEvNrofibGt1MQSCk7G1fFboiMyfHoYyns4En4kWG5hU) or if you can spot deepfake photo and videos.
+* Once you have applied the filter, click on each profile one by one to check if their information, photo, and video follow the PoH guidelines or if you can spot deepfake photo and videos.
 
 {% hint style="info" %}
 You can use deepfake detection tools such as [https://deepware.ai/](https://deepware.ai), [https://sensity.ai/](https://sensity.ai) or other more powerful deepfake detection algorithms to help you in this enterprise. You can also use Voice Recognition Software to spot computer-generated voices or compare old and new submissions.
@@ -32,11 +32,11 @@ You can use deepfake detection tools such as [https://deepware.ai/](https://deep
 
 * This will open a modal asking you for a reason to the challenge. Select the relevant reason and include justification then click on '<mark style="color:orange;">Challenge Request</mark>'.
 
-![a sample from a Sepolia testnet profile](<../../.gitbook/assets/challenge reason.png>)
+![challenge prompt on Gnosis network](<../../.gitbook/assets/challenge reason gnosis (1).png>)
 
 * Send the transaction with the challenger deposit. Once the transaction is validated, the profile will soon go to '<mark style="color:orange;">Disputed Claim</mark> or <mark style="color:orange;">Disputed Revocation</mark>' status.
 
-<figure><img src="../../.gitbook/assets/disputed claim.png" alt=""><figcaption><p>a sample from a Sepolia testnet profile</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/disputed claim.png" alt=""><figcaption><p>a sample dispute from a Sepolia testnet profile</p></figcaption></figure>
 
 {% hint style="info" %}
 **What is the Challenger Deposit?** The deposit is an amount of ETH or xDAi you lock with the challenge of the profile that will act as a deterrent to prevent people from challenging profiles for no valid reason. If your challenge of the profile is successful, you get your challenger deposit back and earn the submitter deposit (minus arbitration fees). If you have challenged a valid profile, you will lose this deposit.
@@ -52,7 +52,7 @@ You can use deepfake detection tools such as [https://deepware.ai/](https://deep
 
 <figure><img src="../../.gitbook/assets/Fund appeal_.png" alt=""><figcaption><p>The option is found at the top right of the challenged profile</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/appeal xdai.png" alt="" width="375"><figcaption><p>an appeal interface from a real dispute in Gnosis</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/appeal xdai.png" alt="" width="375"><figcaption><p>an appeal interface from a real dispute on Gnosis</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="6/ Remove a profile" %}
@@ -68,21 +68,24 @@ You can use deepfake detection tools such as [https://deepware.ai/](https://deep
 
 **6.b/ Remove or revoke a profile in Registered status or '**_<mark style="color:green;">**Resolved Claim**</mark>_**'**
 
-* In order to remove or revoke a registered profile, you need to go to the registered profile page and click on the '<mark style="color:orange;">Revoke</mark>' button.
+* In order to remove or revoke a registered profile, you need to go to the registered profile page, open POH ID, and click on the '<mark style="color:orange;">Revoke</mark>' button.
 
 ![](../../.gitbook/assets/revoke.png)
 
 * In your revocation request, you will be asked to lock up a deposit (incentive for people to challenge your request + potential arbitration fees) that will be reimbursed to you if your request is successful.
 * You may submit an evidence to back up your revocation request.
 
-![a sample from a Sepolia testnet profile](../../.gitbook/assets/revocation.png)
+![revocation prompt on Gnosis](<../../.gitbook/assets/revocation gnosis.png>)
+
+<figure><img src="../../.gitbook/assets/revocation eth.png" alt="" width="375"><figcaption><p>revocation prompt on Ethereum mainnet</p></figcaption></figure>
 
 {% hint style="success" %}
 _**Example 1.****&#x20;**<mark style="color:yellow;">**Send a removal request from the same address as the submitter.**</mark>_
 
 **Evidence Name**: Self-removal of submission.
 
-**Evidence Description**: I am the submitter as proven by my address and I want to remove this submission
+**Evidence Description**: I am the submitter as proven by my address and I\
+want to revoke this submission
 {% endhint %}
 
 {% hint style="success" %}
@@ -90,7 +93,7 @@ _**Example 2:****&#x20;**<mark style="color:yellow;">**Send a removal request fr
 
 **Evidence Name**: Self-removal of submission.
 
-**Evidence Description**: I am the submitter and I want to remove this submission. The video attached is a recording of myself saying the sentence “I want to remove my own submission from the Proof of Humanity registry.”
+**Evidence Description**: I am the submitter and I want to remove this submission. The video attached is a recording of myself saying the sentence “I want to revoke my own submission from the Proof of Humanity registry.”
 {% endhint %}
 
 {% hint style="success" %}
@@ -116,7 +119,7 @@ _**Example 3:****&#x20;**<mark style="color:yellow;">**Send a removal request to
 ![](../../.gitbook/assets/revoked.png)
 
 * For this, go directly to your profile page using _`https://v2.poh.id/PoHID`_ or click on '<mark style="color:orange;">PoH ID</mark>', and check that it is in '_<mark style="color:red;">Revoked</mark>_' status. If it's not, remove it using these instructions in the previous tab.
-* Then, connect your new Ethereum address to the app, and [submit your new profile](https://kleros.gitbook.io/docs/products/proof-of-humanity/proof-of-humanity-tutorial#1-register-your-profile-5-10mn) like you did the first time.
+* Then, connect your new EVM address to the app, and [submit your new profile](https://kleros.gitbook.io/docs/products/proof-of-humanity/proof-of-humanity-tutorial#1-register-your-profile-5-10mn) like you did the first time.
 
 **7.b/&#x20;**<mark style="color:yellow;">**Resubmit a profile from the same address**</mark>
 

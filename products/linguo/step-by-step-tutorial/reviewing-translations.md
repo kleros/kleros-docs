@@ -20,8 +20,7 @@ Please make sure you do the self-assessment accurately as this would ensure you 
 
 <figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Enter all languages you are comfortable with and hit save.</p></figcaption></figure>
 
-3\. Now you will see all open translations for review.\
-
+3\. Now you will see all open translations for review.<br>
 
 <figure><img src="https://3220901460-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F5iFrRkxkxZd5fE3gLSlN%2Fuploads%2FgzmQpsFnKxQ4G6NjK87c%2FScreenshot%202022-07-22%20at%2011.05.36%20AM.png?alt=media&#x26;token=3d5a1d0a-dd7e-4abd-96b6-4a35b912b376" alt=""><figcaption><p>Select a file that matches your skillset.</p></figcaption></figure>
 

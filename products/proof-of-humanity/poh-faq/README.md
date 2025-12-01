@@ -44,8 +44,7 @@ If your profile isn’t challenged or if any challenges are unsuccessful, your p
 
 <figure><img src="../../../.gitbook/assets/Challenge a Pending Claim.png" alt=""><figcaption><p>Flowchart for Challenging a Profile</p></figcaption></figure>
 
-If your profile is challenged, it will either go back to the '<mark style="color:blue;">Pending Claim</mark>' phase or be 'Withdrawn,' depending on the ruling of the Kleros Court.\
-
+If your profile is challenged, it will either go back to the '<mark style="color:blue;">Pending Claim</mark>' phase or be 'Withdrawn,' depending on the ruling of the Kleros Court.<br>
 
 📌 Once registered or in the '_<mark style="color:green;">Resolved Claim</mark>_', your profile can either:
 

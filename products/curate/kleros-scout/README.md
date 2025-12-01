@@ -102,4 +102,4 @@ Discover how you can maximize your earnings while helping to build a safer, more
 
 💡 Do you have a dApp and want to integrate Kleros Scout data? Contact us!
 
-\
+<br>

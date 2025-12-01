@@ -32,8 +32,7 @@ Once you have successfully connected your wallet, you’ll see the ‘<mark styl
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-07-25 at 11.01.18 AM.png" alt="" width="201"><figcaption></figcaption></figure>
 
-Once you're done reading the policy, you are now ready to register. Click '<mark style="color:orange;">Register</mark>,' and you will be redirected to a new page where you need to fill out and confirm information to create your profile.\
-
+Once you're done reading the policy, you are now ready to register. Click '<mark style="color:orange;">Register</mark>,' and you will be redirected to a new page where you need to fill out and confirm information to create your profile.<br>
 
 _Before proceeding with the actual registration, take a look at the flowchart outlining the registration process:_
 

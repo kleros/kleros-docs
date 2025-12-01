@@ -100,4 +100,4 @@ Steps to Remove a Fraudulent Entry:
    * If the community disagrees with your request, they will challenge the removal.
 8. Refer to [point C](tutorial.md#c.-the-submission-is-in-challenged-status) for detailed instructions on what to do in case of a challenge.
 
-\
+<br>

@@ -4,8 +4,7 @@
 
 <figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption><p>Alternatively, you can click the request translations above to reach the same page.</p></figcaption></figure>
 
-2\. Click the new translation button to begin the submission.\
-
+2\. Click the new translation button to begin the submission.<br>
 
 <figure><img src="https://3220901460-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F5iFrRkxkxZd5fE3gLSlN%2Fuploads%2FgRJnRBDWGfzxCt3WmsBD%2Fr2%3At2.jpg?alt=media&#x26;token=0beb7538-b911-471f-bc70-43e94972394c" alt=""><figcaption><p>Click on New Translation</p></figcaption></figure>
 
@@ -38,13 +37,11 @@ If you just want a fixed price translation with no price discovery, set both the
 
 <figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption><p>Almost done.</p></figcaption></figure>
 
-5\. You will now be prompted with a transaction in your wallet. Please double-check the details and click confirm.\
-
+5\. You will now be prompted with a transaction in your wallet. Please double-check the details and click confirm.<br>
 
 <figure><img src="https://3220901460-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F5iFrRkxkxZd5fE3gLSlN%2Fuploads%2FlJ7th8m5vQN6cjKzpmCy%2Fr5.jpg?alt=media&#x26;token=0a375b0f-1c5e-45fc-af33-40c3a9d33dd9" alt=""><figcaption><p>This will create a new task as per your specifications.</p></figcaption></figure>
 
-6\. Your request is now active! A translator should pick it up shortly.\
-
+6\. Your request is now active! A translator should pick it up shortly.<br>
 
 <figure><img src="https://3220901460-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F5iFrRkxkxZd5fE3gLSlN%2Fuploads%2FyImjWhTOxTyfWv0LETe7%2Fr6.jpg?alt=media&#x26;token=5283af86-28bf-4530-bc96-18e9c8222200" alt=""><figcaption><p>Your request will appear on the list!</p></figcaption></figure>
 

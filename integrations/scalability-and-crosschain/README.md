@@ -13,8 +13,7 @@ description: >-
 Let us navigate together the few steps the Kleros Court will go through to transition from being the go-to Ethereum arbitration protocol to becoming a fully-fledged, scalable, and interoperable Justice system for the crypto world.
 
 * **CURRENT SITUATION**\
-  Kleros Court is deployed on Ethereum mainnet and mainly rules on disputes for Dapps hosted on the same blockchain (except for the bridge/proxy system for xDai Omen arbitration). Disputes are medium to high-value cases fit for Ethereum limited bandwidth.\
-
+  Kleros Court is deployed on Ethereum mainnet and mainly rules on disputes for Dapps hosted on the same blockchain (except for the bridge/proxy system for xDai Omen arbitration). Disputes are medium to high-value cases fit for Ethereum limited bandwidth.<br>
 * **MAY-JUNE 2021**\
   A dedicated “xDai Kleros Court” is deployed on the xDAI chain to enable data curation and other small to medium value use cases to benefit from Kleros arbitration services. \\
 * **EARLY Q3 2021**\
