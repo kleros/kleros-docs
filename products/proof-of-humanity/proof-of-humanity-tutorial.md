@@ -12,6 +12,8 @@ To ensure a smooth and correct registration, make sure to follow the steps and r
 
 {% tabs %}
 {% tab title="1/ Register your profile" %}
+###
+
 ### 1/ <mark style="color:orange;">Register your profile</mark>&#x20;
 
 #### 1.a/ Go to the ✨ [<mark style="color:orange;">PoH v2</mark>](https://v2.poh.id/) ✨ dApp.
@@ -26,19 +28,19 @@ Once you’re on the registry page, click ‘<mark style="color:orange;">Connect
 
 Once you click ‘<mark style="color:orange;">Connect</mark>’, this pop-up will appear. Select the wallet you want to connect.
 
-![](<../../.gitbook/assets/Screenshot 2024-07-25 at 10.52.37 AM.png>)
+<figure><img src="../../.gitbook/assets/Screenshot 2025-12-12 at 11.28.29 PM.png" alt=""><figcaption></figcaption></figure>
+
+
 
 Once you have successfully connected your wallet, you’ll see the ‘<mark style="color:orange;">Register</mark>’ button on the menu. Click '<mark style="color:orange;">Register</mark>' to formally begin the registration process. But before you proceed with the registration, make sure to read the Proof of Humanity Registry Policy. You can find the ‘<mark style="color:orange;">Policy</mark>’ button on the menu bar.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-07-25 at 11.01.18 AM.png" alt="" width="201"><figcaption></figcaption></figure>
 
-Once you're done reading the policy, you are now ready to register. Click '<mark style="color:orange;">Register</mark>,' and you will be redirected to a new page where you need to fill out and confirm information to create your profile.<br>
+Once you're done reading the policy, you are now ready to register. Click '<mark style="color:orange;">Register</mark>,' and you will be redirected to a new page where you need to fill out and confirm information to create your profile.
 
-_Before proceeding with the actual registration, take a look at the flowchart outlining the registration process:_
+_Take a look at the flowchart outlining the registration process:_
 
 <figure><img src="../../.gitbook/assets/New profile (1).png" alt=""><figcaption></figcaption></figure>
-
-
 
 **1.c/ Click on '**<mark style="color:orange;">**Register**</mark>**' in the upper right corner.**
 
@@ -54,19 +56,55 @@ If you don't see the '<mark style="color:orange;">Register</mark>' in the top me
 
 ### <mark style="color:orange;">I. INFORMATION</mark>
 
-<picture><source srcset="../../.gitbook/assets/Screenshot 2024-07-25 at 11.20.37 AM.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/image (20) (1).png" alt=""></picture>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-12-12 at 11.32.35 PM.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="warning" %}
+### Before You Register on Proof of Humanity
+
+Please confirm the following before continuing:
+
+**Wallet & Identity**
+
+* The wallet will be permanently linked to your real-world identity.
+* Do not use a wallet that holds private or sensitive assets.
+
+\
+**One Human = One Profile**
+
+* You can only have one active PoH profile.
+* Duplicate or simultaneous submissions can be challenged, and your deposit may be lost.
+
+\
+**If You Were Registered on PoH v1**
+
+You must either:
+
+* Claim your previous Humanity ID, or
+* Register using the correct flow on v2 (with your old or a new wallet).
+
+Do not submit multiple registrations at the same time.\
+\
+**Choose the Correct Action**
+
+* Renew → If you’re extending or updating an existing v2 profile.
+* Claim Humanity → If your v1 profile is expired, revoked, challenged, or you changed/lost your wallet.
+* Revoke → If you want to remove a profile before reapplying.
+
+\
+**🔍 Tip:** If unsure, search for your past profile first before submitting.
+{% endhint %}
 
 * **Step 1. Check Your Wallet Address:** Ensure it's the correct address you wish to associate with your PoH profile.
 * **Step 2. Enter Your Display Name:** This can be an official name or the name by which you're commonly known.
-* **Step 3. Consent Checkbox:** Carefully read and understand the statement about wallet association with your real identity. Check the box to agree.
-* **Step 4. Proceed to Next:** Click the '_Next_' button to move forward.
+* **Step 3. Consent Checkbox:** Carefully read and understand the statement about wallet association with your real identity. Check the box to agree. Don't forget to read the 'Details' tab.
+* **Step 4. Once done, proceed to Next:** Click the '_Next_' button to move forward.
 
 ### <mark style="color:orange;">II. PHOTO</mark>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-25 at 11.33.33 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-12-12 at 11.58.33 PM.png" alt=""><figcaption></figcaption></figure>
 
-* **Step 1. Photo Guidelines:** Read the recommendations for the type of photo to upload.
-* **Step 2. ‘**_**Upload photo**_**’ or ‘**_**Take a Photo with Camera**_**’:** Use the app to upload or capture your photo. You can crop it if needed.
+* **Step 1. Photo Guidelines:** Read the recommendations for the Photo Checklist.
+* **Step 2. ‘**_**Take a Photo with Camera**_**’:** Use the app to capture your photo. You can crop it if needed.
 * **Step 3. Finalize Your Photo:** Click '_Ready_' once you're satisfied with the image or click '_Retake_' if you wish to change the photo.
 * **Step 4. Continue:** Click '_Next_' to go to the next step.
 
@@ -76,9 +114,9 @@ If you don't see the '<mark style="color:orange;">Register</mark>' in the top me
 
 ### <mark style="color:orange;">III. VIDEO</mark>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-07-25 at 11.50.00 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-12-13 at 12.00.56 AM.png" alt=""><figcaption></figcaption></figure>
 
-* **Step 1. ‘**_**Upload video**_**’ or ‘**_**Record a video with camera**_**’:** You can either upload an existing video or record a new one using the app.
+* **Step 1. ‘**_**Record a video with camera**_**’:** Record your video using the app.
 
 {% hint style="info" %}
 :pushpin: Your video must show you holding a sign with your wallet address (e.g., 0xFdc78b748d6Bc5f77892f6654ca73426a0D3b127) and saying the phrase:\
@@ -90,32 +128,39 @@ If you don't see the '<mark style="color:orange;">Register</mark>' in the top me
 
 The sign can show the wallet address written or printed on paper, or have the wallet address displayed on a device screen. Make sure it is the same wallet address that you use for registration and that it is complete and readable.
 
-* **Step 2. Review Your Video:** Make sure it meets the required criteria.
-* **Step 3. Next Step:** Click '_Next_' to proceed.
+* **Step 2. Review Your Video:**  Make sure it meets the required criteria in the Video Checklist.
+* **Step 3. Next Step:** Click '_Next_' to proceed if you're satisfied with your video.
 
-### <mark style="color:orange;">IV. REVIEW & SUBMIT</mark>
+### <mark style="color:orange;">IV. FINALIZE YOUR REGISTRATION</mark>
 
-* **Step 1. Double-Check Your Information:** Review all the details you've provided and revisit the [policy](https://cdn.kleros.link/ipfs/QmcEvNrofibGt1MQSCk7G1fFboiMyfHoYyns4En4kWG5hU) if necessary.
+* **Step 1. Double-Check Your Information:** Review all the details you've provided and revisit the [policy](https://v2.proofofhumanity.id/attachment?url=https%3A%2F%2Fcdn.kleros.link%2Fipfs%2FQmbd9QuiJ6B74faz9qqfpatU3aB5VCtmEkTf1BSZ3vk588) if necessary.
 * **Step 2. Submission Deposit:** Enter the required deposit amount. Remember, this deposit is refunded after successful registration or lost in case of failure. Any amount you don't contribute now can be covered later.
 
 {% hint style="info" %}
-Make sure you have enough xDAI or ETH loaded in your wallet to pay for the deposit and transaction fee. If you don't have the amount for the deposit yet, you can pay the deposit later, but make sure you still have enough xDAI or ETH to cover the transaction fee.\
+Make sure you have enough xDAI or ETH loaded in your wallet to pay for the deposit and transaction fee. If you don't have the amount for the deposit yet, you can pay the deposit later, but make sure you still have enough xDAI or ETH to cover the transaction fee.
+
+The deposit is reimbursed after successful registration, and lost after failure. Any amount not contributed now can be put up by crowdfunders later.\
 \
 **WHAT IS THE SUBMITTER'S DEPOSIT?**&#x20;
 
 The deposit is an amount you lock with the submission of your profile. It acts as an incentive for potential challengers to prove you are a fake or bot and also covers arbitration fees if a dispute is raised. If your profile goes through unchallenged and successfully registered, you’ll get your deposit back. If you are a fake or have provided incorrect information, someone can challenge your profile, and a dedicated Kleros dispute will be opened to rule on your case.
 {% endhint %}
 
-{% hint style="danger" %}
+{% hint style="success" %}
+[Need XDAI? bridge to Gnosis](https://jumper.exchange/?toChain=100\&toToken=0x0000000000000000000000000000000000000000)
+{% endhint %}
+
+{% hint style="warning" %}
 **COMPLIANCE WARNING:** The information you will submit about your profile will be checked and verified by the community to ensure you are not a bot or fake and that you complied with all the guidelines. Please read thoroughly the instructions given on the submit page and check out the full [Proof of Humanity Registration Policy](https://cdn.kleros.link/ipfs/QmcEvNrofibGt1MQSCk7G1fFboiMyfHoYyns4En4kWG5hU) to ensure the info you provide is correct.
 
 You can only update information by withdrawing your profile and resubmitting it. There is no way to edit your profile (Evidences are there to argument that the case made against your profile is wrong, not to update your profile with a new video for example).
 
 If you make a mistake in your submission (ex: Displaying a wrong address in the video), it could be interpreted as a malicious attack by the challengers verifying the entry into the registry and you could lose your deposit.\
+\
 Submissions are final and cannot be edited. Be sure to follow all submission rules to not lose your deposit.
 {% endhint %}
 
-* **Step 3. Submit Your Application:** Click the '_Submit_' button. Wait for the media to upload completely.
+* **Step 3. Submit Your Application:** Click the '_Sign In_ button. Wait for the media to upload completely.
 * **Step 4. Confirm the Transaction:** Once the upload is complete, confirm the transaction to finalise your registration.
 
 Once the submission is successful, your profile will enter the '_<mark style="color:purple;">Vouching</mark>_' phase. Make sure to find a voucher and obtain at least one vouch, with your deposit paid in full, to proceed to the next phase of registration, the '_<mark style="color:blue;">Pending Claim</mark>_'.
