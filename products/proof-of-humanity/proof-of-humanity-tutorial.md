@@ -266,7 +266,7 @@ You can only vouch for another profile if you are connected to the app and your 
 
 {% hint style="danger" %}
 **WARNING**: Vouching for someone means you know the person, that you are sure that they are not fake or impersonators and that you checked that their submitted information was correct (ex: the address in the video is correct and readable).\
-You could get removed from the registry if you vouched for a duplicate or fake submission.\
+You could get removed from the registry if you vouched for a sybil or fake submission.\
 \
 You will not get removed if you vouch for a profile with simply incorrect information.
 {% endhint %}
@@ -275,7 +275,7 @@ You will not get removed if you vouch for a profile with simply incorrect inform
 
 If you meet these conditions, go to the profile page of the person you want to vouch for (they can share the link or you can search for their exact name in the search bar) and click on the '<mark style="color:orange;">Vouch</mark>' button on their profile.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-09-02 at 1.26.20 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/vouch.png" alt=""><figcaption></figcaption></figure>
 
 Once your vouching transaction is validated, your profile will appear in the 'Vouched by' list.
 
@@ -284,10 +284,10 @@ Once your vouching transaction is validated, your profile will appear in the 'Vo
 
 You can vouch for as many people as you would like. However, your vouch will only count for one person at a time in the order they were given. This means a vouch can only be used for one submission at a time on a “first come, first served” basis.
 
-For example, assume user A is registered. A vouches for user B. User B uses the vouch and moves to '_<mark style="color:blue;">Pending Claim</mark>_' phase. Then A vouches for user C. Since the vouching of A is already in use by B, C remains in the '_<mark style="color:purple;">Vouching</mark>_' phase for now, but will move to '_<mark style="color:blue;">Pending Claim</mark>_' phase once B is registered.
+For example, assume user A is registered. A vouches for user B. User B uses the vouch and moves to '_<mark style="color:blue;">In Review</mark>_' phase. Then A vouches for user C. Since the vouching of A is already in use by B, C remains in the '_<mark style="color:purple;">Needs Vouch</mark>_' phase for now, but will move to '_<mark style="color:blue;">In Review</mark>_' phase once B is registered.
 {% endhint %}
 
-You can remove your vouch at any time prior to the '_<mark style="color:blue;">Pending Claim</mark>_' phase by going to the vouched person's profile and clicking on '<mark style="color:orange;">Remove Vouch</mark>'.
+You can remove your vouch at any time prior to the '_<mark style="color:blue;">In Review</mark>_' phase by going to the vouched person's profile and clicking on '<mark style="color:orange;">Remove Vouch</mark>'.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-09-02 at 3.29.20 PM.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
