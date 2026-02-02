@@ -12,13 +12,13 @@ description: >-
 {% tab title="5/ Challenge a claim" %}
 ### 5/ <mark style="color:orange;">Challenge a claim</mark>
 
-If you want to help to maintain the PoH registry and earn money by spotting fake, sybil, deceased and incorrect profiles, you will need to learn how to challenge these types of profiles when they are in '_<mark style="color:blue;">Pending Claim</mark> or <mark style="color:orange;">Pending Revocation</mark>_' status.
+If you want to help to maintain the PoH registry and earn money by spotting fake, sybil, deceased and incorrect profiles, you will need to learn how to challenge these types of profiles when they are in '_<mark style="color:blue;">In Review</mark> or <mark style="color:orange;">Removal Proposed</mark>_' status.
 
-**5.a/ Browse through the '**_<mark style="color:blue;">**Pending Claim**</mark>_**' or '**_<mark style="color:orange;">**Pending Revocation**</mark>_**' profiles and check them**
+**5.a/ Browse through the '**_<mark style="color:blue;">**In Review**</mark>_**' or '**_<mark style="color:orange;">**Removal Proposed**</mark>_**' profiles and check them**
 
-* Go to the [PoH app](https://v2.poh.id/) and filter the profiles for '_<mark style="color:blue;">Pending Claim</mark>_ or '_<mark style="color:orange;">Pending Revocation</mark>_' profiles. The filter is on the right just above the profiles&#x20;
+* Go to the [PoH app](https://v2.poh.id/) and filter the profiles for '_<mark style="color:blue;">**In Review**</mark>_ or '_<mark style="color:orange;">**Removal Proposed**</mark>_' profiles. The filter is on the right just above the profiles&#x20;
 
-<div><img src="../../.gitbook/assets/pending claim.png" alt=""> <figure><img src="../../.gitbook/assets/pending revocation.png" alt=""><figcaption></figcaption></figure></div>
+![](../../.gitbook/assets/status.png)
 
 * Once you have applied the filter, click on each profile one by one to check if their information, photo, and video follow the PoH guidelines or if you can spot deepfake photo and videos.
 
@@ -28,13 +28,13 @@ You can use deepfake detection tools such as [https://deepware.ai/](https://deep
 
 * If you find a profile that violates the guidelines, ensure that you have enough funds in your wallet and challenge the profile by clicking on the '<mark style="color:orange;">Challenge'</mark> button at the top right of the profile page.
 
-![](<../../.gitbook/assets/challenge period.png>)
+![](../../.gitbook/assets/challenge.png)
 
-* This will open a modal asking you for a reason to the challenge. Select the relevant reason and include justification then click on '<mark style="color:orange;">Challenge Request</mark>'.
+* This will open a modal asking you for a reason to the challenge. Select the relevant reason and include justification then click on '<mark style="color:orange;">Sign in</mark>'.
 
-![challenge prompt on Gnosis network](<../../.gitbook/assets/challenge reason gnosis (1).png>)
+![challenge prompt on Gnosis network](<../../.gitbook/assets/challenge reason.png>)
 
-* Send the transaction with the challenger deposit. Once the transaction is validated, the profile will soon go to '<mark style="color:orange;">Disputed Claim</mark> or <mark style="color:orange;">Disputed Revocation</mark>' status.
+* Send the transaction with the challenger deposit. Once the transaction is validated, the profile will soon go to '<mark style="color:orange;">Challenged</mark> or <mark style="color:orange;">Removal Challenged</mark>' status.
 
 <figure><img src="../../.gitbook/assets/disputed claim.png" alt=""><figcaption><p>a sample dispute from a Sepolia testnet profile</p></figcaption></figure>
 
