@@ -6,7 +6,7 @@ description: >-
 
 # Proof of Humanity 2.0 Tutorial: (Register & Vouch)
 
-## ✨ [<mark style="color:orange;">Proof of Humanity App</mark>](https://v2.poh.id/) ✨
+## [<mark style="color:orange;">Proof of Humanity App</mark>](https://v2.poh.id/)&#x20;
 
 To ensure a smooth and correct registration, make sure to follow the steps and read the Proof of Humanity Registration Policy carefully. Note that incorrect submissions will result in a profile challenge. 📌
 
@@ -16,7 +16,7 @@ To ensure a smooth and correct registration, make sure to follow the steps and r
 
 ### 1/ <mark style="color:orange;">Register your profile</mark>&#x20;
 
-#### 1.a/ Go to the ✨ [<mark style="color:orange;">PoH v2</mark>](https://v2.poh.id/) ✨ dApp.
+#### 1.a/ Go to the  [<mark style="color:orange;">PoH v2</mark>](https://v2.poh.id/)  dApp.
 
 You will see the homepage of the app with the recent profiles registered in PoH.
 
@@ -28,7 +28,7 @@ Once you’re on the registry page, click ‘<mark style="color:orange;">Connect
 
 Once you click ‘<mark style="color:orange;">Connect</mark>’, this pop-up will appear. Select the wallet you want to connect.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-12-12 at 11.28.29 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-12-12 at 11.28.29 PM.png" alt="" width="375"><figcaption></figcaption></figure>
 
 
 
@@ -221,7 +221,7 @@ You cannot proceed to the '_<mark style="color:blue;">In Review</mark>_' status 
 
 <figure><img src="../../.gitbook/assets/needs vouch advance.png" alt=""><figcaption></figcaption></figure>
 
-If you have the required number of vouchers, your deposit is at 100%, and you are the only current vouched profile by your voucher, your profile will be moved to '_<mark style="color:blue;">Pending Claim</mark>_' status quite soon.
+If you have the required number of vouchers, your submission deposit is fully funded (100%), your profile is the current vouched, and you've initiated advanced option, your profile should move to **“**<mark style="color:blue;">**In Review**</mark>**”** status shortly.
 
 {% hint style="info" %}
 **Why is my profile staying in '**_<mark style="color:purple;">**Needs Vouch**</mark>_**' phase?** If you’re wondering why your status hasn’t moved to **“**<mark style="color:blue;">**In Review**</mark>**”** yet despite having a deposit and vouches, it’s likely because the person who vouched for you also vouched for several others around the same time.
