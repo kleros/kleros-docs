@@ -206,7 +206,7 @@ This person will need to go to your profile page and click on the '<mark style="
 <figure><img src="../../.gitbook/assets/2 vouch.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-**What is the difference between 'Gasless Vouch' and 'Vouch'?**
+**What is the difference between 'Vouch' and 'Vouch on chain'?**
 
 'Vouch' allows you to vouch for someone without paying transaction fees. This type of vouch is non-revocable and cannot be removed by the voucher if they later change their mind.
 
@@ -262,7 +262,7 @@ If the jury rules in your favor, your profile goes back to '_<mark style="color:
 {% tab title="4/ Vouch for a profile" %}
 ### 4/ <mark style="color:orange;">Vouch for another profile</mark>
 
-You can only vouch for another profile if you are connected to the app and your profile is in '_<mark style="color:green;">Resolved Claim</mark>_' status.
+You can only vouch for another profile if you are connected to the app and your profile is in '_<mark style="color:green;">Verified Human</mark>_' status.
 
 {% hint style="danger" %}
 **WARNING**: Vouching for someone means you know the person, that you are sure that they are not fake or impersonators and that you checked that their submitted information was correct (ex: the address in the video is correct and readable).\
@@ -271,13 +271,19 @@ You could get removed from the registry if you vouched for a sybil or fake submi
 You will not get removed if you vouch for a profile with simply incorrect information.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-09-02 at 1.24.24 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/vouch prompt.png" alt=""><figcaption></figcaption></figure>
 
 If you meet these conditions, go to the profile page of the person you want to vouch for (they can share the link or you can search for their exact name in the search bar) and click on the '<mark style="color:orange;">Vouch</mark>' button on their profile.
 
 <figure><img src="../../.gitbook/assets/vouch.png" alt=""><figcaption></figcaption></figure>
 
-Once your vouching transaction is validated, your profile will appear in the 'Vouched by' list.
+{% hint style="info" %}
+**What is the difference between 'Vouch' and 'Vouch on chain'?**
+
+'Vouch' allows you to vouch for someone without paying transaction fees. This type of vouch is non-revocable and cannot be removed by the voucher if they later change their mind.
+
+'Vouch on-chain' means the voucher pays the on-chain transaction fee. This vouch can be removed as long as the profile is still in the “Needs Vouch” phase
+{% endhint %}
 
 {% hint style="info" %}
 **How many vouches can I give in parallel?**
@@ -287,7 +293,7 @@ You can vouch for as many people as you would like. However, your vouch will onl
 For example, assume user A is registered. A vouches for user B. User B uses the vouch and moves to '_<mark style="color:blue;">In Review</mark>_' phase. Then A vouches for user C. Since the vouching of A is already in use by B, C remains in the '_<mark style="color:purple;">Needs Vouch</mark>_' phase for now, but will move to '_<mark style="color:blue;">In Review</mark>_' phase once B is registered.
 {% endhint %}
 
-You can remove your vouch at any time prior to the '_<mark style="color:blue;">In Review</mark>_' phase by going to the vouched person's profile and clicking on '<mark style="color:orange;">Remove Vouch</mark>'.
+Note: You can remove your 'on chain vouch' at any time prior to the '_<mark style="color:blue;">In Review</mark>_' phase by going to the vouched person's profile and clicking on '<mark style="color:orange;">Remove Vouch</mark>'.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-09-02 at 3.29.20 PM.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
