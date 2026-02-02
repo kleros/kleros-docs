@@ -30,9 +30,9 @@ You can use deepfake detection tools such as [https://deepware.ai/](https://deep
 
 ![](../../.gitbook/assets/challenge.png)
 
-* This will open a modal asking you for a reason to the challenge. Select the relevant reason and include justification then click on '<mark style="color:orange;">Sign in</mark>'.
+* This will open a modal asking you for a reason to the challenge. Select the relevant reason and include justification then click on '<mark style="color:orange;">Challenge request</mark>'.
 
-![challenge prompt on Gnosis network](<../../.gitbook/assets/challenge reason.png>)
+![challenge prompt on Gnosis network](<../../.gitbook/assets/challenge reason wo sign.png>)
 
 * Send the transaction with the challenger deposit. Once the transaction is validated, the profile will soon go to '<mark style="color:orange;">Challenged</mark> or <mark style="color:orange;">Removal Challenged</mark>' status.
 

@@ -191,19 +191,19 @@ Thank you for your understanding. Stay tuned for further updates!&#x20;
 {% tab title="3/ Profile Validation Process" %}
 ### 3/ <mark style="color:orange;">Watch your profile go through the validation process and finalize registration (</mark><mark style="color:orange;">**≈**</mark> <mark style="color:orange;"></mark><mark style="color:orange;">3-5 days)</mark>
 
-Your submitted profile will start in '_<mark style="color:purple;">Vouching</mark>_**'** status and will go through a '_<mark style="color:blue;">Pending Claim</mark>_' phase before reaching the '_<mark style="color:green;">Resolved Claim</mark>_' status.
+Your submitted profile will start in '_<mark style="color:purple;">Needs Vouch</mark>_**'** status and will go through a '_<mark style="color:blue;">In Review</mark>_' phase before reaching the '_<mark style="color:green;">Verified Human</mark>_' status.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-08-29 at 3.52.57 PM.png" alt=""><figcaption></figcaption></figure>
 
-#### 3.a/ How to go from '_<mark style="color:purple;">Vouching</mark>_' to '_<mark style="color:blue;">Pending Claim</mark>_<mark style="color:blue;">'</mark> status?
+#### 3.a/ How to go from '_<mark style="color:purple;">Needs Vouch</mark>_' to '_<mark style="color:blue;">In Review</mark>_<mark style="color:blue;">'</mark> status?
 
 You need to find one person who is in '_<mark style="color:green;">Resolved Claim</mark>_' status and that knows you in real-life (or that can prove that you really are the person your profile describes) and ask that person to vouch for you.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-08-29 at 4.06.58 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/needs vouch_.png" alt=""><figcaption></figcaption></figure>
 
 This person will need to go to your profile page and click on the '<mark style="color:orange;">Vouch</mark>' button and sign a message from his wallet.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-09-02 at 1.26.20 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/vouch.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **What is the difference between 'Gasless Vouch' and 'Vouch'?**
@@ -216,28 +216,34 @@ The 'Vouch' button is the old legacy way of vouching for someone with a transact
 Once a person has vouched for you, you will see it on your profile by checking the number of vouchers and the 'Vouched by' list.
 
 {% hint style="success" %}
-You cannot proceed to the '_<mark style="color:blue;">Pending Claim</mark>_' status unless you receive _<mark style="color:yellow;">**at least 1 vouch**</mark>_ and _<mark style="color:yellow;">**pay the full deposit**</mark>_. Make sure to complete these two important requirements so you can move forward in the registration process.
+You cannot proceed to the '_<mark style="color:blue;">In Review</mark>_' status unless you receive _<mark style="color:yellow;">**at least 1 vouch, pay the full deposit**</mark>_ and initiated _<mark style="color:yellow;">**'Advance'.**</mark>_ Make sure to complete these requirements so you can move forward in the registration process.
 {% endhint %}
+
+<figure><img src="../../.gitbook/assets/needs vouch advance.png" alt=""><figcaption></figcaption></figure>
 
 If you have the required number of vouchers, your deposit is at 100%, and you are the only current vouched profile by your voucher, your profile will be moved to '_<mark style="color:blue;">Pending Claim</mark>_' status quite soon.
 
 {% hint style="info" %}
-**Why is my profile staying in '**_<mark style="color:purple;">**Vouching**</mark>_**' phase?** If you wonder why you still are not in '_<mark style="color:blue;">Pending Claim</mark>_' status even though you have your deposit and vouches, it probably means the person that vouched for you has vouched for several persons at the same time. His vouches are processed sequentially and you will need to wait for the persons he vouched for before you to be validated (3.5 days for each) before it is your turn for his vouch to be processed.
+**Why is my profile staying in '**_<mark style="color:purple;">**Needs Vouch**</mark>_**' phase?** If you’re wondering why your status hasn’t moved to **“**<mark style="color:blue;">**In Review**</mark>**”** yet despite having a deposit and vouches, it’s likely because the person who vouched for you also vouched for several others around the same time.
+
+Vouches are processed sequentially, so you’ll need to wait for the applications ahead of yours to be validated first (about **3.5 days per person**) before your vouch is processed.
 {% endhint %}
 
-If you're still in the '_<mark style="color:purple;">Vouching</mark>_' phase and notice a mistake or need to make changes to your profile, you can do so by withdrawing your profile. However, the '<mark style="color:yellow;">Withdraw</mark>' option is only available during the vouching phase; once you've passed this phase, you will no longer have the option to withdraw.
+If you're still in the '_<mark style="color:$primary;">Needs Vouch</mark>_' phase and notice a mistake or need to make changes to your profile, you can do so by withdrawing your profile. However, the '<mark style="color:yellow;">Withdraw</mark>' option is only available during the vouching phase; once you've passed this phase, you will no longer have the option to withdraw.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-09-02 at 3.16.05 PM.png" alt=""><figcaption></figcaption></figure>
 
-#### 3.b/ How to go from '_<mark style="color:blue;">Pending Claim</mark>_' to '_<mark style="color:green;">Resolved Claim</mark>_' status?
+#### 3.b/ How to go from '_<mark style="color:blue;">In Review</mark>_' to '_<mark style="color:green;">Verified Human</mark>_' status?
 
-Once your Profile is in '_<mark style="color:blue;">Pending Claim</mark>_' status, it will go through a challenge period of 3.5 days. That means that during 3.5 days people will check your profile to verify if you are a fake or if you provided incorrect information and, if yes, will try to challenge your registration to win part of your deposit.
+Once your Profile is in '_<mark style="color:blue;">In Review</mark>_' status, it will then go through a **3.5-day challenge period**. During this time, the community reviews your profile to check whether you’re legitimate and whether all the information you provided complies with the policy.
 
-If you are not challenged during this period, you will be given the opportunity to transition to '_<mark style="color:green;">Resolved Claim</mark>_' status right after this 3.5 days period ends.
+If someone believes your registration is noncompliant, they may challenge it to try to claim part of your deposit.
+
+If you are not challenged during this period, you will be given the opportunity to transition to '_<mark style="color:green;">Verified Human</mark>_' status right after this 3.5 days period ends.
 
 In order to finalize your registration, you will need to click on the '<mark style="color:yellow;">Execute</mark>_'_ button and confirm the transaction with your wallet. _(Note that any other address can also send this transaction for you)._
 
-Once the transaction is validated, you will be in '_<mark style="color:green;">Resolved Claim</mark>_' status and you will have the capacity to vouch for other people. Your deposit will also be refunded at this time.
+Once the transaction is validated, you will be in '_<mark style="color:green;">Verified Human</mark>_' status and you will have the capacity to vouch for other people. Your deposit will also be refunded at this time.
 
 {% hint style="info" %}
 **What if I am challenged?**
@@ -249,7 +255,7 @@ You can provide evidence on your profile page to defend your case and monitor th
 
 You can also appeal when a ruling is given by jurors if you don't agree with it.
 
-If the jury rules in your favor, your profile goes back to '_<mark style="color:blue;">Pending Claim</mark>_' phase for 3.5 days. If the jury rules in favor of the challenger, your profile goes to 'Expired' status.
+If the jury rules in your favor, your profile goes back to '_<mark style="color:blue;">In Review</mark>_' phase for 3.5 days. If the jury rules in favor of the challenger, your profile goes to '<mark style="color:$danger;">Rejected</mark>' status.
 {% endhint %}
 {% endtab %}
 
