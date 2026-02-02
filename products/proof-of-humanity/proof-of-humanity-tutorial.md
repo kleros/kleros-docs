@@ -203,14 +203,14 @@ You need to find one person who is in '_<mark style="color:green;">Resolved Clai
 
 This person will need to go to your profile page and click on the '<mark style="color:orange;">Vouch</mark>' button and sign a message from his wallet.
 
-<figure><img src="../../.gitbook/assets/vouch.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2 vouch.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **What is the difference between 'Gasless Vouch' and 'Vouch'?**
 
-The 'Gasless Vouch' is the recommended way of vouching for people without having to pay transaction fees. The vouch will be recorded and the vouched profile will be moved to the next phase when other profiles finalize their registration.
+'Vouch' allows you to vouch for someone without paying transaction fees. This type of vouch is non-revocable and cannot be removed by the voucher if they later change their mind.
 
-The 'Vouch' button is the old legacy way of vouching for someone with a transaction and its associated fee. We don't recommend using it except if you are the only vouched profile by your voucher and want to speed up the registration process.
+'Vouch on-chain' means the voucher pays the on-chain transaction fee. This vouch can be removed as long as the profile is still in the “Needs Vouch” phase
 {% endhint %}
 
 Once a person has vouched for you, you will see it on your profile by checking the number of vouchers and the 'Vouched by' list.
