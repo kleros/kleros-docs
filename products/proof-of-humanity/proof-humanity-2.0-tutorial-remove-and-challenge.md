@@ -58,15 +58,15 @@ You can use deepfake detection tools such as [https://deepware.ai/](https://deep
 {% tab title="6/ Remove a profile" %}
 ### 6/ <mark style="color:orange;">Remove a profile from the registry</mark>
 
-**6.a/ Remove your own profile still in '**_<mark style="color:purple;">**Vouching**</mark>_**'**
+**6.a/ Remove your own profile still in '**_<mark style="color:purple;">**Needs Vouch**</mark>_**'**
 
-* In order to remove your own profile in '_<mark style="color:purple;">Vouching</mark>_' status, you need to go to your profile page and click on the '<mark style="color:orange;">Withdraw</mark>' button.
+* In order to remove your own profile in '_<mark style="color:purple;">Needs Vouch</mark>_' status, you need to go to your profile page and click on the '<mark style="color:orange;">Withdraw</mark>' button.
 
 ![](../../.gitbook/assets/advance.png)
 
 * You will get your deposit back once the transaction is validated.
 
-**6.b/ Remove or revoke a profile in Registered status or '**_<mark style="color:green;">**Resolved Claim**</mark>_**'**
+**6.b/ Remove or revoke a profile in registered status or '**_<mark style="color:green;">**Verified Human**</mark>_**'**
 
 * In order to remove or revoke a registered profile, you need to go to the registered profile page, open POH ID, and click on the '<mark style="color:orange;">Revoke</mark>' button.
 
@@ -75,7 +75,7 @@ You can use deepfake detection tools such as [https://deepware.ai/](https://deep
 * In your revocation request, you will be asked to lock up a deposit (incentive for people to challenge your request + potential arbitration fees) that will be reimbursed to you if your request is successful.
 * You may submit an evidence to back up your revocation request.
 
-![revocation prompt on Gnosis](<../../.gitbook/assets/revocation gnosis.png>)
+![revocation prompt on Gnosis](<../../.gitbook/assets/revoke prompt.png>)
 
 <figure><img src="../../.gitbook/assets/revocation eth.png" alt="" width="375"><figcaption><p>revocation prompt on Ethereum mainnet</p></figcaption></figure>
 
@@ -104,7 +104,7 @@ _**Example 3:****&#x20;**<mark style="color:yellow;">**Send a removal request to
 **Evidence Description**: I have analyzed the video of the submitter and the reproducible report attached in this evidence proves that it is a deepfake.
 {% endhint %}
 
-**6.c/ Remove a profile in '**_<mark style="color:blue;">**Pending Claim**</mark>_**' status**
+**6.c/ Remove a profile in '**_<mark style="color:blue;">**In Review**</mark>_**' status**
 
 * You will need to challenge the profile as explained in the previous tab.
 {% endtab %}
