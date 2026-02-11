@@ -1,14 +1,12 @@
 ---
-description: A Sybil-resistant (=duplicate and bot-proof) registry of humans.
+description: A Sybil-resistant (duplicate and bot-proof) registry of humans.
 ---
 
 # Proof of Humanity
 
-## ✨ [<mark style="color:orange;">Proof of Humanity App</mark>](https://v2.poh.id/) ✨
+✨ [<mark style="color:orange;">Proof of Humanity App</mark>](https://v2.poh.id/) ✨&#x20;
 
-## What is Proof of Humanity?
-
-<mark style="color:orange;">**Proof of Humanity (PoH)**</mark> is a Sybil-resistant registry of humans, combining social verification with video submission to create a trusted list of real humans. This innovative system serves as a gateway to numerous applications requiring verified human identities, ensuring users are genuine and not fake or duplicate accounts. PoH can be seamlessly integrated into a variety of existing and emerging identity systems, enhancing their security and reliability.
+**Proof of Humanity (PoH**) is a Sybil-resistant registry of humans, combining social verification with video submission to create a trusted list of real humans. This innovative system serves as a gateway to numerous applications requiring verified human identities, ensuring users are genuine and not fake or duplicate accounts. PoH can be seamlessly integrated into a variety of existing and emerging identity systems, enhancing their security and reliability.
 
 When applying to the list, users need to provide their name, a photo, and a short video, allowing others to verify that they are indeed human.
 
