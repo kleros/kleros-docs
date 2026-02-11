@@ -1,5 +1,5 @@
 ---
-description: A Sybil-resistant (duplicate and bot-proof) registry of humans.
+description: A Sybil-resistant registry of humans.
 ---
 
 # Proof of Humanity
