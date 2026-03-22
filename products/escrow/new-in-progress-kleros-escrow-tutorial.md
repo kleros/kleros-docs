@@ -48,7 +48,7 @@ The homepage allows you to:
 
 
 
-* To start configuring an escrowed payment, click on the **"Create Transcation"** button on the top right.
+* To start configuring an escrowed payment, click on the **"Create Transaction"** button on the top right.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-12-17 at 3.01.51 PM.png" alt="" width="287"><figcaption></figcaption></figure>
 
@@ -63,7 +63,7 @@ The receiver will be able to view and interact with the transaction using their 
 
 #### 1.c. Select an Escrow Type
 
-* On creating a new transcation you'll get an option to select the type of Escrow transaction you want to create. Select one and click on "Next".
+* On creating a new transaction you'll get an option to select the type of Escrow transaction you want to create. Select one and click on "Next".
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-12-17 at 3.02.57 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -107,13 +107,16 @@ When creating a payment, you'll be asked to fill out a form providing basic info
 **Note:** The transaction details form is the same for both General Service and Cryptocurrecny Transaction types. The only difference between the two transaction types is which Kleros Court will handle disputes if they raise. Cryptocurrency Transaction cases will be handled by Kleros Blockchain Non Technical Court whereas those under General Service will be handled by Kleros General Court.&#x20;
 {% endhint %}
 
-**Selecting ERC-20 Tokens:**
+**Selecting ERC-20 Tokens:**\
+If you wish to pay with an ERC-20 token, click on the asset dropdown to select another asset. The default tokens displayed are ETH and PNK.
 
-If you wish to pay with an ERC-20 token, click on the asset dropdown to select another asset. The tokens displayed are those who received the "ERC-20 badge" in the Kleros Token List.
+To use a different ERC-20 token, enter the token's contract address in the "Add custom token" field (available from the Etherscan token contract page) and click "Add token."\
+\
+<img src="../../.gitbook/assets/Screenshot 2026-03-11 at 5.58.34 PM.png" alt="" data-size="original">
 
-If you don't find the token you want to use in this list, click on **"Add Custom Token"** and add the information of the ERC-20 token (available from the Etherscan token contract page).
-
-<figure><img src="../../.gitbook/assets/Screenshot 2025-12-17 at 3.26.18 PM.png" alt="" width="375"><figcaption></figcaption></figure>
+{% hint style="info" %}
+⚠️ **WARNING:** As noted in the interface, non-standard ERC-20 tokens such as USDT, BNB, and OMG are **not supported** by Kleros Escrow V1.&#x20;
+{% endhint %}
 
 #### 2.b. Setting the Delivery Deadline (Terms Step)
 

@@ -28,6 +28,11 @@ The flow starts when the transaction is created. The creator of the transaction 
 
 * **The address that will receive the funds** if the service is successfully provided (receiver)
 * **Token** - ETH or ERC-20 token to be used for payment
+
+{% hint style="info" %}
+**Token Compatibility Note:** Tokens such as USDT, BNB, and OMG are not supported by Escrow V1. Only standard-compliant ERC-20 tokens are supported.
+{% endhint %}
+
 * **Amount** - The quantity of tokens to be held in escrow
 * **Delivery deadline** - The date and time by which the service/product should be delivered
 * **Description** - Details of the service to be provided (text field)
