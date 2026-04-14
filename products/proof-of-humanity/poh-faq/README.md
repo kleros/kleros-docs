@@ -76,9 +76,9 @@ For example, if user A is registered and vouches for user B, user B will move to
 
 You can remove your vouch at any time prior to the '<mark style="color:blue;">Pending Claim</mark>' phase by going to the vouched person's profile and clicking on '<mark style="color:orange;">Remove Vouch</mark>'.
 
-## When does my deposit get refunded?
+## When does my deposit get returned?
 
-Your deposit will be refunded shortly after you move to '<mark style="color:green;">Resolved Claim</mark>' status.
+Your deposit will be returned to the funding address shortly after you move to '<mark style="color:green;">Resolved Claim</mark>' status.
 
 ## How long does the registration last?
 
