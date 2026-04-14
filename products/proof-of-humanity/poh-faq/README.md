@@ -78,7 +78,7 @@ You can remove your vouch at any time prior to the '<mark style="color:blue;">Pe
 
 ## When does my deposit get returned?
 
-Your deposit will be returned to the funding address shortly after you move to '<mark style="color:green;">Resolved Claim</mark>' status.
+Your deposit will be returned to the funding address shortly after you move to '<mark style="color:green;">Ve</mark><mark style="color:green;">rified Human</mark>' status.
 
 ## How long does the registration last?
 
