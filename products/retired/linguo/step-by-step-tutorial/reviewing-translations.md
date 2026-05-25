@@ -8,7 +8,7 @@ description: >-
 
 1. Click the Review Translations option to see available translations to be reviewed.
 
-<figure><img src="../../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -18,7 +18,7 @@ description: >-
 Please make sure you do the self-assessment accurately as this would ensure you get matched to jobs that you are most suited for.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Enter all languages you are comfortable with and hit save.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Enter all languages you are comfortable with and hit save.</p></figcaption></figure>
 
 3\. Now you will see all open translations for review.<br>
 
@@ -26,7 +26,7 @@ Please make sure you do the self-assessment accurately as this would ensure you 
 
 4\. Once you have chosen the file you’d like to review, gather your evidence and challenge the submission.
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 
 

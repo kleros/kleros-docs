@@ -18,7 +18,7 @@ If you want to help to maintain the PoH registry and earn money by spotting fake
 
 * Go to the [PoH app](https://v2.poh.id/) and filter the profiles for '_<mark style="color:blue;">**In Review**</mark>_ or '_<mark style="color:orange;">**Removal Proposed**</mark>_' profiles. The filter is on the right just above the profiles&#x20;
 
-![](../../.gitbook/assets/status.png)
+<img src="../../.gitbook/assets/status.png" alt="" width="144">
 
 * Once you have applied the filter, click on each profile one by one to check if their information, photo, and video follow the PoH guidelines or if you can spot deepfake photo and videos.
 
@@ -32,7 +32,7 @@ You can use deepfake detection tools such as [https://deepware.ai/](https://deep
 
 * This will open a modal asking you for a reason to the challenge. Select the relevant reason and include justification then click on '<mark style="color:orange;">Challenge request</mark>'.
 
-![challenge prompt on Gnosis network](<../../.gitbook/assets/challenge reason wo sign.png>)
+<img src="../../.gitbook/assets/challenge reason wo sign.png" alt="challenge prompt on Gnosis network" width="375">
 
 * Send the transaction with the challenger deposit. Once the transaction is validated, the profile will soon go to '<mark style="color:orange;">Challenged</mark> or <mark style="color:orange;">Removal Challenged</mark>' status.
 
@@ -46,7 +46,7 @@ You can use deepfake detection tools such as [https://deepware.ai/](https://deep
 
 ![](<../../.gitbook/assets/add evidence.png>)
 
-![](<../../.gitbook/assets/evidence prompt (1).png>)
+<img src="../../.gitbook/assets/evidence prompt (1).png" alt="" width="375">
 
 * Now, you just have to monitor the progress of the dispute through the profile interface over the following 5 to 7 days. If you don't agree with the final ruling, you will have the possibility to appeal.
 
@@ -70,12 +70,12 @@ You can use deepfake detection tools such as [https://deepware.ai/](https://deep
 
 * In order to remove or revoke a registered profile, you need to go to the registered profile page, open POH ID, and click on the '<mark style="color:orange;">Revoke</mark>' button.
 
-![](../../.gitbook/assets/revoke.png)
+<img src="../../.gitbook/assets/revoke.png" alt="" width="334">
 
 * In your revocation request, you will be asked to lock up a deposit (incentive for people to challenge your request + potential arbitration fees) that will be reimbursed to you if your request is successful.
 * You may submit an evidence to back up your revocation request.
 
-![revocation prompt on Gnosis](<../../.gitbook/assets/revoke prompt.png>)
+<img src="../../.gitbook/assets/revoke prompt.png" alt="revocation prompt on Gnosis" width="375">
 
 <figure><img src="../../.gitbook/assets/revocation eth.png" alt="" width="375"><figcaption><p>revocation prompt on Ethereum mainnet</p></figcaption></figure>
 

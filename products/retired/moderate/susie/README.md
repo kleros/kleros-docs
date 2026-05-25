@@ -4,7 +4,7 @@ description: A moderation and group management bot for Telegram
 
 # Susie
 
-<figure><img src="../../../.gitbook/assets/image (99).png" alt=""><figcaption><p>Susie | Kleros Moderator</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (99).png" alt=""><figcaption><p>Susie | Kleros Moderator</p></figcaption></figure>
 
 ## Guide
 

@@ -1,6 +1,5 @@
 ---
 description: A community-curated list of fungible Tokens
-hidden: true
 ---
 
 # Tokens
@@ -9,7 +8,7 @@ hidden: true
 
 **Kleros Tokens** is an open and decentralized curated registry of tokens. In other words, it is a community-managed list of ERC-20 tokens (including their name, ticker, logo and address) open to any project and curated by the power of Kleros arbitration and economic incentives.
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Why does the ecosystem need a decentralized and open list of tokens?
 
@@ -40,7 +39,7 @@ It is also possible to make a removal request for an entry already accepted into
 
 The full instructions for how to submit to the registry can be found [here](https://blog.kleros.io/how-to-submitting-to-the-security-metadata-registries-on-kleros-curate/).
 
-![](../.gitbook/assets/curate_infographic_header_cropped.png)
+![](../../.gitbook/assets/curate_infographic_header_cropped.png)
 
 ## What type of information is stored in the Tokens registry
 

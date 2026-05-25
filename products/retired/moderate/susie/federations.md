@@ -4,7 +4,7 @@ description: Moderating a single group is hard, but managing multiple is even ha
 
 # Federations
 
-<figure><img src="../../../.gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure>
 
 Do you have to ban spammers manually, in all your groups? No more! With federations, Susie can enforce a ban on a user in all federate groups.
 

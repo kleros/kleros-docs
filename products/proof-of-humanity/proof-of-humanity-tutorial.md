@@ -24,7 +24,7 @@ You will see the homepage of the app with the recent profiles registered in PoH.
 
 Once you’re on the registry page, click ‘<mark style="color:orange;">Connect</mark>_’_ in the upper right corner.
 
-![](<../../.gitbook/assets/Screenshot 2024-07-25 at 10.50.01 AM.png>)
+<img src="../../.gitbook/assets/Screenshot 2024-07-25 at 10.50.01 AM.png" alt="" width="375">
 
 Once you click ‘<mark style="color:orange;">Connect</mark>’, this pop-up will appear. Select the wallet you want to connect.
 

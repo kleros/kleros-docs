@@ -12,11 +12,11 @@
 
 <br>
 
-<figure><img src="../../../.gitbook/assets/image (40).png" alt=""><figcaption><p>Choose an open task that you are qualified for and comfortable with.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (40).png" alt=""><figcaption><p>Choose an open task that you are qualified for and comfortable with.</p></figcaption></figure>
 
 4\. Once you choose an open task you can review the original document by clicking the button.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption><p>Skim through the document to ensure that you can meet the requirements.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (16).png" alt=""><figcaption><p>Skim through the document to ensure that you can meet the requirements.</p></figcaption></figure>
 
 5\. Now you can accept the request by clicking the ‘Translate It’ button and depositing the mentioned amount. Ensure that you have the mentioned amount of xDai in your wallet.This deposit will be refunded along with the payout after a 7-day review period once you have submitted the translation. In case there is a dispute and the challenger wins, you will lose the deposit.<br>
 
@@ -33,7 +33,7 @@
 {% hint style="info" %}
 To find tasks you’ve accepted on the sort tab and filter by ‘In Progress’ or ‘All Status’
 
-![](<../../../.gitbook/assets/image (50).png>)
+![](<../../../../.gitbook/assets/image (50).png>)
 {% endhint %}
 
 8\. Once you are done with the task you can upload the file by hitting the Translated Text button.<br>

@@ -2,7 +2,7 @@
 
 1\. Click on the My Translations option to see a list of ongoing translation requests that you have submitted.
 
-<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption><p>Alternatively, you can click the request translations above to reach the same page.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (19).png" alt=""><figcaption><p>Alternatively, you can click the request translations above to reach the same page.</p></figcaption></figure>
 
 2\. Click the new translation button to begin the submission.<br>
 
@@ -35,7 +35,7 @@ For example, you can price your translation to be picked up quickly by opening w
 If you just want a fixed price translation with no price discovery, set both the Min and Max price to the same value. The pricing system. High initial prices will likely get your translation completed quicker.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption><p>Almost done.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (24).png" alt=""><figcaption><p>Almost done.</p></figcaption></figure>
 
 5\. You will now be prompted with a transaction in your wallet. Please double-check the details and click confirm.<br>
 
@@ -50,12 +50,12 @@ If you just want a fixed price translation with no price discovery, set both the
 {% hint style="info" %}
 **In case your request isn’t picked up on time, you can collect your deposit by clicking ‘Reimburse Me’.**
 
-![](<../../../.gitbook/assets/image (79).png>)
+![](<../../../../.gitbook/assets/image (79).png>)
 {% endhint %}
 
 7\. You will be notified every time an update happens on your request. You can see them by clicking the notifications icon on the upper right-hand side.
 
-<figure><img src="../../../.gitbook/assets/image (64).png" alt=""><figcaption><p>You can see updates every step of the way. </p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (64).png" alt=""><figcaption><p>You can see updates every step of the way. </p></figcaption></figure>
 
 
 
@@ -66,9 +66,9 @@ If you want to dispute the translation you can do it as follows.
 
 * To submit a challenge navigate to the request page, gather your evidence in a file and upload it by clicking the Evidence for Challenge button and confirm the transaction in your wallet.
 
-![](<../../../.gitbook/assets/image (20) (2) (1).png>)
+![](<../../../../.gitbook/assets/image (20) (2) (1).png>)
 
 * Once you’ve submitted the evidence and made the challenger deposit the case will be sent to the respective courts to be evaluated by the jurors.
 
-![](<../../../.gitbook/assets/image (1) (3) (2) (1).png>)
+![](<../../../../.gitbook/assets/image (1) (3) (2) (1).png>)
 {% endhint %}
